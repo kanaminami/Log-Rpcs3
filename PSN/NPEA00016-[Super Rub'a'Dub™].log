@@ -1,0 +1,1778 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00016-[Super Rub'a'Dub™]/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00016-[Super Rub'a'Dub™]/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00016-[Super Rub'a'Dub™]/\..\
+[!]: /host_root/ -> 
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00016-[Super Rub'a'Dub™]/\USRDIR\
+[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00016-[Super Rub'a'Dub™]/\USRDIR\
+[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00016-[Super Rub'a'Dub™]/
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0xbe5be3ba in 'sys_io' module
+[E]: TODO: cellPadSetSensorMode
+[W]: Unknown function 0xf83f8182 in 'sys_io' module
+[E]: TODO: cellPadSetPressMode
+[W]: Unknown function 0x7f13fc8c in 'sys_fs' module
+[E]: TODO: cellFsAioCancel
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetInvalidateTile
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardInitialize
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainAttributeSetName
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
+[E]: TODO: cellSpursInitializeWithAttribute
+[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardNotify
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
+[E]: TODO: _cellSpursSendSignal
+[W]: Unknown function 0x01cd9cfd in 'sceNp' module
+[E]: TODO: sceNpCommerceGetChildProductSkuInfo
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x26f33146 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetProductCategoryStart
+[W]: Unknown function 0x2be41ece in 'sceNp' module
+[E]: TODO: sceNpCommerceGetNumOfChildCategory
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x359642a6 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetCategoryDescription
+[W]: Unknown function 0x39a69619 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetSkuId
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x3f195b3a in 'sceNp' module
+[E]: TODO: sceNpCommerceGetProductCategoryResult
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x674bb9ff in 'sceNp' module
+[E]: TODO: sceNpCommerceGetProductCategoryAbort
+[W]: Unknown function 0x6cb81eb2 in 'sceNp' module
+[E]: TODO: sceNpCommerceDestroyProductCategory
+[W]: Unknown function 0x6e2ab18b in 'sceNp' module
+[E]: TODO: sceNpCommerceGetCategoryName
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x7208dc08 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetNumOfChildProductSku
+[W]: Unknown function 0x78d7f9ad in 'sceNp' module
+[E]: TODO: sceNpCommerceGetSkuPrice
+[W]: Unknown function 0x79225aa3 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetCurrencyCode
+[W]: Unknown function 0x8297f1ec in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket2
+[W]: Unknown function 0x8d1d096c in 'sceNp' module
+[E]: TODO: sceNpCommerceInitProductCategory
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa85a4951 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetSkuDescription
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xaee8cf71 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetCategoryId
+[W]: Unknown function 0xaf3eba5a in 'sceNp' module
+[E]: TODO: sceNpCommerceDoCheckoutFinishAsync
+[W]: Unknown function 0xaf57d9c9 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetCurrencyDecimals
+[W]: Unknown function 0xb1c02d66 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetCurrencyInfo
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb66d1c46 in 'sceNp' module
+[E]: TODO: sceNpManagerGetEntitlementIdList
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xba65de6d in 'sceNp' module
+[E]: TODO: sceNpCommerceGetChildCategoryInfo
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xccbe2e69 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetSkuImageURL
+[W]: Unknown function 0xcfd469e4 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetProductCategoryFinish
+[W]: Unknown function 0xdb2e4dc2 in 'sceNp' module
+[E]: TODO: sceNpScoreGetGameDataAsync
+[W]: Unknown function 0xddce7d15 in 'sceNp' module
+[E]: TODO: sceNpScoreGetBoardInfoAsync
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe2877bea in 'sceNp' module
+[E]: TODO: sceNpCommerceDestroyCtx
+[W]: Unknown function 0xe36c660e in 'sceNp' module
+[E]: TODO: sceNpCommerceDoCheckoutStartAsync
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xeb5f2544 in 'sceNp' module
+[E]: TODO: sceNpCommerceGetProductName
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf76847c2 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordGameDataAsync
+[W]: Unknown function 0xfcac355a in 'sceNp' module
+[E]: TODO: sceNpCommerceCreateCtx
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilParseUri
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0023552c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x0004518c]]: memory warning: sys_memory_container_create(cid_addr=0x3baad8, yield_size=0x3400000)
+[W : PPU[1] Thread (CPUThread)[0x0004518c]]: memory warning: *** memory_container created(addr=0x30300000): id = 30
+[W : PPU[1] Thread (CPUThread)[0x0032b034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP_UTIL)
+[W : PPU[1] Thread (CPUThread)[0x00325010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+[W : PPU[1] Thread (CPUThread)[0x00329088]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x30225b10 (/app_home/Game/PS3_GAME/USRDIR))
+[W : PPU[1] Thread (CPUThread)[0x00046060]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x0032b064]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x33ca98, userdata=0x3baa88)
+[E : PPU[1] Thread (CPUThread)[0x0032f07c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020a10, nSpus=2, spuPriority=2228226, ppuPriority=5, exitIfNoWork=250)
+[E : PPU[1] Thread (CPUThread)[0x0032f004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020a10, prefix_addr=0x2f3188, size=0x7)
+[E : PPU[1] Thread (CPUThread)[0x0032f0a0]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x0011453c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4183e0, attr_addr=0xd0020854, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x0011453c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 32
+[W : PPU[1] Thread (CPUThread)[0x001145c4]]: sys_event warning: sys_event_port_create(eport_id_addr=0x4183d0, port_type=0x1, name=0xfee1dead)
+[W : PPU[1] Thread (CPUThread)[0x001145c4]]: sys_event warning: *** sys_event_port created: id = 34
+[W : PPU[1] Thread (CPUThread)[0x001145dc]]: sys_event warning: sys_event_port_connect_local(eport_id=34, equeue_id=32)
+[E : PPU[1] Thread (CPUThread)[0x0032f0ac]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x30237700, queue=0x20, port_addr=0xd0020850, isDynamic=0)
+[W : PPU[1] Thread (CPUThread)[0x0032d010]]: cellGcmSys warning: cellGcmInit(context_addr=0x42f750,cmdSize=0x400000,ioSize=0x5d00000,ioAddress=0x33800000)
+[W : PPU[1] Thread (CPUThread)[0x0032d010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0032d010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x33800000, io=0x0, size=0x5d00000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0032b010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00207c8, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0032d040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[1] Thread (CPUThread)[0x0032d070]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=13, location=0, offset=16711680, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0032d058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xff0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=14, location=0, offset=20512768, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0032d058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x1390000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=5570560, pitch=5120, comp=0, base=0, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=5570560, size=5570560, pitch=5120, comp=0, base=0, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=11141120, size=5570560, pitch=5120, comp=10, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x0032d0a0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xaa0000, width=1280, height=1088, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x00042950]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x3baa74, attr_addr=0xd0020870, event_queue_key=0x0, size=64)
+[W : PPU[1] Thread (CPUThread)[0x00042950]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 35
+[W : PPU[1] Thread (CPUThread)[0x000429bc]]: sys_event warning: sys_event_port_create(eport_id_addr=0x3baa70, port_type=0x1, name=0x1234)
+[W : PPU[1] Thread (CPUThread)[0x000429bc]]: sys_event warning: *** sys_event_port created: id = 37
+[W : PPU[1] Thread (CPUThread)[0x000429d8]]: sys_event warning: sys_event_port_connect_local(eport_id=37, equeue_id=35)
+[W : PPU[1] Thread (CPUThread)[0x0032b07c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0032b07c]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x0032b040]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020780, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x0047b004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x0047b034]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x389fb8, portNum_addr=0x389ff8)
+[W : PPU[1] Thread (CPUThread)[0x0047b034]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x0047b010]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x389fd8)
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x0021083c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x438004, attr_addr=0xd002074c, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x0021083c]]: sys_event warning: *** event_queue created [ÐÀ] (protocol=0x2, type=0x1): id = 39
+[W : PPU[1] Thread (CPUThread)[0x00210864]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x438108, num=1, prio=100, attr_addr=0xd002073c)
+[W : PPU[1] Thread (CPUThread)[0x00210864]]: sys_spu warning: *** SPU Thread Group created [_Multistream Thread Group] (type=0x0, option.ct=0x0): id=40
+[W : PPU[1] Thread (CPUThread)[0x0048b0ac]]: sysPrxForUser warning: sys_spu_image_import(img=0x43810c, src=0x314a00, type=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0048b0ac]]: desc = 'msngSPU_ATRAC'
+[W : PPU[1] Thread (CPUThread)[0x002108f4]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x436604, group=0x28, spu_num=0, img_addr=0x43810c, attr_addr=0xd0020730, arg_addr=0xd0020760)
+[W : PPU[1] Thread (CPUThread)[0x002108f4]]: sys_spu warning: *** New SPU Thread [_Multistream SPU Thread] (img_offset=0x48f000, ls_offset=0x4cf000, ep=0x100, a1=0x2356c0, a2=0x80, a3=0xd0020820, a4=0x24000024302276d0): id=41
+[W : PPU[1] Thread (CPUThread)[0x00210918]]: sys_spu warning: sys_spu_thread_connect_event(id=41, eq_id=39, event_type=0x1, spup=42)
+[W : PPU[1] Thread (CPUThread)[0x00210930]]: sys_spu warning: sys_spu_thread_group_start(id=40)
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/dev_flash/sys/external/flashATRAC.pic"): fd = 42
+[W : PPU[1] Thread (CPUThread)[0x00329004]]: sys_fs warning: cellFsClose(fd=42)
+[W : PPU[1] Thread (CPUThread)[0x002103f0]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0xffdd)
+[W : PPU[1] Thread (CPUThread)[0x00210444]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x39a07900)
+[W : PPU[1] Thread (CPUThread)[0x0001433c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x38a014, attr_addr=0x38a018, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x0001433c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 43
+[W : PPU[1] Thread (CPUThread)[0x00014354]]: sys_event warning: sys_event_port_create(eport_id_addr=0x38a010, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00014354]]: sys_event warning: *** sys_event_port created: id = 44
+[W : PPU[1] Thread (CPUThread)[0x00014364]]: sys_event warning: sys_event_port_connect_local(eport_id=44, equeue_id=43)
+[W : PPU[45] Thread (MultiStream PU Thread)[0x0047b01c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[E : PPU[45] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=43, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
+[W : PPU[45] Thread (MultiStream PU Thread)[0x002111fc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ea8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001eb0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ec0]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x0032b034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicLight.vpo"): fd = 46
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=46)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicColourLight.vpo"): fd = 47
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=47)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicTexLight.vpo"): fd = 48
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=48)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bumpgloss.vpo"): fd = 49
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=49)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_duck.vpo"): fd = 50
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=50)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_colduck.vpo"): fd = 51
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=51)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_basicTexColourLight.vpo"): fd = 52
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=52)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_colbumpgloss.vpo"): fd = 53
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=53)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_through_mode.vpo"): fd = 54
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=54)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_through_mode2.vpo"): fd = 55
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=55)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_through_mode3.vpo"): fd = 56
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=56)
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwdwwwi0.vpo"): fd = 57
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=57)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwdwwwi0i1.vpo"): fd = 58
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=58)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwmwwwi0.vpo"): fd = 59
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=59)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwdwww.vpo"): fd = 60
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=60)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bldlllnnnn.vpo"): fd = 61
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=61)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bi0i1.vpo"): fd = 62
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=62)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwwww.vpo"): fd = 63
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=63)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_li0.vpo"): fd = 64
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=64)
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000065b8]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[45] Thread (MultiStream PU Thread)[0x00013900]]: sys_event error: sys_event_queue_tryreceive(equeue_id=43, event_array_addr=0xd0060db8, size=1, number_addr=0xd0060db0)
+[W : PPU[45] Thread (MultiStream PU Thread)[0x002111fc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=41, value=0x436400)
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00000adc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00001ec0]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_vi0t0.vpo"): fd = 65
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=65)
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00007aec]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x000071f0]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[41] Thread (_Multistream SPU Thread)[0x00006588]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_mi0t0.vpo"): fd = 66
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=66)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwdlllinnn.vpo"): fd = 67
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=67)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bwmwwwi0i1.vpo"): fd = 68
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=68)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_generate_mesh.vpo"): fd = 69
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=69)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_position.vpo"): fd = 70
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=70)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_intersection.vpo"): fd = 71
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=71)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_splat.vpo"): fd = 72
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=72)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_projective.vpo"): fd = 73
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=73)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_xyz.vpo"): fd = 74
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=74)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_water_surface.vpo"): fd = 75
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=75)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_blend_noise.vpo"): fd = 76
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=76)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_bubble.vpo"): fd = 77
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=77)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_reflection_prepass.vpo"): fd = 78
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=78)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_slosh_blend.vpo"): fd = 79
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=79)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_slosh_stencil.vpo"): fd = 80
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=80)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_slosh_surface.vpo"): fd = 81
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=81)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/vs_surface_noise.vpo"): fd = 82
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=82)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicLight.fpo"): fd = 83
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=83)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicColourLight.fpo"): fd = 84
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=84)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicTexColour.fpo"): fd = 85
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=85)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_basicTexLight.fpo"): fd = 86
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=86)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bumpgloss.fpo"): fd = 87
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=87)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_colbumpgloss.fpo"): fd = 88
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=88)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_mod2x.fpo"): fd = 89
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=89)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_through_mode.fpo"): fd = 90
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=90)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_through_mode2.fpo"): fd = 91
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=91)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_diffuse.fpo"): fd = 92
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=92)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmdeea.fpo"): fd = 93
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=93)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmdee.fpo"): fd = 94
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=94)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bveee.fpo"): fd = 95
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=95)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bvdeee.fpo"): fd = 96
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=96)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bveeee.fpo"): fd = 97
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=97)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bvd.fpo"): fd = 98
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=98)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bvdeea.fpo"): fd = 99
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=99)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmdnga.fpo"): fd = 100
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=100)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmdga.fpo"): fd = 101
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=101)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmdga_reflection.fpo"): fd = 102
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=102)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bvee.fpo"): fd = 103
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=103)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_utnnnn.fpo"): fd = 104
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=104)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_pme.fpo"): fd = 105
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=105)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_pmde.fpo"): fd = 106
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=106)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_pmdg.fpo"): fd = 107
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=107)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_undnnn.fpo"): fd = 108
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=108)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_unnnnn.fpo"): fd = 109
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=109)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_ume.fpo"): fd = 110
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=110)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bvdmee.fpo"): fd = 111
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=111)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddga.fpo"): fd = 112
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=112)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddga_reflection.fpo"): fd = 113
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=113)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddee.fpo"): fd = 114
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=114)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bmddee_reflection.fpo"): fd = 115
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=115)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_contrast.fpo"): fd = 116
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=116)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_GaussianH.fpo"): fd = 117
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=117)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_GaussianV.fpo"): fd = 118
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=118)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_generate_mesh.fpo"): fd = 119
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=119)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_position.fpo"): fd = 120
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=120)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_intersection.fpo"): fd = 121
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=121)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_splat.fpo"): fd = 122
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=122)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_water_surface.fpo"): fd = 123
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=123)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_water_surface_glass.fpo"): fd = 124
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=124)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_water_surface_replay.fpo"): fd = 125
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=125)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_blend_noise.fpo"): fd = 126
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=126)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_bubble.fpo"): fd = 127
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=127)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_reflection_prepass.fpo"): fd = 128
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=128)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_slosh_blend.fpo"): fd = 129
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=129)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_slosh_stencil.fpo"): fd = 130
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=130)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_slosh_surface.fpo"): fd = 131
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=131)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_wipe_effect.fpo"): fd = 132
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=132)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_pencil_effect.fpo"): fd = 133
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=133)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_splash.fpo"): fd = 134
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=134)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Shaders/fs_surface_noise.fpo"): fd = 135
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=135)
+[E : PPU[1] Thread (CPUThread)[0x0032f04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f070]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0032f028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0032f01c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0032f058]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f0c4]]: TODO: cellSpursRunJobChain
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=10, location=1, offset=6488064, size=524288, pitch=2048, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=25690112, size=1048576, pitch=2048, comp=0, base=0, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=8, location=1, offset=7012352, size=5570560, pitch=5120, comp=0, base=0, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=9, location=1, offset=12582912, size=5570560, pitch=5120, comp=0, base=0, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=26738688, size=1048576, pitch=4096, comp=0, base=0, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=5, location=0, offset=27787264, size=524288, pitch=2048, comp=0, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x0032f04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f070]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0032f028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0032f01c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0032f058]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f0c4]]: TODO: cellSpursRunJobChain
+[E : PPU[1] Thread (CPUThread)[0x0047f028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[W : PPU[1] Thread (CPUThread)[0x0032b064]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x33baa8, userdata=0x39b2f190)
+[E : PPU[1] Thread (CPUThread)[0x0047d238]]: TODO: sceNpManagerRegisterCallback
+[W : PPU[1] Thread (CPUThread)[0x0047d148]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x2e8918, drm_path_addr=0xd0020778)
+[W : PPU[1] Thread (CPUThread)[0x0047d148]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /app_home/Game/PS3_GAME/USRDIR/Key.edat
+[W : PPU[1] Thread (CPUThread)[0x0047d148]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0xa0347b3d120e89334092afe0894c3ba1
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Key.edat"): fd = 136
+[W : PPU[1] Thread (CPUThread)[0x00329004]]: sys_fs warning: cellFsClose(fd=136)
+[W : PPU[1] Thread (CPUThread)[0x0032d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=11, location=1, offset=27918336, size=5570560, pitch=5120, comp=0, base=0, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x0032d094]]: cellGcmSys warning: cellGcmSetTile(index=12, location=0, offset=28311552, size=5570560, pitch=5120, comp=0, base=0, bank=2)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Scripts/Tweaks.smos"): fd = 137
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=137)
+[E : PPU[1] Thread (CPUThread)[0x00327010]]: sys_io error: cellPadInfoPressMode(port_no=0)
+[E : PPU[1] Thread (CPUThread)[0x00327088]]: sys_io error: cellPadInfoSensorMode(port_no=0)
+[E : PPU[1] Thread (CPUThread)[0x0032f0b8]]: TODO: cellSpursJobGuardNotify
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEndSetup.smos"): fd = 138
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=138)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Common.zif"): fd = 139
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=139)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd.zif"): fd = 140
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=140)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Boot/Boot.gpu"): fd = 141
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=141)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Boot/Boot.dat"): fd = 142
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=142)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Boot/Boot.rel"): fd = 143
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=143)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Boot/Boot_FR.gpu"): fd = 144
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=144)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Boot/Boot_FR.dat"): fd = 145
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=145)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Boot/Boot_FR.rel"): fd = 146
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=146)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Hud/Rubadub_hud.gpu"): fd = 147
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=147)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Hud/Rubadub_hud.dat"): fd = 148
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=148)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Hud/Rubadub_hud.rel"): fd = 149
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=149)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Hud/Rubadub_hud_FR.gpu"): fd = 150
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=150)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Hud/Rubadub_hud_FR.dat"): fd = 151
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=151)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Hud/Rubadub_hud_FR.rel"): fd = 152
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=152)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd.gpu"): fd = 153
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=153)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd.dat"): fd = 154
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=154)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd.rel"): fd = 155
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=155)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd_FR.gpu"): fd = 156
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=156)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd_FR.dat"): fd = 157
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=157)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEnd_FR.rel"): fd = 158
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=158)
+[E : PPU[1] Thread (CPUThread)[0x0032f04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f070]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0032f028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0032f01c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0032f058]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x0032f0c4]]: TODO: cellSpursRunJobChain
+[W : PPU[1] Thread (CPUThread)[0x0001ef64]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x39bd81a0, attr_addr=0xd001ffd8, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001ef98]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x39bd81a4, attr_addr=0xd001ffd8, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0048b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 161
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Scripts/GameAudio.smos"): fd = 163
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=163)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/jump02a.msf"): fd = 164
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=164)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/jump02b.msf"): fd = 165
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=165)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_pop_die01.msf"): fd = 166
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=166)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_pop_die02.msf"): fd = 167
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=167)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_pop_die03.msf"): fd = 168
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=168)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_pop_die04.msf"): fd = 169
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=169)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_long01.msf"): fd = 170
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=170)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_long02.msf"): fd = 171
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=171)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_long03.msf"): fd = 172
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=172)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_angry01.msf"): fd = 173
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=173)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_angry02.msf"): fd = 174
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=174)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_angry03.msf"): fd = 175
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=175)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_med01.msf"): fd = 176
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=176)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_med02.msf"): fd = 177
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=177)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_med03.msf"): fd = 178
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=178)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_med04.msf"): fd = 179
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=179)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_short01.msf"): fd = 180
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=180)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_short02.msf"): fd = 181
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=181)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/quack_short03.msf"): fd = 182
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=182)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_happy01.msf"): fd = 183
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=183)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_happy02.msf"): fd = 184
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=184)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_happy03.msf"): fd = 185
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=185)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_very_happy01.msf"): fd = 186
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=186)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_very_happy02.msf"): fd = 187
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=187)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_very_happy03.msf"): fd = 188
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=188)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_sad01.msf"): fd = 189
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=189)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_sad02.msf"): fd = 190
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=190)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_sad03.msf"): fd = 191
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=191)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_very_sad01.msf"): fd = 192
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=192)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_very_sad02.msf"): fd = 193
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=193)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duckling_very_sad03.msf"): fd = 194
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=194)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_small_1.msf"): fd = 195
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=195)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_small_2.msf"): fd = 196
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=196)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_small_3.msf"): fd = 197
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=197)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_duckling_pickup1.msf"): fd = 198
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=198)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_medium01.msf"): fd = 199
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=199)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_medium02.msf"): fd = 200
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=200)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_medium03.msf"): fd = 201
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=201)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_medium04.msf"): fd = 202
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=202)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_medium05.msf"): fd = 203
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=203)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_heavy09.msf"): fd = 204
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=204)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_heavy10.msf"): fd = 205
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=205)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/object_drop_heavy11.msf"): fd = 206
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=206)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop01.msf"): fd = 207
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=207)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop02.msf"): fd = 208
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=208)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop03.msf"): fd = 209
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=209)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop04.msf"): fd = 210
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=210)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop05.msf"): fd = 211
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=211)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop06.msf"): fd = 212
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=212)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop07.msf"): fd = 213
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=213)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop08.msf"): fd = 214
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=214)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop09.msf"): fd = 215
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=215)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_pop15.msf"): fd = 216
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=216)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_chomp01_L.msf"): fd = 217
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=217)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_chomp02_L.msf"): fd = 218
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=218)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_shark_bite01.msf"): fd = 219
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=219)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_shark_bite02.msf"): fd = 220
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=220)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_belch01.msf"): fd = 221
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=221)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_belch02.msf"): fd = 222
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=222)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_belch03.msf"): fd = 223
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=223)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_Shark_sleep_loop.msf"): fd = 224
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=224)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_shark_wakeup07.msf"): fd = 225
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=225)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/jump2.msf"): fd = 226
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=226)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_motor_underwater02b_L.msf"): fd = 227
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=227)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium01.msf"): fd = 228
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=228)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium02.msf"): fd = 229
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=229)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium03.msf"): fd = 230
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=230)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium04.msf"): fd = 231
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=231)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium05.msf"): fd = 232
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=232)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium06.msf"): fd = 233
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=233)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium07.msf"): fd = 234
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=234)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium08.msf"): fd = 235
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=235)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_medium09.msf"): fd = 236
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=236)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small01.msf"): fd = 237
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=237)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small02.msf"): fd = 238
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=238)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small03.msf"): fd = 239
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=239)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small04.msf"): fd = 240
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=240)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small05.msf"): fd = 241
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=241)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small06.msf"): fd = 242
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=242)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small07.msf"): fd = 243
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=243)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small08.msf"): fd = 244
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=244)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small09.msf"): fd = 245
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=245)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small10.msf"): fd = 246
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=246)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small11.msf"): fd = 247
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=247)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small12.msf"): fd = 248
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=248)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small13.msf"): fd = 249
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=249)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small14.msf"): fd = 250
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=250)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small15.msf"): fd = 251
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=251)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small16.msf"): fd = 252
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=252)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small17.msf"): fd = 253
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=253)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small18.msf"): fd = 254
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=254)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small19.msf"): fd = 255
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=255)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small20.msf"): fd = 256
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=256)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small21.msf"): fd = 257
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=257)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small22.msf"): fd = 258
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=258)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small23.msf"): fd = 259
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=259)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small24.msf"): fd = 260
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=260)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small25.msf"): fd = 261
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=261)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small26.msf"): fd = 262
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=262)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small27.msf"): fd = 263
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=263)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small28.msf"): fd = 264
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=264)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small29.msf"): fd = 265
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=265)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_small30.msf"): fd = 266
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=266)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_tiny01.msf"): fd = 267
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=267)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_tiny02.msf"): fd = 268
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=268)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_tiny03.msf"): fd = 269
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=269)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/turbulent_water_tiny04.msf"): fd = 270
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=270)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small01.msf"): fd = 271
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=271)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small02.msf"): fd = 272
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=272)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small03.msf"): fd = 273
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=273)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small04.msf"): fd = 274
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=274)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small05.msf"): fd = 275
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=275)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small06.msf"): fd = 276
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=276)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small07.msf"): fd = 277
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=277)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_small08.msf"): fd = 278
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=278)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml01.msf"): fd = 279
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=279)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml02.msf"): fd = 280
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=280)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml03.msf"): fd = 281
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=281)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml04.msf"): fd = 282
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=282)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml05.msf"): fd = 283
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=283)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml06.msf"): fd = 284
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=284)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml07.msf"): fd = 285
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=285)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml08.msf"): fd = 286
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=286)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml09.msf"): fd = 287
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=287)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml10.msf"): fd = 288
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=288)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_mediuml11.msf"): fd = 289
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=289)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big01.msf"): fd = 290
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=290)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big02.msf"): fd = 291
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=291)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big04.msf"): fd = 292
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=292)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big06.msf"): fd = 293
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=293)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big07.msf"): fd = 294
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=294)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big08.msf"): fd = 295
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=295)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big09.msf"): fd = 296
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=296)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big10.msf"): fd = 297
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=297)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big11.msf"): fd = 298
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=298)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/duck_hit_side_big12.msf"): fd = 299
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=299)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_time_bonus_loop.msf"): fd = 300
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=300)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_time_bonus_end.msf"): fd = 301
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=301)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_time_bonus_single_shot.msf"): fd = 302
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=302)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_time_penalty_loop.msf"): fd = 303
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=303)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_time_penalty_end.msf"): fd = 304
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=304)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/UI_navigate01.msf"): fd = 305
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=305)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/UI_navigate02.msf"): fd = 306
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=306)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/UI_navigate03.msf"): fd = 307
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=307)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_up01.msf"): fd = 308
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=308)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_up02.msf"): fd = 309
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=309)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_up03.msf"): fd = 310
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=310)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_up04.msf"): fd = 311
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=311)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_up05.msf"): fd = 312
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=312)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/bubbles_up06.msf"): fd = 313
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=313)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_time_bonus.msf"): fd = 314
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=314)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Dub_jingle_duckling_dropoff1.msf"): fd = 315
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=315)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/shark_motor_L.msf"): fd = 316
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=316)
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Tubs/Tubs.smos"): fd = 317
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=317)
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Theme4/tub.msf"): fd = 318
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Theme4/loduck.msf"): fd = 319
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Theme4/midduck.msf"): fd = 320
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Theme4/hiduck.msf"): fd = 321
+[W : PPU[1] Thread (CPUThread)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/Audio/Theme4/shark.msf"): fd = 322
+[W : PPU[36] Thread (ResMan)[0x00329034]]: *** cellFsOpen(path="/app_home/Game/PS3_GAME/USRDIR/FrontEnd/FrontEndSpaceCheck.smos"): fd = 323
+[W : PPU[36] Thread (ResMan)[0x00329004]]: sys_fs warning: cellFsClose(fd=323)
+[E : PPU[1] Thread (CPUThread)[0x0032f0b8]]: TODO: cellSpursJobGuardNotify
+[E : PPU[162] Thread (FlowSim)[0x0032f0b8]]: TODO: cellSpursJobGuardNotify
+[E : PPU[162] Thread (FlowSim)[0x0032f034]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x0032f034]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x0032f034]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x0032f0b8]]: TODO: cellSpursJobGuardNotify
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 80
+[! : RSXThread]: *** fp data size = 16
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 3) in vec4 in_col0;
+layout (location = 0) in vec4 in_pos;
+out vec4 col0;
+vec4 tmp0;
+uniform vec4 vc465;
+uniform vec4 vc467;
+uniform vec4 vc466;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	col0 = in_col0;
+	tmp0.xyz = in_pos.xyzx.xyz;
+	tmp0.w = vc465.xxxx.w;
+	tmp0 = (tmp0 * vc467);
+	gl_Position = (tmp0 + vc466);
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 col0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = col0;
+	ocol = r0;
+}
+
+[W : RSXThread]: New FBO (1280x720)
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (1):
+[! : RSXThread]: *** prog id = 4
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 336
+[! : RSXThread]: *** fp data size = 656
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+uniform vec4 vc259;
+uniform vec4 vc258;
+uniform vec4 vc257;
+uniform vec4 vc256;
+uniform vec4 vc465;
+uniform vec4 vc467;
+uniform vec4 vc466;
+layout (location = 0) in vec4 in_pos;
+layout (location = 2) in vec4 in_normal;
+out vec4 tc0;
+out vec4 tc1;
+out vec4 tc2;
+out vec4 tc4;
+out vec4 tc5;
+out vec4 tc3;
+vec4 tmp0;
+vec4 tmp1;
+vec4 tmp2;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position.w = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc259), 0).xxxx.w;
+	gl_Position.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc258), 0).xxxx.z;
+	gl_Position.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc257), 0).xxxx.y;
+	gl_Position.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc256), 0).xxxx.x;
+	tc0.xyz = in_pos.xyzx.xyz;
+	tmp0.xyz = (in_normal.xyzx * vc465.xyxx).xyz;
+	tmp1.xy = vc467.xyxx.xy;
+	tmp2 = (in_pos.xzxz * tmp1.xyxy + vc466);
+	tmp0.w = vec2(dot(tmp0.xyzx.xyz, tmp0.xyzx.xyz), 0).xxxx.w;
+	tc1.xy = (in_pos.xzxx * vc467.xyxx + vc467.zwzz).xy;
+	tmp0.w = vec4(inversesqrt(tmp0.w)).w;
+	tc1.zw = tmp2.xxxy.zw;
+	tmp0.xyz = (tmp0.wwww * tmp0.xyzx).xyz;
+	tmp1.xyz = (-tmp0.zxyz * vc465.zyzz).xyz;
+	tmp1.xyz = (tmp0.yzxy * vc465.yzzy + tmp1.xyzx).xyz;
+	tc2.xy = tmp2.zwzz.xy;
+	tmp2.xyz = (tmp0.yzxy * tmp1.zxyz).xyz;
+	tmp1.xyz = (tmp0.zxyz * tmp1.yzxy + -tmp2.xyzx).xyz;
+	tc4.xyz = tmp0.xyzx.xyz;
+	tc5.xyz = tmp1.xyzx.xyz;
+	tmp2.xyz = (tmp0.zxyz * tmp1.yzxy).xyz;
+	tc3.xyz = (tmp0.yzxy * tmp1.zxyz + -tmp2.xyzx).xyz;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc1;
+in vec4 tc2;
+in vec4 tc5;
+in vec4 tc3;
+in vec4 tc4;
+in vec4 tc0;
+uniform sampler2D tex0;
+uniform sampler2D tex1;
+uniform sampler2D tex2;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform vec4 fc32 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc128 = vec4(-0.000000, -1.000000, 0.000000, 0.000000);
+uniform vec4 fc160 = vec4(0.000000, 1.000000, 0.000000, 0.000000);
+uniform vec4 fc192 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc288 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc352 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc400 = vec4(-1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc448 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc512 = vec4(1.000000, 50.000000, 0.000000, 0.000000);
+uniform vec4 fc544 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc640 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+out vec4 h2;
+out vec4 h4;
+layout (location = 1) out vec4 r2;
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0.xyz = texture(tex0, tc1.xy).xyz;
+	r0.w = fc32.xxxx.w;
+	r1.xyz = texture(tex1, tc1.zwzz.xy).xyz;
+	r1.xyz = (r0 + r1).xyz;
+	r0.xyz = texture(tex2, tc2.xy).xyz;
+	r0.xyz = (r1 + r0).xyz;
+	r0.xyz = (r0 + fc128.xxyy).xyz;
+	h0.xyz = (r0 * r0.wwww + fc160.xxyy).xyz;
+	r0.w = (fc192 * fc192).w;
+	h2.xyz = normalize(h0.xyz).xyz;
+	r0.xyz = (h2.yyyy * tc5).xyz;
+	r0.xyz = (h2.xxxx * tc3 + r0).xyz;
+	r1.xyz = (h2.zzzz * tc4 + r0).xyz;
+	r0.x = vec2(dot(r1.xyz, -fc288.xyz), 0).xxxx.x;
+	r0.y = (r0.xxxx * r0.xxxx).y;
+	r0.z = (-r0.yyyy * r0.wwww + r0.wwww).z;
+	r0.y = (-r0.zzzz + fc352.xxxx).y;
+	r0.y = inversesqrt(abs(r0.yyyy)).y;
+	h4.x = vec4(greaterThan(-r0.zzzz, fc400.xxxx)).x;
+	r0.y = 1 / (r0.yyyy).y;
+	r2.y = (r0.xxxx * fc448.wwww + -r0).y;
+	r0.xyz = tc0.xyz;
+	r1.xyz = (r2.yyyy * r1).xyz;
+	r0.w = (fc512.xxxx * fc512.yyyy + r0.yyyy).w;
+	r1.xyz = (fc544.wwww * fc544 + r1).xyz;
+	h2.xyz = (r1 * h4.xxxx).xyz;
+	h2.xyz = normalize(h2.xyz).xyz;
+	h1.z = (-r0.wwww / h2.yyyy).z;
+	r0.xyz = (h1.zzzz * h2 + r0).xyz;
+	r0.w = fc640.xxxx.w;
+	ocol = r0;
+}
+
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x40c00000)
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (2):
+[! : RSXThread]: *** prog id = 5
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 80
+[! : RSXThread]: *** fp data size = 48
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+uniform vec4 vc259;
+uniform vec4 vc258;
+uniform vec4 vc257;
+uniform vec4 vc256;
+layout (location = 0) in vec4 in_pos;
+out vec4 tc1;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position.w = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc259), 0).xxxx.w;
+	gl_Position.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc258), 0).xxxx.z;
+	gl_Position.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc257), 0).xxxx.y;
+	gl_Position.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc256), 0).xxxx.x;
+	tc1.x = in_pos.wwww.x;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 tc1;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0.xyz = texture(tex0, tc0.xy).xyz;
+	r0.xyz = r0.xyz;
+	r0.w = tc1.xxxx.w;
+	ocol = r0;
+}
+
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (3):
+[! : RSXThread]: *** prog id = 6
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 400
+[! : RSXThread]: *** fp data size = 496
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+uniform vec4 vc259;
+uniform vec4 vc258;
+uniform vec4 vc257;
+uniform vec4 vc256;
+uniform vec4 vc262;
+uniform vec4 vc261;
+uniform vec4 vc260;
+uniform vec4 vc467;
+uniform vec4 vc466;
+layout (location = 0) in vec4 in_pos;
+layout (location = 2) in vec4 in_normal;
+layout (location = 3) in vec4 in_col0;
+out vec4 tc0;
+out vec4 col0;
+out vec4 tc1;
+out vec4 tc2;
+out vec4 tc3;
+vec4 tmp0;
+vec4 tmp1;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position.w = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc259), 0).xxxx.w;
+	gl_Position.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc258), 0).xxxx.z;
+	gl_Position.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc257), 0).xxxx.y;
+	gl_Position.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc256), 0).xxxx.x;
+	tc0.x = in_pos.wwww.x;
+	tmp0.z = vec2(dot(in_normal.xyzx.xyz, vc262.xyzx.xyz), 0).xxxx.z;
+	tmp0.y = vec2(dot(in_normal.xyzx.xyz, vc261.xyzx.xyz), 0).xxxx.y;
+	tmp0.x = vec2(dot(in_normal.xyzx.xyz, vc260.xyzx.xyz), 0).xxxx.x;
+	tmp1.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc262), 0).xxxx.z;
+	tmp1.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc261), 0).xxxx.y;
+	tmp1.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc260), 0).xxxx.x;
+	tmp1.xyz = (tmp1.xyzx + -vc467.xyzx).xyz;
+	tmp1.w = vec2(dot(tmp0.xyzx.xyz, tmp0.xyzx.xyz), 0).xxxx.w;
+	tc0.y = in_normal.wwww.y;
+	tmp0.w = vec2(dot(tmp1.xyzx.xyz, tmp1.xyzx.xyz), 0).xxxx.w;
+	tmp1.w = inversesqrt(tmp1.w);
+	col0 = in_col0;
+	tmp0.w = inversesqrt(tmp0.w);
+	tmp0.xyz = (tmp1.wwww * tmp0.xyzx).xyz;
+	tc1.xyz = tmp0.xyzx.xyz;
+	tmp1.xyz = (tmp0.wwww * tmp1.xyzx).xyz;
+	tmp0.w = vec2(dot(tmp0.xyzx.xyz, tmp1.xyzx.xyz), 0).xxxx.w;
+	tc2.xyz = tmp1.xyzx.xyz;
+	tmp0.xyz = (tmp0.xyzx * tmp0.wwww).xyz;
+	tc3.xyz = (-tmp0.xyzx * vc466.xxxx + tmp1.xyzx).xyz;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc1;
+in vec4 tc2;
+in vec4 tc0;
+in vec4 col0;
+in vec4 tc3;
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform vec4 fc32 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc80 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc128 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc192 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc224 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc272 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc336 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc416 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+out vec4 h3;
+out vec4 h2;
+layout (location = 0) out vec4 ocol;
+uniform sampler2D tex3;
+uniform sampler2D tex0;
+uniform sampler2D tex2;
+uniform sampler2D tex1;
+
+void main()
+{
+	h0.xyz = tc1.xyz;
+	h3.x = clamp(vec2(dot(h0.xyz, fc32.xyz), 0).xxxx, 0.0, 1.0).x;
+	h2.w = vec2(dot(tc2.xyz, h0.xyz), 0).xxxx.w;
+	r1.w = (h2 + fc80.xxxx).w;
+	h0.xyz = texture(tex3, tc1.xy).xyz;
+	h2.xyz = (h0 + fc128).xyz;
+	h0 = texture(tex0, tc0.xy);
+	h1 = col0;
+	h2.xyz = (h3.xxxx * fc192 + h2).xyz;
+	h1.w = (h1 * fc224).w;
+	h2.xyz = (h0 * h2).xyz;
+	h1.w = (h1 * fc272.xxxx).w;
+	r0.x = log2(r1.wwww).x;
+	h1.xyz = (h1 * h2).xyz;
+	r1.w = (r0.xxxx * fc336.zzzz).w;
+	h0.xyz = texture(tex2, tc3.xy).xyz;
+	h2.x = exp2(r1.wwww).x;
+	h0.xyz = (h0 + -h1).xyz;
+	h2.w = clamp((h2.xxxx * fc416.yyyy + fc416.xxxx), 0.0, 1.0).w;
+	h0.xyz = (h2.wwww * h0 + h1).xyz;
+	h0.w = (h1 * h0).w;
+	h1.xyz = texture(tex1, tc3.xy).xyz;
+	h0.xyz = (h0 + h1).xyz;
+	ocol = h0;
+}
+
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (4):
+[! : RSXThread]: *** prog id = 7
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 64
+[! : RSXThread]: *** fp data size = 48
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+uniform vec4 vc259;
+uniform vec4 vc258;
+uniform vec4 vc257;
+uniform vec4 vc256;
+layout (location = 0) in vec4 in_pos;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position.w = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc259), 0).xxxx.w;
+	gl_Position.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc258), 0).xxxx.z;
+	gl_Position.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc257), 0).xxxx.y;
+	gl_Position.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc256), 0).xxxx.x;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+uniform vec4 fc32 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = fc32.xxxx;
+	ocol = r0;
+}
+
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (5):
+[! : RSXThread]: *** prog id = 8
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 160
+[! : RSXThread]: *** fp data size = 16
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+uniform vec4 vc259;
+uniform vec4 vc258;
+uniform vec4 vc263;
+uniform vec4 vc257;
+uniform vec4 vc261;
+uniform vec4 vc260;
+uniform vec4 vc467;
+uniform vec4 vc256;
+layout (location = 0) in vec4 in_pos;
+vec4 tmp0;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position.w = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc259), 0).xxxx.w;
+	gl_Position.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc258), 0).xxxx.z;
+	tmp0.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc263), 0).xxxx.x;
+	gl_Position.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc257), 0).xxxx.y;
+	tmp0.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc261), 0).xxxx.y;
+	tmp0.z = 1.0 / tmp0.x;
+	tmp0.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc260), 0).xxxx.x;
+	tmp0.xy = (tmp0.xyxx * tmp0.zzzz + vc467.xyxx).xy;
+	gl_Position.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc256), 0).xxxx.x;
+	tc0.xy = (tmp0.xyxx * vc467.zwzz).xy;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	ocol = r0;
+}
+
+[E : PPU[162] Thread (FlowSim)[0x0032f0b8]]: TODO: cellSpursJobGuardNotify
+[E : PPU[162] Thread (FlowSim)[0x0032f034]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (6):
+[! : RSXThread]: *** prog id = 9
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 96
+[! : RSXThread]: *** fp data size = 208
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+uniform vec4 vc465;
+uniform vec4 vc466;
+uniform vec4 vc467;
+vec4 tmp0;
+out vec4 tc0;
+out vec4 tc1;
+out vec4 tc2;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position.xy = in_pos.xyxx.xy;
+	gl_Position.z = vc465.xxxx.z;
+	tmp0 = (in_pos.zwzw + vc466);
+	tc0.xy = (in_pos.zwzz + vc467.zwzz).xy;
+	tc1.xy = tmp0.xyxx.xy;
+	tc2.xy = tmp0.zwzz.xy;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+uniform vec4 fc16 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc64 = vec4(-0.000000, -1.000000, 0.000000, 0.000000);
+out vec4 h2;
+layout (location = 0) out vec4 ocol;
+in vec4 tc0;
+in vec4 tc1;
+in vec4 tc2;
+uniform sampler2D tex0;
+uniform sampler2D tex1;
+uniform sampler2D tex2;
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
+
+void main()
+{
+	h2.w = fc16.xxxx.w;
+	h0.xyz = texture(tex0, tc0.xy).xyz;
+	h2.xy = (fc64.xyxx * h2.wwww + -fc64.xyxx).xy;
+	h1.xyz = texture(tex1, tc1.xy).xyz;
+	h1.xyz = (h0 + h1).xyz;
+	h0.xyz = texture(tex2, tc2.xy).xyz;
+	h0.xyz = (h1 + h0).xyz;
+	h0.xyz = (h0 * h2.wwww + h2.xxyy).xyz;
+	h1.xy = normalize(h0.xyz).xy;
+	h0.zw = h1.xxxy.zw;
+	h0.xy = h0.xy;
+	ocol = h0;
+}
+
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (7):
+[! : RSXThread]: *** prog id = 10
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 80
+[! : RSXThread]: *** fp data size = 208
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 8) in vec4 in_tc0;
+layout (location = 0) in vec4 in_pos;
+out vec4 tc0;
+vec4 tmp0;
+uniform vec4 vc465;
+uniform vec4 vc467;
+uniform vec4 vc466;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	tc0.xy = in_tc0.xyxx.xy;
+	tmp0.xyz = in_pos.xyzx.xyz;
+	tmp0.w = vc465.xxxx.w;
+	tmp0 = (tmp0 * vc467);
+	gl_Position = (tmp0 + vc466);
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	ocol = r0;
+}
+
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[E : RSXThread]: Could not link program: Fragment info
+-------------
+0(39) : error C5052: gl_Position is not accessible in this profile
+
+[! : RSXThread]: Add program (8):
+[! : RSXThread]: *** prog id = 11
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 320
+[! : RSXThread]: *** fp data size = 832
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 2) in vec4 in_normal;
+layout (location = 3) in vec4 in_col0;
+layout (location = 0) in vec4 in_pos;
+out vec4 tc4;
+out vec4 tc2;
+out vec4 tc1;
+out vec4 tc5;
+out vec4 tc3;
+uniform vec4 vc466;
+uniform vec4 vc467;
+uniform vec4 vc258;
+uniform vec4 vc257;
+uniform vec4 vc256;
+uniform vec4 vc259;
+uniform vec4 vc465;
+uniform vec4 vc464;
+vec4 tmp0;
+vec4 tmp1;
+vec4 tmp2;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	tc4.xyz = in_normal.xyzx.xyz;
+	tc2.w = in_col0.xxxx.w;
+	tc2.xyz = (in_pos.xyzx + -vc466.xyzx).xyz;
+	tc1.xy = (in_pos.xzxx * vc467.xyxx).xy;
+	tmp0.z = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc258), 0).xxxx.z;
+	tmp0.y = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc257), 0).xxxx.y;
+	tmp0.x = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc256), 0).xxxx.x;
+	tmp1.w = vec2(dot(vec4(in_pos.xyzx.xyz, 1), vc259), 0).xxxx.w;
+	tmp1.xyz = (-in_normal.zxyz * vc465.yxyy).xyz;
+	tmp1.xyz = (in_normal.yzxy * vc465.xyyx + tmp1.xyzx).xyz;
+	tmp0.w = tmp1.wwww.w;
+	tmp1.w = 1.0 / tmp1.w;
+	gl_Position = tmp0;
+	tmp2.xyz = (in_normal.yzxy * tmp1.zxyz).xyz;
+	tmp1.xyz = (in_normal.zxyz * tmp1.yzxy + -tmp2.xyzx).xyz;
+	tmp0.xy = (tmp0.xyxx * tmp1.wwww + vc465.xzxx).xy;
+	tc5.xyz = tmp1.xyzx.xyz;
+	tc1.zw = (tmp0.xxxy * vc464.xxxy).zw;
+	tmp0.xyz = (in_normal.zxyz * tmp1.yzxy).xyz;
+	tc3.xyz = (in_normal.yzxy * tmp1.zxyz + -tmp0.xyzx).xyz;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc1;
+in vec4 tc4;
+in vec4 tc2;
+in vec4 tc3;
+in vec4 tc5;
+uniform sampler2D tex3;
+uniform sampler2D tex0;
+uniform sampler2D tex1;
+uniform sampler2D tex2;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h5 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 rc0;
+vec4 h6 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform vec4 fc32 = vec4(0.996094, 0.003891, 0.000015, 0.000000);
+uniform vec4 fc160 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc320 = vec4(0.996094, 0.003891, 0.000015, 0.000000);
+uniform vec4 fc480 = vec4(0.996094, 0.003891, 0.000015, 0.000000);
+uniform vec4 fc592 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc624 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc704 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc768 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc816 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+out vec4 h3;
+out vec4 h4;
+out vec4 h2;
+layout (location = 2) out vec4 r3;
+layout (location = 1) out vec4 r2;
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0.xyz = texture(tex3, tc1.zwzz.xy).xyz;
+	r0.x = vec2(dot(r0.xyz, fc32.xyz), 0).xxxx.x;
+	r0.w = gl_Position.zzzz.w;
+	h3 = texture(tex0, tc1.xy);
+	r0.x = (-r0.wwww + r0).x;
+	h4.xyz = tc4.xyz;
+	h1.xy = (h4.xzzw + h3).xy;
+	h2.xyz = normalize(-tc2.xyz).xyz;
+	r0.x = (r0 * fc160.xxxx).x;
+	r1.w = r1.w;
+	h3.xyz = (h3.zzzz * tc3 + h4).xyz;
+	h1.xy = (h1 * r0.xxxx).xy;
+	h5.zw = tc1.zw;
+	h0.xy = (h5.zwzz + h1).xy;
+	h4.zw = h1.xxxy.zw;
+	r3.xyz = texture(tex3, h0.xy).xyz;
+	r0.x = vec2(dot(r3.xyz, fc320.xyz), 0).xxxx.x;
+	h2.w = vec4(lessThan(r0.xxxx, r0)).w;
+	h3.xyz = (tc5 * h3.wwww + h3).xyz;
+	h2.x = clamp(vec2(dot(h3.xyz, h2.xyz), 0).xxxx, 0.0, 1.0).x;
+	rc0.x = h2.wwww.x;
+	if(all(notEqual(rc0.xxxx, vec4(0.0)))) h4.zw = (h1.xxxy / 2).zw;
+	h6.xy = h4.zwzz.xy;
+	h4.zw = (h5 + h4).zw;
+	r2.xyz = texture(tex3, h4.zwzz.xy).xyz;
+	r0.z = vec2(dot(r2.xyz, fc480.xyz), 0).xxxx.z;
+	h0 = tc2;
+	h1.w = vec4(lessThan(r0.zzzz, r0)).w;
+	h1.x = (vec2(dot(h0.xyz, h3.xyz), 0).xxxx * 2).x;
+	h0.xyz = (-h3 * h1.xxxx + h0).xyz;
+	rc0.w = (h2 * h1).w;
+	if(all(notEqual(rc0.wwww, vec4(0.0)))) h6.xy = fc592.xxxx.xy;
+	h1.w = (-h2.xxxx * fc624.yyyy + fc624.yyyy).w;
+	h2 = texture(tex1, h0.xy);
+	h4.xy = clamp((h5.zwzz + h6), 0.0, 1.0).xy;
+	r2.xyz = texture(tex2, h4.xy).xyz;
+	h1.xyz = (r2 * fc704.wwww + fc704).xyz;
+	h0.w = h0.w;
+	h0.xyz = (h2 + -h1).xyz;
+	h1.w = (h1 + fc768.zzzz).w;
+	h0.xyz = (h1.wwww * h0 + h1).xyz;
+	h0.xyz = (h2.wwww * fc816.yyyy + h0).xyz;
+	ocol = h0;
+}
+
+[E : RSXThread]: glUseProgram: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, tex0): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, tex1): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, tex2): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, tex3): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc465): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc464): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc256): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc257): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc258): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc259): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc467): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, vc466): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, scaleOffsetMat): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, fc768): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, fc624): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, fc816): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, fc160): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0xb, fc704): opengl error 0x0502
+[W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
+[W : PPU[33] Thread (spu_printf_handler)[0x00114710]]: sys_event_queue_receive(equeue=32) aborted
+[W : PPU[45] Thread (MultiStream PU Thread)[0x00211220]]: sys_event_queue_receive(equeue=39) aborted
+[W : PPU[36] Thread (ResMan)[0x000419b0]]: sys_event_queue_receive(equeue=35) aborted
+[!]: Closing memory...
