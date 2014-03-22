@@ -16,6 +16,7 @@
 [!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\DATA\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
 [!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
+[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -312,7 +313,7 @@
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00016218]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020bf8)
+[W : PPU[1] Thread (CPUThread)[0x00016218]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010bf8)
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -327,19 +328,22 @@
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
-[W : PPU[1] Thread (CPUThread)[0x00289d88]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x68c888, attr_addr=0xd0020bc0, initial_count=0, max_count=32)
+[W : PPU[1] Thread (CPUThread)[0x00289d88]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x68c888, attr_addr=0xd0010bc0, initial_count=0, max_count=32)
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
-[W : PPU[1] Thread (CPUThread)[0x00255a58]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x669a80, attr_addr=0xd0020b90, initial_count=0, max_count=513)
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [iSAL0_OpenClose] (): id = 20
+[W : PPU[1] Thread (CPUThread)[0x00255a58]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x669a80, attr_addr=0xd0010b90, initial_count=0, max_count=513)
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
-[W : PPU[1] Thread (CPUThread)[0x0004ffa0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x42ba50, attr_addr=0xd0020bb0, initial_count=1, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x0004ffcc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x42ba54, attr_addr=0xd0020bb0, initial_count=1, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x00022c2c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x4264f0, attr_addr=0xd0020be0, initial_count=1, max_count=1)
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [SSTJobQueue] (): id = 24
+[W : PPU[1] Thread (CPUThread)[0x0004ffa0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x42ba50, attr_addr=0xd0010bb0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0004ffcc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x42ba54, attr_addr=0xd0010bb0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00022c2c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x4264f0, attr_addr=0xd0010be0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
-[W : PPU[1] Thread (CPUThread)[0x00011960]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x405c30, attr_addr=0xd0020bb0, initial_count=0, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x0001198c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x405a28, attr_addr=0xd0020bb0, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00011960]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x405c30, attr_addr=0xd0010bb0, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001198c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x405a28, attr_addr=0xd0010bb0, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x006dd070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x3cbc30, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [GameContentThread] (): id = 31
 [W : PPU[31] Thread (GameContentThread)[0x006f3028]]: cellGame warning: cellGameBootCheck(type_addr=0x405780, attributes_addr=0x405784, size_addr=0x405788, dirName_addr=0x405794)
 [W : PPU[31] Thread (GameContentThread)[0x006f3004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x405a14, bufsize=10)
 [W : PPU[31] Thread (GameContentThread)[0x006f3004]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x405994, bufsize=128)
@@ -365,7 +369,7 @@
 [W : PPU[1] Thread (CPUThread)[0x003bb100]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3ae00000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
-[W : PPU[1] Thread (CPUThread)[0x003bb07c]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30100000,size=0xad00000,offset_addr=0xd0020b78)
+[W : PPU[1] Thread (CPUThread)[0x003bb07c]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30100000,size=0xad00000,offset_addr=0xd0010b78)
 [E : PPU[1] Thread (CPUThread)[0x006e7088]]: TODO: cellVoiceInit
 [E : PPU[1] Thread (CPUThread)[0x006e701c]]: TODO: cellVoiceCreateNotifyEventQueue
 [E : PPU[1] Thread (CPUThread)[0x006e7034]]: TODO: cellVoiceSetNotifyEventQueue
@@ -375,7 +379,8 @@
 [E : PPU[1] Thread (CPUThread)[0x006e7064]]: TODO: cellVoiceSetBitRate
 [E : PPU[1] Thread (CPUThread)[0x006e7028]]: TODO: cellVoiceCreatePort
 [E : PPU[1] Thread (CPUThread)[0x006e7004]]: TODO: cellVoiceStart
-[W : PPU[1] Thread (CPUThread)[0x006e9004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020a40)
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [voice thread] (): id = 33
+[W : PPU[1] Thread (CPUThread)[0x006e9004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010a40)
 [E : PPU[1] Thread (CPUThread)[0x006eb028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [E : PPU[1] Thread (CPUThread)[0x006e3088]]: TODO: sceNp2Init
 [E : PPU[1] Thread (CPUThread)[0x006e122c]]: TODO: sceNpManagerRegisterCallback
@@ -384,10 +389,13 @@
 [E : PPU[1] Thread (CPUThread)[0x006e10c4]]: TODO: sceNpLookupInit
 [E : PPU[1] Thread (CPUThread)[0x006e11a8]]: TODO: sceNpBasicRegisterHandler
 [W : PPU[1] Thread (CPUThread)[0x006dd070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x3cc1b8, userdata=0x30180100)
-[W : PPU[1] Thread (CPUThread)[0x00060404]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30ec80a4, attr_addr=0xd0020960, initial_count=0, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x00060434]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30ec80a8, attr_addr=0xd0020960, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00060404]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30ec80a4, attr_addr=0xd0010960, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00060434]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30ec80a8, attr_addr=0xd0010960, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 36
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [Trophies] (): id = 37
 [W : PPU[1] Thread (CPUThread)[0x006d9058]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x3e94f0 (/))
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 38
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 39
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=3801088, pitch=5120, comp=0, base=1, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=0)
@@ -409,7 +417,7 @@
 [E : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
 [W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=4)
 [W : PPU[1] Thread (CPUThread)[0x003bb124]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
-[W : PPU[1] Thread (CPUThread)[0x006dd010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020af4, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x006dd010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010af4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x003bb0c4]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x003bb064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x3b0000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x003bb064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x750000,pitch=4,width=1280,height=720)
@@ -417,43 +425,43 @@
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 40
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
 [W : PPU[1] Thread (CPUThread)[0x002fd49c]]: *** cellFsOpen(path="///resource/movie/logo.pam"): fd = 41
-[W : PPU[1] Thread (CPUThread)[0x0070104c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0020038, fileSize=22142976, pSize_addr=0xd0020998)
-[W : PPU[1] Thread (CPUThread)[0x0070101c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0020038, fileSize=22142976, pOffset_addr=0xd001ffe0, pSize_addr=0xd001ffe8)
+[W : PPU[1] Thread (CPUThread)[0x0070104c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0010038, fileSize=22142976, pSize_addr=0xd0010998)
+[W : PPU[1] Thread (CPUThread)[0x0070101c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0010038, fileSize=22142976, pOffset_addr=0xd000ffe0, pSize_addr=0xd000ffe8)
 [W : PPU[1] Thread (CPUThread)[0x002fd414]]: sys_fs warning: cellFsClose(fd=41)
-[W : PPU[1] Thread (CPUThread)[0x00701040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00209b0, pAddr=0x30fd7aa0, fileSize=22142976, attribute=0x1)
-[W : PPU[1] Thread (CPUThread)[0x00701058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00209b0, streamType=20)
-[W : PPU[1] Thread (CPUThread)[0x00701010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00209b0, streamType=20, streamIndex=0)
-[W : PPU[1] Thread (CPUThread)[0x00701034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00209b0 (stream=0), pType_addr=0xd0020964, pCh_addr=0xd0020820
-[W : PPU[1] Thread (CPUThread)[0x00701004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=0, ch=0, pEsFilterId_addr=0xd0020968)
-[W : PPU[1] Thread (CPUThread)[0x00701028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00209b0 (stream=0), pInfo_addr=0xd002083a, size=32)
+[W : PPU[1] Thread (CPUThread)[0x00701040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00109b0, pAddr=0x30fd7aa0, fileSize=22142976, attribute=0x1)
+[W : PPU[1] Thread (CPUThread)[0x00701058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00109b0, streamType=20)
+[W : PPU[1] Thread (CPUThread)[0x00701010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00109b0, streamType=20, streamIndex=0)
+[W : PPU[1] Thread (CPUThread)[0x00701034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00109b0 (stream=0), pType_addr=0xd0010964, pCh_addr=0xd0010820
+[W : PPU[1] Thread (CPUThread)[0x00701004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=0, ch=0, pEsFilterId_addr=0xd0010968)
+[W : PPU[1] Thread (CPUThread)[0x00701028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00109b0 (stream=0), pInfo_addr=0xd001083a, size=32)
 [W : PPU[1] Thread (CPUThread)[0x00701028]]: cellPamf warning: cellPamfReaderGetStreamInfo: CELL_PAMF_STREAM_TYPE_AVC
-[W : PPU[1] Thread (CPUThread)[0x00701058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00209b0, streamType=21)
-[W : PPU[1] Thread (CPUThread)[0x00701010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00209b0, streamType=21, streamIndex=0)
-[W : PPU[1] Thread (CPUThread)[0x00701034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00209b0 (stream=1), pType_addr=0xd0020934, pCh_addr=0xd0020840
+[W : PPU[1] Thread (CPUThread)[0x00701058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00109b0, streamType=21)
+[W : PPU[1] Thread (CPUThread)[0x00701010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00109b0, streamType=21, streamIndex=0)
+[W : PPU[1] Thread (CPUThread)[0x00701034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00109b0 (stream=1), pType_addr=0xd0010934, pCh_addr=0xd0010840
 [E : PPU[1] Thread (CPUThread)[0x00701034]]: cellPamf error: TODO: pamfGetStreamChannel (-> 0)
-[W : PPU[1] Thread (CPUThread)[0x00701004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=2, ch=0, pEsFilterId_addr=0xd0020938)
-[W : PPU[1] Thread (CPUThread)[0x00701028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00209b0 (stream=1), pInfo_addr=0xd002084c, size=8)
+[W : PPU[1] Thread (CPUThread)[0x00701004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=2, ch=0, pEsFilterId_addr=0xd0010938)
+[W : PPU[1] Thread (CPUThread)[0x00701028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00109b0 (stream=1), pInfo_addr=0xd001084c, size=8)
 [W : PPU[1] Thread (CPUThread)[0x006d7004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x006dd010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020850, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x006dd040]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0020870, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x006dd010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010850, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x006dd040]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010870, option_addr=0x0, (!)waitForEvent=0)
 [W : PPU[1] Thread (CPUThread)[0x002fd49c]]: *** cellFsOpen(path="///resource/movie/logo.pam"): fd = 42
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 43
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_DMUX_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x006ff070]]: cellDmux warning: cellDmuxQueryAttr(demuxerType_addr=0x427290, demuxerAttr_addr=0xd0020818)
+[W : PPU[1] Thread (CPUThread)[0x006ff070]]: cellDmux warning: cellDmuxQueryAttr(demuxerType_addr=0x427290, demuxerAttr_addr=0xd0010818)
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 45
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 46
-[W : PPU[1] Thread (CPUThread)[0x006ff04c]]: cellDmux warning: cellDmuxOpen(demuxerType_addr=0x427290, demuxerResource_addr=0xd0020824, demuxerCb_addr=0xd0020810, demuxerHandle_addr=0x42729c)
+[W : PPU[1] Thread (CPUThread)[0x006ff04c]]: cellDmux warning: cellDmuxOpen(demuxerType_addr=0x427290, demuxerResource_addr=0xd0010824, demuxerCb_addr=0xd0010810, demuxerHandle_addr=0x42729c)
 [! : Demuxer[48] Thread]: Demuxer enter (mem=0x311d7bc0, size=0x10000, cb=0x3cc400, arg=0x427270)
-[W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0020968, esSpecificInfo_addr=0xd0020978, esAttr_addr=0xd0020800)
+[W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0010968, esSpecificInfo_addr=0xd0010978, esAttr_addr=0xd0010800)
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0020968, esResourceInfo_addr=0xd0020804, esCb_addr=0xd002080c, esSpecificInfo_addr=0xd0020978, esHandle_addr=0x30180140)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x311e7c00, size=0x200020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x3cc428(arg=0x4272b8), spec=0xd0020978): id = 49
-[W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0020938, esSpecificInfo_addr=0xd0020948, esAttr_addr=0xd0020800)
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0010968, esResourceInfo_addr=0xd0010804, esCb_addr=0xd001080c, esSpecificInfo_addr=0xd0010978, esHandle_addr=0x30180140)
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x311e7c00, size=0x500020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x3cc428(arg=0x4272b8), spec=0xd0010978): id = 49
+[W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x427290, esFilterId_addr=0xd0010938, esSpecificInfo_addr=0xd0010948, esAttr_addr=0xd0010800)
 [W : PPU[1] Thread (CPUThread)[0x006ff004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0020938, esResourceInfo_addr=0xd0020804, esCb_addr=0xd002080c, esSpecificInfo_addr=0xd0020948, esHandle_addr=0x30180160)
-[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x313e7c00, size=0x6000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x3cc3c8(arg=0x427448), spec=0xd0020948): id = 50
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=48, esFilterId_addr=0xd0010938, esResourceInfo_addr=0xd0010804, esCb_addr=0xd001080c, esSpecificInfo_addr=0xd0010948, esHandle_addr=0x30180160)
+[W : PPU[1] Thread (CPUThread)[0x006ff058]]: cellDmux warning: *** New ES(dmux=48, addr=0x316e7c00, size=0x8000, filter(0xbd, 0x0, 0x0, 0x0), cb=0x3cc3c8(arg=0x427448), spec=0xd0010948): id = 50
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 51
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -484,6 +492,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x4e00)
 [W : PPU[1] Thread (CPUThread)[0x002c7fa4]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 59
 [W : PPU[1] Thread (CPUThread)[0x002c7fc8]]: sys_cond warning: *** condition created [] (mutex_id=59): id = 60
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [_sys_MixerChStripMain] (): id = 61
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 62
 [W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x4e80)
 [W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x8f80)
@@ -494,25 +503,27 @@
 [W : PPU[1] Thread (CPUThread)[0x002c1f08]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
 [W : PPU[1] Thread (CPUThread)[0x002c1f8c]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 67
 [W : PPU[1] Thread (CPUThread)[0x002c1fb0]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 69
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 71
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [_cellsurMixerMain] (): id = 72
 [W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 73
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
+[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x68f3e8, portNum_addr=0x68f358)
+[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
 [W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x006e501c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x68f408)
 [W : PPU[1] Thread (CPUThread)[0x006e5028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[1] Thread (CPUThread)[0x006e504c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VPOST)
-[W : PPU[1] Thread (CPUThread)[0x006f9010]]: cellVpost warning: cellVpostQueryAttr(cfgParam_addr=0xd0020808, attr_addr=0xd00207e0)
+[W : PPU[1] Thread (CPUThread)[0x006f9010]]: cellVpost warning: cellVpostQueryAttr(cfgParam_addr=0xd0010808, attr_addr=0xd00107e0)
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 75
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
 [W : PPU[1] Thread (CPUThread)[0x00035f34]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 77
 [W : PPU[1] Thread (CPUThread)[0x00035f64]]: sys_cond warning: *** condition created [] (mutex_id=77): id = 78
 [W : PPU[1] Thread (CPUThread)[0x00035d58]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 79
 [W : PPU[1] Thread (CPUThread)[0x00035d88]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
-[W : PPU[1] Thread (CPUThread)[0x006f9028]]: cellVpost warning: cellVpostOpen(cfgParam_addr=0xd0020808, resource_addr=0xd00207f0, handle_addr=0x427320)
+[W : PPU[1] Thread (CPUThread)[0x006f9028]]: cellVpost warning: cellVpostOpen(cfgParam_addr=0xd0010808, resource_addr=0xd00107f0, handle_addr=0x427320)
 [! : PPU[1] Thread (CPUThread)[0x006f9028]]: *** Vpost instance created (to_rgba=1): id = 81
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 82
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=82): id = 83
@@ -521,24 +532,32 @@
 [W : PPU[1] Thread (CPUThread)[0x00035d58]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 86
 [W : PPU[1] Thread (CPUThread)[0x00035d88]]: sys_cond warning: *** condition created [] (mutex_id=86): id = 87
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_AVC)
-[W : PPU[1] Thread (CPUThread)[0x006fb058]]: libvdec warning: cellVdecQueryAttr(type_addr=0x4272dc, attr_addr=0xd0020818)
+[W : PPU[1] Thread (CPUThread)[0x006fb058]]: libvdec warning: cellVdecQueryAttr(type_addr=0x4272dc, attr_addr=0xd0010818)
 [W : PPU[1] Thread (CPUThread)[0x006fb058]]: libvdec warning: cellVdecQueryAttr: AVC (profile=41)
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 88
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=88): id = 89
-[W : PPU[1] Thread (CPUThread)[0x006fb040]]: libvdec warning: cellVdecOpen(type_addr=0x4272dc, res_addr=0xd0020828, cb_addr=0xd0020810, handle_addr=0x4272e4)
+[W : PPU[1] Thread (CPUThread)[0x006fb040]]: libvdec warning: cellVdecOpen(type_addr=0x4272dc, res_addr=0xd0010828, cb_addr=0xd0010810, handle_addr=0x4272e4)
 [! : Video Decoder[91] Thread]: Video Decoder enter()
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC_ATX)
-[W : PPU[1] Thread (CPUThread)[0x006fd01c]]: cellAdec warning: cellAdecQueryAttr(type_addr=0x42746c, attr_addr=0xd0020818)
+[W : PPU[1] Thread (CPUThread)[0x006fd01c]]: cellAdec warning: cellAdecQueryAttr(type_addr=0x42746c, attr_addr=0xd0010818)
 [! : PPU[1] Thread (CPUThread)[0x006fd01c]]: *** type: ATRAC3plus 2ch
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 92
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=92): id = 93
-[W : PPU[1] Thread (CPUThread)[0x006fd04c]]: cellAdec warning: cellAdecOpen(type_addr=0x42746c, res_addr=0xd0020824, cb_addr=0xd0020810, handle_addr=0x427470)
+[W : PPU[1] Thread (CPUThread)[0x006fd04c]]: cellAdec warning: cellAdecOpen(type_addr=0x42746c, res_addr=0xd0010824, cb_addr=0xd0010810, handle_addr=0x427470)
 [! : PPU[1] Thread (CPUThread)[0x006fd04c]]: *** type: ATRAC3plus 2ch
 [! : Audio Decoder[95] Thread]: Audio Decoder enter()
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [stminStart] (): id = 96
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdispStart] (): id = 97
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vpostStart] (): id = 98
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdecStart] (): id = 99
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [apostStart] (): id = 100
 [W : PPU[1] Thread (CPUThread)[0x006fd010]]: cellAdec warning: cellAdecStartSeq: (TODO) initialization
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=96, vptr_addr=0xd0020860)
 [W : Video Decoder[91] Thread]: vdecStartSeq:
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [adecStart] (): id = 101
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [dmuxStart] (): id = 102
 [W : Audio Decoder[95] Thread]: adecStartSeq:
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=96, vptr_addr=0xd0010860)
+[W : Demuxer[48] Thread]: dmuxSetStream (beginning)
 [W : RSXThread]: FP not found in buffer!
 [W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
@@ -585,7 +604,7 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=102, vptr_addr=0xd0020860)
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=102, vptr_addr=0xd0010860)
 [E : Demuxer[48] Thread]: No pts info found
 [E : Demuxer[48] Thread]: No pts info found
 [E : Demuxer[48] Thread]: No pts info found
@@ -667,21 +686,64 @@ void main()
 [E : Demuxer[48] Thread]: No pts info found
 [E : Demuxer[48] Thread]: No pts info found
 [E : Demuxer[48] Thread]: No pts info found
-[W : PPU[101] Thread (adecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x32)
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
 [W : PPU[99] Thread (vdecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x31)
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=101, vptr_addr=0xd0020860)
-[W : PPU[101] Thread (adecStart)[0x006fd058]]: cellAdec warning: cellAdecEndSeq(handle=95)
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=101, vptr_addr=0xd0010860)
+[W : PPU[101] Thread (adecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x32)
 [W : PPU[99] Thread (vdecStart)[0x006fb034]]: libvdec warning: cellVdecEndSeq(handle=91)
+[W : PPU[101] Thread (adecStart)[0x006fd058]]: cellAdec warning: cellAdecEndSeq(handle=95)
 [W : Audio Decoder[95] Thread]: adecEndSeq:
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=100, vptr_addr=0xd0020860)
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=100, vptr_addr=0xd0010860)
 [W : Video Decoder[91] Thread]: vdecEndSeq:
-[W : Video Decoder[91] Thread]: Video Decoder aborted
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(100) aborted
-[W : Demuxer[48] Thread]: Demuxer aborted
-[W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
-[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c73f8]]: sys_cond_wait(id=60) aborted
-[W : Audio Decoder[95] Thread]: Audio Decoder aborted
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c3bb4]]: sys_event_queue_receive(equeue=74) aborted
-[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
-[! : RSXThread]: RSX thread exit...
+[E : PPU[98] Thread (vpostStart)[0x006fb028]]: libvdec error: cellVdecGetPicture: av_image_copy_to_buffer failed(-22)
 [W : Audio Thread]: Audio aborted
+[W : Demuxer[48] Thread]: Demuxer aborted
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(100) aborted
+[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c73f8]]: sys_cond_wait(id=60) aborted
+[W : PPU[97] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
+[W : PPU[72] Thread (_cellsurMixerMain)[0x002c3bb4]]: sys_event_queue_receive(equeue=74) aborted
+[W : Video Decoder[91] Thread]: Video Decoder aborted
+[W : Audio Decoder[95] Thread]: Audio Decoder aborted
+[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
+[W : PPU[100] Thread (apostStart)[0x00035754]]: sys_cond_wait(id=85) aborted
+[! : RSXThread]: RSX thread exit...

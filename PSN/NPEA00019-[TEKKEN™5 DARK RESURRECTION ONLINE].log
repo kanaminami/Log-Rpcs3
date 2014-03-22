@@ -1,15 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN_5 DARK RESURRECTION ONLINE]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN_5 DARK RESURRECTION ONLINE]/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN_5 DARK RESURRECTION ONLINE]/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN_5 DARK RESURRECTION ONLINE]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
+[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/
+[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\Data\
+[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\Data\
+[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\DATA\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/
+[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
@@ -40,8 +47,6 @@
 [E]: TODO: cellWebBrowserConfig2
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
-[W]: Unknown function 0x9117df20 in 'cellSysutil' module
-[E]: TODO: cellHddGameCheck
 [W]: Unknown function 0x93ced48d in 'cellSysutil' module
 [E]: TODO: cellWebBrowserShutdown
 [W]: Unknown function 0xa5f12145 in 'cellSysutil' module
@@ -80,34 +85,6 @@
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
 [W]: Unknown module 'cellSysutilAvcExt'
-[W]: Unknown function 0x06ddb53e in 'cellAtrac' module
-[E]: TODO: cellAtracSetSecondBuffer
-[W]: Unknown function 0x0f9667b6 in 'cellAtrac' module
-[E]: TODO: cellAtracGetChannel
-[W]: Unknown function 0x2bfff084 in 'cellAtrac' module
-[E]: TODO: cellAtracGetStreamDataInfo
-[W]: Unknown function 0x46cfc013 in 'cellAtrac' module
-[E]: TODO: cellAtracAddStreamData
-[W]: Unknown function 0x5f62d546 in 'cellAtrac' module
-[E]: TODO: cellAtracGetMaxSample
-[W]: Unknown function 0x66afc68e in 'cellAtrac' module
-[E]: TODO: cellAtracSetDataAndGetMemSize
-[W]: Unknown function 0x761cb9be in 'cellAtrac' module
-[E]: TODO: cellAtracDeleteDecoder
-[W]: Unknown function 0x78ba5c41 in 'cellAtrac' module
-[E]: TODO: cellAtracSetLoopNum
-[W]: Unknown function 0x8eb0e65f in 'cellAtrac' module
-[E]: TODO: cellAtracDecode
-[W]: Unknown function 0x99efe171 in 'cellAtrac' module
-[E]: TODO: cellAtracIsSecondBufferNeeded
-[W]: Unknown function 0xab6b6dbf in 'cellAtrac' module
-[E]: TODO: cellAtracGetLoopInfo
-[W]: Unknown function 0xb5c11938 in 'cellAtrac' module
-[E]: TODO: cellAtracGetInternalErrorInfo
-[W]: Unknown function 0xbe07f05e in 'cellAtrac' module
-[E]: TODO: cellAtracGetSecondBufferInfo
-[W]: Unknown function 0xfa293e88 in 'cellAtrac' module
-[E]: TODO: cellAtracCreateDecoder
 [W]: Unknown function 0x03c741a7 in 'sceNp' module
 [E]: TODO: sceNpMatchingGetResult
 [W]: Unknown function 0x04372385 in 'sceNp' module

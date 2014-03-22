@@ -6,10 +6,17 @@
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
+[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
+[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\Data\
+[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\Data\
+[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\DATA\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
+[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00014-[Tony Hawk's Project 8]/PS3_GAME/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
@@ -68,34 +75,6 @@
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
-[W]: Unknown function 0x006016da in 'cellAtrac' module
-[E]: TODO: cellAtracGetBitrate
-[W]: Unknown function 0x0f9667b6 in 'cellAtrac' module
-[E]: TODO: cellAtracGetChannel
-[W]: Unknown function 0x2bfff084 in 'cellAtrac' module
-[E]: TODO: cellAtracGetStreamDataInfo
-[W]: Unknown function 0x46cfc013 in 'cellAtrac' module
-[E]: TODO: cellAtracAddStreamData
-[W]: Unknown function 0x5f62d546 in 'cellAtrac' module
-[E]: TODO: cellAtracGetMaxSample
-[W]: Unknown function 0x66afc68e in 'cellAtrac' module
-[E]: TODO: cellAtracSetDataAndGetMemSize
-[W]: Unknown function 0x761cb9be in 'cellAtrac' module
-[E]: TODO: cellAtracDeleteDecoder
-[W]: Unknown function 0x7772eb2b in 'cellAtrac' module
-[E]: TODO: cellAtracResetPlayPosition
-[W]: Unknown function 0x78ba5c41 in 'cellAtrac' module
-[E]: TODO: cellAtracSetLoopNum
-[W]: Unknown function 0x8eb0e65f in 'cellAtrac' module
-[E]: TODO: cellAtracDecode
-[W]: Unknown function 0x99fb73d1 in 'cellAtrac' module
-[E]: TODO: cellAtracGetBufferInfoForResetting
-[W]: Unknown function 0xcf01d5d4 in 'cellAtrac' module
-[E]: TODO: cellAtracGetSoundInfo
-[W]: Unknown function 0xdfab73aa in 'cellAtrac' module
-[E]: TODO: cellAtracGetRemainFrame
-[W]: Unknown function 0xfa293e88 in 'cellAtrac' module
-[E]: TODO: cellAtracCreateDecoder
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_free
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
@@ -111,7 +90,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
 [W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
 [W : PPU[1] Thread (CPUThread)[0x00ca4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x00640ea4]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40a, alignment=0x0, alloc_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00640ea4]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40a, alignment=0x0, alloc_addr=0xd0010a50)
 [W : PPU[1] Thread (CPUThread)[0x00ca40dc]]: memory warning: sys_mmapper_allocate_memory(size=0xa700000, flags=0x400, mem_id_addr=0x103a6314)
 [W : PPU[1] Thread (CPUThread)[0x00ca4100]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xc, flags=0x40000)
 [W : PPU[1] Thread (CPUThread)[0x00ca4100]]: memory mapped 0x30200000 to 0x0 size=0xa700000

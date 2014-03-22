@@ -146,22 +146,6 @@
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'cellRemotePlay'
 [W]: Unknown module 'sceNpTus'
-[W]: Unknown function 0x0f9667b6 in 'cellAtrac' module
-[E]: TODO: cellAtracGetChannel
-[W]: Unknown function 0x5f62d546 in 'cellAtrac' module
-[E]: TODO: cellAtracGetMaxSample
-[W]: Unknown function 0x66afc68e in 'cellAtrac' module
-[E]: TODO: cellAtracSetDataAndGetMemSize
-[W]: Unknown function 0x761cb9be in 'cellAtrac' module
-[E]: TODO: cellAtracDeleteDecoder
-[W]: Unknown function 0x78ba5c41 in 'cellAtrac' module
-[E]: TODO: cellAtracSetLoopNum
-[W]: Unknown function 0x8eb0e65f in 'cellAtrac' module
-[E]: TODO: cellAtracDecode
-[W]: Unknown function 0xb5c11938 in 'cellAtrac' module
-[E]: TODO: cellAtracGetInternalErrorInfo
-[W]: Unknown function 0xfa293e88 in 'cellAtrac' module
-[E]: TODO: cellAtracCreateDecoder
 [W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
 [E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x0247c69e in 'cellSail' module
@@ -331,7 +315,7 @@
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [W : PPU[1] Thread (CPUThread)[0x0040b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x0002f474]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x0002f474]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x0040b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x0040b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x0040b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -359,7 +343,7 @@
 [W : PPU[1] Thread (CPUThread)[0x001e5440]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 28
 [W : PPU[1] Thread (CPUThread)[0x001e5480]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 29
 [W : PPU[1] Thread (CPUThread)[0x00162640]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 30
-[W : PPU[1] Thread (CPUThread)[0x0022aef4]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6f5c, attr_addr=0xd0020c40, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0022aef4]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6f5c, attr_addr=0xd0010c40, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0022aef4]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 31
 [W : PPU[1] Thread (CPUThread)[0x0027d070]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_DATE_FORMAT
 [W : PPU[1] Thread (CPUThread)[0x0027d0b8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x28a598, userdata=0x0)
@@ -372,19 +356,19 @@
 [W : PPU[1] Thread (CPUThread)[0x003eb01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x003eb01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0027d0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x793d9380)
-[W : PPU[1] Thread (CPUThread)[0x0027d0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x793d8980)
+[W : PPU[1] Thread (CPUThread)[0x0027d0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xa3ca7d80)
+[W : PPU[1] Thread (CPUThread)[0x0027d0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xa3ca8280)
 [W : PPU[1] Thread (CPUThread)[0x003eb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x003eb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x003eb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x003eb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x0027d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020ac4, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0027d010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010ac4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00279010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x0027b058]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020ad4)
+[W : PPU[1] Thread (CPUThread)[0x0027b058]]: cellResc warning: cellRescInit(initConfig_addr=0xd0010ad4)
 [W : PPU[1] Thread (CPUThread)[0x0027b028]]: cellResc warning: cellRescSetDisplayMode(displayMode=8)
 [W : PPU[1] Thread (CPUThread)[0x0027b028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0027b028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x0027b064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0020aa0, vertexArray_addr=0xd0020aa4, fragmentShader_addr=0xd0020aa8)
+[W : PPU[1] Thread (CPUThread)[0x0027b064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0010aa0, vertexArray_addr=0xd0010aa4, fragmentShader_addr=0xd0010aa8)
 [W : PPU[1] Thread (CPUThread)[0x003eb0dc]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=8388608, pitch=7680, comp=7, base=0, bank=0)
 [E : PPU[1] Thread (CPUThread)[0x003eb0dc]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
 [W : PPU[1] Thread (CPUThread)[0x003eb04c]]: cellGcmSys warning: cellGcmBindTile(index=0)
@@ -399,15 +383,15 @@
 [W : PPU[1] Thread (CPUThread)[0x003eb04c]]: cellGcmSys warning: cellGcmBindTile(index=2)
 [W : PPU[1] Thread (CPUThread)[0x0027b070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1920,height=1080)
 [W : PPU[1] Thread (CPUThread)[0x0040b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 37
-[W : PPU[1] Thread (CPUThread)[0x00222080]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6cd4, attr_addr=0xd0020c40, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00222080]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x2b6cd4, attr_addr=0xd0010c40, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00222080]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 38
 [W : PPU[1] Thread (CPUThread)[0x00279010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x00279010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x0027f034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020810, attributes_addr=0xd0020814, size_addr=0xd0020818, dirName_addr=0xd00209f0)
-[W : PPU[1] Thread (CPUThread)[0x0027f004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020b90, usrdirPath_addr=0xd0020a10)
+[W : PPU[1] Thread (CPUThread)[0x0027f034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010810, attributes_addr=0xd0010814, size_addr=0xd0010818, dirName_addr=0xd00109f0)
+[W : PPU[1] Thread (CPUThread)[0x0027f004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0010b90, usrdirPath_addr=0xd0010a10)
 [W : PPU[1] Thread (CPUThread)[0x00279004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x00279010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x00407004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020770)
+[W : PPU[1] Thread (CPUThread)[0x00407004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010770)
 [W : PPU[1] Thread (CPUThread)[0x00279010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RUDP)
 [E : PPU[1] Thread (CPUThread)[0x00405028]]: TODO: cellRudpInit
 [E : PPU[1] Thread (CPUThread)[0x0040504c]]: TODO: cellRudpSetEventHandler
@@ -415,17 +399,17 @@
 [W : PPU[1] Thread (CPUThread)[0x00279010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0001f908]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x1f908
 [W : PPU[1] Thread (CPUThread)[0x001625ac]]: sys_mutex warning: sys_mutex_destroy(mutex_id=30)
-[! : PPU[1] Thread (CPUThread)[0x001625ac]]: Mutex(30) was owned by thread -1 (recursive=41)
+[! : PPU[1] Thread (CPUThread)[0x001625ac]]: Mutex(30) was owned by thread -1 (recursive=3014707)
 [W : PPU[1] Thread (CPUThread)[0x001e51d4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=29)
-[! : PPU[1] Thread (CPUThread)[0x001e51d4]]: Mutex(29) was owned by thread -1 (recursive=67160)
+[! : PPU[1] Thread (CPUThread)[0x001e51d4]]: Mutex(29) was owned by thread -1 (recursive=41)
 [W : PPU[1] Thread (CPUThread)[0x001e520c]]: sys_mutex warning: sys_mutex_destroy(mutex_id=28)
-[! : PPU[1] Thread (CPUThread)[0x001e520c]]: Mutex(28) was owned by thread -1 (recursive=6881390)
+[! : PPU[1] Thread (CPUThread)[0x001e520c]]: Mutex(28) was owned by thread -1 (recursive=67160)
 [W : PPU[1] Thread (CPUThread)[0x0020d060]]: sys_mutex warning: sys_mutex_destroy(mutex_id=27)
 [! : PPU[1] Thread (CPUThread)[0x0020d060]]: Mutex(27) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x0021a8b8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=26)
-[! : PPU[1] Thread (CPUThread)[0x0021a8b8]]: Mutex(26) was owned by thread -1 (recursive=6488179)
+[! : PPU[1] Thread (CPUThread)[0x0021a8b8]]: Mutex(26) was owned by thread -1 (recursive=67160)
 [W : PPU[1] Thread (CPUThread)[0x0022b010]]: sys_mutex warning: sys_mutex_destroy(mutex_id=25)
-[! : PPU[1] Thread (CPUThread)[0x0022b010]]: Mutex(25) was owned by thread -1 (recursive=7209033)
+[! : PPU[1] Thread (CPUThread)[0x0022b010]]: Mutex(25) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x0040b0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301003c0)
 [W : PPU[1] Thread (CPUThread)[0x0040b0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100390)
 [W : PPU[1] Thread (CPUThread)[0x0040b0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100360)
