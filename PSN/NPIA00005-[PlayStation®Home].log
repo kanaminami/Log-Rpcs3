@@ -1,15 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation_Home]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation_Home]/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation_Home]//../
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation_Home]//USRDIR/
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
+[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/
+[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\Data\
+[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\Data\
+[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\DATA\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/
+[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x71a8472a in 'sysPrxForUser' module
@@ -512,7 +519,7 @@
 [W]: Unknown function 0xfcfaf246 in 'cellMic' module
 [E]: TODO: cellMicStop
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00014bdc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00014bdc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -522,7 +529,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x001a5f44]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b70)
+[W : PPU[1] Thread (CPUThread)[0x001a5f44]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b70)
 [W : PPU[1] Thread (CPUThread)[0x00b15028]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
 [W : PPU[1] Thread (CPUThread)[0x00b15028]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [W : PPU[1] Thread (CPUThread)[0x00b15028]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
@@ -563,8 +570,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00b15028]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
 [E : PPU[1] Thread (CPUThread)[0x00b1501c]]: Unknown func id: 0x1a267f98
 [W : PPU[1] Thread (CPUThread)[0x00b15028]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RUDP)
-[W : PPU[1] Thread (CPUThread)[0x001a61e8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020b78)
-[W : PPU[1] Thread (CPUThread)[0x001a6e40]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020bd0)
+[W : PPU[1] Thread (CPUThread)[0x001a61e8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b78)
+[W : PPU[1] Thread (CPUThread)[0x001a6e40]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010bd0)
 [W : PPU[1] Thread (CPUThread)[0x00716ab0]]: memory warning: sys_memory_container_create(cid_addr=0x104d5064, yield_size=0x200000)
 [W : PPU[1] Thread (CPUThread)[0x00716ab0]]: memory warning: *** memory_container created(addr=0x30200000): id = 13
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [Small] (attribute=0x22): sq_id = 14
@@ -579,8 +586,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [Small] (attribute=0x22): sq_id = 23
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [Small] (attribute=0x22): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [Small] (attribute=0x22): sq_id = 25
-[W : PPU[1] Thread (CPUThread)[0x00716ad0]]: vm warning: sys_vm_memory_map(vsize=0x4000000,psize=0x4000000,cidr=0xffffffff,flags=0x200,policy=0x1,addr=0xd0020b10)
-[W : PPU[1] Thread (CPUThread)[0x001abd1c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020a80)
+[W : PPU[1] Thread (CPUThread)[0x00716ad0]]: vm warning: sys_vm_memory_map(vsize=0x4000000,psize=0x4000000,cidr=0xffffffff,flags=0x200,policy=0x1,addr=0xd0010b10)
+[W : PPU[1] Thread (CPUThread)[0x001abd1c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010a80)
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [libmem] (attribute=0x22): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [libmem] (attribute=0x22): sq_id = 27
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [libmem] (attribute=0x22): sq_id = 28
@@ -1610,7 +1617,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [AfsMtx] (attribute=0x21): sq_id = 1049
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [AfsComp] (attribute=0x21): sq_id = 1050
 [W : PPU[1] Thread (CPUThread)[0x00a840e8]]: sys_lwcond warning: *** lwcond created [AfsComp] (lwmutex_addr=0x1062aa50): id = 1051
-[W : PPU[1] Thread (CPUThread)[0x0070a450]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1062aa78, attr_addr=0xd0020b88, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x0070a450]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1062aa78, attr_addr=0xd0010b88, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [Job] (attribute=0x21): sq_id = 1053
 [W : PPU[1] Thread (CPUThread)[0x00932468]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 1054
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [acm1] (attribute=0x12): sq_id = 1055
@@ -1630,7 +1637,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00a84028]]: sys_lwmutex warning: *** lwmutex created [HttpReq] (attribute=0x21): sq_id = 1069
 [E : PPU[1] Thread (CPUThread)[0x001a5df0]]: GetRegBySPR error: Unknown SPR 0x10c! #pc: 0x1a5df0
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r0 = 0x1ac054
-[! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r1 = 0xd0020b60
+[! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r1 = 0xd0010b60
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r2 = 0xafb668
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r3 = 0x989680
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r4 = 0xffff
@@ -1655,8 +1662,8 @@
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r23 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r24 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r25 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r26 = 0xd0020e00
-[! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r27 = 0xd0020df0
+[! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r27 = 0xd0010df0
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r28 = 0x1
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r29 = 0x104f6118
 [! : PPU[1] Thread (CPUThread)[0x001a5df0]]: r30 = 0x104d6118
