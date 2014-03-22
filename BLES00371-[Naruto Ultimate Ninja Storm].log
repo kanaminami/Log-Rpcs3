@@ -6,10 +6,16 @@
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\USRDIR\
+[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/
+[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\USRDIR\Data\
+[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\USRDIR\Data\
+[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\USRDIR\DATA\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00371-[Naruto Ultimate Ninja Storm]/PS3_GAME/
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
@@ -64,8 +70,6 @@
 [E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x9117df20 in 'cellSysutil' module
-[E]: TODO: cellHddGameCheck
 [W]: Unknown function 0x94862702 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogProgressBarInc
 [W]: Unknown function 0x9949bf82 in 'cellSysutil' module
@@ -445,7 +449,31 @@
 [E : PPU[1] Thread (CPUThread)[0x00bd2118]]: TODO: cellSpursRunJobChain
 [E : PPU[1] Thread (CPUThread)[0x00bd2040]]: TODO: cellSpursEventFlagWait
 [W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076cf18]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307b0, attr_addr=0xd00307c0, initial_count=0, max_count=1)
-[W : PPU[97] Thread (NU::File::RequestManager)[0x009bc028]]: sys_fs warning: cellFsStat: "/app_home/data/system/xftool.fnt.xfbin" not found.
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007ae8fc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[97] Thread (NU::File::RequestManager)[0x007b41b0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076d1a0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00306d0, attr_addr=0xd00306e0, initial_count=0, max_count=1)
+[W : PPU[97] Thread (NU::File::RequestManager)[0x009bc01c]]: *** cellFsOpen(path="/app_home/data/system/xftool.fnt.xfbin"): fd = 105
+[W : PPU[41] Thread (NUCC::Xfbin load request)[0x0076d790]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd00307c0, attr_addr=0xd00307d0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
+[W : PPU[107] Thread (NUCC::Xfbin read)[0x0076cff0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd0070ab0, attr_addr=0xd0070ac0, initial_count=0, max_count=1)
 [! : RSXThread]: RSX thread exit...
-[W : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae4]]: sys_cond_wait(id=61) aborted
 [W : PPU[1] Thread (CPUThread)[0x005e1cfc]]: sys_cond_wait(id=53) aborted
+[W : PPU[62] Thread (NU::Draw::RequestManager)[0x005d8ae4]]: sys_cond_wait(id=61) aborted

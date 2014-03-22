@@ -6,10 +6,14 @@
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/\..\
 [!]: /host_root/ -> 
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/\USRDIR\
+[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/
+[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/\USRDIR\Data\
+[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/\USRDIR\Data\
+[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01101-[NO MORE HEROES HEROES' PARADISE]/PS3_GAME/\USRDIR\DATA\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'libgem'
@@ -127,7 +131,6 @@
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown function 0x41251f74 in 'sceNp2' module
 [E]: TODO: sceNp2Init
-[W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x931ff25a in 'cellL10n' module
 [E]: TODO: L10nConvertStr
 [W]: Unknown function 0xa298cad2 in 'cellL10n' module
@@ -399,191 +402,990 @@
 [W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 67
 [W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=68, prio=329)
 [W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
-[E : PPU[1] Thread (CPUThread)[0x0086e058]]: sys_fs error: "/app_home/DEFAULT.FPI" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x0086e058]]: *** cellFsOpen(path="/app_home/DEFAULT.FPI"): fd = 69
+[W : PPU[1] Thread (CPUThread)[0x0086e004]]: sys_fs warning: cellFsReadWithOffset(fd=69, offset=0x0, buf_addr=0xd0020530, buffer_size=64 nread=0xdcd1d00204b0)
+[W : PPU[1] Thread (CPUThread)[0x0086e004]]: sys_fs warning: cellFsReadWithOffset(fd=69, offset=0x40, buf_addr=0x3035d398, buffer_size=208832 nread=0xdcd1d00204b0)
+[W : PPU[1] Thread (CPUThread)[0x0086e028]]: sys_fs warning: cellFsClose(fd=69)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011f918, attr_addr=0xd00206e0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 69
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011f924, attr_addr=0xd00206e0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 70
-[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011f924, attr_addr=0xd00206e0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 71
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
 [W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011f908, attr_addr=0xd0020740, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 73
-[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=74, prio=510)
-[W : PPU[74] Thread (ThPoller1)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=70, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 74
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=75, prio=510)
+[W : PPU[75] Thread (ThPoller1)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=71, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fa38, attr_addr=0xd00206e0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 75
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fa44, attr_addr=0xd00206e0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 76
-[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 77
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fa44, attr_addr=0xd00206e0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 77
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 79
 [W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fa28, attr_addr=0xd0020740, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 79
-[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=80, prio=510)
-[W : PPU[80] Thread (ThPoller2)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=76, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 80
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=81, prio=510)
+[W : PPU[81] Thread (ThPoller2)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=77, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fb58, attr_addr=0xd00206e0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 81
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fb64, attr_addr=0xd00206e0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 82
-[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 83
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fb64, attr_addr=0xd00206e0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 83
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 85
 [W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fb48, attr_addr=0xd0020740, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 85
-[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=86, prio=510)
-[W : PPU[86] Thread (ThPoller3)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=82, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 86
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=87, prio=510)
+[W : PPU[87] Thread (ThPoller3)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=83, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fc78, attr_addr=0xd00206e0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 87
-[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fc84, attr_addr=0xd00206e0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 88
-[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 89
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fc84, attr_addr=0xd00206e0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 89
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
 [W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3011fc68, attr_addr=0xd0020740, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 91
-[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=92, prio=510)
-[W : PPU[92] Thread (ThPoller4)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=88, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
-[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 93
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 92
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=93, prio=510)
+[W : PPU[93] Thread (ThPoller4)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=89, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
 [W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 97
 [W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=56, bitptn=0xffffffff)
 [W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
-[W : PPU[63] Thread (FIO)[0x0086e064]]: sys_fs warning: cellFsStat: "/app_home/SYS/PS3/CONFIG/CONFIG.INI" not found.
+[W : PPU[63] Thread (FIO)[0x0086e058]]: *** cellFsOpen(path="/app_home/DEFAULT.FPD"): fd = 98
+[W : PPU[63] Thread (FIO)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
+[W : PPU[63] Thread (FIO)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30124c60)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=56, bitptn=0xffffffff)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x0086e004]]: sys_fs warning: cellFsReadWithOffset(fd=98, offset=0xaa709000, buf_addr=0x30393390, buffer_size=7748 nread=0xdcd1d0040910)
+[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30124ed0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[58] Thread (CmpxDec)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=57, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=1000000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[58] Thread (CmpxDec)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=57, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=1000000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=56, bitptn=0xffffffff)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 101
+[W : PPU[63] Thread (FIO)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30125120)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=56, bitptn=0xffffffff)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x0086e004]]: sys_fs warning: cellFsReadWithOffset(fd=98, offset=0xa6a87000, buf_addr=0x30393610, buffer_size=7594 nread=0xdcd1d0040910)
+[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x303935e0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[58] Thread (CmpxDec)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=57, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=1000000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 102
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 110
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 114
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x009b5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GEM)
+[E : PPU[1] Thread (CPUThread)[0x0086a010]]: TODO: cellGemInit
+[W : PPU[1] Thread (CPUThread)[0x00012514]]: memory warning: sys_memory_container_create(cid_addr=0x8c9350, yield_size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x00012514]]: memory warning: *** memory_container created(addr=0x3b100000): id = 116
+[W : PPU[1] Thread (CPUThread)[0x009b5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_CAMERA)
+[E : PPU[1] Thread (CPUThread)[0x0086c070]]: TODO: cellCameraInit
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3039629c, attr_addr=0xd00206f0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 117
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30125220, attr_addr=0xd00205f0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 118
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3012522c, attr_addr=0xd00205f0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 119
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30125210, attr_addr=0xd00205d0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 121
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=122, prio=510)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 123
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 125
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30396588, attr_addr=0xd0020770, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 128
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3039ca90, attr_addr=0xd0020670, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 129
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3039ca9c, attr_addr=0xd0020670, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 130
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 131
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x3039ca80, attr_addr=0xd0020650, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 132
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=133, prio=510)
+[W : PPU[1] Thread (CPUThread)[0x009b5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[E : PPU[1] Thread (CPUThread)[0x009a704c]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[W : PPU[1] Thread (CPUThread)[0x009b5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 134
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 135
+[W : PPU[133] Thread (Rumble Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=132, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=33000)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 136
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 137
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 138
+[E : PPU[1] Thread (CPUThread)[0x009a7010]]: cellNetCtl error: Unimplemented function: cellNetCtlAddHandler
+[E : PPU[1] Thread (CPUThread)[0x009ad0f4]]: TODO: sceNpManagerRegisterCallback
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[1] Thread (CPUThread)[0x009b7004]]: TODO: L10nConvertStr
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 139
+[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=56, bitptn=0xffffffff)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30426bf0, attr_addr=0xd00200a0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 140
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30426bfc, attr_addr=0xd00200a0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 141
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 142
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30426be0, attr_addr=0xd0020100, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 143
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=144, prio=510)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30426cd8, attr_addr=0xd001fff0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 145
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30426ce4, attr_addr=0xd001fff0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 146
+[W : PPU[63] Thread (FIO)[0x0086e064]]: sys_fs warning: cellFsStat: "/app_home/SYS/PS3/LOC//SYS_LANGUAGE.BIN" not found.
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 147
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30426cc8, attr_addr=0xd0020050, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 148
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=149, prio=510)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 150
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 151
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 152
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 153
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 154
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 155
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30495094, attr_addr=0xd0020120, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 156
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30495138, attr_addr=0xd001ff50, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 157
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30495144, attr_addr=0xd001ff50, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 158
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30495128, attr_addr=0xd001ffb0, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0001641c]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 159
+[W : PPU[1] Thread (CPUThread)[0x00016388]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=160, prio=147)
+[W : PPU[160] Thread (FeTaskThread00)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=158, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=156, bitptn=0x0)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 161
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 162
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 163
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30495458, attr_addr=0xd0020080, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 164
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x30495464, attr_addr=0xd0020080, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00015618]]: sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 165
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
+[W : PPU[1] Thread (CPUThread)[0x009b9124]]: cellGcmSys warning: cellGcmInit(context_addr=0x95c420,cmdSize=0x200000,ioSize=0x300000,ioAddress=0x3ac00000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[122] Thread (Camera Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=121, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[122] Thread (Camera Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=121, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=9000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[133] Thread (Rumble Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=132, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=33000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[122] Thread (Camera Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=121, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=9000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[122] Thread (Camera Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=121, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=9000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[W : PPU[1] Thread (CPUThread)[0x009b9124]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[W : PPU[133] Thread (Rumble Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=132, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=33000)
+[W : PPU[58] Thread (CmpxDec)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=57, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=1000000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[1] Thread (CPUThread)[0x009b9124]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3ac00000, io=0x0, size=0x300000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[122] Thread (Camera Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=121, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
 [W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
 [W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
 [W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30124c60)
-[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=59, bitptn=0xffffffff)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 166
 [W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00016138]]: sys_event_flag warning: sys_event_flag_set(eflag_id=67, bitptn=0xffffffff)
-[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=64, bitptn=0xffffffff)
-[W : PPU[1] Thread (CPUThread)[0x000160c0]]: sys_event_flag warning: sys_event_flag_set(eflag_id=57, bitptn=0xffffffff)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f660)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f640)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=56, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=56)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011bfc8)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f7d0)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=60, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=60)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=59, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=59)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f8a0)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=65, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=65)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=64, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=64)
-[W : PPU[1] Thread (CPUThread)[0x0086e088]]: sys_fs warning: cellFsAioFinish(mount_point_addr=0x798bac (/app_home))
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=53, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=53)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f540)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f520)
-[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=70, bitptn=0xffffffff)
-[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=76, bitptn=0xffffffff)
-[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=82, bitptn=0xffffffff)
-[W : PPU[1] Thread (CPUThread)[0x000156d4]]: sys_event_flag warning: sys_event_flag_set(eflag_id=88, bitptn=0xffffffff)
-[W : PPU[74] Thread (ThPoller1)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=70, bitptn=0x0)
-[W : PPU[86] Thread (ThPoller3)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=82, bitptn=0x0)
-[W : PPU[58] Thread (CmpxDec)[0x00016730]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=57, num_addr=0x0)
-[W : PPU[74] Thread (ThPoller1)[0x00016730]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=73, num_addr=0x0)
-[W : PPU[58] Thread (CmpxDec)[0x0001673c]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=57)
-[W : PPU[86] Thread (ThPoller3)[0x00016730]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=85, num_addr=0x0)
-[W : PPU[74] Thread (ThPoller1)[0x0001673c]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=73)
-[W : PPU[86] Thread (ThPoller3)[0x0001673c]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=85)
-[W : PPU[92] Thread (ThPoller4)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=88, bitptn=0x0)
-[W : PPU[80] Thread (ThPoller2)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=76, bitptn=0x0)
-[W : PPU[92] Thread (ThPoller4)[0x00016730]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=91, num_addr=0x0)
-[W : PPU[80] Thread (ThPoller2)[0x00016730]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=79, num_addr=0x0)
-[W : PPU[92] Thread (ThPoller4)[0x0001673c]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=91)
-[W : PPU[80] Thread (ThPoller2)[0x0001673c]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=79)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f9a0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011f980)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=70, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=70)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=69, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=69)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fac0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011faa0)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=76, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=76)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=75, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=75)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fbe0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fbc0)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=82, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=82)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=81, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=81)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fd00)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fce0)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=88, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=88)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=87, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=87)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fdc0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fda0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011bc38)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011bc18)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011bb10)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011baf0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011fe78)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3011bcc8)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30101140)
-[E : PPU[1] Thread (CPUThread)[0x009bb04c]]: TODO: cellSpursShutdownJobChain
-[E : PPU[1] Thread (CPUThread)[0x009bb088]]: TODO: cellSpursJoinJobChain
-[E : PPU[1] Thread (CPUThread)[0x009bb0a0]]: cellSpurs error: cellSpursFinalize(spurs_addr=0x3af8ef80)
-[E : PPU[1] Thread (CPUThread)[0x009b107c]]: sceNpTrophy error: Unimplemented function: sceNpTrophyTerm
-[E : PPU[1] Thread (CPUThread)[0x009ad0a0]]: TODO: sceNpBasicUnregisterHandler
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SAIL)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_L10N)
-[W : PPU[1] Thread (CPUThread)[0x009b5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x006d0988]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x6d0988
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d0820)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d0800)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d07e0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d07c0)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=40, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=40)
-[W : PPU[1] Thread (CPUThread)[0x00015688]]: sys_event_flag warning: sys_event_flag_cancel(eflag_id=39, num_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00015694]]: sys_event_flag warning: sys_event_flag_destroy(eflag_id=39)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d1358)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d1888)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d49a0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d5178)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8d5158)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dd5b0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dd4f0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dea38)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dfc40)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dfc10)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dfbc0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8df780)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8df730)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8deed0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dea80)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dfd48)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8dff78)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8e2c70)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8e3170)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95b300)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95c0f8)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95c188)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95c3a8)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3b000440)
-[W : PPU[1] Thread (CPUThread)[0x006d479c]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x6d479c
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e3c0)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e3e8)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e410)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e2f8)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e320)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e348)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e370)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95e398)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95ec38)
-[W : PPU[1] Thread (CPUThread)[0x009c50dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x95ee30)
-[W : PPU[1] Thread (CPUThread)[0x009c50e8]]: Process warning: sys_process_exit(-1)
-[S : PPU[1] Thread (CPUThread)[0x009c50e8]]: Process finished
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=1000)
+[W : PPU[1] Thread (CPUThread)[0x009b9088]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x3b200000,size=0x400000,offset_addr=0xd0020104)
+[W : PPU[1] Thread (CPUThread)[0x009c5034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 167
+[W : PPU[63] Thread (FIO)[0x00015700]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=56, bitptn=0x0)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[W : PPU[68] Thread (DLC)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=67, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[63] Thread (FIO)[0x000157ac]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=56, bitptn=0xffffffff, mode=0x2, result_addr=0x0, timeout=2000)
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086c04c]]: TODO: cellCameraIsAttached
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[E : PPU[122] Thread (Camera Ctrl)[0x0086a07c]]: TODO: cellGemGetInfo
+[W : PPU[122] Thread (Camera Ctrl)[0x0001661c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=121, bitptn=0xffffffff, mode=0x22, result_addr=0x0, timeout=10000)
+[W : PPU[1] Thread (CPUThread)[0x009b9004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x009b90d0]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=3801088, pitch=5120, comp=7, base=1989, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x009b9040]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[E : PPU[1] Thread (CPUThread)[0x000b90d4]]: Trap! (tw 1f, r1, r1) #pc: 0xb90d4
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r0 = 0xb90c0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r1 = 0xd001f830
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r2 = 0x88cc10
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r3 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r4 = 0x7a251a
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r5 = 0x2
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r6 = 0xd001f6b8
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r7 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r8 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r9 = 0x34
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r10 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r11 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r12 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r23 = 0x3a0000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r24 = 0x889118
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r26 = 0xffffffff80210003
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r27 = 0xd001f8a0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r28 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r29 = 0x8876b4
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: r31 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v2 = 0x77777777777777777777777777777777 [x: 5.01922e+033 y: 5.01922e+033 z: 5.01922e+033 w: 5.01922e+033]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v3 = 0x3f8000003f8000003f8000003f800000 [x: 1 y: 1 z: 1 w: 1]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v4 = 0x00000000000000003f80000000000000 [x: 0 y: 0 z: 1 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v5 = 0x0000000000000000000000003f800000 [x: 0 y: 0 z: 0 w: 1]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: CR = 0x28000084
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: LR = 0xb90c8
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: CTR = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000b90d4]]: FPSCR = 0x86028000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=1 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=1 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
+[W : PPU[81] Thread (ThPoller2)[0x000157ac]]: sys_event_flag_wait(id=77) aborted
+[W : PPU[75] Thread (ThPoller1)[0x000157ac]]: sys_event_flag_wait(id=71) aborted
+[W : PPU[93] Thread (ThPoller4)[0x000157ac]]: sys_event_flag_wait(id=89) aborted
+[W : PPU[160] Thread (FeTaskThread00)[0x000157ac]]: sys_event_flag_wait(id=158) aborted
+[W : PPU[87] Thread (ThPoller3)[0x000157ac]]: sys_event_flag_wait(id=83) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...
