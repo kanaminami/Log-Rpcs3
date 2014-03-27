@@ -9,20 +9,18 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\DATA\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/
-[!]: Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Data\
-[!]: Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Res\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Res\install\
-[!]: /Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Res\
-[!]: ///resource -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\resource\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00973-[FAMILY GAME NIGHT 3]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [mixerAAN] failed: missing;
+[E]: Function 'cellSurMixerRemoveNotifyCallback' not found
+[E]: Function group [surMixer] failed: missing;
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
 [E]: TODO: cellGcmGetVBlankCount
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
@@ -483,85 +481,57 @@
 [! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 54
 [W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=54): id = 55
-[W : PPU[1] Thread (CPUThread)[0x007030d0]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x3805a0, align=0x20000, size=0x110000)
-[W : PPU[1] Thread (CPUThread)[0x007030d0]]: sys_heap warning: *** sys_heap created: id = 56
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x1080)
-[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 57
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x1c8)
-[W : PPU[1] Thread (CPUThread)[0x0070304c]]: sys_heap warning: sys_heap_malloc(heap_id=56, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x0070304c]]: sys_heap warning: sys_heap_malloc(heap_id=56, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x0070304c]]: sys_heap warning: sys_heap_malloc(heap_id=56, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr200] (attribute=0x22): sq_id = 58
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x4e00)
-[W : PPU[1] Thread (CPUThread)[0x002c7fa4]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 59
-[W : PPU[1] Thread (CPUThread)[0x002c7fc8]]: sys_cond warning: *** condition created [] (mutex_id=59): id = 60
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [_sys_MixerChStripMain] (): id = 61
-[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 62
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x4e80)
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x8f80)
-[W : PPU[1] Thread (CPUThread)[0x00703064]]: sys_heap warning: _sys_heap_memalign(heap_id=56, align=0x10, size=0x6280)
-[W : PPU[1] Thread (CPUThread)[0x002c1e34]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 63
-[W : PPU[1] Thread (CPUThread)[0x002c1e58]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
-[W : PPU[1] Thread (CPUThread)[0x002c1ee4]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 65
-[W : PPU[1] Thread (CPUThread)[0x002c1f08]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
-[W : PPU[1] Thread (CPUThread)[0x002c1f8c]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 67
-[W : PPU[1] Thread (CPUThread)[0x002c1fb0]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 69
-[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 70
-[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 71
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [_cellsurMixerMain] (): id = 72
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x68f3a4, attr_addr=0x690450, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 73
-[W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x68f3e8, portNum_addr=0x68f358)
-[W : PPU[72] Thread (_cellsurMixerMain)[0x002c398c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 74
-[W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x006e501c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x68f408)
-[W : PPU[1] Thread (CPUThread)[0x006e5028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x006e504c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x002c2ec8]]: libmixer warning: cellSurMixerCreate(config_addr=0xd0010840)
+[W : PPU[1] Thread (CPUThread)[0x002c2ec8]]: libmixer warning: *** surMixer created (ch1=0, ch2=1, ch6=0, ch8=0)
+[W : PPU[1] Thread (CPUThread)[0x002c0100]]: libmixer warning: cellSurMixerGetAANHandle(handle_addr=0x427574) -> 0x11111111
+[W : PPU[1] Thread (CPUThread)[0x002c094c]]: libmixer warning: cellSurMixerChStripGetAANPortNo(port_addr=0x427578, type=0x2, index=0x0) -> 0
+[W : PPU[1] Thread (CPUThread)[0x002c0138]]: libmixer warning: cellSurMixerSetNotifyCallback(func_addr=0x3cc3e8, arg=0x427538)
+[W : PPU[1] Thread (CPUThread)[0x002c222c]]: libmixer warning: cellSurMixerSetParameter(param=0x28, value=1.333333)
+[W : PPU[1] Thread (CPUThread)[0x002c22fc]]: libmixer warning: cellSurMixerStart()
+[W : PPU[1] Thread (CPUThread)[0x002c22fc]]: libmixer warning: *** audio port opened(default, port 7)
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VPOST)
 [W : PPU[1] Thread (CPUThread)[0x006f9010]]: cellVpost warning: cellVpostQueryAttr(cfgParam_addr=0xd0010808, attr_addr=0xd00107e0)
-[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 75
-[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
-[W : PPU[1] Thread (CPUThread)[0x00035f34]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 77
-[W : PPU[1] Thread (CPUThread)[0x00035f64]]: sys_cond warning: *** condition created [] (mutex_id=77): id = 78
-[W : PPU[1] Thread (CPUThread)[0x00035d58]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 79
-[W : PPU[1] Thread (CPUThread)[0x00035d88]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
+[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 57
+[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=57): id = 58
+[W : PPU[1] Thread (CPUThread)[0x00035f34]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 59
+[W : PPU[1] Thread (CPUThread)[0x00035f64]]: sys_cond warning: *** condition created [] (mutex_id=59): id = 60
+[W : PPU[1] Thread (CPUThread)[0x00035d58]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 61
+[W : PPU[1] Thread (CPUThread)[0x00035d88]]: sys_cond warning: *** condition created [] (mutex_id=61): id = 62
 [W : PPU[1] Thread (CPUThread)[0x006f9028]]: cellVpost warning: cellVpostOpen(cfgParam_addr=0xd0010808, resource_addr=0xd00107f0, handle_addr=0x427320)
-[! : PPU[1] Thread (CPUThread)[0x006f9028]]: *** Vpost instance created (to_rgba=1): id = 81
-[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 82
-[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=82): id = 83
-[W : PPU[1] Thread (CPUThread)[0x00035f34]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 84
-[W : PPU[1] Thread (CPUThread)[0x00035f64]]: sys_cond warning: *** condition created [] (mutex_id=84): id = 85
-[W : PPU[1] Thread (CPUThread)[0x00035d58]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 86
-[W : PPU[1] Thread (CPUThread)[0x00035d88]]: sys_cond warning: *** condition created [] (mutex_id=86): id = 87
+[! : PPU[1] Thread (CPUThread)[0x006f9028]]: *** Vpost instance created (to_rgba=1): id = 63
+[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 64
+[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=64): id = 65
+[W : PPU[1] Thread (CPUThread)[0x00035f34]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 66
+[W : PPU[1] Thread (CPUThread)[0x00035f64]]: sys_cond warning: *** condition created [] (mutex_id=66): id = 67
+[W : PPU[1] Thread (CPUThread)[0x00035d58]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 68
+[W : PPU[1] Thread (CPUThread)[0x00035d88]]: sys_cond warning: *** condition created [] (mutex_id=68): id = 69
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_AVC)
 [W : PPU[1] Thread (CPUThread)[0x006fb058]]: libvdec warning: cellVdecQueryAttr(type_addr=0x4272dc, attr_addr=0xd0010818)
 [W : PPU[1] Thread (CPUThread)[0x006fb058]]: libvdec warning: cellVdecQueryAttr: AVC (profile=41)
-[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 88
-[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=88): id = 89
+[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 70
+[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=70): id = 71
 [W : PPU[1] Thread (CPUThread)[0x006fb040]]: libvdec warning: cellVdecOpen(type_addr=0x4272dc, res_addr=0xd0010828, cb_addr=0xd0010810, handle_addr=0x4272e4)
-[! : Video Decoder[91] Thread]: Video Decoder enter()
+[! : Video Decoder[73] Thread]: Video Decoder enter()
 [W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC_ATX)
 [W : PPU[1] Thread (CPUThread)[0x006fd01c]]: cellAdec warning: cellAdecQueryAttr(type_addr=0x42746c, attr_addr=0xd0010818)
 [! : PPU[1] Thread (CPUThread)[0x006fd01c]]: *** type: ATRAC3plus 2ch
-[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 92
-[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=92): id = 93
+[W : PPU[1] Thread (CPUThread)[0x00035260]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
+[W : PPU[1] Thread (CPUThread)[0x00035298]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
 [W : PPU[1] Thread (CPUThread)[0x006fd04c]]: cellAdec warning: cellAdecOpen(type_addr=0x42746c, res_addr=0xd0010824, cb_addr=0xd0010810, handle_addr=0x427470)
 [! : PPU[1] Thread (CPUThread)[0x006fd04c]]: *** type: ATRAC3plus 2ch
-[! : Audio Decoder[95] Thread]: Audio Decoder enter()
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [stminStart] (): id = 96
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdispStart] (): id = 97
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vpostStart] (): id = 98
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdecStart] (): id = 99
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [apostStart] (): id = 100
+[! : Audio Decoder[77] Thread]: Audio Decoder enter()
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [stminStart] (): id = 78
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdispStart] (): id = 79
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vpostStart] (): id = 80
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdecStart] (): id = 81
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [apostStart] (): id = 82
 [W : PPU[1] Thread (CPUThread)[0x006fd010]]: cellAdec warning: cellAdecStartSeq: (TODO) initialization
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [adecStart] (): id = 101
-[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [dmuxStart] (): id = 102
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=96, vptr_addr=0xd0010860)
-[W : Video Decoder[91] Thread]: vdecStartSeq:
+[W : Audio Decoder[77] Thread]: adecStartSeq:
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [adecStart] (): id = 83
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [dmuxStart] (): id = 84
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=78, vptr_addr=0xd0010860)
+[W : Video Decoder[73] Thread]: vdecStartSeq:
 [W : Demuxer[48] Thread]: dmuxSetStream (beginning)
-[W : Audio Decoder[95] Thread]: adecStartSeq:
 [W : RSXThread]: FP not found in buffer!
 [W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
@@ -608,23 +578,244 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=102, vptr_addr=0xd0010860)
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=84, vptr_addr=0xd0010860)
 [E : Demuxer[48] Thread]: No pts info found
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=101, vptr_addr=0xd0010860)
-[W : PPU[101] Thread (adecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x32)
-[W : PPU[99] Thread (vdecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x31)
-[W : PPU[101] Thread (adecStart)[0x006fd058]]: cellAdec warning: cellAdecEndSeq(handle=95)
-[W : PPU[99] Thread (vdecStart)[0x006fb034]]: libvdec warning: cellVdecEndSeq(handle=91)
-[W : Audio Decoder[95] Thread]: adecEndSeq:
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=100, vptr_addr=0xd0010860)
-[W : Video Decoder[91] Thread]: vdecEndSeq:
-[E : PPU[98] Thread (vpostStart)[0x006fb028]]: libvdec error: cellVdecGetPicture: av_image_copy_to_buffer failed(-22)
-[W : Video Decoder[91] Thread]: Video Decoder aborted
-[! : RSXThread]: RSX thread exit...
-[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(100) aborted
-[W : PPU[69] Thread (_sys_mixerSurBusReq)[0x002c12e0]]: sys_cond_wait(id=64) aborted
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[E : Demuxer[48] Thread]: No pts info found
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=83, vptr_addr=0xd0010860)
+[W : PPU[81] Thread (vdecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x31)
+[W : PPU[83] Thread (adecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x32)
+[W : PPU[83] Thread (adecStart)[0x006fd058]]: cellAdec warning: cellAdecEndSeq(handle=77)
+[W : Audio Decoder[77] Thread]: adecEndSeq:
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=82, vptr_addr=0xd0010860)
+[W : PPU[81] Thread (vdecStart)[0x006fb034]]: libvdec warning: cellVdecEndSeq(handle=73)
+[W : Video Decoder[73] Thread]: vdecEndSeq:
 [W : Demuxer[48] Thread]: Demuxer aborted
 [W : Audio Thread]: Audio aborted
-[W : PPU[61] Thread (_sys_MixerChStripMain)[0x002c73f8]]: sys_cond_wait(id=60) aborted
-[W : Audio Decoder[95] Thread]: Audio Decoder aborted
-[W : PPU[100] Thread (apostStart)[0x00035754]]: sys_cond_wait(id=85) aborted
+[W : Libmixer Thread]: Libmixer aborted
+[W : Video Decoder[73] Thread]: Video Decoder aborted
+[W : Audio Decoder[77] Thread]: Audio Decoder aborted
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(82) aborted
+[W : PPU[79] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
+[! : RSXThread]: RSX thread exit...

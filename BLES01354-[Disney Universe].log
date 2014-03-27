@@ -1,0 +1,1002 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\..\
+[!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01354-[Disney Universe]/PS3_GAME/\USRDIR\Data\
+[!]: Initing memory...
+[!]: Memory initialized.
+[S]: Function group [surMixer] successfully hooked
+[W]: Unknown function 0x01fbbc9b in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessageGui
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x0968aa36 in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicket
+[W]: Unknown function 0x155de760 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionInfo
+[W]: Unknown function 0x168a3117 in 'sceNp' module
+[E]: TODO: sceNpBasicAddPlayersHistory
+[W]: Unknown function 0x168fcece in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountAge
+[W]: Unknown function 0x36d0c2c5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetAvatarUrl
+[W]: Unknown function 0x3d1760dc in 'sceNp' module
+[E]: TODO: sceNpLookupAbortTransaction
+[W]: Unknown function 0x45f8f3aa in 'sceNp' module
+[E]: TODO: sceNpCustomMenuRegisterActions
+[W]: Unknown function 0x50b86d94 in 'sceNp' module
+[E]: TODO: sceNpSignalingAddExtendedHandler
+[W]: Unknown function 0x5f2d9257 in 'sceNp' module
+[E]: TODO: sceNpLookupInit
+[W]: Unknown function 0x60897c38 in 'sceNp' module
+[E]: TODO: sceNpSignalingActivateConnection
+[W]: Unknown function 0x6356082e in 'sceNp' module
+[E]: TODO: sceNpSignalingCreateCtx
+[W]: Unknown function 0x64a704cc in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageAttachmentLoad
+[W]: Unknown function 0x73931bd0 in 'sceNp' module
+[E]: TODO: sceNpBasicGetBlockListEntryCount
+[W]: Unknown function 0x7508112e in 'sceNp' module
+[E]: TODO: sceNpLookupPollAsync
+[W]: Unknown function 0x806960ab in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageCustom
+[W]: Unknown function 0x8297f1ec in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket2
+[W]: Unknown function 0x8440537c in 'sceNp' module
+[E]: TODO: sceNpLookupTerm
+[W]: Unknown function 0x95c7bba3 in 'sceNp' module
+[E]: TODO: sceNpSignalingTerminateConnection
+[W]: Unknown function 0x9ad7fbd1 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetLocalNetInfo
+[W]: Unknown function 0xa1709abd in 'sceNp' module
+[E]: TODO: sceNpManagerGetEntitlementById
+[W]: Unknown function 0xa8afa7d4 in 'sceNp' module
+[E]: TODO: sceNpBasicGetCustomInvitationEntryCount
+[W]: Unknown function 0xa8cf8451 in 'sceNp' module
+[E]: TODO: sceNpSignalingDestroyCtx
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb66d1c46 in 'sceNp' module
+[E]: TODO: sceNpManagerGetEntitlementIdList
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xbe07c708 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineId
+[W]: Unknown function 0xbe81c71c in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresenceDetails
+[W]: Unknown function 0xca0a2d04 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionStatus
+[W]: Unknown function 0xce81c7f0 in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTitleCtx
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe1c9f675 in 'sceNp' module
+[E]: TODO: sceNpBasicMarkMessageAsUsed
+[W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
+[E]: TODO: sceNpDrmProcessExitSpawn2
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xea2e9ffc in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTransactionCtx
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown function 0xf2b3338a in 'sceNp' module
+[E]: TODO: sceNpBasicGetBlockListEntry
+[W]: Unknown function 0xf42c0df8 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineName
+[W]: Unknown function 0xf9732ac8 in 'sceNp' module
+[E]: TODO: sceNpCustomMenuActionSetActivation
+[W]: Unknown function 0xfb87cf5e in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTransactionCtx
+[W]: Unknown function 0xfd39ae13 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendPresenceByNpId
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0xff0a2378 in 'sceNp' module
+[E]: TODO: sceNpLookupUserProfileAsync
+[W]: Unknown function 0xf5ff5f31 in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpIdInOrder
+[W]: Unknown function 0xceeebc7a in 'sceNp' module
+[E]: TODO: sceNpProfileCallGui
+[W]: Unknown function 0x58fa4fcd in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicketParam
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown module 'sceNpTus'
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x1650aea4 in 'cellSsl' module
+[E]: TODO: cellSslEnd
+[W]: Unknown function 0x571afaca in 'cellSsl' module
+[E]: TODO: cellSslCertificateLoader
+[W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
+[E]: TODO: cellSslInit
+[W]: Unknown module 'sceNpCommerce2'
+[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilParseUri
+[W]: Unknown function 0x14bf2dc1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharClose
+[W]: Unknown function 0x56776c0d in 'cellKey2char' module
+[E]: TODO: cellKey2CharGetChar
+[W]: Unknown function 0xabf629c1 in 'cellKey2char' module
+[E]: TODO: cellKey2CharOpen
+[W]: Unknown function 0xbfc03768 in 'cellKey2char' module
+[E]: TODO: cellKey2CharSetMode
+[W]: Unknown function 0x4cc9b68d in 'sys_io' module
+[E]: TODO: cellPadPeriphGetInfo
+[W]: Unknown function 0x858a930b in 'sys_net' module
+[E]: TODO: inet_ntoa
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoSave
+[W]: Unknown function 0x52aac4fa in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserAutoSave
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xcdc6aefd in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserAutoLoad
+[W]: Unknown function 0xced17573 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedDelete
+[W]: Unknown function 0xe7fa820b in 'cellSysutil' module
+[E]: TODO: cellSaveDataEnableOverlay
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x03a2f42a in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterLobbyMessageCallback
+[W]: Unknown function 0x05bf2fbd in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetWorldInfoList
+[W]: Unknown function 0x0884fc95 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterLobbyEventCallback
+[W]: Unknown function 0x0d22867f in 'sceNp2' module
+[E]: TODO: sceNpMatching2SearchRoom
+[W]: Unknown function 0x1f372697 in 'sceNp2' module
+[E]: TODO: sceNpMatching2LeaveRoom
+[W]: Unknown function 0x215b0d75 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataExternal
+[W]: Unknown function 0x23009d07 in 'sceNp2' module
+[E]: TODO: sceNpMatching2Term2
+[W]: Unknown function 0x26ae9ff8 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SignalingGetConnectionInfo
+[W]: Unknown function 0x3457c0db in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerInfo
+[W]: Unknown function 0x3c00c9d4 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetEventData
+[W]: Unknown function 0x41251f74 in 'sceNp2' module
+[E]: TODO: sceNp2Init
+[W]: Unknown function 0x5721e711 in 'sceNp2' module
+[E]: TODO: sceNpMatching2JoinRoom
+[W]: Unknown function 0x6ba4c668 in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStartAsync
+[W]: Unknown function 0x748029a2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterContextCallback
+[W]: Unknown function 0x817d1090 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataInternal
+[W]: Unknown function 0x8b209ca2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetRoomDataInternal
+[W]: Unknown function 0x8d3f8d49 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SignalingGetPingInfo
+[W]: Unknown function 0x8e5cfe9f in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerIdListLocal
+[W]: Unknown function 0x9cbce3f2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateContext
+[W]: Unknown function 0xaadb7c12 in 'sceNp2' module
+[E]: TODO: sceNp2Term
+[W]: Unknown function 0xdb87b088 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetDefaultRequestOptParam
+[W]: Unknown function 0xdcb6b27d in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomEventCallback
+[W]: Unknown function 0xe7a3bc7a in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateJoinRoom
+[W]: Unknown function 0xefbd9357 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetLobbyInfoList
+[W]: Unknown function 0xf43c647a in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStop
+[W]: Unknown function 0xf4babd3f in 'sceNp2' module
+[E]: TODO: sceNpMatching2Init2
+[W]: Unknown function 0xfee11e72 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomMessageCallback
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_finalize
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00948a80]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x01174040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00412d10]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010980)
+[W : PPU[1] Thread (CPUThread)[0x00412d4c]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x400, alignment=0x0, alloc_addr=0x102eec0)
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102eee4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x30100000 to 0x0 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102eef0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x100000, mem_id=0x10, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102eefc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x200000, mem_id=0x11, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef08)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x300000, mem_id=0x12, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef14)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x400000, mem_id=0x13, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef20)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x500000, mem_id=0x14, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef2c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x600000, mem_id=0x15, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef38)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x700000, mem_id=0x16, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef44)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x800000, mem_id=0x17, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef50)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x900000, mem_id=0x18, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef5c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa00000, mem_id=0x19, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef68)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb00000, mem_id=0x1a, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef74)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc00000, mem_id=0x1b, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef80)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd00000, mem_id=0x1c, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef8c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe00000, mem_id=0x1d, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102ef98)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf00000, mem_id=0x1e, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efa4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1000000, mem_id=0x1f, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efb0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1100000, mem_id=0x20, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x0117413c]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efbc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1200000, mem_id=0x21, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31300000 to 0x1200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efc8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1300000, mem_id=0x22, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31400000 to 0x1300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efd4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1400000, mem_id=0x23, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31500000 to 0x1400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efe0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1500000, mem_id=0x24, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31600000 to 0x1500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102efec)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1600000, mem_id=0x25, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31700000 to 0x1600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102eff8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1700000, mem_id=0x26, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31800000 to 0x1700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f004)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1800000, mem_id=0x27, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31900000 to 0x1800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f010)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1900000, mem_id=0x28, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31a00000 to 0x1900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f01c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1a00000, mem_id=0x29, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31b00000 to 0x1a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f028)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1b00000, mem_id=0x2a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31c00000 to 0x1b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f034)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1c00000, mem_id=0x2b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31d00000 to 0x1c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f040)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1d00000, mem_id=0x2c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31e00000 to 0x1d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f04c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1e00000, mem_id=0x2d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x31f00000 to 0x1e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f058)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x1f00000, mem_id=0x2e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32000000 to 0x1f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f064)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2000000, mem_id=0x2f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32100000 to 0x2000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f070)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2100000, mem_id=0x30, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32200000 to 0x2100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f07c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2200000, mem_id=0x31, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32300000 to 0x2200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f088)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2300000, mem_id=0x32, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32400000 to 0x2300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f094)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2400000, mem_id=0x33, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32500000 to 0x2400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0a0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2500000, mem_id=0x34, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32600000 to 0x2500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0ac)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2600000, mem_id=0x35, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32700000 to 0x2600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0b8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2700000, mem_id=0x36, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32800000 to 0x2700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0c4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2800000, mem_id=0x37, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32900000 to 0x2800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0d0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2900000, mem_id=0x38, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32a00000 to 0x2900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0dc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2a00000, mem_id=0x39, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32b00000 to 0x2a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0e8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2b00000, mem_id=0x3a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32c00000 to 0x2b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f0f4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2c00000, mem_id=0x3b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32d00000 to 0x2c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f100)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2d00000, mem_id=0x3c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32e00000 to 0x2d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f10c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2e00000, mem_id=0x3d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x32f00000 to 0x2e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f118)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x2f00000, mem_id=0x3e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33000000 to 0x2f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f124)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3000000, mem_id=0x3f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33100000 to 0x3000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f130)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3100000, mem_id=0x40, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33200000 to 0x3100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f13c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3200000, mem_id=0x41, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33300000 to 0x3200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f148)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3300000, mem_id=0x42, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33400000 to 0x3300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f154)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3400000, mem_id=0x43, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33500000 to 0x3400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f160)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3500000, mem_id=0x44, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33600000 to 0x3500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f16c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3600000, mem_id=0x45, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33700000 to 0x3600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f178)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3700000, mem_id=0x46, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33800000 to 0x3700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f184)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3800000, mem_id=0x47, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33900000 to 0x3800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f190)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3900000, mem_id=0x48, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33a00000 to 0x3900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f19c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3a00000, mem_id=0x49, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33b00000 to 0x3a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1a8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3b00000, mem_id=0x4a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33c00000 to 0x3b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1b4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3c00000, mem_id=0x4b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33d00000 to 0x3c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1c0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3d00000, mem_id=0x4c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33e00000 to 0x3d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1cc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3e00000, mem_id=0x4d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x33f00000 to 0x3e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1d8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x3f00000, mem_id=0x4e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34000000 to 0x3f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1e4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4000000, mem_id=0x4f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34100000 to 0x4000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1f0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4100000, mem_id=0x50, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34200000 to 0x4100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f1fc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4200000, mem_id=0x51, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34300000 to 0x4200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f208)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4300000, mem_id=0x52, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34400000 to 0x4300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f214)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4400000, mem_id=0x53, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34500000 to 0x4400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f220)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4500000, mem_id=0x54, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34600000 to 0x4500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f22c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4600000, mem_id=0x55, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34700000 to 0x4600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f238)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4700000, mem_id=0x56, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34800000 to 0x4700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f244)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4800000, mem_id=0x57, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34900000 to 0x4800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f250)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4900000, mem_id=0x58, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34a00000 to 0x4900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f25c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4a00000, mem_id=0x59, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34b00000 to 0x4a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f268)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4b00000, mem_id=0x5a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34c00000 to 0x4b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f274)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4c00000, mem_id=0x5b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34d00000 to 0x4c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f280)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4d00000, mem_id=0x5c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34e00000 to 0x4d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f28c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4e00000, mem_id=0x5d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x34f00000 to 0x4e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f298)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x4f00000, mem_id=0x5e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35000000 to 0x4f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2a4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5000000, mem_id=0x5f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35100000 to 0x5000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2b0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5100000, mem_id=0x60, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35200000 to 0x5100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2bc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5200000, mem_id=0x61, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35300000 to 0x5200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2c8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5300000, mem_id=0x62, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35400000 to 0x5300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2d4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5400000, mem_id=0x63, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35500000 to 0x5400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2e0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5500000, mem_id=0x64, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35600000 to 0x5500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2ec)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5600000, mem_id=0x65, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35700000 to 0x5600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f2f8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5700000, mem_id=0x66, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35800000 to 0x5700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f304)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5800000, mem_id=0x67, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35900000 to 0x5800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f310)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5900000, mem_id=0x68, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35a00000 to 0x5900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f31c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5a00000, mem_id=0x69, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35b00000 to 0x5a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f328)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5b00000, mem_id=0x6a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35c00000 to 0x5b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f334)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5c00000, mem_id=0x6b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35d00000 to 0x5c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f340)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5d00000, mem_id=0x6c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35e00000 to 0x5d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f34c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5e00000, mem_id=0x6d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x35f00000 to 0x5e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f358)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x5f00000, mem_id=0x6e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36000000 to 0x5f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f364)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6000000, mem_id=0x6f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36100000 to 0x6000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f370)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6100000, mem_id=0x70, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36200000 to 0x6100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f37c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6200000, mem_id=0x71, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36300000 to 0x6200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f388)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6300000, mem_id=0x72, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36400000 to 0x6300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f394)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6400000, mem_id=0x73, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36500000 to 0x6400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3a0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6500000, mem_id=0x74, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36600000 to 0x6500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3ac)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6600000, mem_id=0x75, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36700000 to 0x6600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3b8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6700000, mem_id=0x76, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36800000 to 0x6700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3c4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6800000, mem_id=0x77, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36900000 to 0x6800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3d0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6900000, mem_id=0x78, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36a00000 to 0x6900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3dc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6a00000, mem_id=0x79, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36b00000 to 0x6a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3e8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6b00000, mem_id=0x7a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36c00000 to 0x6b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f3f4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6c00000, mem_id=0x7b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36d00000 to 0x6c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f400)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6d00000, mem_id=0x7c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36e00000 to 0x6d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f40c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6e00000, mem_id=0x7d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x36f00000 to 0x6e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f418)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x6f00000, mem_id=0x7e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37000000 to 0x6f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f424)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7000000, mem_id=0x7f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37100000 to 0x7000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f430)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7100000, mem_id=0x80, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37200000 to 0x7100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f43c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7200000, mem_id=0x81, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37300000 to 0x7200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f448)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7300000, mem_id=0x82, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37400000 to 0x7300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f454)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7400000, mem_id=0x83, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37500000 to 0x7400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f460)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7500000, mem_id=0x84, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37600000 to 0x7500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f46c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7600000, mem_id=0x85, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37700000 to 0x7600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f478)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7700000, mem_id=0x86, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37800000 to 0x7700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f484)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7800000, mem_id=0x87, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37900000 to 0x7800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f490)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7900000, mem_id=0x88, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37a00000 to 0x7900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f49c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7a00000, mem_id=0x89, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37b00000 to 0x7a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4a8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7b00000, mem_id=0x8a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37c00000 to 0x7b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4b4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7c00000, mem_id=0x8b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37d00000 to 0x7c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4c0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7d00000, mem_id=0x8c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37e00000 to 0x7d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4cc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7e00000, mem_id=0x8d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x37f00000 to 0x7e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4d8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x7f00000, mem_id=0x8e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38000000 to 0x7f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4e4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8000000, mem_id=0x8f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38100000 to 0x8000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4f0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8100000, mem_id=0x90, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38200000 to 0x8100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f4fc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8200000, mem_id=0x91, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38300000 to 0x8200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f508)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8300000, mem_id=0x92, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38400000 to 0x8300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f514)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8400000, mem_id=0x93, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38500000 to 0x8400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f520)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8500000, mem_id=0x94, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38600000 to 0x8500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f52c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8600000, mem_id=0x95, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38700000 to 0x8600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f538)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8700000, mem_id=0x96, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38800000 to 0x8700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f544)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8800000, mem_id=0x97, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38900000 to 0x8800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f550)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8900000, mem_id=0x98, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38a00000 to 0x8900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f55c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8a00000, mem_id=0x99, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38b00000 to 0x8a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f568)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8b00000, mem_id=0x9a, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38c00000 to 0x8b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f574)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8c00000, mem_id=0x9b, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38d00000 to 0x8c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f580)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8d00000, mem_id=0x9c, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38e00000 to 0x8d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f58c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8e00000, mem_id=0x9d, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x38f00000 to 0x8e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f598)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x8f00000, mem_id=0x9e, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39000000 to 0x8f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5a4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9000000, mem_id=0x9f, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39100000 to 0x9000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5b0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9100000, mem_id=0xa0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39200000 to 0x9100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5bc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9200000, mem_id=0xa1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39300000 to 0x9200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5c8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9300000, mem_id=0xa2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39400000 to 0x9300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5d4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9400000, mem_id=0xa3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39500000 to 0x9400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5e0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9500000, mem_id=0xa4, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39600000 to 0x9500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5ec)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9600000, mem_id=0xa5, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39700000 to 0x9600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f5f8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9700000, mem_id=0xa6, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39800000 to 0x9700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f604)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9800000, mem_id=0xa7, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39900000 to 0x9800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f610)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9900000, mem_id=0xa8, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39a00000 to 0x9900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f61c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9a00000, mem_id=0xa9, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39b00000 to 0x9a00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f628)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9b00000, mem_id=0xaa, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39c00000 to 0x9b00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f634)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9c00000, mem_id=0xab, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39d00000 to 0x9c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f640)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9d00000, mem_id=0xac, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39e00000 to 0x9d00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f64c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9e00000, mem_id=0xad, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x39f00000 to 0x9e00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f658)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0x9f00000, mem_id=0xae, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a000000 to 0x9f00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f664)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa000000, mem_id=0xaf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a100000 to 0xa000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f670)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa100000, mem_id=0xb0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a200000 to 0xa100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f67c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa200000, mem_id=0xb1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a300000 to 0xa200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f688)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa300000, mem_id=0xb2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a400000 to 0xa300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f694)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa400000, mem_id=0xb3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a500000 to 0xa400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6a0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa500000, mem_id=0xb4, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a600000 to 0xa500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6ac)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa600000, mem_id=0xb5, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a700000 to 0xa600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6b8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa700000, mem_id=0xb6, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a800000 to 0xa700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6c4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa800000, mem_id=0xb7, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3a900000 to 0xa800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6d0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xa900000, mem_id=0xb8, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3aa00000 to 0xa900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6dc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xaa00000, mem_id=0xb9, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ab00000 to 0xaa00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6e8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xab00000, mem_id=0xba, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ac00000 to 0xab00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f6f4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xac00000, mem_id=0xbb, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ad00000 to 0xac00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f700)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xad00000, mem_id=0xbc, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ae00000 to 0xad00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f70c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xae00000, mem_id=0xbd, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3af00000 to 0xae00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f718)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xaf00000, mem_id=0xbe, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b000000 to 0xaf00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f724)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb000000, mem_id=0xbf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b100000 to 0xb000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f730)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb100000, mem_id=0xc0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b200000 to 0xb100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f73c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb200000, mem_id=0xc1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b300000 to 0xb200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f748)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb300000, mem_id=0xc2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b400000 to 0xb300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f754)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb400000, mem_id=0xc3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b500000 to 0xb400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f760)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb500000, mem_id=0xc4, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b600000 to 0xb500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f76c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb600000, mem_id=0xc5, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b700000 to 0xb600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f778)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb700000, mem_id=0xc6, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b800000 to 0xb700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f784)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb800000, mem_id=0xc7, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3b900000 to 0xb800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f790)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xb900000, mem_id=0xc8, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ba00000 to 0xb900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f79c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xba00000, mem_id=0xc9, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3bb00000 to 0xba00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7a8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xbb00000, mem_id=0xca, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3bc00000 to 0xbb00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7b4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xbc00000, mem_id=0xcb, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3bd00000 to 0xbc00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7c0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xbd00000, mem_id=0xcc, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3be00000 to 0xbd00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7cc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xbe00000, mem_id=0xcd, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3bf00000 to 0xbe00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7d8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xbf00000, mem_id=0xce, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c000000 to 0xbf00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7e4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc000000, mem_id=0xcf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c100000 to 0xc000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7f0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc100000, mem_id=0xd0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c200000 to 0xc100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f7fc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc200000, mem_id=0xd1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c300000 to 0xc200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f808)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc300000, mem_id=0xd2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c400000 to 0xc300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f814)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc400000, mem_id=0xd3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c500000 to 0xc400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f820)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc500000, mem_id=0xd4, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c600000 to 0xc500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f82c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc600000, mem_id=0xd5, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c700000 to 0xc600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f838)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc700000, mem_id=0xd6, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c800000 to 0xc700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f844)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc800000, mem_id=0xd7, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3c900000 to 0xc800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f850)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xc900000, mem_id=0xd8, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ca00000 to 0xc900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f85c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xca00000, mem_id=0xd9, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3cb00000 to 0xca00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f868)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xcb00000, mem_id=0xda, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3cc00000 to 0xcb00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f874)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xcc00000, mem_id=0xdb, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3cd00000 to 0xcc00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f880)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xcd00000, mem_id=0xdc, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ce00000 to 0xcd00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f88c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xce00000, mem_id=0xdd, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3cf00000 to 0xce00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f898)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xcf00000, mem_id=0xde, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d000000 to 0xcf00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8a4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd000000, mem_id=0xdf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d100000 to 0xd000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8b0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd100000, mem_id=0xe0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d200000 to 0xd100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8bc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd200000, mem_id=0xe1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d300000 to 0xd200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8c8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd300000, mem_id=0xe2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d400000 to 0xd300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8d4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd400000, mem_id=0xe3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d500000 to 0xd400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8e0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd500000, mem_id=0xe4, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d600000 to 0xd500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8ec)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd600000, mem_id=0xe5, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d700000 to 0xd600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f8f8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd700000, mem_id=0xe6, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d800000 to 0xd700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f904)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd800000, mem_id=0xe7, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3d900000 to 0xd800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f910)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xd900000, mem_id=0xe8, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3da00000 to 0xd900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f91c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xda00000, mem_id=0xe9, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3db00000 to 0xda00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f928)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xdb00000, mem_id=0xea, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3dc00000 to 0xdb00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f934)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xdc00000, mem_id=0xeb, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3dd00000 to 0xdc00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f940)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xdd00000, mem_id=0xec, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3de00000 to 0xdd00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f94c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xde00000, mem_id=0xed, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3df00000 to 0xde00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f958)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xdf00000, mem_id=0xee, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e000000 to 0xdf00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f964)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe000000, mem_id=0xef, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e100000 to 0xe000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f970)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe100000, mem_id=0xf0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e200000 to 0xe100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f97c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe200000, mem_id=0xf1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e300000 to 0xe200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f988)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe300000, mem_id=0xf2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e400000 to 0xe300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f994)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe400000, mem_id=0xf3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e500000 to 0xe400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9a0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe500000, mem_id=0xf4, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e600000 to 0xe500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9ac)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe600000, mem_id=0xf5, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e700000 to 0xe600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9b8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe700000, mem_id=0xf6, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e800000 to 0xe700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9c4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe800000, mem_id=0xf7, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3e900000 to 0xe800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9d0)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xe900000, mem_id=0xf8, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ea00000 to 0xe900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9dc)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xea00000, mem_id=0xf9, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3eb00000 to 0xea00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9e8)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xeb00000, mem_id=0xfa, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ec00000 to 0xeb00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102f9f4)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xec00000, mem_id=0xfb, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ed00000 to 0xec00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa00)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xed00000, mem_id=0xfc, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ee00000 to 0xed00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa0c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xee00000, mem_id=0xfd, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3ef00000 to 0xee00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa18)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xef00000, mem_id=0xfe, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f000000 to 0xef00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa24)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf000000, mem_id=0xff, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f100000 to 0xf000000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa30)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf100000, mem_id=0x100, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f200000 to 0xf100000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa3c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf200000, mem_id=0x101, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f300000 to 0xf200000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa48)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf300000, mem_id=0x102, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f400000 to 0xf300000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa54)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf400000, mem_id=0x103, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f500000 to 0xf400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa60)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf500000, mem_id=0x104, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f600000 to 0xf500000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa6c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf600000, mem_id=0x105, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f700000 to 0xf600000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa78)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf700000, mem_id=0x106, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f800000 to 0xf700000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa84)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf800000, mem_id=0x107, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3f900000 to 0xf800000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa90)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xf900000, mem_id=0x108, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3fa00000 to 0xf900000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0117410c]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0x102fa9c)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory warning: sys_mmapper_map_memory(start_addr=0xfa00000, mem_id=0x109, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x0117413c]]: memory mapped 0x3fb00000 to 0xfa00000 size=0x100000
+[E : PPU[1] Thread (CPUThread)[0x00943d90]]: Write64 to null block: [5f5f5f97]: 5f5f5f5f5f5f5f5f
+[!]: Closing memory...

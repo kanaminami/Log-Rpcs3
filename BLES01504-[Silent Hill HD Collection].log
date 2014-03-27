@@ -1,0 +1,673 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/\..\
+[!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01504-[Silent Hill HD Collection]/PS3_GAME/\USRDIR\Data\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
+[E]: TODO: _cellSpursSendSignal
+[W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
+[E]: TODO: sceNpDrmProcessExitSpawn2
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0005fc38]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x000bb0a0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xc1330, userdata=0x0)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/launch/data/saveinfo/ICON0.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/launch/data/saveinfo/ICON1.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/launch/data/saveinfo/ICON2.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=0)
+[! : PPU[1] Thread (CPUThread)[0x0010101c]]: *** New PPU Thread [Initialization Thread] (): id = 32
+[! : PPU[1] Thread (CPUThread)[0x0010101c]]: *** New PPU Thread [Update Thread] (): id = 33
+[W : PPU[32] Thread (Initialization Thread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[32] Thread (Initialization Thread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[32] Thread (Initialization Thread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[32] Thread (Initialization Thread)[0x000b5040]]: cellGame warning: cellGameBootCheck(type_addr=0xd0020b90, attributes_addr=0xd0020b94, size_addr=0xd0020b98, dirName_addr=0xd0020bb0)
+[W : PPU[33] Thread (Update Thread)[0x0003a55c]]: sys_timer warning: sys_timer_sleep(sleep_time=1)
+[W : PPU[32] Thread (Initialization Thread)[0x000b5010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0020bd0, usrdirPath_addr=0xd0020c50)
+[W : PPU[32] Thread (Initialization Thread)[0x000fb094]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0xc5de0, commID_addr=0xc398c, commSign_addr=0xc3998, options=0x0)
+[W : PPU[32] Thread (Initialization Thread)[0x000fb004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0xc1928, arg_addr=0xc5d38, options=0x0)
+[W : PPU[32] Thread (Initialization Thread)[0x000f5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x000bf01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xeaf4c,cmdSize=0x80000,ioSize=0x6000000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x000bf01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x000bf01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x6000000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x000bd04c]]: cellResc warning: cellRescInit(initConfig_addr=0xd00109e4)
+[W : PPU[1] Thread (CPUThread)[0x000bd028]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x000bd028]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x000bd028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x000bd058]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00109d4, vertexArray_addr=0xd00109d8, fragmentShader_addr=0xd00109dc)
+[W : PPU[1] Thread (CPUThread)[0x000bd070]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc00a0000, vertexArray_addr=0xc11a0000, fragmentShader_addr=0xc001f000)
+[W : PPU[1] Thread (CPUThread)[0x000bd070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xa0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x000bd070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x460000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x000bf088]]: cellGcmSys warning: cellGcmSetTileInfo(index=14, location=0, offset=655360, size=17825792, pitch=5120, comp=7, base=10, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x000bf088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x000bf04c]]: cellGcmSys warning: cellGcmBindTile(index=14)
+[W : PPU[1] Thread (CPUThread)[0x000bd040]]: cellResc warning: cellRescSetFlipHandler(handler_addr=0xc1328)
+[E : PPU[1] Thread (CPUThread)[0x000bd088]]: TODO: cellRescSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x000bf004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x000bf088]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=18546688, size=7536640, pitch=10240, comp=7, base=283, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x000bf088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x000bf04c]]: cellGcmSys warning: cellGcmBindTile(index=13)
+[W : PPU[1] Thread (CPUThread)[0x000bf004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x000bf088]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=26083328, size=7536640, pitch=10240, comp=7, base=398, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x000bf088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x000bf04c]]: cellGcmSys warning: cellGcmBindTile(index=12)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/simpleVS.cgb" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/simpleVS.cgb"): fd = 34
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=34)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/postVS.cgb" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/postVS.cgb"): fd = 35
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=35)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/unifiedVS.cgb" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/unifiedVS.cgb"): fd = 36
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=36)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/unifiedPS.cgb" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/unifiedPS.cgb"): fd = 37
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=37)
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x000b9034]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/launch/data/globtex.dat" not found.
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launch.dat" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/launch.dat"): fd = 39
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=39)
+[W : PPU[1] Thread (CPUThread)[0x000bb04c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[! : PPU[1] Thread (CPUThread)[0x0010101c]]: *** New PPU Thread [GameContentInit] (): id = 40
+[W : PPU[1] Thread (CPUThread)[0x000bb058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010850, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[40] Thread (GameContentInit)[0x000f5010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x000bb0ac]]: cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=0)
+[E : PPU[40] Thread (GameContentInit)[0x000b5034]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[40] Thread (GameContentInit)[0x000b5010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xc7070, usrdirPath_addr=0xc70f0)
+[W : PPU[1] Thread (CPUThread)[0x000bb0d0]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x000bb058]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010770, option_addr=0x0, (!)waitForEvent=1)
+[W : PPU[1] Thread (CPUThread)[0x000bb0f4]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0010780)
+[W : PPU[40] Thread (GameContentInit)[0x000f5004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x000f7004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x000f7040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xc3ed8, portNum_addr=0xd0010860)
+[W : PPU[1] Thread (CPUThread)[0x000f7040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x000f701c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xc3ef8)
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x00049a60]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xefc84, attr_addr=0xd001080c, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x00049a60]]: sys_event warning: *** event_queue created [Ð€] (protocol=0x2, type=0x1): id = 42
+[W : PPU[1] Thread (CPUThread)[0x00049a88]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefd84, num=1, prio=100, attr_addr=0xd00107fc)
+[W : PPU[1] Thread (CPUThread)[0x00049a88]]: sys_spu warning: *** SPU Thread Group created [_Multistream Thread Group] (type=0x0, option.ct=0x0): id=43
+[W : PPU[1] Thread (CPUThread)[0x001010d0]]: sysPrxForUser warning: sys_spu_image_import(img=0xefd88, src=0xa0400, type=0x1)
+[W : PPU[1] Thread (CPUThread)[0x001010d0]]: LoadShdr32 error: shstrndx too big!
+[W : PPU[1] Thread (CPUThread)[0x001010d0]]: desc = 'msngSPU_ATRAC'
+[W : PPU[1] Thread (CPUThread)[0x00049b1c]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xee288, group=0x2b, spu_num=0, img_addr=0xefd88, attr_addr=0xd00107f0, arg_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00049b1c]]: sys_spu warning: *** New SPU Thread [_Multistream SPU Thread] (img_offset=0x105000, ls_offset=0x145000, ep=0xd0, a1=0x5fd38, a2=0x1, a3=0xedd10, a4=0x1): id=44
+[W : PPU[1] Thread (CPUThread)[0x00049b40]]: sys_spu warning: sys_spu_thread_connect_event(id=44, eq_id=42, event_type=0x1, spup=42)
+[W : PPU[1] Thread (CPUThread)[0x00049b58]]: sys_spu warning: sys_spu_thread_group_start(id=43)
+[W : PPU[1] Thread (CPUThread)[0x000479ac]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xedd00, attr_addr=0xd0010760, event_queue_key=0x0, size=127)
+[W : PPU[1] Thread (CPUThread)[0x000479ac]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 45
+[! : PPU[1] Thread (CPUThread)[0x0010101c]]: *** New PPU Thread [Multistream_printf_server] (): id = 46
+[W : PPU[1] Thread (CPUThread)[0x00047a08]]: sys_event warning: sys_event_port_create(eport_id_addr=0xedc80, port_type=0x1, name=0xfee1daad)
+[W : PPU[1] Thread (CPUThread)[0x00047a08]]: sys_event warning: *** sys_event_port created: id = 47
+[W : PPU[1] Thread (CPUThread)[0x00047a24]]: sys_event warning: sys_event_port_connect_local(eport_id=47, equeue_id=45)
+[W : PPU[1] Thread (CPUThread)[0x0004785c]]: sys_spu warning: sys_spu_thread_connect_event(id=44, eq_id=45, event_type=0x1, spup=1)
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_flash/sys/external/flashATRAC.pic"): fd = 48
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=48)
+[W : PPU[1] Thread (CPUThread)[0x000497c8]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=44, value=0xffdd)
+[W : PPU[1] Thread (CPUThread)[0x0004981c]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=44, value=0x3679cf00)
+[! : PPU[1] Thread (CPUThread)[0x0010101c]]: *** New PPU Thread [MultiStream PU Thread] (): id = 49
+[W : PPU[49] Thread (MultiStream PU Thread)[0x000f7028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00101034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 50
+[! : PPU[1] Thread (CPUThread)[0x0010101c]]: *** New PPU Thread [Sound Refresh Thread] (): id = 51
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/NoiseVS.cgb" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/NoiseVS.cgb" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/NoiseVS.cgb"): fd = 52
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=52)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/NoiseSubPS.cgb" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/NoiseSubPS.cgb" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/NoiseSubPS.cgb"): fd = 53
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=53)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/NoiseAddPS.cgb" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/shaders/NoiseAddPS.cgb" not found! flags: 0x00000000
+[W : PPU[49] Thread (MultiStream PU Thread)[0x0004a4bc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=44, value=0xee080)
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/shaders/NoiseAddPS.cgb"): fd = 54
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=54)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launcher/dummy.dds" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launcher/dummy.dds" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/launcher/dummy.dds"): fd = 55
+[E : SPU[44] Thread (_Multistream SPU Thread)[0x000020f8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[44] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[44] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=55)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launcher/KONAMI_1280x720.dds" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launcher/KONAMI_1280x720.dds" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/launcher/KONAMI_1280x720.dds"): fd = 56
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=56)
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launcher/Hijinx.dds" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x000b9028]]: sys_fs error: "/launch/data/launcher/Hijinx.dds" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x000b9028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/launch/data/launcher/Hijinx.dds"): fd = 57
+[W : PPU[1] Thread (CPUThread)[0x000b9010]]: sys_fs warning: cellFsClose(fd=57)
+[W : PPU[1] Thread (CPUThread)[0x000bd064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x2010000,pitch=4,width=1280,height=720)
+[E : RSXThread]: TODO: cellGcmSetTransformBranchBits(0x1)
+[W : RSXThread]: NV0039_SET_CONTEXT_DMA_BUFFER_IN: TODO: srcContext=0xfeed0001, dstContext=0xfeed0000
+[W : RSXThread]: FP not found in buffer!
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 8)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 13)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 18)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 24)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 26)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 29)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 34)
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 39)
+[E : Fragment Shader Decompiler Thread]: Bad src reg num: 12
+[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x42 (inst 50)
+[W : RSXThread]: VP not found in buffer!
+[E : Vertex Shader Decompiler Thread]: Unknown vp sca_opcode 0x11
+[E : Vertex Shader Decompiler Thread]: Unknown vp opcode 0xd
+[E : Vertex Shader Decompiler Thread]: Unknown vp sca_opcode 0x11
+[E : Vertex Shader Decompiler Thread]: Unknown vp sca_opcode 0x11
+[E : Vertex Shader Decompiler Thread]: Unknown vp opcode 0xd
+[E : Vertex Shader Decompiler Thread]: Unknown vp sca_opcode 0x11
+[E : Vertex Shader Decompiler Thread]: Bad dst reg num: 15
+[E : RSXThread]: Could not link program: Vertex info
+-----------
+0(163) : error C5005: recursive call to function "void func69(){    // 10298:63
+  if (all(equal(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:170
+    func85();    // 10298:170
+    return ;    // 10298:170;
+  }    // 10298:170
+  if (all(equal(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:171
+    tmp2[3] = vc465[1];
+  }    // 10298:171
+  tmp8[ivec3(0, 1, 2)] = (tmp2[ivec4(0, 1, 2, 0)] + -vc21[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:173
+  tmp3[3] = dot(tmp8[ivec3(0, 1, 2)], tmp8[ivec3(0, 1, 2)]);    // 10298:174
+  tmp2[3] = (vc465[ivec4(2, 2, 2, 2)] + tmp2[ivec4(3, 3, 3, 3)])[3];    // 10298:175
+  tmp4[3] = inversesqrt(tmp3[3]);    // 10298:176
+  tmp1[3] = (vc465[ivec4(2, 2, 2, 2)] + tmp1[ivec4(3, 3, 3, 3)])[3];    // 10298:177
+  rc[0] = (float)lessThan(tmp2[ivec4(3, 3, 3, 3)], vc63[ivec4(0, 0, 0, 0)])[0];    // 10298:178
+  tmp3[3] = 1f / tmp4[3];    // 10298:179
+  tmp3[3] = (-vc39[ivec4(3, 3, 3, 3)] + tmp3[ivec4(3, 3, 3, 3)])[3];    // 10298:180
+  tmp8[ivec3(0, 1, 2)] = (tmp4[ivec4(3, 3, 3, 3)] * tmp8[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:181
+  tmp3[3] = max(tmp3[ivec4(3, 3, 3, 3)], vc465[ivec4(1, 1, 1, 1)])[3];    // 10298:182
+  tmp3[3] = clamp(1f / tmp3[3], 0f, 1f);    // 10298:183
+  tmp4[3] = dot(tmp3[ivec3(0, 1, 2)], -tmp8[ivec3(0, 1, 2)]);    // 10298:184
+  tmp8[ivec3(0, 1, 2)] = (tmp3[ivec4(3, 3, 3, 3)] * vc39[ivec4(0, 1, 2, 0)])[ivec3(0, 1, 2)];    // 10298:185
+  func85();    // 10298:186
+} 
+"
+0(191) : error C5005: recursive call to function "void func88(){    // 10298:62
+  func88();    // 10298:191
+  return ;    // 10298:191
+  tmp1[ivec3(0, 1, 2)] = vc465[ivec3(1, 1, 1)];    // 10298:192
+  rc[0] = vc466[0];    // 10298:193
+  tmp2 = in_col0;    // 10298:194
+  if (all(notEqual(rc[ivec4(0, 0, 0, 0)], vec4(0f, 0f, 0f, 0f))))  {      // 10298:195
+    tmp2 = in_col0 * vc4;
+  }    // 10298:195
+  tmp2 = clamp(tmp2, 0f, 1f);    // 10298:196
+  tmp1[3] = vc465[2];    // 10298:198
+  tmp3[2] = dot(in_pos, vc11);    // 10298:199
+  tmp3[1] = dot(in_pos, vc10);    // 10298:200
+  tmp4[3] = dot(in_pos, vc12);    // 10298:201
+  tmp3[0] = dot(in_pos, vc9);    // 10298:202
+  tmp3[3] = tmp4[3];    // 10298:203
+  func101();    // 10298:204
+} 
+"
+0(210) : error C5005: recursive call to function "void func101(){    // 10298:61
+  tmp3 = tmp3 + tmp4[ivec4(3, 3, 3, 3)];    // 10298:209
+  func101();    // 10298:210
+  return ;    // 10298:210
+  tmp3 = vc465[ivec4(2, 2, 2, 2)];    // 10298:211
+  tc5 = tmp3;    // 10298:212
+  col0 = tmp2;    // 10298:213
+  col1 = tmp1;    // 10298:214
+  gl_Position = tmp0;    // 10298:215
+  unk[ivec3(0, 1, 2)] = tmp4[ivec3(0, 1, 2)];    // 10298:216
+  tc0[ivec2(0, 1)] = tmp5[ivec2(0, 1)];    // 10298:217
+  tc1[ivec2(0, 1)] = tmp5[ivec2(2, 3)];    // 10298:218
+  tc2[ivec2(0, 1)] = tmp6[ivec2(0, 1)];    // 10298:219
+  fogc[ivec2(0, 1)] = tmp6[ivec2(2, 3)];    // 10298:220
+  tc4[ivec2(0, 1)] = tmp7[ivec2(0, 1)];    // 10298:221
+  tmp0[0] = (tmp0[ivec4(2, 2, 2, 2)] * vc467[ivec4(1, 1, 1, 1)] + vc467[ivec4(0, 0, 0, 0)])[0];    // 10298:222
+  tc6[ivec3(0, 1, 2)] = vc14[ivec3(0, 1, 2)];    // 10298:223
+  tc7[ivec3(0, 1, 2)] = vc15[ivec3(0, 1, 2)];    // 10298:224
+  tc3[0] = (-vc465[ivec4(2, 2, 2, 2)] + tmp0[ivec4(0, 0, 0, 0)])[0];    // 10298:225
+} 
+"
+
+Fragment info
+-------------
+0(32) : warning C7050: "r3.w" might be used before being initialized
+0(31) : warning C7050: "r2.w" might be used before being initialized
+
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 1840
+[! : RSXThread]: *** fp data size = 1248
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 7) in vec4 in_7;
+layout (location = 2) in vec4 in_normal;
+layout (location = 0) in vec4 in_pos;
+layout (location = 1) in vec4 in_weight;
+layout (location = 8) in vec4 in_tc0;
+layout (location = 9) in vec4 in_tc1;
+layout (location = 10) in vec4 in_tc2;
+layout (location = 11) in vec4 in_tc3;
+layout (location = 12) in vec4 in_tc4;
+layout (location = 3) in vec4 in_col0;
+vec4 tmp0;
+vec4 tmp4;
+vec4 tmp5;
+vec4 tmp1;
+vec4 tmp3;
+vec4 tmp7;
+vec4 tmp6;
+vec4 tmp2;
+vec4 rc = vec4(0.0);
+vec4 tmp8;
+uniform vec4 vc465;
+uniform vec4 vc66;
+uniform vec4 vc65;
+uniform vec4 vc64;
+uniform vec4 vc3;
+uniform vec4 vc2;
+uniform vec4 vc1;
+uniform vec4 vc0;
+uniform vec4 vc16;
+uniform vec4 vc56;
+uniform vec4 vc55;
+uniform vec4 vc54;
+uniform vec4 vc63;
+uniform vec4 vc21;
+uniform vec4 vc39;
+uniform vec4 vc466;
+uniform vec4 vc4;
+uniform vec4 vc11;
+uniform vec4 vc10;
+uniform vec4 vc12;
+uniform vec4 vc9;
+uniform vec4 vc467;
+uniform vec4 vc14;
+uniform vec4 vc15;
+out vec4 tc5;
+out vec4 col0;
+out vec4 col1;
+out vec4 unk;
+out vec4 tc0;
+out vec4 tc1;
+out vec4 tc2;
+out vec4 fogc;
+out vec4 tc4;
+out vec4 tc6;
+out vec4 tc7;
+out vec4 tc3;
+
+void func101();
+void func88();
+void func69();
+void func85();
+void func57();
+void func45();
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	//Unknown vp sca_opcode 0x11
+	tmp0 = floor(in_7.wzyx);
+	tmp0 = (tmp0 * vc465.xxxx);
+	//Unknown vp opcode 0xd
+	tmp0.z = vec2(dot(vc66.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.z;
+	tmp0.y = vec2(dot(vc65.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.y;
+	tmp0.x = vec2(dot(vc64.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.x;
+	tmp4.z = vec2(dot(vc66, in_pos), 0).xxxx.z;
+	tmp4.y = vec2(dot(in_pos, vc65), 0).xxxx.y;
+	tmp4.x = vec2(dot(in_pos, vc64), 0).xxxx.x;
+	tmp5.z = vec2(dot(in_pos, vc66), 0).xxxx.z;
+	tmp5.y = vec2(dot(in_pos, vc65), 0).xxxx.y;
+	tmp5.x = vec2(dot(in_pos, vc64), 0).xxxx.x;
+	tmp1.z = vec2(dot(vc66.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.z;
+	tmp1.y = vec2(dot(vc65.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.y;
+	tmp1.x = vec2(dot(vc64.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.x;
+	tmp3.z = vec2(dot(vc66.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.z;
+	tmp3.y = vec2(dot(vc65.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.y;
+	tmp3.x = vec2(dot(vc64.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.x;
+	tmp7.z = vec2(dot(in_pos, vc66), 0).xxxx.z;
+	tmp7.y = vec2(dot(in_pos, vc65), 0).xxxx.y;
+	tmp7.x = vec2(dot(in_pos, vc64), 0).xxxx.x;
+	tmp6.z = vec2(dot(in_pos, vc66), 0).xxxx.z;
+	tmp6.y = vec2(dot(in_pos, vc65), 0).xxxx.y;
+	tmp2.z = vec2(dot(vc66.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.z;
+	tmp2.y = vec2(dot(vc65.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.y;
+	tmp2.x = vec2(dot(vc64.xyzx.xyz, in_normal.xyzx.xyz), 0).xxxx.x;
+	tmp6.x = vec2(dot(in_pos, vc64), 0).xxxx.x;
+	tmp2.xyz = (in_weight.yyyy * tmp2.xyzx).xyz;
+	tmp6.xyz = (in_weight.yyyy * tmp6.xyzx).xyz;
+	tmp6.xyz = (in_weight.xxxx * tmp7.xyzx + tmp6.xyzx).xyz;
+	tmp2.xyz = (in_weight.xxxx * tmp3.xyzx + tmp2.xyzx).xyz;
+	tmp1.xyz = (in_weight.zzzz * tmp1.xyzx + tmp2.xyzx).xyz;
+	tmp2.xyz = (in_weight.zzzz * tmp5.xyzx + tmp6.xyzx).xyz;
+	tmp2.xyz = (in_weight.wwww * tmp4.xyzx + tmp2.xyzx).xyz;
+	tmp4.xyz = (in_weight.wwww * tmp0.xyzx + tmp1.xyzx).xyz;
+	tmp0.w = vec2(dot(vec4(tmp2.xyzx.xyz, 1), vc3), 0).xxxx.w;
+	tmp0.z = vec2(dot(vec4(tmp2.xyzx.xyz, 1), vc2), 0).xxxx.z;
+	tmp0.y = vec2(dot(vec4(tmp2.xyzx.xyz, 1), vc1), 0).xxxx.y;
+	{ func45(); return; };
+	tmp0.x = vec2(dot(vec4(tmp2.xyzx.xyz, 1), vc0), 0).xxxx.x;
+	tmp4.xyz = in_normal.xyzx.xyz;
+	tmp0.w = vec2(dot(in_pos, vc3), 0).xxxx.w;
+	tmp0.z = vec2(dot(in_pos, vc2), 0).xxxx.z;
+	tmp0.y = vec2(dot(in_pos, vc1), 0).xxxx.y;
+	func45();
+}
+
+void func45()
+{
+	tmp0.x = vec2(dot(in_pos, vc0), 0).xxxx.x;
+	//Unknown vp sca_opcode 0x11
+	tmp5.xy = (vc16.xyxx + in_tc0.xyxx).xy;
+	tmp5.zw = (vc16.xxxy + in_tc1.xxxy).zw;
+	tmp6.xy = (vc16.xyxx + in_tc2.xyxx).xy;
+	tmp6.zw = (vc16.xxxy + in_tc3.xxxy).zw;
+	tmp7.xy = (vc16.xyxx + in_tc4.xyxx).xy;
+	{ func57(); return; };
+	tmp5.xy = in_tc0.xyxx.xy;
+	tmp5.zw = in_tc1.xxxy.zw;
+	tmp6.xy = in_tc2.xyxx.xy;
+	tmp6.zw = in_tc3.xxxy.zw;
+	func57();
+}
+
+void func57()
+{
+	tmp7.xy = in_tc4.xyxx.xy;
+	//Unknown vp sca_opcode 0x11
+	tmp3.z = vec2(dot(tmp4.xyzx.xyz, vc56.xyzx.xyz), 0).xxxx.z;
+	tmp3.y = vec2(dot(tmp4.xyzx.xyz, vc55.xyzx.xyz), 0).xxxx.y;
+	tmp3.x = vec2(dot(tmp4.xyzx.xyz, vc54.xyzx.xyz), 0).xxxx.x;
+	tmp1.xyz = vc465.yyyy.xyz;
+	tmp1.w = vc465.yyyy.w;
+	tmp2.z = vec2(dot(in_pos, vc56), 0).xxxx.z;
+	tmp2.x = vc465.yyyy.x;
+	rc.x = vec4(lessThan(tmp2.xxxx, vc63.xxxx)).x;
+	tmp2.y = vec2(dot(in_pos, vc55), 0).xxxx.y;
+	tmp2.x = vec2(dot(in_pos, vc54), 0).xxxx.x;
+	func69();
+}
+
+void func85()
+{
+	tmp1.xyz = (tmp8.xyzx * tmp4.wwww + tmp1.xyzx).xyz;
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) { func69(); return; };
+	tmp1.xyz = clamp(tmp1.xyzx.xyz, 0.0, 1.0);
+	func88();
+}
+
+void func69()
+{
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) { func85(); return; };
+	if(all(equal(rc.xxxx, vec4(0.0).xxxx))) tmp2.w = vc465.yyyy.w;
+	//Unknown vp opcode 0xd
+	tmp8.xyz = (tmp2.xyzx + -vc21.xyzx).xyz;
+	tmp3.w = vec2(dot(tmp8.xyzx.xyz, tmp8.xyzx.xyz), 0).xxxx.w;
+	tmp2.w = (vc465.zzzz + tmp2.wwww).w;
+	tmp4.w = inversesqrt(tmp3.w);
+	tmp1.w = (vc465.zzzz + tmp1.wwww).w;
+	rc.x = vec4(lessThan(tmp2.wwww, vc63.xxxx)).x;
+	tmp3.w = 1.0 / tmp4.w;
+	tmp3.w = (-vc39.wwww + tmp3.wwww).w;
+	tmp8.xyz = (tmp4.wwww * tmp8.xyzx).xyz;
+	tmp3.w = max(tmp3.wwww, vc465.yyyy).w;
+	tmp3.w = clamp(1.0 / tmp3.w, 0.0, 1.0);
+	tmp4.w = vec2(dot(tmp3.xyzx.xyz, -tmp8.xyzx.xyz), 0).xxxx.w;
+	tmp8.xyz = (tmp3.wwww * vc39.xyzx).xyz;
+	func85();
+}
+
+void func88()
+{
+	{ func88(); return; };
+	tmp1.xyz = vc465.yyyy.xyz;
+	rc.x = vc466.xxxx.x;
+	tmp2 = in_col0;
+	if(all(notEqual(rc.xxxx, vec4(0.0).xxxx))) tmp2 = (in_col0 * vc4);
+	tmp2 = clamp(tmp2, 0.0, 1.0);
+	//Unknown vp sca_opcode 0x11
+	tmp1.w = vc465.zzzz.w;
+	tmp3.z = vec2(dot(in_pos, vc11), 0).xxxx.z;
+	tmp3.y = vec2(dot(in_pos, vc10), 0).xxxx.y;
+	tmp4.w = vec2(dot(in_pos, vc12), 0).xxxx.w;
+	tmp3.x = vec2(dot(in_pos, vc9), 0).xxxx.x;
+	tmp3.w = tmp4.wwww.w;
+	func101();
+}
+
+void func101()
+{
+	tmp3 = (tmp3 + tmp4.wwww);
+	{ func101(); return; };
+	tmp3 = vc465.zzzz;
+	tc5 = tmp3;
+	col0 = tmp2;
+	col1 = tmp1;
+	gl_Position = tmp0;
+	unk.xyz = tmp4.xyzx.xyz;
+	tc0.xy = tmp5.xyxx.xy;
+	tc1.xy = tmp5.zwzz.xy;
+	tc2.xy = tmp6.xyxx.xy;
+	fogc.xy = tmp6.zwzz.xy;
+	tc4.xy = tmp7.xyxx.xy;
+	tmp0.x = (tmp0.zzzz * vc467.yyyy + vc467.xxxx).x;
+	tc6.xyz = vc14.xyzx.xyz;
+	tc7.xyz = vc15.xyzx.xyz;
+	tc3.x = (-vc465.zzzz + tmp0.xxxx).x;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+uniform vec4 fc16 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc48 = vec4(0.000000, 1.000000, 0.000000, 0.000000);
+uniform vec4 fc80 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc112 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc192 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc240 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc272 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc368 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc448 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc496 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc528 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc576 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc608 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc656 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc736 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc784 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc832 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc864 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc912 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc960 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc992 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc1120 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc1168 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc1200 = vec4(2.000000, 0.000000, 0.000000, 0.000000);
+vec4 rc0;
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 1) out vec4 r2;
+layout (location = 2) out vec4 r3;
+layout (location = 0) out vec4 ocol;
+in vec4 tc0;
+in vec4 tc1;
+in vec4 tc6;
+in vec4 unk;
+in vec4 tc3;
+in vec4 col1;
+in vec4 col0;
+uniform sampler2D tex0;
+uniform sampler2D tex1;
+
+void main()
+{
+	rc0.w = fc16.xxxx.w;
+	r2.xyz = fc48.yyyy.xyz;
+	r1 = fc80.xxxx;
+	r0.x = fc112.xxxx.x;
+	r1 = texture(tex0, tc0.xy);
+	rc0.x = fc192.xxxx.x;
+	r1.w = fc240.xxxx.w;
+	rc0.x = fc272.xxxx.x;
+	r3.x = texture(tex1, tc1.xy).x;
+	r1.w = (r1 * r3.xxxx).w;
+	rc0.x = fc368.xxxx.x;
+	rc0.x = fc448.xxxx.x;
+	r2.xyz = fc496.xxxx.xyz;
+	rc0.x = fc528.xxxx.x;
+	r2.xyz = fc576.xxxx.xyz;
+	rc0.x = fc608.xxxx.x;
+	r0.w = max(r0.xxxx, fc656.xxxx).w;
+	r3.xyz = tc6.xyz;
+	r0.y = clamp(vec2(dot(unk.xyz, r3.xyz), 0).xxxx, 0.0, 1.0).y;
+	r3.xyz = (r0.yyyy * fc736).xyz;
+	r2.xyz = (r3 * r0.wwww + r2).xyz;
+	rc0.x = fc784.xxxx.x;
+	r2.xyz = (r2 + fc832).xyz;
+	r0.z = max(r0.xxxx, fc864.xxxx).z;
+	r0.x = clamp(tc3, 0.0, 1.0).x;
+	r2.w = (-r0.xxxx * fc912.yyyy + fc912.yyyy).w;
+	h0 = col1;
+	r0.w = (r2 + fc960.xxxx).w;
+	r2.w = fc992.xxxx.w;
+	r0.xyz = r0.xyz;
+	r2 = clamp((h0 * r0.zzzz + r2), 0.0, 1.0);
+	r1 = (r1 * r2);
+	h0 = col0;
+	r1 = (r1 * h0);
+	r0.xyz = (-r1 + fc1120).xyz;
+	r0.xyz = (r0.wwww * r0 + r1).xyz;
+	r0.w = fc1168.xxxx.w;
+	rc0.x = vec4(equal(r0.wwww, fc1200.xxxx)).x;
+	r0.w = r1.w;
+	if(all(notEqual(rc0.xxxx, vec4(0.0)))) r0 = (r1 * r1.wwww);
+	ocol = r0;
+}
+
+[E : RSXThread]: glUseProgram: opengl error 0x0502
+[W : RSXThread]: New FBO (1280x720)
+[E : RSXThread]: glGetUniformLocation(0x3, tex0): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc15): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc15 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc0): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc0 -1 [0.001563 0.000000 0.000000 -1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc1): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc1 -1 [0.000000 0.002778 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc2): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc2 -1 [0.000000 0.000000 0.000500 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc3): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc3 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc54): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc54 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc55): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc55 -1 [0.000000 1.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc56): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc56 -1 [0.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc57): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc57 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc466): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc466 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc465): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc465 -1 [3.000000 0.000000 1.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc9): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc9 -1 [0.001563 0.000000 0.000000 -1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc10): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc10 -1 [0.000000 0.002778 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc11): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc11 -1 [0.000000 0.000000 0.000500 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc12): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc12 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, vc14): opengl error 0x0502
+[E : RSXThread]: glUniform4f vc14 -1 [0.000000 0.000000 0.000000 1.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, scaleOffsetMat): opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, fc16): opengl error 0x0502
+[E : RSXThread]: glUniform4f fc16 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[E : RSXThread]: glGetUniformLocation(0x3, fc1168): opengl error 0x0502
+[E : RSXThread]: glUniform4f fc1168 -1 [1.000000 0.000000 0.000000 0.000000]: opengl error 0x0502
+[W : Audio Thread]: Audio aborted
+[W : PPU[46] Thread (Multistream_printf_server)[0x00049f78]]: sys_event_queue_receive(equeue=45) aborted
+[W : PPU[49] Thread (MultiStream PU Thread)[0x0004a4e0]]: sys_event_queue_receive(equeue=42) aborted
+[! : RSXThread]: RSX thread exit...
