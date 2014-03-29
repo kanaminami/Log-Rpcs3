@@ -1,0 +1,989 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BLUS30701 - [Hyperdimension Neptunia]/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6412/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6412/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6412/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6412/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BLUS30701 - [Hyperdimension Neptunia]/
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BLUS30701 - [Hyperdimension Neptunia]//../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BLUS30701 - [Hyperdimension Neptunia]/
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x619b1427 in 'cellSysutil' module
+[E]: TODO: cellWebBrowserConfigSetTabCount2
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x6d087930 in 'cellSysutil' module
+[E]: TODO: cellWebBrowserEstimate2
+[W]: Unknown function 0x749c9b5f in 'cellSysutil' module
+[E]: TODO: cellWebBrowserInitialize
+[W]: Unknown function 0x7f21c918 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAddSupportLanguage
+[W]: Unknown function 0x7fb3c6a5 in 'cellSysutil' module
+[E]: TODO: cellWebBrowserConfig2
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x93ced48d in 'cellSysutil' module
+[E]: TODO: cellWebBrowserShutdown
+[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown function 0xa5f12145 in 'cellSysutil' module
+[E]: TODO: cellWebBrowserCreate2
+[W]: Unknown function 0xa9a439e0 in 'cellSysutil' module
+[E]: TODO: cellWebBrowserConfigSetUnknownMIMETypeHook2
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xc427890c in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetInitialKeyLayout
+[W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
+[E]: TODO: cellSysutilDisableBgmPlayback
+[W]: Unknown function 0xe22ed55d in 'cellSysutil' module
+[E]: TODO: cellWebBrowserConfigSetFunction2
+[W]: Unknown function 0xe8dee79c in 'cellSysutil' module
+[E]: TODO: cellWebBrowserDestroy2
+[W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetLayoutMode
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xfe669845 in 'cellSysutil' module
+[E]: TODO: cellWebBrowserConfigSetHeapSize2
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x69726aa2 in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkload
+[W]: Unknown function 0x7e4ea023 in 'cellSpurs' module
+[E]: TODO: cellSpursWakeUp
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0xa73bf47e in 'cellSpurs' module
+[E]: TODO: _cellSpursWorkloadFlagReceiver
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xc765b995 in 'cellSpurs' module
+[E]: TODO: cellSpursGetWorkloadFlag
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0x06be743d in 'cellFont' module
+[E]: TODO: cellFontGetKerning
+[W]: Unknown function 0xced4dda9 in 'cellFont' module
+[E]: TODO: cellFontGetRenderEffectSlant
+[W]: Unknown function 0x0d90a48d in 'cellL10n' module
+[E]: TODO: UCS2stoSJISs
+[W]: Unknown function 0x14f504b8 in 'cellL10n' module
+[E]: TODO: EUCKRstoUCS2s
+[W]: Unknown function 0x2b84030c in 'cellL10n' module
+[E]: TODO: EUCKRstoUTF8s
+[W]: Unknown function 0x33435818 in 'cellL10n' module
+[E]: TODO: SJISstoUTF8s
+[W]: Unknown function 0xdc54886c in 'cellL10n' module
+[E]: TODO: UCS2stoEUCKRs
+[W]: Unknown function 0xdd5ebdeb in 'cellL10n' module
+[E]: TODO: UTF8stoSJISs
+[W]: Unknown function 0xf9b1896d in 'cellL10n' module
+[E]: TODO: SJISstoUCS2s
+[W]: Unknown function 0x05d65dff in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpId
+[W]: Unknown function 0x1672170e in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScore
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3f0808aa in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresence
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x5de61626 in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTitleCtx
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x8440537c in 'sceNp' module
+[E]: TODO: sceNpLookupTerm
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xce81c7f0 in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTitleCtx
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xea2e9ffc in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTransactionCtx
+[W]: Unknown function 0xf4e0f607 in 'sceNp' module
+[E]: TODO: sceNpScoreGetBoardInfo
+[W]: Unknown function 0xfb87cf5e in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTransactionCtx
+[W]: Unknown function 0xfbc82301 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRange
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown module 'cellOskExtUtility'
+[W]: Unknown module 'cellPhotoImportUtil'
+[W]: Unknown module 'cellPhotoDecodeUtil'
+[W]: Unknown function 0x07254fda in 'cellSync' module
+[E]: TODO: cellSyncBarrierInitialize
+[W]: Unknown function 0x6c272124 in 'cellSync' module
+[E]: TODO: cellSyncBarrierTryWait
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00563130]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x5808b8, userdata=0x61fa80)
+[W : PPU[1] Thread (CPUThread)[0x0046af84]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[E : PPU[1] Thread (CPUThread)[0x0001b1b8]]: sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00567028]]: cellGcmSys warning: cellGcmInit(context_addr=0x5b015c,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x37a00000)
+[W : PPU[1] Thread (CPUThread)[0x00567028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x00567028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37a00000, io=0x0, size=0x100000)
+[! : RSXThread]: RSX thread entry
+[E : PPU[1] Thread (CPUThread)[0x0056710c]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x00567010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x5808f0)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
+[W : PPU[1] Thread (CPUThread)[0x00563010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010b64, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00567070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5888)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=3145728, pitch=3072, comp=7, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=3145728, size=5701632, pitch=5888, comp=8, base=48, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (8)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x005670e8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x005670e8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x180000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x00567094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37b00000, io=0xc900000, size=0x1700000)
+[W : PPU[1] Thread (CPUThread)[0x00567088]]: cellGcmSys warning: cellGcmMapEaIoAddressWithFlags(ea=0x39200000, io=0xe000000, size=0x100000, flags=0x2)
+[W : PPU[1] Thread (CPUThread)[0x00567088]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39200000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[1] Thread (CPUThread)[0x0056f058]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214490): id = 28
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214610): id = 30
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214790): id = 32
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214890): id = 34
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214990): id = 36
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214a90): id = 38
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214b90): id = 40
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214c90): id = 42
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214d90): id = 44
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30214e90): id = 46
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215010): id = 48
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215110): id = 50
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215210): id = 52
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 53
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215310): id = 54
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215410): id = 56
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215590): id = 58
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215710): id = 60
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30215810): id = 62
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30216610): id = 64
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30218f90): id = 66
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30219090): id = 68
+[E : PPU[1] Thread (CPUThread)[0x014f9028]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0151701c]]: sys_lwcond warning: sys_lwcond_destroy(lwcond_addr=0x30218fa8)
+[W : PPU[1] Thread (CPUThread)[0x015170f4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30218f90)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONT)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FREETYPE)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONTFT)
+[W : PPU[1] Thread (CPUThread)[0x014fd0d0]]: cellFont warning: cellFontInitializeWithRevision(revisionFlags=0x61, config=0xd0010818)
+[W : PPU[1] Thread (CPUThread)[0x014fb004]]: cellFontFT warning: cellFontInitLibraryFreeTypeWithRevision(revisionFlags=0x41, config_addr=0xd0010840, lib_addr_addr=0x145a994
+[W : PPU[1] Thread (CPUThread)[0x014fd004]]: cellFont warning: cellFontCreateRenderer(library_addr=0x30016000, config_addr=0xd001082c, Renderer_addr=0x145a998)
+[W : PPU[1] Thread (CPUThread)[0x0043c9a0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x149ece8, attr_addr=0xd0010784, event_queue_key=0x0, size=8)
+[W : PPU[1] Thread (CPUThread)[0x0043c9a0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 69
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [spu_printf_handler] (): id = 70
+[W : PPU[1] Thread (CPUThread)[0x0043ca28]]: sys_event warning: sys_event_port_create(eport_id_addr=0x149ecec, port_type=0x1, name=0xd1ed1ed1)
+[W : PPU[1] Thread (CPUThread)[0x0043ca28]]: sys_event warning: *** sys_event_port created: id = 71
+[W : PPU[1] Thread (CPUThread)[0x0043ca38]]: sys_event warning: sys_event_port_connect_local(eport_id=71, equeue_id=69)
+[E : PPU[1] Thread (CPUThread)[0x0056f064]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x39200400, queue=0x45, port_addr=0xd0010780, isDynamic=0)
+[E : PPU[1] Thread (CPUThread)[0x0056f028]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x0056f04c]]: TODO: _cellSpursWorkloadFlagReceiver
+[E : PPU[1] Thread (CPUThread)[0x0056f088]]: TODO: cellSpursReadyCountStore
+[E : PPU[1] Thread (CPUThread)[0x0056f034]]: TODO: cellSpursWakeUp
+[W : PPU[1] Thread (CPUThread)[0x00563130]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x578448, userdata=0xf03734)
+[W : PPU[1] Thread (CPUThread)[0x0056707c]]: cellGcmSys warning: cellGcmGetDefaultCommandWordSize()
+[W : PPU[1] Thread (CPUThread)[0x005670b8]]: cellGcmSys warning: cellGcmGetDefaultSegmentWordSize()
+[E : PPU[1] Thread (CPUThread)[0x0056f070]]: TODO: cellSpursGetWorkloadFlag
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x379fd490): id = 73
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 74
+[W : PPU[1] Thread (CPUThread)[0x01517100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x379fd390): id = 75
+[E : PPU[1] Thread (CPUThread)[0x014f9028]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x0151701c]]: sys_lwcond warning: sys_lwcond_destroy(lwcond_addr=0x379fd3a8)
+[W : PPU[1] Thread (CPUThread)[0x015170f4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x379fd390)
+[W : PPU[1] Thread (CPUThread)[0x00563088]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 76
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 77
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 79
+[W : PPU[1] Thread (CPUThread)[0x0056d01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 80
+[W : PPU[1] Thread (CPUThread)[0x000e1068]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 81
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition on recursive mutex(81)
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition created [] (mutex_id=81): id = 82
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CriThread] (): id = 83
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=83, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x000e1068]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 85
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition on recursive mutex(85)
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition created [] (mutex_id=85): id = 86
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CriThread] (): id = 87
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=87, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 88
+[W : PPU[1] Thread (CPUThread)[0x000e1068]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 89
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition on recursive mutex(89)
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition created [] (mutex_id=89): id = 90
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CriThread] (): id = 91
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=91, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x000e1068]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 93
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition on recursive mutex(93)
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition created [] (mutex_id=93): id = 94
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CriThread] (): id = 95
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=95, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x000e1068]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 97
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition on recursive mutex(97)
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition created [] (mutex_id=97): id = 98
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CriThread] (): id = 99
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=99, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x000e1068]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 101
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition on recursive mutex(101)
+[W : PPU[1] Thread (CPUThread)[0x000e109c]]: sys_cond warning: *** condition created [] (mutex_id=101): id = 102
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CriThread] (): id = 103
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=103, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 110
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 114
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [CRI Server Manager] (): id = 116
+[W : PPU[1] Thread (CPUThread)[0x000e1b70]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=116, prio=500)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
+[W : PPU[1] Thread (CPUThread)[0x0005ab84]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 118
+[W : PPU[1] Thread (CPUThread)[0x0005abb8]]: sys_cond warning: *** condition on recursive mutex(118)
+[W : PPU[1] Thread (CPUThread)[0x0005abb8]]: sys_cond warning: *** condition created [] (mutex_id=118): id = 119
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_dlg] (): id = 121
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 122
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 123
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
+[W : PPU[1] Thread (CPUThread)[0x0005ab84]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 125
+[W : PPU[1] Thread (CPUThread)[0x0005abb8]]: sys_cond warning: *** condition on recursive mutex(125)
+[W : PPU[1] Thread (CPUThread)[0x0005abb8]]: sys_cond warning: *** condition created [] (mutex_id=125): id = 126
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_dlg] (): id = 128
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 129
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 130
+[W : PPU[1] Thread (CPUThread)[0x000ee308]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 131
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [HDD Cache Server] (): id = 132
+[W : PPU[1] Thread (CPUThread)[0x0056d01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x00563094]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010624, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x01501004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x015170e8]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x4fd0d0, align=0x20000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x015170e8]]: sys_heap warning: *** sys_heap created: id = 133
+[W : PPU[1] Thread (CPUThread)[0x0151707c]]: sys_heap warning: _sys_heap_memalign(heap_id=133, align=0x10, size=0x1080)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 134
+[W : PPU[1] Thread (CPUThread)[0x0151707c]]: sys_heap warning: _sys_heap_memalign(heap_id=133, align=0x10, size=0x8280)
+[W : PPU[1] Thread (CPUThread)[0x00031440]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 135
+[W : PPU[1] Thread (CPUThread)[0x00031464]]: sys_cond warning: *** condition created [] (mutex_id=135): id = 136
+[W : PPU[1] Thread (CPUThread)[0x000314f0]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 137
+[W : PPU[1] Thread (CPUThread)[0x00031514]]: sys_cond warning: *** condition created [] (mutex_id=137): id = 138
+[W : PPU[1] Thread (CPUThread)[0x00031598]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 139
+[W : PPU[1] Thread (CPUThread)[0x000315bc]]: sys_cond warning: *** condition created [] (mutex_id=139): id = 140
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 141
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 142
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 143
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [_cellsurMixerMain] (): id = 144
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 145
+[W : PPU[144] Thread (_cellsurMixerMain)[0x00032ec8]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x5b06a4, attr_addr=0x5b1750, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[1] Thread (CPUThread)[0x01501064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x5b06e8, portNum_addr=0x5b0658)
+[W : PPU[144] Thread (_cellsurMixerMain)[0x00032ec8]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 146
+[W : PPU[1] Thread (CPUThread)[0x01501064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x0150104c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x5b0708)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 147
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 148
+[W : PPU[132] Thread (HDD Cache Server)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BLUS30701//cache" not found.
+[W : PPU[1] Thread (CPUThread)[0x00038614]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 149
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition on recursive mutex(149)
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition created [] (mutex_id=149): id = 150
+[W : PPU[1] Thread (CPUThread)[0x00038614]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 151
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition on recursive mutex(151)
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition created [] (mutex_id=151): id = 152
+[W : PPU[1] Thread (CPUThread)[0x00038614]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 153
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition on recursive mutex(153)
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition created [] (mutex_id=153): id = 154
+[W : PPU[1] Thread (CPUThread)[0x00038614]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 155
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition on recursive mutex(155)
+[W : PPU[1] Thread (CPUThread)[0x0003864c]]: sys_cond warning: *** condition created [] (mutex_id=155): id = 156
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 157
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 158
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 159
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 160
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 161
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 162
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 163
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 164
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 165
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_adxm_vv_proc] (): id = 166
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 167
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_adxm_vsync_proc] (): id = 168
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 169
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_adxm_fs_proc] (): id = 170
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 171
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_adxm_idle_proc] (): id = 172
+[W : PPU[1] Thread (CPUThread)[0x00038b48]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
+[W : PPU[1] Thread (CPUThread)[0x01501058]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0150101c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 173
+[W : PPU[132] Thread (HDD Cache Server)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BLUS30701//temp" not found.
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 174
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 175
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 176
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 177
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 178
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 179
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 180
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 181
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 182
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 183
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 184
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 185
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 186
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 187
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 188
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 189
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 190
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 191
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 192
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 193
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 194
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 195
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 196
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 197
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 198
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 199
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 200
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 201
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 202
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 203
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 204
+[W : PPU[1] Thread (CPUThread)[0x0005ab84]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 205
+[W : PPU[1] Thread (CPUThread)[0x0005abb8]]: sys_cond warning: *** condition on recursive mutex(205)
+[W : PPU[1] Thread (CPUThread)[0x0005abb8]]: sys_cond warning: *** condition created [] (mutex_id=205): id = 206
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 207
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [cri_dlg] (): id = 208
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 209
+[W : PPU[1] Thread (CPUThread)[0x0151704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 210
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [gdatGetPath] (): id = 211
+[E : PPU[211] Thread (gdatGetPath)[0x014ff010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[211] Thread (gdatGetPath)[0x014ff004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x379de42a, usrdirPath_addr=0x379de32b)
+[! : PPU[211] Thread (gdatGetPath)[0x01517028]]: *** New PPU Thread [GameDataListup] (): id = 212
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC001.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC001.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC002.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC002.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC003.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC003.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC004.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC004.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC005.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC005.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC006.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC006.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC007.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC007.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC008.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC008.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC009.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC009.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC010.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC010.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x0056d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_OSK_EXT)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC011.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC011.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC012.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC012.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC013.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC013.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC014.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC014.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC015.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC015.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC016.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC016.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC017.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC017.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC018.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC018.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC019.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC019.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC020.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC020.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC021.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC021.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC022.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC022.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC023.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC023.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC024.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC024.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC025.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC025.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC026.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC026.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC027.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC027.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC028.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC028.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC029.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC029.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC030.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC030.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC031.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC031.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC032.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC032.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC033.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC033.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC034.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC034.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC035.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC035.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC036.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC036.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC037.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC037.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC038.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC038.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC039.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC039.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC040.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC040.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC041.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC041.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC042.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC042.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC043.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC043.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC044.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC044.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC045.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC045.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC046.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC046.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC047.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC047.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC048.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC048.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC049.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC049.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC050.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC050.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC051.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC051.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC052.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC052.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC053.edat" not found.
+[! : PPU[1] Thread (CPUThread)[0x01517028]]: *** New PPU Thread [EntryArchive] (): id = 213
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC053.edat" not found.
+[E : PPU[1] Thread (CPUThread)[0x0056f088]]: TODO: cellSpursReadyCountStore
+[E : PPU[1] Thread (CPUThread)[0x0056f034]]: TODO: cellSpursWakeUp
+[E : PPU[1] Thread (CPUThread)[0x0056f088]]: TODO: cellSpursReadyCountStore
+[E : PPU[1] Thread (CPUThread)[0x0056f034]]: TODO: cellSpursWakeUp
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC054.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC054.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC055.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC055.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC056.edat" not found.
+[E : PPU[1] Thread (CPUThread)[0x00468f98]]: Read32 from null block: [30012000301f1218]
+[E : PPU[1] Thread (CPUThread)[0x00468fa4]]: Read32 from null block: [30012000301f121c]
+[E : PPU[1] Thread (CPUThread)[0x00463fcc]]: Read32 from null block: [30012000301f1218]
+[E : PPU[1] Thread (CPUThread)[0x00463fd4]]: Read32 from null block: [30012000301f121c]
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC056.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/system.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC057.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC057.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/system.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC058.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC058.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC059.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC059.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC060.edat" not found.
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetRenderEnable(0x1000000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC060.edat" not found.
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC061.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=9109504, size=7864320, pitch=10240, comp=7, base=135, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC061.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/sound.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC062.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC062.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/sound.cpk" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=16973824, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC063.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC063.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=20905984, size=7864320, pitch=10240, comp=7, base=255, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC064.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=28770304, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC064.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=32702464, size=983040, pitch=2560, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=6)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC065.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC065.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC066.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=7, location=0, offset=33685504, size=4194304, pitch=4096, comp=10, base=375, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x005670d0]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC066.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC067.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/se.cpk" not found! flags: 0x00000000
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC067.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC068.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/se.cpk" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=8, location=0, offset=37879808, size=7864320, pitch=10240, comp=11, base=439, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x005670d0]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC068.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC069.edat" not found.
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=9, location=0, offset=45744128, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x00567004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC069.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys warning: cellGcmSetTileInfo(index=10, location=0, offset=49676288, size=983040, pitch=2560, comp=10, base=559, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x00567130]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x00567064]]: cellGcmSys warning: cellGcmBindTile(index=10)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC070.edat" not found.
+[W : PPU[1] Thread (CPUThread)[0x005670d0]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC070.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC071.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC071.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/movie.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC072.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC072.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC073.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/movie.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC073.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC074.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC074.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC075.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC075.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC076.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC076.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC077.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/data.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC077.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC078.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC078.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/data.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC079.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC079.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC080.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC080.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC081.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC081.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC082.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC082.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/effect.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC083.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC083.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/effect.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC084.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC084.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC085.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC085.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC086.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC086.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC087.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/interface.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC087.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC088.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/interface.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC088.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC089.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC089.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC090.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC090.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC091.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC091.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC092.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/object.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC092.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC093.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC093.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/object.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC094.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC094.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC095.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC095.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC096.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC096.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC097.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/obj_chara.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC097.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC098.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC098.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC099.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/obj_chara.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC099.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC100.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC100.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC101.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC101.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC102.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC102.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC103.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC103.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/graphic.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC104.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC104.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC105.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/graphic.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC105.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC106.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC106.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC107.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC107.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC108.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC108.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC109.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/dungeon.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC109.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC110.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/dungeon.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC110.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC111.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC111.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC112.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC112.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC113.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC113.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC114.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/event.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC114.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC115.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC115.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC116.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/event.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC116.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC117.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC117.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC118.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC118.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/script.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC119.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC119.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC120.edat" not found.
+[E : PPU[91] Thread (CriThread)[0x0056b034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/contents/script.cpk" not found! flags: 0x00000000
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC120.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC121.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC121.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC122.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC122.edat" not found.
+[W : PPU[213] Thread (EntryArchive)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC/font/msg/font.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC123.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC123.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC124.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC124.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC125.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC125.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC126.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC126.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC127.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC127.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC128.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC128.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC129.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC129.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC130.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC130.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC131.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC131.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC132.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC132.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC133.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC133.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC134.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC134.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC135.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC135.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC136.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC136.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC137.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC137.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC138.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC138.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC139.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC139.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC140.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC140.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC141.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC141.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC142.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC142.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC143.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC143.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC144.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC144.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC145.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC145.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC146.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC146.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC147.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC147.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC148.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC148.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC149.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC149.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC150.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC150.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC151.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC151.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC152.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC152.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC153.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC153.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC154.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC154.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC155.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC155.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC156.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC156.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC157.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC157.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC158.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC158.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC159.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC159.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC160.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC160.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC161.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC161.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC162.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC162.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC163.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC163.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC164.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC164.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC165.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC165.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC166.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC166.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC167.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC167.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC168.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC168.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC169.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC169.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC170.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC170.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC171.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC171.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC172.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC172.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC173.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC173.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC174.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC174.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC175.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC175.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC176.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC176.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC177.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC177.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC178.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC178.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC179.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC179.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC180.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC180.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC181.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC181.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC182.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC182.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC183.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC183.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC184.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC184.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC185.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC185.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC186.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC186.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC187.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC187.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC188.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC188.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC189.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC189.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC190.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC190.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC191.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC191.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC192.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC192.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC193.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC193.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC194.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC194.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC195.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC195.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC196.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC196.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC197.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC197.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC198.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC198.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC199.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC199.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/APPVER100/DLC200.edat" not found.
+[W : PPU[212] Thread (GameDataListup)[0x0056b040]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLUS30701/USRDIR/DLC200.edat" not found.
+[W : PPU[91] Thread (CriThread)[0x000e1164]]: sys_cond_wait(id=90) aborted
+[W : PPU[83] Thread (CriThread)[0x000e1164]]: sys_cond_wait(id=82) aborted
+[W : PPU[99] Thread (CriThread)[0x000e1164]]: sys_cond_wait(id=98) aborted
+[W : PPU[87] Thread (CriThread)[0x000e1164]]: sys_cond_wait(id=86) aborted
+[W : PPU[172] Thread (cri_adxm_idle_proc)[0x00038234]]: sys_cond_wait(id=154) aborted
+[W : PPU[103] Thread (CriThread)[0x000e1164]]: sys_cond_wait(id=102) aborted
+[W : PPU[95] Thread (CriThread)[0x000e1164]]: sys_cond_wait(id=94) aborted
+[W : PPU[208] Thread (cri_dlg)[0x0005ae70]]: sys_cond_wait(id=206) aborted
+[W : PPU[121] Thread (cri_dlg)[0x0005ae70]]: sys_cond_wait(id=119) aborted
+[W : PPU[70] Thread (spu_printf_handler)[0x0043d0e0]]: sys_event_queue_receive(equeue=69) aborted
+[! : RSXThread]: RSX thread exit...
+[W : PPU[128] Thread (cri_dlg)[0x0005ae70]]: sys_cond_wait(id=126) aborted
+[W : PPU[141] Thread (_sys_mixerSurBusReq)[0x000308ec]]: sys_cond_wait(id=136) aborted
+[W : PPU[170] Thread (cri_adxm_fs_proc)[0x01517004]]: sys_lwmutex_t::lock(sq=123) aborted
+[W : PPU[144] Thread (_cellsurMixerMain)[0x000330f0]]: sys_event_queue_receive(equeue=146) aborted
+[!]: Closing memory...
