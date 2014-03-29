@@ -1,0 +1,2219 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BCUS98380-[Ratchet and Clank Full Frontal Assault]/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> E:\PS3EMU\Rpcs3-x6412/dev_hdd0/
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6412/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6412/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6412/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6412/dev_usb000/
+[!]: /app_home/ -> E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BCUS98380-[Ratchet and Clank Full Frontal Assault]/
+[!]: /dev_bdvd/ -> E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BCUS98380-[Ratchet and Clank Full Frontal Assault]//../
+[!]: /host_root/ -> 
+[!]: / -> E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BCUS98380-[Ratchet and Clank Full Frontal Assault]/
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown module 'sceNpTus'
+[W]: Unknown module 'sceNpCommerce2'
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilParseUri
+[W]: Unknown function 0x9003b1f2 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilEscapeUri
+[W]: Unknown function 0x006c4900 in 'cellSsl' module
+[E]: TODO: cellSslCertGetNameEntryInfo
+[W]: Unknown function 0x033c4905 in 'cellSsl' module
+[E]: TODO: cellSslCertGetRsaPublicKeyExponent
+[W]: Unknown function 0x1650aea4 in 'cellSsl' module
+[E]: TODO: cellSslEnd
+[W]: Unknown function 0x32c61bdf in 'cellSsl' module
+[E]: TODO: cellSslCertGetSubjectName
+[W]: Unknown function 0x571afaca in 'cellSsl' module
+[E]: TODO: cellSslCertificateLoader
+[W]: Unknown function 0x766d3ca1 in 'cellSsl' module
+[E]: TODO: cellSslCertGetNameEntryCount
+[W]: Unknown function 0x7b689ebc in 'cellSsl' module
+[E]: TODO: cellSslCertGetSerialNumber
+[W]: Unknown function 0x8e505175 in 'cellSsl' module
+[E]: TODO: cellSslCertGetRsaPublicKeyModulus
+[W]: Unknown function 0xae6eb491 in 'cellSsl' module
+[E]: TODO: cellSslCertGetIssuerName
+[W]: Unknown function 0xf8206492 in 'cellSsl' module
+[E]: TODO: cellSslCertGetPublicKey
+[W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
+[E]: TODO: cellSslInit
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0x71f4c717 in 'sys_net' module
+[E]: TODO: gethostbyname
+[W]: Unknown function 0x858a930b in 'sys_net' module
+[E]: TODO: inet_ntoa
+[W]: Unknown function 0xc98a3146 in 'sys_net' module
+[E]: TODO: inet_ntop
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetInvalidateTile
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
+[E]: TODO: cellSpursWorkloadAttributeSetName
+[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagClear
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x7e4ea023 in 'cellSpurs' module
+[E]: TODO: cellSpursWakeUp
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
+[E]: TODO: cellSpursInitializeWithAttribute
+[W]: Unknown function 0xc0158d8b in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkloadWithAttribute
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xefeb2679 in 'cellSpurs' module
+[E]: TODO: _cellSpursWorkloadAttributeInitialize
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x182d9890 in 'cellSpurs' module
+[E]: TODO: cellSpursRequestIdleSpu
+[W]: Unknown function 0x4e153e3e in 'cellSpurs' module
+[E]: TODO: cellSpursGetWorkloadInfo
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
+[E]: TODO: cellSpursSetExceptionEventHandler
+[W]: Unknown function 0x1a267f98 in 'cellSysmodule' module
+[E]: Unknown func id: 0x1a267f98
+[W]: Unknown function 0xfd0e1cac in 'cellSysmodule' module
+[E]: Unknown func id: 0xfd0e1cac
+[W]: Unknown function 0x10dae56d in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateTerm
+[W]: Unknown function 0x99ab1a26 in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateInit
+[W]: Unknown function 0xa5e1fa60 in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckStartWithoutDialogAsync
+[W]: Unknown function 0xd0a5d727 in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckStartAsync
+[W]: Unknown function 0xffa3d791 in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckFinishAsync
+[W]: Unknown function 0x000e53cc in 'sceNp' module
+[E]: TODO: sceNpManagerSubSignout
+[W]: Unknown function 0x01fbbc9b in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessageGui
+[W]: Unknown function 0x0968aa36 in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicket
+[W]: Unknown function 0x155de760 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionInfo
+[W]: Unknown function 0x168a3117 in 'sceNp' module
+[E]: TODO: sceNpBasicAddPlayersHistory
+[W]: Unknown function 0x1ae8a549 in 'sceNp' module
+[E]: TODO: sceNpBasicAddBlockListEntry
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x27c69eba in 'sceNp' module
+[E]: TODO: sceNpBasicAddFriend
+[W]: Unknown function 0x2ecd48ed in 'sceNp' module
+[E]: TODO: sceNpDrmVerifyUpgradeLicense
+[W]: Unknown function 0x32c78a6a in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendPresenceByIndex
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3d1760dc in 'sceNp' module
+[E]: TODO: sceNpLookupAbortTransaction
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x3f0808aa in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresence
+[W]: Unknown function 0x4026eac5 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterContextSensitiveHandler
+[W]: Unknown function 0x442381f7 in 'sceNp' module
+[E]: TODO: sceNpManagerSubSignin
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x58fa4fcd in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicketParam
+[W]: Unknown function 0x5de61626 in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTitleCtx
+[W]: Unknown function 0x5f2d9257 in 'sceNp' module
+[E]: TODO: sceNpLookupInit
+[W]: Unknown function 0x60897c38 in 'sceNp' module
+[E]: TODO: sceNpSignalingActivateConnection
+[W]: Unknown function 0x6356082e in 'sceNp' module
+[E]: TODO: sceNpSignalingCreateCtx
+[W]: Unknown function 0x64a704cc in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageAttachmentLoad
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x73931bd0 in 'sceNp' module
+[E]: TODO: sceNpBasicGetBlockListEntryCount
+[W]: Unknown function 0x7508112e in 'sceNp' module
+[E]: TODO: sceNpLookupPollAsync
+[W]: Unknown function 0x806960ab in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageCustom
+[W]: Unknown function 0x8297f1ec in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket2
+[W]: Unknown function 0x8440537c in 'sceNp' module
+[E]: TODO: sceNpLookupTerm
+[W]: Unknown function 0x860b1756 in 'sceNp' module
+[E]: TODO: sceNpLookupTitleSmallStorageAsync
+[W]: Unknown function 0x95c7bba3 in 'sceNp' module
+[E]: TODO: sceNpSignalingTerminateConnection
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa8cf8451 in 'sceNp' module
+[E]: TODO: sceNpSignalingDestroyCtx
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xca0a2d04 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionStatus
+[W]: Unknown function 0xce81c7f0 in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTitleCtx
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xea2e9ffc in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTransactionCtx
+[W]: Unknown function 0xeb7a3d84 in 'sceNp' module
+[E]: TODO: sceNpManagerGetChatRestrictionFlag
+[W]: Unknown function 0xec0a1fbf in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessage
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf2b3338a in 'sceNp' module
+[E]: TODO: sceNpBasicGetBlockListEntry
+[W]: Unknown function 0xfb87cf5e in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTransactionCtx
+[W]: Unknown function 0xfd0eb5ae in 'sceNp' module
+[E]: TODO: sceNpSignalingDeactivateConnection
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x0e091c36 in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserListAutoSave
+[W]: Unknown function 0x0f03cfb0 in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserListSave
+[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad2
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x248bd1d8 in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserListAutoLoad
+[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave2
+[W]: Unknown function 0x39dd8425 in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserListLoad
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoSave
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x01379fd7 in 'sceNp2' module
+[E]: TODO: sceNpMatching2DestroyContext
+[W]: Unknown function 0x05bf2fbd in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetWorldInfoList
+[W]: Unknown function 0x0d22867f in 'sceNp2' module
+[E]: TODO: sceNpMatching2SearchRoom
+[W]: Unknown function 0x1f372697 in 'sceNp2' module
+[E]: TODO: sceNpMatching2LeaveRoom
+[W]: Unknown function 0x215b0d75 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataExternal
+[W]: Unknown function 0x23009d07 in 'sceNp2' module
+[E]: TODO: sceNpMatching2Term2
+[W]: Unknown function 0x3457c0db in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerInfo
+[W]: Unknown function 0x3c00c9d4 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetEventData
+[W]: Unknown function 0x41251f74 in 'sceNp2' module
+[E]: TODO: sceNp2Init
+[W]: Unknown function 0x5721e711 in 'sceNp2' module
+[E]: TODO: sceNpMatching2JoinRoom
+[W]: Unknown function 0x66f19527 in 'sceNp2' module
+[E]: TODO: sceNpMatching2KickoutRoomMember
+[W]: Unknown function 0x6ba4c668 in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStartAsync
+[W]: Unknown function 0x748029a2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterContextCallback
+[W]: Unknown function 0x817d1090 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataInternal
+[W]: Unknown function 0x8e5cfe9f in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerIdListLocal
+[W]: Unknown function 0x9cbce3f2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateContext
+[W]: Unknown function 0xaa6c2c43 in 'sceNp2' module
+[E]: TODO: sceNpMatching2ClearEventData
+[W]: Unknown function 0xaadb7c12 in 'sceNp2' module
+[E]: TODO: sceNp2Term
+[W]: Unknown function 0xac98b03a in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetUserInfoList
+[W]: Unknown function 0xb851aacf in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomMemberDataInternal
+[W]: Unknown function 0xdb87b088 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetDefaultRequestOptParam
+[W]: Unknown function 0xdcb6b27d in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomEventCallback
+[W]: Unknown function 0xe4ac32ca in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetRoomDataExternalList
+[W]: Unknown function 0xe7a3bc7a in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateJoinRoom
+[W]: Unknown function 0xf43c647a in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStop
+[W]: Unknown function 0xf4babd3f in 'sceNp2' module
+[E]: TODO: sceNpMatching2Init2
+[W]: Unknown function 0xfee11e72 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomMessageCallback
+[W]: Unknown function 0x2cde989f in 'cellRudp' module
+[E]: TODO: cellRudpGetSizeReadable
+[W]: Unknown function 0x384ba777 in 'cellRudp' module
+[E]: TODO: cellRudpSetOption
+[W]: Unknown function 0x48c001b0 in 'cellRudp' module
+[E]: TODO: cellRudpWrite
+[W]: Unknown function 0x48d3eeac in 'cellRudp' module
+[E]: TODO: cellRudpTerminate
+[W]: Unknown function 0x576831ae in 'cellRudp' module
+[E]: TODO: cellRudpGetRemoteInfo
+[W]: Unknown function 0x63f63545 in 'cellRudp' module
+[E]: TODO: cellRudpInit
+[W]: Unknown function 0x6c0cff03 in 'cellRudp' module
+[E]: TODO: cellRudpEnableInternalIOThread
+[W]: Unknown function 0x74bfad12 in 'cellRudp' module
+[E]: TODO: cellRudpGetContextStatus
+[W]: Unknown function 0x7dadc739 in 'cellRudp' module
+[E]: TODO: cellRudpCreateContext
+[W]: Unknown function 0x7ed95e60 in 'cellRudp' module
+[E]: TODO: cellRudpSetEventHandler
+[W]: Unknown function 0x92e4d899 in 'cellRudp' module
+[E]: TODO: cellRudpRead
+[W]: Unknown function 0xa86b28e3 in 'cellRudp' module
+[E]: TODO: cellRudpGetSizeWritable
+[W]: Unknown function 0xb6bcb4a1 in 'cellRudp' module
+[E]: TODO: cellRudpEnd
+[W]: Unknown function 0xc407844f in 'cellRudp' module
+[E]: TODO: cellRudpInitiate
+[W]: Unknown function 0xee41e16a in 'cellRudp' module
+[E]: TODO: cellRudpBind
+[W]: Unknown module 'cellSysutilAvc2'
+[W]: Unknown module 'cellSysutilNpEula'
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00ab8770]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00776fbc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010bc0)
+[W : PPU[1] Thread (CPUThread)[0x0077702c]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0xf, alignment=0x10000000, alloc_addr=0xf1bdbc)
+[W : PPU[1] Thread (CPUThread)[0x012600f4]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xf1b5bc)
+[W : PPU[1] Thread (CPUThread)[0x01260118]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xd, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x01260118]]: memory mapped 0x30100000 to 0x0 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x01260058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 15
+[E : PPU[1] Thread (CPUThread)[0x000a07d8]]: Unknown/Illegal opcode! (0xff00b700 : 0x3f : 0x380) #pc: 0xa07d8
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07d8]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07dc]]: Unknown/Illegal opcode! (0xffd4d125 : 0x3f : 0x92) #pc: 0xa07dc
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07dc]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07e0]]: fnmadd. #pc: 0xa07e0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e0]]: FPSCR = 0x8000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07e4]]: Unknown/Illegal opcode! (0xff5c005d : 0x3f : 0x2e) #pc: 0xa07e4
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07e4]]: FPSCR = 0x8000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07ec]]: Unknown/Illegal opcode! (0xff6b0056 : 0x3f : 0x2b) #pc: 0xa07ec
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07ec]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07f0]]: Unknown/Illegal opcode! (0xff00008b : 0x3f : 0x45) #pc: 0xa07f0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f0]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07f4]]: Unknown/Illegal opcode! (0xff000f6c : 0x3f : 0x3b6) #pc: 0xa07f4
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f4]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07f8]]: Unknown/Illegal opcode! (0xff44008a : 0x3f : 0x45) #pc: 0xa07f8
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07f8]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a07fc]]: Unknown/Illegal opcode! (0xff000027 : 0x3f : 0x13) #pc: 0xa07fc
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a07fc]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a0800]]: Unknown/Illegal opcode! (0xff000062 : 0x3f : 0x31) #pc: 0xa0800
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a0800]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a0804]]: Unknown/Illegal opcode! (0xff8a009f : 0x3f : 0x4f) #pc: 0xa0804
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a0804]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a080c]]: fneg. #pc: 0xa080c
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a080c]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a0810]]: Unknown/Illegal opcode! (0xff0000c6 : 0x3f : 0x63) #pc: 0xa0810
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: CR = 0x22000024
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a0810]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a081c]]: Unknown/Illegal opcode! (0xff912200 : 0x3f : 0x100) #pc: 0xa081c
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: CR = 0x22000028
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a081c]]: FPSCR = 0x8000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a0820]]: Unknown/Illegal opcode! (0xff320043 : 0x3f : 0x21) #pc: 0xa0820
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: CR = 0x22000028
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a0820]]: FPSCR = 0x8000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=8 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a0828]]: Unknown/Illegal opcode! (0xff794727 : 0x3f : 0x393) #pc: 0xa0828
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: CR = 0x22000028
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a0828]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a082c]]: Unknown/Illegal opcode! (0xff007684 : 0x3f : 0x342) #pc: 0xa082c
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: CR = 0x22000028
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a082c]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[E : PPU[1] Thread (CPUThread)[0x000a0830]]: Unknown/Illegal opcode! (0xff00559a : 0x3f : 0x2cd) #pc: 0xa0830
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r0 = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r1 = 0xd0010c00
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r2 = 0xe5eda8
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r3 = 0x10eacd8
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r4 = 0xffff
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r5 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r6 = 0x1004c800
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r7 = 0x1004c7c0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r8 = 0x10f2eb8
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r9 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r10 = 0x10f2d74
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r11 = 0xe542d0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r12 = 0x125f008
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r25 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r27 = 0xd0010df0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r29 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r30 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: r31 = 0xe20518
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: CR = 0x22000028
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: LR = 0x61da64
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: CTR = 0xa07d0
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x000a0830]]: FPSCR = 0x2000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+[!]: Closing memory...
