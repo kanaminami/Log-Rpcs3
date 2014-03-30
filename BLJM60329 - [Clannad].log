@@ -1,0 +1,2026 @@
+[!]: path: /dev_hdd0/game/
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BLJM60329 - [Clannad]\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6413/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6413/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6413/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6413/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BLJM60329 - [Clannad]\
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BLJM60329 - [Clannad]\/../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BLJM60329 - [Clannad]\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x6d3bb15b in 'sys_fs' module
+[E]: TODO: cellFsSdataOpenByFd
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarReset
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetLayoutMode
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x2ecd48ed in 'sceNp' module
+[E]: TODO: sceNpDrmVerifyUpgradeLicense
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReportDataLocation
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x66f5e388 in 'cellResc' module
+[E]: TODO: cellRescGetLastFlipTime
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x285d30d6 in 'cellFont' module
+[E]: TODO: cellFontGetScalePixel
+[W]: Unknown function 0x0d90a48d in 'cellL10n' module
+[E]: TODO: UCS2stoSJISs
+[W]: Unknown function 0x33435818 in 'cellL10n' module
+[E]: TODO: SJISstoUTF8s
+[W]: Unknown function 0xbdd44ee3 in 'cellL10n' module
+[E]: TODO: SJIStoUCS2
+[W]: Unknown function 0xdd5ebdeb in 'cellL10n' module
+[E]: TODO: UTF8stoSJISs
+[W]: Unknown function 0xf9b1896d in 'cellL10n' module
+[E]: TODO: SJISstoUCS2s
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagClear
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x0247c69e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFrame
+[W]: Unknown function 0x1139a206 in 'cellSail' module
+[E]: TODO: cellSailPlayerSetSoundAdapter
+[W]: Unknown function 0x1872331b in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterPtsToTimePosition
+[W]: Unknown function 0x18b4629d in 'cellSail' module
+[E]: TODO: cellSailPlayerFinalize
+[W]: Unknown function 0x18bcd21b in 'cellSail' module
+[E]: TODO: cellSailPlayerSetGraphicsAdapter
+[W]: Unknown function 0x1c983864 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterInitialize
+[W]: Unknown function 0x23654375 in 'cellSail' module
+[E]: TODO: cellSailPlayerInitialize2
+[W]: Unknown function 0x2e3ccb5e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterSetPreferredFormat
+[W]: Unknown function 0x346ebba3 in 'cellSail' module
+[E]: TODO: cellSailMemAllocatorInitialize
+[W]: Unknown function 0x34ecc1b9 in 'cellSail' module
+[E]: TODO: cellSailPlayerOpenStream
+[W]: Unknown function 0x3d0d3b72 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterInitialize
+[W]: Unknown function 0x44a20e79 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterUpdateAvSync
+[W]: Unknown function 0x4ae979df in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterPtsToTimePosition
+[W]: Unknown function 0x69793952 in 'cellSail' module
+[E]: TODO: cellSailPlayerUnsubscribeEvent
+[W]: Unknown function 0x75fca288 in 'cellSail' module
+[E]: TODO: cellSailPlayerGetCurrentDescriptor
+[W]: Unknown function 0x7c8dff3b in 'cellSail' module
+[E]: TODO: cellSailPlayerAddDescriptor
+[W]: Unknown function 0x7eb8d6b5 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFrame
+[W]: Unknown function 0x85beffcc in 'cellSail' module
+[E]: TODO: cellSailPlayerCloseStream
+[W]: Unknown function 0xac9c3b1f in 'cellSail' module
+[E]: TODO: cellSailDescriptorGetCapabilities
+[W]: Unknown function 0xbdf21b0f in 'cellSail' module
+[E]: TODO: cellSailPlayerBoot
+[W]: Unknown function 0xd5f9a15b in 'cellSail' module
+[E]: TODO: cellSailDescriptorGetStreamType
+[W]: Unknown function 0xd7938b8d in 'cellSail' module
+[E]: TODO: cellSailPlayerCreateDescriptor
+[W]: Unknown function 0xe535b0d3 in 'cellSail' module
+[E]: TODO: cellSailPlayerStart
+[W]: Unknown function 0xeba8d4ec in 'cellSail' module
+[E]: TODO: cellSailPlayerStop
+[W]: Unknown function 0xeec22809 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterUpdateAvSync
+[W]: Unknown function 0xf25f197d in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFormat
+[W]: Unknown function 0xfc839bd4 in 'cellSail' module
+[E]: TODO: cellSailPlayerDestroyDescriptor
+[W]: Unknown function 0xffd58aa4 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFormat
+[W]: Unknown function 0x117cd726 in 'cellPngEnc' module
+[E]: TODO: cellPngEncClose
+[W]: Unknown function 0x19256dc5 in 'cellPngEnc' module
+[E]: TODO: cellPngEncOpen
+[W]: Unknown function 0x496cfcd0 in 'cellPngEnc' module
+[E]: TODO: cellPngEncQueryAttr
+[W]: Unknown function 0x585269bc in 'cellPngEnc' module
+[E]: TODO: cellPngEncGetStreamInfo
+[W]: Unknown function 0x5b546ca4 in 'cellPngEnc' module
+[E]: TODO: cellPngEncEncodePicture
+[W]: Unknown function 0x662bd637 in 'cellPngEnc' module
+[E]: TODO: cellPngEncWaitForInput
+[W]: Unknown function 0x90ef2963 in 'cellPngEnc' module
+[E]: TODO: cellPngEncWaitForOutput
+[W]: Unknown module 'sceNpCommerce2'
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x1650aea4 in 'cellSsl' module
+[E]: TODO: cellSslEnd
+[W]: Unknown function 0x571afaca in 'cellSsl' module
+[E]: TODO: cellSslCertificateLoader
+[W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
+[E]: TODO: cellSslInit
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
+[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_by_fd
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x001ce400]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x001c3004]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x001c3004]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x001c7b0c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x001c7b0c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x001c4a74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x001c4a74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x001c7b0c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x001c7b0c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x001c2fb0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x001c2fb0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x001c4a74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x001c4a74]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x69bf9c, attr_addr=0xd00109e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x694dbc, attr_addr=0xd0010860, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x694e9c, attr_addr=0xd00108e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x694ee4, attr_addr=0xd00108e0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3c7e88, attr_addr=0xd0010b60, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301003e8, attr_addr=0xd0010a30, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00017208]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 34
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x251744, attr_addr=0xd0010930, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00017208]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 36
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3a900428, attr_addr=0xd0010b40, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONT)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FREETYPE)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC_AT3)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC_ATX)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONTFT)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGENC)
+[W : PPU[1] Thread (CPUThread)[0x00012250]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
+[E : PPU[1] Thread (CPUThread)[0x006d0094]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010730, nSpus=2, spuPriority=3342336, ppuPriority=4, exitIfNoWork=100)
+[E : PPU[1] Thread (CPUThread)[0x006d0034]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x30100580, spurs_addr=0xd0010730)
+[W : PPU[1] Thread (CPUThread)[0x006c00dc]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x222df8, userdata=0x2325f8)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x0012ab58]]: sys_spu warning: sys_raw_spu_create(id_addr=0x69e664, attr_addr=0xd00106f0)
+[W : PPU[1] Thread (CPUThread)[0x0012ad98]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[1] Thread (CPUThread)[0x0012ad98]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[1] Thread (CPUThread)[0x0012b094]]: RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
+[W : PPU[1] Thread (CPUThread)[0x0012b098]]: RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
+[W : PPU[1] Thread (CPUThread)[0x0012b098]]: RawSPUThread[0]: Prxy Query Immediate.
+[W : PPU[1] Thread (CPUThread)[0x0012b0a8]]: RawSPUThread[0]: Read32(MFC_QStatus)
+[W : PPU[1] Thread (CPUThread)[0x0012b0e8]]: RawSPUThread[0]: Write32(SPU_NPC, 0xe0)
+[W : PPU[1] Thread (CPUThread)[0x0012aaf8]]: RawSPUThread[0]: Write32(SPU_NPC, 0xe0)
+[W : PPU[1] Thread (CPUThread)[0x0012aacc]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
+[W : RawSPU[38] Thread (CPUThread)[0x000000e0]]: Starting RawSPU...
+[W : PPU[1] Thread (CPUThread)[0x00127204]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x00127240]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x006c6010]]: cellGcmSys warning: cellGcmInit(context_addr=0x6b23e0,cmdSize=0x10000,ioSize=0x400000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x006c6010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x006c6010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x400000)
+[W : PPU[1] Thread (CPUThread)[0x006c6070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+[! : RSXThread]: RSX thread entry
+[E : PPU[1] Thread (CPUThread)[0x006c616c]]: TODO: cellGcmSetGraphicsHandler
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[W : PPU[1] Thread (CPUThread)[0x006c6094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3ab00000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x006c00e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x82021600)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=7)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=11)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=12)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=13)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=14)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=257163264, size=3932160, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=253231104, size=7864320, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=249298944, size=3932160, pitch=5120, comp=10, base=1, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x006c60dc]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x0017d704]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x69ec28, attr_addr=0xd00106a0, initial_count=1, max_count=2)
+[W : PPU[1] Thread (CPUThread)[0x006c60f4]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2258336)
+[E : PPU[1] Thread (CPUThread)[0x006c6130]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x006c0010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010670, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x006c6064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+[W : PPU[1] Thread (CPUThread)[0x006c6100]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf540000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x006c6100]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xf180000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0012a7fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 40
+[W : PPU[1] Thread (CPUThread)[0x0012a93c]]: sys_cond warning: *** condition created [] (mutex_id=40): id = 41
+[E : PPU[1] Thread (CPUThread)[0x006d6004]]: TODO: cellVideoOutSetGamma
+[W : PPU[1] Thread (CPUThread)[0x006c204c]]: cellGame warning: cellGameBootCheck(type_addr=0x386cf8, attributes_addr=0x386cfc, size_addr=0xd0010440, dirName_addr=0x386e04)
+[W : PPU[1] Thread (CPUThread)[0x006c2004]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x3874a3, bufsize=128)
+[W : PPU[1] Thread (CPUThread)[0x006c2004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x387523, bufsize=10)
+[W : PPU[1] Thread (CPUThread)[0x006c2004]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x38752d, bufsize=6)
+[W : PPU[1] Thread (CPUThread)[0x006c2004]]: cellGame warning: cellGameGetParamString(id=106, buf_addr=0x387533, bufsize=6)
+[W : PPU[1] Thread (CPUThread)[0x006c201c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x386d04, usrdirPath_addr=0x386d84)
+[E : PPU[1] Thread (CPUThread)[0x006c2040]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[1] Thread (CPUThread)[0x006c201c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x386e84, usrdirPath_addr=0x386f04)
+[E : PPU[1] Thread (CPUThread)[0x006c2040]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[1] Thread (CPUThread)[0x006c201c]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x386f84, usrdirPath_addr=0x387004)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x006be010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 42
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=42)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x32610c28): id = 43
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 44
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 46
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32610dac, attr_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 47
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 48
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=48)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x32610dc8): id = 49
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32611194, attr_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 50
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 52
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3261129c, attr_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 53
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 54
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=54)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x326112b8): id = 55
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 56
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x326116e4, attr_addr=0xd0010380)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 58
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 60
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=60)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x32611768): id = 61
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=60)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x32611768): id = 62
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=64)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x32611810): id = 65
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=64)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x32611810): id = 66
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios mediathread 2] (): id = 67
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios mediathread 3] (): id = 68
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios scheduler 1] (): id = 69
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32626664, attr_addr=0xd00103c0)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 71
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 73
+[W : PPU[67] Thread (fios mediathread 2)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BLJM60329/FIOSSYSCASH" not found.
+[W : PPU[67] Thread (fios mediathread 2)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd1/cache/BLJM60329/FIOSSYSCASH" not found.
+[W : PPU[67] Thread (fios mediathread 2)[0x006bc01c]]: vfsLocalFile::Create('E:\PS3EMU\Rpcs3-x6413\dev_hdd1\cache\BLJM60329\FIOSSYSCASH\cache.idx')
+[W : PPU[67] Thread (fios mediathread 2)[0x006bc01c]]: *** cellFsOpen(path="/dev_hdd1/cache/BLJM60329/FIOSSYSCASH/cache.idx"): fd = 74
+[W : PPU[67] Thread (fios mediathread 2)[0x006bc01c]]: vfsLocalFile::Create('E:\PS3EMU\Rpcs3-x6413\dev_hdd1\cache\BLJM60329\FIOSSYSCASH\cache.dat')
+[W : PPU[67] Thread (fios mediathread 2)[0x006bc01c]]: *** cellFsOpen(path="/dev_hdd1/cache/BLJM60329/FIOSSYSCASH/cache.dat"): fd = 75
+[W : PPU[1] Thread (CPUThread)[0x006bc0a0]]: sys_fs warning: cellFsGetFreeSize(path="/dev_hdd1", block_size_addr=0xd000fe80, block_count_addr=0xd000fe88)
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 76
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 77
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3265711c, attr_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 78
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 79
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=79)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x32657138): id = 80
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 81
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x326575a4, attr_addr=0xd0010480)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 82
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32657e24, attr_addr=0xd0010480)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 83
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 85
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x326580ec, attr_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 86
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 87
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=87)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x32658108): id = 88
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 89
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32658574, attr_addr=0xd0010480)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 90
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32658df4, attr_addr=0xd0010480)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 91
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x32659084, attr_addr=0xd0010400)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 93
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 94
+[E : PPU[1] Thread (CPUThread)[0x006d0010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x006d0064]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x006d00c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x006d0058]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x006d007c]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x006d0004]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x006d001c]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x006d00b8]]: TODO: cellSpursCreateTask
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3275d044, attr_addr=0xd0010460)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 96
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 97
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 98
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=98)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [dearchi] (lwmutex_addr=0x3275d0f8): id = 99
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 101
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 102
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x3275db34, attr_addr=0xd0010380)
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+[W : PPU[1] Thread (CPUThread)[0x001b5238]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 103
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 104
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 105
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=105)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3275dbb8): id = 106
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=105)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x3275dbb8): id = 107
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 108
+[W : PPU[1] Thread (CPUThread)[0x006e8058]]: sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=109)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3275dc60): id = 110
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=109)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3275dc60): id = 111
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: Recursive lwmutex(sq=109)
+[W : PPU[1] Thread (CPUThread)[0x006e8130]]: sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x3275dc60): id = 112
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios mediathread 5] (): id = 113
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios mediathread 6] (): id = 114
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios mediathread 7] (): id = 115
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [fios scheduler 4] (): id = 116
+[W : PPU[1] Thread (CPUThread)[0x006c6064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat", flags=0x0, fd_addr=0xd005f494, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3277a258, attr_addr=0xd0010830, initial_count=1, max_count=1)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3437a668, attr_addr=0xd00107f0, initial_count=1, max_count=1)
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [texture thread] (): id = 119
+[W : PPU[1] Thread (CPUThread)[0x001279c8]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120000)
+[W : PPU[1] Thread (CPUThread)[0x00127a4c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[W : PPU[1] Thread (CPUThread)[0x006ca0ac]]: cellFont warning: cellFontInitializeWithRevision(revisionFlags=0x61, config=0xd00108f0)
+[W : PPU[1] Thread (CPUThread)[0x006cc004]]: cellFontFT warning: cellFontInitLibraryFreeTypeWithRevision(revisionFlags=0x41, config_addr=0xd0010904, lib_addr_addr=0x280884
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontset: fontType->type = 151072768 not supported yet. RD-R-LATIN.TTF will be used instead.
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontFile(library_addr=0x30016000, fontPath="/dev_flash/data/font/SCE-PS3-RD-R-LATIN.TTF", subNum=0, uniqueId=0, font_addr=0x3808b8)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=240910336, size=8388608, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat' not found! flags: 0x00000001
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat", flags=0x0, fd_addr=0xd005f494, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat' not found! flags: 0x00000001
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[1] Thread (CPUThread)[0x00017b3c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=119, vptr_addr=0xd0010820)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3277a258, attr_addr=0xd0010830, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3437a668, attr_addr=0xd00107f0, initial_count=1, max_count=1)
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [texture thread] (): id = 122
+[W : PPU[1] Thread (CPUThread)[0x001279c8]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120001)
+[W : PPU[1] Thread (CPUThread)[0x00127a4c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[E : PPU[1] Thread (CPUThread)[0x006ca04c]]: cellFont error: Unimplemented function: cellFontEndLibrary
+[W : PPU[1] Thread (CPUThread)[0x006ca0ac]]: cellFont warning: cellFontInitializeWithRevision(revisionFlags=0x61, config=0xd00108f0)
+[W : PPU[1] Thread (CPUThread)[0x006cc004]]: cellFontFT warning: cellFontInitLibraryFreeTypeWithRevision(revisionFlags=0x41, config_addr=0xd0010904, lib_addr_addr=0x280884
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30017000, size = 0x1000
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontset: fontType->type = 151072768 not supported yet. RD-R-LATIN.TTF will be used instead.
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontFile(library_addr=0x30017000, fontPath="/dev_flash/data/font/SCE-PS3-RD-R-LATIN.TTF", subNum=0, uniqueId=0, font_addr=0x3808b8)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=240910336, size=8388608, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat", flags=0x0, fd_addr=0xd005f494, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[1] Thread (CPUThread)[0x00017b3c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=122, vptr_addr=0xd0010820)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3277a258, attr_addr=0xd0010830, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3437a668, attr_addr=0xd00107f0, initial_count=1, max_count=1)
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [texture thread] (): id = 125
+[W : PPU[1] Thread (CPUThread)[0x001279c8]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120002)
+[W : PPU[1] Thread (CPUThread)[0x00127a4c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30017000, size = 0x1000
+[E : PPU[1] Thread (CPUThread)[0x006ca04c]]: cellFont error: Unimplemented function: cellFontEndLibrary
+[W : PPU[1] Thread (CPUThread)[0x006ca0ac]]: cellFont warning: cellFontInitializeWithRevision(revisionFlags=0x61, config=0xd00108f0)
+[W : PPU[1] Thread (CPUThread)[0x006cc004]]: cellFontFT warning: cellFontInitLibraryFreeTypeWithRevision(revisionFlags=0x41, config_addr=0xd0010904, lib_addr_addr=0x280884
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30017000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30018000, size = 0x1000
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontset: fontType->type = 151072768 not supported yet. RD-R-LATIN.TTF will be used instead.
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontFile(library_addr=0x30018000, fontPath="/dev_flash/data/font/SCE-PS3-RD-R-LATIN.TTF", subNum=0, uniqueId=0, font_addr=0x3808b8)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=240910336, size=8388608, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/cg.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/pcm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/scr.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/sys.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat", flags=0x0, fd_addr=0xd005f494, arg_addr=0x0, size=0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/image.tbl.sdat' not found! flags: 0x00000001
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[1] Thread (CPUThread)[0x00017b3c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=125, vptr_addr=0xd0010820)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : PPU[1] Thread (CPUThread)[0x006c6184]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3277a258, attr_addr=0xd0010830, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001753c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x3437a668, attr_addr=0xd00107f0, initial_count=1, max_count=1)
+[! : PPU[1] Thread (CPUThread)[0x006e8028]]: *** New PPU Thread [texture thread] (): id = 128
+[W : PPU[1] Thread (CPUThread)[0x001279c8]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
+[W : PPU[1] Thread (CPUThread)[0x00127a4c]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30017000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30018000, size = 0x1000
+[E : PPU[1] Thread (CPUThread)[0x006ca04c]]: cellFont error: Unimplemented function: cellFontEndLibrary
+[W : PPU[1] Thread (CPUThread)[0x006ca0ac]]: cellFont warning: cellFontInitializeWithRevision(revisionFlags=0x61, config=0xd00108f0)
+[W : PPU[1] Thread (CPUThread)[0x006cc004]]: cellFontFT warning: cellFontInitLibraryFreeTypeWithRevision(revisionFlags=0x41, config_addr=0xd0010904, lib_addr_addr=0x280884
+[W : PPU[1] Thread (CPUThread)[0x006ca0b8]]: cellFont warning: cellFontBindRenderer(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca01c]]: cellFont error: Unimplemented function: cellFontDestroyRenderer
+[W : PPU[1] Thread (CPUThread)[0x006ca094]]: cellFont warning: cellFontCloseFont(font_addr=0x3808b8)
+[E : PPU[1] Thread (CPUThread)[0x006ca094]]: DynamicMemoryBlock::Free(addr=0x0): failed
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30000000, size = 0x10000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30100000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30200000, size = 0xa900000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30010000, size = 0x2000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30012000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30013000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30014000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30015000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x3ab00000, size = 0x100000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30016000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30017000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30018000, size = 0x1000
+[! : PPU[1] Thread (CPUThread)[0x006ca094]]: *** Memory Block: addr = 0x30019000, size = 0x1000
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontset: fontType->type = 151072768 not supported yet. RD-R-LATIN.TTF will be used instead.
+[W : PPU[1] Thread (CPUThread)[0x006ca088]]: cellFont warning: cellFontOpenFontFile(library_addr=0x30019000, fontPath="/dev_flash/data/font/SCE-PS3-RD-R-LATIN.TTF", subNum=0, uniqueId=0, font_addr=0x3808b8)
+[W : PPU[1] Thread (CPUThread)[0x006c6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=240910336, size=8388608, pitch=4096, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x006c6058]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/kuro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[W : PPU[115] Thread (fios mediathread 7)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/sys/effect/siro_sm.pte" not found.
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc028]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat" not found.
+[W : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat", flags=0x0, fd_addr=0xd005f8c4, arg_addr=0x0, size=0x0)
+[E : PPU[113] Thread (fios mediathread 5)[0x006bc0ac]]: sys_fs error: '/dev_hdd0/game/BLJM60329/USRDIR/data/bgm.psarc.sdat' not found! flags: 0x00000001
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[E : PPU[1] Thread (CPUThread)[0x006c6118]]: TODO: cellGcmGetReportDataLocation
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : RSXThread]: null cmd: addr=0x503cf000, put=0x40f23c00, get=0x3cf000
+[W : PPU[69] Thread (fios scheduler 1)[0x006e8040]]: sys_lwcond_wait(id=61) aborted
+[W : PPU[67] Thread (fios mediathread 2)[0x006e8040]]: sys_lwcond_wait(id=65) aborted
+[W : PPU[68] Thread (fios mediathread 3)[0x006e8040]]: sys_lwcond_wait(id=66) aborted
+[W : PPU[116] Thread (fios scheduler 4)[0x006e8040]]: sys_lwcond_wait(id=106) aborted
+[W : PPU[115] Thread (fios mediathread 7)[0x006e8040]]: sys_lwcond_wait(id=112) aborted
+[! : RSXThread]: RSX thread exit...
+[W : PPU[114] Thread (fios mediathread 6)[0x006e8040]]: sys_lwcond_wait(id=111) aborted
+[W : PPU[113] Thread (fios mediathread 5)[0x006e8040]]: sys_lwcond_wait(id=110) aborted
+[!]: Mutex(34) was owned by thread 1 (recursive=1)
+[!]: Mutex(36) was owned by thread 1 (recursive=1)
+[!]: Closing memory...
