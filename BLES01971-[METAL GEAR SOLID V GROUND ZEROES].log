@@ -1,44 +1,323 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00246-[METAL GEAR SOLID 4]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00246-[METAL GEAR SOLID 4]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00246-[METAL GEAR SOLID 4]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00246-[METAL GEAR SOLID 4]/PS3_GAME/\USRDIR\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00246-[METAL GEAR SOLID 4]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00246-[METAL GEAR SOLID 4]/PS3_GAME/
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01971-[METAL GEAR SOLID V GROUND ZEROES]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
-[E]: TODO: sceNpDrmProcessExitSpawn2
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00017a00]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x00045034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x0001b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[13] Thread (sample_game_data)[0x0001f01c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0030da0, attributes_addr=0xd0030da4, size_addr=0xd0030da8, dirName_addr=0xd0030db8)
-[W : PPU[1] Thread (CPUThread)[0x0001b004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x0001b010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
-[W : PPU[1] Thread (CPUThread)[0x0001d010]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x20130, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00011ccc]]: SysCall 988! r3: 0x2, r4: 0x0, pc: 0x11ccc
-[E : PPU[1] Thread (CPUThread)[0x00045058]]: Process error: sys_game_process_exitspawn2 UNIMPLEMENTED
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: path: /dev_bdvd/PS3_GAME/USRDIR/mgs/MGS4.SELF
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: argv: 0x20014
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: envp: 0x0
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: data: 0x0
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: data_size: 0x0
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: prio: 1001
-[W : PPU[1] Thread (CPUThread)[0x00045058]]: Process warning: flags: 32
+[W]: Unknown function 0x0582338a in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetDoBusyWaiting
+[W]: Unknown function 0x0f03f712 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetSubmitWithEntryLock
+[W]: Unknown function 0x1686957e in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetMaxSizeJobDescriptor
+[W]: Unknown function 0x43ddab4f in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeInitialize
+[W]: Unknown function 0x742cec0d in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetIsJobTypeMemoryCheck
+[W]: Unknown function 0x8c97a96c in 'cellSpursJq' module
+[E]: TODO: cellSpursShutdownJobQueue
+[W]: Unknown function 0x8ce4cffa in 'cellSpursJq' module
+[E]: TODO: cellSpursJoinJobQueue
+[W]: Unknown function 0xbfea28ab in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2PushFlush
+[W]: Unknown function 0xc485d207 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2Destroy
+[W]: Unknown function 0xcf89f218 in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePort2PushJobBody
+[W]: Unknown function 0xe70f874e in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetGrabParameters
+[W]: Unknown function 0xf11fe0f1 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2Create
+[W]: Unknown function 0xf244e799 in 'cellSpursJq' module
+[E]: TODO: _cellSpursCreateJobQueue
+[W]: Unknown function 0xfacb3ced in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2Sync
+[W]: Unknown function 0xff03cc79 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
+[W]: Unknown function 0xf7681b9a in 'cellL10n' module
+[E]: TODO: UTF8stoUTF16s
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x6cfd856f in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus2
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown function 0xced17573 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedDelete
+[W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
+[E]: TODO: cellSysutilDisableBgmPlayback
+[W]: Unknown function 0xcfdf24bb in 'cellSysutil' module
+[E]: TODO: cellVideoOutDebugSetMonitorType
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetSecondVHandler
+[W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
+[E]: TODO: cellGcmInitSystemMode
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x6d3bb15b in 'sys_fs' module
+[E]: TODO: cellFsSdataOpenByFd
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x99406d0b in 'sys_fs' module
+[E]: TODO: cellFsChmod
+[W]: Unknown function 0x2b9bd9ad in 'cellAudio' module
+[E]: TODO: cellAudioRemoveNotifyEventQueueEx
+[W]: Unknown function 0xb56ef5a1 in 'cellAudio' module
+[E]: TODO: cellAudioSetNotifyEventQueueEx
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardInitialize
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainAttributeSetName
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardNotify
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagClear
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown module 'cellSearchUtility'
+[W]: Unknown module 'cellMusicDecodeUtility'
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x0968aa36 in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicket
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x8297f1ec in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket2
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x2f2c6b3e in 'sceNp' module
+[E]: TODO: sceNpProfileAbortGui
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xceeebc7a in 'sceNp' module
+[E]: TODO: sceNpProfileCallGui
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0x41251f74 in 'sceNp2' module
+[E]: TODO: sceNp2Init
+[W]: Unknown function 0xaadb7c12 in 'sceNp2' module
+[E]: TODO: sceNp2Term
+[W]: Unknown module 'sceNpTus'
+[W]: Unknown function 0x051ee3ee in 'sys_net' module
+[E]: TODO: socketpoll
+[W]: Unknown function 0x13efe7f5 in 'sys_net' module
+[E]: TODO: getsockname
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xf9ec2db6 in 'sys_net' module
+[E]: TODO: getpeername
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x1650aea4 in 'cellSsl' module
+[E]: TODO: cellSslEnd
+[W]: Unknown function 0x571afaca in 'cellSsl' module
+[E]: TODO: cellSslCertificateLoader
+[W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
+[E]: TODO: cellSslInit
+[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilParseUri
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
+[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer
+[W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_by_fd
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0128af8c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x000115d4]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x400, alignment=0x0, alloc_addr=0x1db3558)
+[W : PPU[1] Thread (CPUThread)[0x01eef10c]]: memory warning: sys_mmapper_allocate_memory(size=0xae00000, flags=0x400, mem_id_addr=0xd0010740)
+[W : PPU[1] Thread (CPUThread)[0x01eef130]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xd, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x01eef130]]: memory mapped 0x30100000 to 0x0 size=0xae00000
+[W : PPU[1] Thread (CPUThread)[0x01eef058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+[E : PPU[1] Thread (CPUThread)[0x00013674]]: Unknown/Illegal opcode! (0x00000000 : 0x0 : 0x0) #pc: 0x13674
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r0 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r1 = 0xd0010640
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r2 = 0x1db5bc0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r3 = 0xa000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r4 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r5 = 0x4a000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r6 = 0x4a000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r7 = 0x49fc0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r8 = 0x49fc0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r9 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r10 = 0x4a000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r11 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r12 = 0x4a000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r13 = 0x30007060
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r14 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r15 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r16 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r17 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r18 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r19 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r20 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r21 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r22 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r23 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r24 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r25 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r26 = 0x8
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r27 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r28 = 0x1
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r29 = 0x0
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r30 = 0x1dcf06c
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: r31 = 0x1dcf05c
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f0 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f1 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f2 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f3 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f4 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f5 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f6 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f7 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f8 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f9 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f10 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f11 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f12 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f13 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f14 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f15 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f16 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f17 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f18 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f19 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f20 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f21 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f22 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f23 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f24 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f25 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f26 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f27 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f28 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f29 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f30 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: f31 = 0.000000
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: CR = 0x44000042
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: LR = 0x13674
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: CTR = 0x1eef00c
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
+[! : PPU[1] Thread (CPUThread)[0x00013674]]: FPSCR = 0x82004000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
 [!]: Closing memory...

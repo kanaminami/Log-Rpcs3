@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0e091c36 in 'cellSysutil' module
@@ -35,38 +35,20 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -153,9 +135,9 @@
 [W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 34
 [W : PPU[1] Thread (CPUThread)[0x002f101c]]: memory warning: sys_memory_container_create(cid_addr=0x18e6ed0, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x002f101c]]: memory warning: *** memory_container created(addr=0x30100000): id = 35
-[E : PPU[1] Thread (CPUThread)[0x01a4e094]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010880, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=100)
+[W : PPU[1] Thread (CPUThread)[0x01a4e094]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010880, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=100)
 [E : PPU[1] Thread (CPUThread)[0x01a4e070]]: cellSpurs error: cellSpursAttributeSetMemoryContainerForSpuThread(attr_addr=0xd0010880, container=0x23)
-[E : PPU[1] Thread (CPUThread)[0x01a4e034]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x30400080, spurs_addr=0xd0010880)
+[W : PPU[1] Thread (CPUThread)[0x01a4e034]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x30400080, spurs_addr=0xd0010880)
 [W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 36
 [W : PPU[1] Thread (CPUThread)[0x01a40064]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x7dd210, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0026a44c]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x104d3a8, attr_addr=0xd0010b00, init=0xffffffff)
@@ -167,8 +149,8 @@
 [W : PPU[1] Thread (CPUThread)[0x01a4c028]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010ac0, attributes_addr=0xd0010ac4, size_addr=0xd0010ac8, dirName_addr=0xd0010ad8)
 [W : PPU[1] Thread (CPUThread)[0x01a3c064]]: sys_fs warning: cellFsAioInit(mount_point_addr=0xdb94e0 ())
 [W : PPU[1] Thread (CPUThread)[0x01a40034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
-[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
-[W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
 [W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
+[W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
+[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
+[W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
 [!]: Closing memory...

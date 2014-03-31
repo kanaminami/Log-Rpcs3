@@ -1,0 +1,1103 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\..\
+[!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLUS30735-[Atelier Totori The Adventurer of Arland]/PS3_GAME/\USRDIR\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedLoad2
+[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave2
+[W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoSave
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarReset
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x8b8a2f48 in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserFixedDelete
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x69726aa2 in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkload
+[W]: Unknown function 0x7e4ea023 in 'cellSpurs' module
+[E]: TODO: cellSpursWakeUp
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0xa73bf47e in 'cellSpurs' module
+[E]: TODO: _cellSpursWorkloadFlagReceiver
+[W]: Unknown function 0xc765b995 in 'cellSpurs' module
+[E]: TODO: cellSpursGetWorkloadFlag
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
+[E]: TODO: cellSpursDestroyTaskset2
+[W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset2
+[W]: Unknown function 0x838fa4f0 in 'cellSpurs' module
+[E]: TODO: cellSpursTryJoinTask2
+[W]: Unknown function 0xa7a94892 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTask2
+[W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttribute2Initialize
+[W]: Unknown function 0xe14ca62d in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask2
+[W]: Unknown function 0x06be743d in 'cellFont' module
+[E]: TODO: cellFontGetKerning
+[W]: Unknown function 0xced4dda9 in 'cellFont' module
+[E]: TODO: cellFontGetRenderEffectSlant
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x0247c69e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFrame
+[W]: Unknown function 0x0c4cb439 in 'cellSail' module
+[E]: TODO: cellSailFutureReset
+[W]: Unknown function 0x1139a206 in 'cellSail' module
+[E]: TODO: cellSailPlayerSetSoundAdapter
+[W]: Unknown function 0x18b4629d in 'cellSail' module
+[E]: TODO: cellSailPlayerFinalize
+[W]: Unknown function 0x18bcd21b in 'cellSail' module
+[E]: TODO: cellSailPlayerSetGraphicsAdapter
+[W]: Unknown function 0x1c983864 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterInitialize
+[W]: Unknown function 0x23654375 in 'cellSail' module
+[E]: TODO: cellSailPlayerInitialize2
+[W]: Unknown function 0x2e3ccb5e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterSetPreferredFormat
+[W]: Unknown function 0x346ebba3 in 'cellSail' module
+[E]: TODO: cellSailMemAllocatorInitialize
+[W]: Unknown function 0x34ecc1b9 in 'cellSail' module
+[E]: TODO: cellSailPlayerOpenStream
+[W]: Unknown function 0x3a2d806c in 'cellSail' module
+[E]: TODO: cellSailFutureGet
+[W]: Unknown function 0x3d0d3b72 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterInitialize
+[W]: Unknown function 0x44a20e79 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterUpdateAvSync
+[W]: Unknown function 0x4cc54f8e in 'cellSail' module
+[E]: TODO: cellSailFutureInitialize
+[W]: Unknown function 0x76488bb1 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterFinalize
+[W]: Unknown function 0x7c8dff3b in 'cellSail' module
+[E]: TODO: cellSailPlayerAddDescriptor
+[W]: Unknown function 0x7eb8d6b5 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFrame
+[W]: Unknown function 0x9553af65 in 'cellSail' module
+[E]: TODO: cellSailFutureFinalize
+[W]: Unknown function 0xa37fed15 in 'cellSail' module
+[E]: TODO: cellSailFutureSet
+[W]: Unknown function 0xbdf21b0f in 'cellSail' module
+[E]: TODO: cellSailPlayerBoot
+[W]: Unknown function 0xd1462438 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterFinalize
+[W]: Unknown function 0xd7938b8d in 'cellSail' module
+[E]: TODO: cellSailPlayerCreateDescriptor
+[W]: Unknown function 0xe535b0d3 in 'cellSail' module
+[E]: TODO: cellSailPlayerStart
+[W]: Unknown function 0xeba8d4ec in 'cellSail' module
+[E]: TODO: cellSailPlayerStop
+[W]: Unknown function 0xeec22809 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterUpdateAvSync
+[W]: Unknown function 0xf25f197d in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFormat
+[W]: Unknown function 0xfc5baf8a in 'cellSail' module
+[E]: TODO: cellSailPlayerSetRepeatMode
+[W]: Unknown function 0xfc839bd4 in 'cellSail' module
+[E]: TODO: cellSailPlayerDestroyDescriptor
+[W]: Unknown function 0xffd58aa4 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFormat
+[W]: Unknown function 0x931ff25a in 'cellL10n' module
+[E]: TODO: L10nConvertStr
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0001f6cc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 14
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 15
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 16
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 17
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 18
+[W : PPU[1] Thread (CPUThread)[0x00363634]]: sys_mutex warning: sys_mutex_destroy(mutex_id=16)
+[! : PPU[1] Thread (CPUThread)[0x00363634]]: Mutex(16) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 19
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 20
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 21
+[W : PPU[1] Thread (CPUThread)[0x00363634]]: sys_mutex warning: sys_mutex_destroy(mutex_id=19)
+[! : PPU[1] Thread (CPUThread)[0x00363634]]: Mutex(19) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0035e950]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 22
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_USERINFO)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x00e480e8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=2, func_addr=0xeebb10, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00e480e8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xef5a18, userdata=0x12a4e00)
+[W : PPU[1] Thread (CPUThread)[0x00540640]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[E : PPU[1] Thread (CPUThread)[0x0001b400]]: sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00e4a01c]]: cellGcmSys warning: cellGcmInit(context_addr=0x12145ec,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x39200000)
+[W : PPU[1] Thread (CPUThread)[0x00e4a01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x00e4a01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39200000, io=0x0, size=0x100000)
+[! : RSXThread]: RSX thread entry
+[E : PPU[1] Thread (CPUThread)[0x00e4a0e8]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
+[W : PPU[1] Thread (CPUThread)[0x00e4a010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0xef5a48)
+[W : PPU[1] Thread (CPUThread)[0x00e480f4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xbdf7a700)
+[W : PPU[1] Thread (CPUThread)[0x00e4a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00e48004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010b38, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00e4a058]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=7, base=0, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00e4a04c]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x00e4a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x00e4a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=7864320, size=15073280, pitch=10240, comp=8, base=120, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (8)
+[W : PPU[1] Thread (CPUThread)[0x00e4a04c]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=22937600, size=15073280, pitch=10240, comp=10, base=350, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x00e4a04c]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x00e4a0b8]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x00e4a0c4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00e4a0c4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00e4c058]]: cellResc warning: cellRescInit(initConfig_addr=0xd0010b70)
+[W : PPU[1] Thread (CPUThread)[0x00e4c040]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x00e4c040]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00e4c040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x00e4c064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0010ad4, vertexArray_addr=0xd0010ad8, fragmentShader_addr=0xd0010adc)
+[W : PPU[1] Thread (CPUThread)[0x00e4c07c]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc2440000, vertexArray_addr=0xc2f10000, fragmentShader_addr=0xc2f10400)
+[W : PPU[1] Thread (CPUThread)[0x00e4c07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x2440000,pitch=6,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00e4c07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x29a4000,pitch=6,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=38010880, size=11337728, pitch=7680, comp=7, base=580, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x00e4a100]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x00e4a04c]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[E : PPU[1] Thread (CPUThread)[0x00e4c0a0]]: TODO: cellRescCreateInterlaceTable
+[W : PPU[1] Thread (CPUThread)[0x00e4a088]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39300000, io=0xd100000, size=0xf00000)
+[W : PPU[1] Thread (CPUThread)[0x00e4a070]]: cellGcmSys warning: cellGcmMapEaIoAddressWithFlags(ea=0x3a200000, io=0xe000000, size=0x100000, flags=0x2)
+[W : PPU[1] Thread (CPUThread)[0x00e4a070]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3a200000, io=0xe000000, size=0x100000)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x014c1058]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x3a200400, nSpus=4, spuPriority=250, ppuPriority=4294967295, exitIfNoWork=0)
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36930): id = 24
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e369a0): id = 26
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36a00): id = 28
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36a40): id = 30
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36a80): id = 32
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36ac0): id = 34
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36b00): id = 36
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36b40): id = 38
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36b80): id = 40
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36bc0): id = 42
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36c30): id = 44
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 45
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36c70): id = 46
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 47
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36cb0): id = 48
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 49
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36cf0): id = 50
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36d30): id = 52
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 53
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36da0): id = 54
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 55
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36e10): id = 56
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e36e50): id = 58
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e37db0): id = 60
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e3a600): id = 62
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x30e3a640): id = 64
+[E : PPU[1] Thread (CPUThread)[0x014c3004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONT)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FREETYPE)
+[W : PPU[1] Thread (CPUThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONTFT)
+[W : PPU[1] Thread (CPUThread)[0x014c50dc]]: cellFont warning: cellFontInitializeWithRevision(revisionFlags=0x61, config=0xd00107a8)
+[W : PPU[1] Thread (CPUThread)[0x014dd004]]: cellFontFT warning: cellFontInitLibraryFreeTypeWithRevision(revisionFlags=0x41, config_addr=0xd00107d0, lib_addr_addr=0x139e010
+[W : PPU[1] Thread (CPUThread)[0x014c507c]]: cellFont warning: cellFontCreateRenderer(library_addr=0x30016000, config_addr=0xd00107bc, Renderer_addr=0x139e014)
+[E : PPU[1] Thread (CPUThread)[0x014c1028]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x014c104c]]: TODO: _cellSpursWorkloadFlagReceiver
+[E : PPU[1] Thread (CPUThread)[0x014c1088]]: TODO: cellSpursReadyCountStore
+[E : PPU[1] Thread (CPUThread)[0x014c1034]]: TODO: cellSpursWakeUp
+[W : PPU[1] Thread (CPUThread)[0x002e5520]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1327bc0, attr_addr=0xd0010780, event_queue_key=0x0, size=3)
+[W : PPU[1] Thread (CPUThread)[0x002e5520]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 65
+[W : PPU[1] Thread (CPUThread)[0x00e4a064]]: cellGcmSys warning: cellGcmGetDefaultCommandWordSize()
+[W : PPU[1] Thread (CPUThread)[0x00e4a0a0]]: cellGcmSys warning: cellGcmGetDefaultSegmentWordSize()
+[E : PPU[1] Thread (CPUThread)[0x014c1070]]: TODO: cellSpursGetWorkloadFlag
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 66
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 67
+[W : PPU[1] Thread (CPUThread)[0x003637e8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 68
+[W : PPU[1] Thread (CPUThread)[0x00363634]]: sys_mutex warning: sys_mutex_destroy(mutex_id=66)
+[! : PPU[1] Thread (CPUThread)[0x00363634]]: Mutex(66) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x001e7b84]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 69
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x310c1360): id = 71
+[W : PPU[1] Thread (CPUThread)[0x014d904c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x014d9100]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x310c13a0): id = 73
+[E : PPU[1] Thread (CPUThread)[0x014c3004]]: cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+[! : PPU[1] Thread (CPUThread)[0x014d9028]]: *** New PPU Thread [PhyreEngineLoadingThread] (): id = 74
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetRenderEnable(0x1000000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x60000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Filter(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Address(0x101)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_BorderColor(0x0)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[! : PPU[1] Thread (CPUThread)[0x014d9028]]: *** New PPU Thread [installGameDataThread] (): id = 75
+[W : PPU[75] Thread (installGameDataThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[75] Thread (installGameDataThread)[0x014c7034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0030930, attributes_addr=0xd0030b00, size_addr=0x132e74c, dirName_addr=0xd0030938)
+[E : PPU[75] Thread (installGameDataThread)[0x014c7028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[75] Thread (installGameDataThread)[0x014c7010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0030840, usrdirPath_addr=0xd00308c0)
+[W : PPU[75] Thread (installGameDataThread)[0x014bd040]]: sys_fs warning: cellFsStat: "/ICON0.PNG" not found.
+[W : PPU[75] Thread (installGameDataThread)[0x014bd040]]: sys_fs warning: cellFsStat: "/PIC1.PNG" not found.
+[E : PPU[75] Thread (installGameDataThread)[0x00e4807c]]: TODO: cellMsgDialogAbort
+[E : PPU[75] Thread (installGameDataThread)[0x00e4807c]]: TODO: cellMsgDialogAbort
+[W : PPU[75] Thread (installGameDataThread)[0x014bf010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[75] Thread (installGameDataThread)[0x014d104c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x132cb34, commID_addr=0xafbcf0, commSign_addr=0xafbcfc, options=0x0)
+[W : PPU[75] Thread (installGameDataThread)[0x014d1010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x132cb38)
+[W : PPU[75] Thread (installGameDataThread)[0x014d101c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0x132cb40, options=0x0)
+[E : PPU[75] Thread (installGameDataThread)[0x014c7028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[75] Thread (installGameDataThread)[0x014c7010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0030a60, usrdirPath_addr=0xd0030ae0)
+[W : PPU[75] Thread (installGameDataThread)[0x014bd040]]: sys_fs warning: cellFsStat: "/ICON0.PNG" not found.
+[W : PPU[75] Thread (installGameDataThread)[0x014bd040]]: sys_fs warning: cellFsStat: "/PIC1.PNG" not found.
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : PPU[75] Thread (installGameDataThread)[0x014c7028]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[75] Thread (installGameDataThread)[0x014c7010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0030870, usrdirPath_addr=0xd00308f0)
+[W : PPU[75] Thread (installGameDataThread)[0x014bd040]]: sys_fs warning: cellFsStat: "/PIC1.PNG" not found.
+[E : PPU[75] Thread (installGameDataThread)[0x00e480a0]]: TODO: cellMsgDialogProgressBarReset
+[E : PPU[75] Thread (installGameDataThread)[0x00e480dc]]: TODO: cellMsgDialogProgressBarSetMsg
+[E : PPU[75] Thread (installGameDataThread)[0x00e480dc]]: TODO: cellMsgDialogProgressBarSetMsg
+[E : PPU[75] Thread (installGameDataThread)[0x00e480d0]]: TODO: cellMsgDialogProgressBarInc
+[E : PPU[75] Thread (installGameDataThread)[0x00e480dc]]: TODO: cellMsgDialogProgressBarSetMsg
+[E : PPU[75] Thread (installGameDataThread)[0x00e480d0]]: TODO: cellMsgDialogProgressBarInc
+[E : PPU[75] Thread (installGameDataThread)[0x00e4807c]]: TODO: cellMsgDialogAbort
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[W : PPU[1] Thread (CPUThread)[0x00e4c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x780000,pitch=4,width=2560,height=1440)
+[E : RSXThread]: TODO: cellGcmInvalidateZcull(0x0)
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

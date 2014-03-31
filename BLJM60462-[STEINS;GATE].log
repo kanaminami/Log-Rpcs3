@@ -15,31 +15,20 @@
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60462-[STEINS;GATE]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60462-[STEINS;GATE]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60462-[STEINS;GATE]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60462-[STEINS;GATE]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60462-[STEINS;GATE]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[S]: Function group [surMixer] successfully hooked
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -152,58 +141,60 @@
 [W : PPU[1] Thread (CPUThread)[0x00824058]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0010ab8)
 [W : PPU[1] Thread (CPUThread)[0x001bb004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x00099418]]: libmixer warning: cellSurMixerCreate(config_addr=0xd0010aa4)
-[W : PPU[1] Thread (CPUThread)[0x00099418]]: libmixer warning: *** surMixer created (ch1=0, ch2=0, ch6=0, ch8=0)
-[W : PPU[1] Thread (CPUThread)[0x00096004]]: libmixer warning: cellSurMixerSetNotifyCallback(func_addr=0x1c2c08, arg=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00095fcc]]: libmixer warning: cellSurMixerGetAANHandle(handle_addr=0xd0010aa0) -> 0x11111111
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 66
-[W : PPU[1] Thread (CPUThread)[0x0009884c]]: libmixer warning: cellSurMixerStart()
-[W : PPU[1] Thread (CPUThread)[0x0009884c]]: libmixer warning: *** audio port opened(default, port 7)
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
-[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 69
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(69)
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=69): id = 70
-[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 71
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(71)
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=71): id = 72
-[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 73
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(73)
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=73): id = 74
-[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 75
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(75)
-[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 77
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 79
+[W : PPU[1] Thread (CPUThread)[0x0082e0d0]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x18b9d0, align=0x20000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x0082e0d0]]: sys_heap warning: *** sys_heap created: id = 66
+[W : PPU[1] Thread (CPUThread)[0x0082e064]]: sys_heap warning: _sys_heap_memalign(heap_id=66, align=0x10, size=0x1080)
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x0082e064]]: sys_heap warning: _sys_heap_memalign(heap_id=66, align=0x10, size=0x8280)
+[W : PPU[1] Thread (CPUThread)[0x0009831c]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 68
+[W : PPU[1] Thread (CPUThread)[0x00098340]]: sys_cond warning: *** condition created [] (mutex_id=68): id = 69
+[W : PPU[1] Thread (CPUThread)[0x000983cc]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 70
+[W : PPU[1] Thread (CPUThread)[0x000983f0]]: sys_cond warning: *** condition created [] (mutex_id=70): id = 71
+[W : PPU[1] Thread (CPUThread)[0x00098474]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 72
+[W : PPU[1] Thread (CPUThread)[0x00098498]]: sys_cond warning: *** condition created [] (mutex_id=72): id = 73
+[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 74
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 75
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 76
+[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [_cellsurMixerMain] (): id = 77
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 78
+[W : PPU[77] Thread (_cellsurMixerMain)[0x0009a6e0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x4eb024, attr_addr=0x4ec0d0, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[1] Thread (CPUThread)[0x001bb058]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x4eb068, portNum_addr=0x4eafd8)
+[W : PPU[1] Thread (CPUThread)[0x001bb058]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[77] Thread (_cellsurMixerMain)[0x0009a6e0]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 79
+[W : PPU[1] Thread (CPUThread)[0x001bb040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x4eb088)
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 80
+[W : PPU[1] Thread (CPUThread)[0x001bb04c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x001bb010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 81
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 83
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 84
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 85
-[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_vv_proc] (): id = 86
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 87
-[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_vsync_proc] (): id = 88
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 89
-[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_fs_proc] (): id = 90
+[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 82
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(82)
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=82): id = 83
+[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 84
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(84)
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=84): id = 85
+[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 86
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(86)
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=86): id = 87
+[W : PPU[1] Thread (CPUThread)[0x000a22fc]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 88
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition on recursive mutex(88)
+[W : PPU[1] Thread (CPUThread)[0x000a2334]]: sys_cond warning: *** condition created [] (mutex_id=88): id = 89
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
-[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_idle_proc] (): id = 92
-[W : PPU[1] Thread (CPUThread)[0x000a2830]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 92
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 93
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 97
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 98
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
+[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_vv_proc] (): id = 99
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 101
+[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_vsync_proc] (): id = 101
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 102
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
+[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_fs_proc] (): id = 103
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
-[E : PPU[1] Thread (CPUThread)[0x0081e004]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010940, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=200)
-[E : PPU[1] Thread (CPUThread)[0x0081e010]]: TODO: cellSpursInitializeWithAttribute
-[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
+[! : PPU[1] Thread (CPUThread)[0x0082e01c]]: *** New PPU Thread [cri_adxm_idle_proc] (): id = 105
+[W : PPU[1] Thread (CPUThread)[0x000a2830]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
@@ -214,30 +205,46 @@
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 114
 [W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
+[W : PPU[1] Thread (CPUThread)[0x0081e004]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010940, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=200)
+[W : PPU[1] Thread (CPUThread)[0x0081e010]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x4a9880, spurs_addr=0xd0010940)
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 118
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 119
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 121
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 122
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 123
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 125
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
+[W : PPU[1] Thread (CPUThread)[0x0082e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 128
 [E : PPU[1] Thread (CPUThread)[0x0081e01c]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0081e058]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x0081e094]]: TODO: cellSpursCreateTasksetWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x0081e04c]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0081e04c]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0081e064]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0081e064]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x541900)
 [E : PPU[1] Thread (CPUThread)[0x0081e088]]: TODO: _cellSpursTaskAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0081e028]]: TODO: cellSpursCreateTaskWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x0081e04c]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0081e04c]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0081e064]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0081e064]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x541b80)
 [E : PPU[1] Thread (CPUThread)[0x0081e088]]: TODO: _cellSpursTaskAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0081e028]]: TODO: cellSpursCreateTaskWithAttribute
-[W : Audio Thread]: Audio aborted
-[W : PPU[34] Thread (CRI FS Memory File System)[0x001288cc]]: sys_cond_wait(id=33) aborted
-[W : PPU[22] Thread (CRI FS File Access 1)[0x001288cc]]: sys_cond_wait(id=21) aborted
-[W : PPU[30] Thread (CRI FS File Access 3)[0x001288cc]]: sys_cond_wait(id=29) aborted
+[W : PPU[56] Thread (cri_dlg)[0x001233d0]]: sys_cond_wait(id=54) aborted
+[W : PPU[63] Thread (cri_dlg)[0x001233d0]]: sys_cond_wait(id=61) aborted
+[W : PPU[105] Thread (cri_adxm_idle_proc)[0x000a1e8c]]: sys_cond_wait(id=87) aborted
 [W : PPU[26] Thread (CRI FS File Access 2)[0x001288cc]]: sys_cond_wait(id=25) aborted
 [W : PPU[18] Thread (CRI FS File Access 0)[0x001288cc]]: sys_cond_wait(id=17) aborted
-[W : Libmixer Thread]: Libmixer aborted
-[W : PPU[56] Thread (cri_dlg)[0x001233d0]]: sys_cond_wait(id=54) aborted
-[W : PPU[92] Thread (cri_adxm_idle_proc)[0x000a1e8c]]: sys_cond_wait(id=74) aborted
-[W : PPU[63] Thread (cri_dlg)[0x001233d0]]: sys_cond_wait(id=61) aborted
 [W : PPU[38] Thread (CRI FS Data Decompression 0)[0x001288cc]]: sys_cond_wait(id=37) aborted
-[W : PPU[90] Thread (cri_adxm_fs_proc)[0x000a1e8c]]: sys_cond_wait(id=72) aborted
-[W : PPU[88] Thread (cri_adxm_vsync_proc)[0x0082e004]]: sys_lwmutex_t::lock(sq=58) aborted
+[W : PPU[77] Thread (_cellsurMixerMain)[0x0009a908]]: sys_event_queue_receive(equeue=79) aborted
+[W : PPU[34] Thread (CRI FS Memory File System)[0x001288cc]]: sys_cond_wait(id=33) aborted
+[W : PPU[30] Thread (CRI FS File Access 3)[0x001288cc]]: sys_cond_wait(id=29) aborted
+[W : PPU[101] Thread (cri_adxm_vsync_proc)[0x000a1e8c]]: sys_cond_wait(id=83) aborted
+[W : PPU[103] Thread (cri_adxm_fs_proc)[0x000a1e8c]]: sys_cond_wait(id=85) aborted
+[W : PPU[74] Thread (_sys_mixerSurBusReq)[0x00097628]]: sys_cond_wait(id=69) aborted
+[W : Audio Thread]: Audio aborted
+[W : PPU[22] Thread (CRI FS File Access 1)[0x001288cc]]: sys_cond_wait(id=21) aborted
 [!]: Closing memory...

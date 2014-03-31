@@ -9,18 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/
-[!]: Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Data\
-[!]: Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Res\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Res\install\
-[!]: /Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\Res\
-[!]: ///resource -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\resource\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00232-[SEGA Superstars Tennis]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x7f13fc8c in 'sys_fs' module
@@ -42,14 +38,10 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x60eb2dec in 'cellSpurs' module
@@ -60,18 +52,10 @@
 [E]: TODO: cellSpursJobGuardInitialize
 [W]: Unknown function 0x738e40e6 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -82,12 +66,6 @@
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xbe5be3ba in 'sys_io' module
 [E]: TODO: cellPadSetSensorMode
 [W]: Unknown function 0xdbf4c59c in 'sys_io' module
@@ -256,6 +234,7 @@
 [E]: TODO: inet_addr
 [W]: Unknown function 0xf7ac8941 in 'sys_net' module
 [E]: TODO: gethostbyaddr
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
 [E]: TODO: cellGcmGetVBlankCount
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
@@ -305,7 +284,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00c9d088]]: sys_fs warning: cellFsAioInit(mount_point_addr=0xac9518 (/dev_bdvd/PS3_GAME/USRDIR/))
 [W : PPU[1] Thread (CPUThread)[0x00c9f04c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x8443b8, userdata=0xac9518)
 [W : PPU[1] Thread (CPUThread)[0x0035ad24]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x00ca30c4]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x00ca30c4]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x3020e100, nSpus=6, spuPriority=250, ppuPriority=4294967295, exitIfNoWork=1)
 [E : PPU[1] Thread (CPUThread)[0x00ca3034]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x00ca30a0]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x00ca3028]]: TODO: cellSpursCreateJobChainWithAttribute
@@ -350,11 +329,11 @@
 [W : PPU[1] Thread (CPUThread)[0x00048454]]: sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 34
 [W : PPU[1] Thread (CPUThread)[0x00c9d034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/RESOURCE/RESOURCE.PAC"): fd = 35
 [W : PPU[1] Thread (CPUThread)[0x00c9d07c]]: sys_fs warning: cellFsAioRead(aio_addr=0xa88f88, id_addr=0xa88fb0, func_addr=0x82cca8)
-[W : fsAioRead]: *** fsAioRead(fd=35, offset=0x0, buf_addr=0xd00100e0, size=0x20, error=0x0, res=0x20, xid=0x0 [dev_bdvd/D:/Emulateurs/Rpcs3/dev_hdd0/game/BLES00232-[SEGA Superstars Tennis]/PS3_GAME/USRDIR/RESOURCE/RESOURCE.PAC])
+[W : fsAioRead]: *** fsAioRead(fd=35, offset=0x0, buf_addr=0xd00100e0, size=0x20, error=0x0, res=0x20, xid=0x0 [])
 [W : PPU[1] Thread (CPUThread)[0x00c9d004]]: sys_fs warning: cellFsClose(fd=35)
 [W : PPU[1] Thread (CPUThread)[0x00c9d034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/RESOURCE/RESOURCE.PAC"): fd = 36
 [W : PPU[1] Thread (CPUThread)[0x00c9d07c]]: sys_fs warning: cellFsAioRead(aio_addr=0xa88f88, id_addr=0xa88fb0, func_addr=0x82cca8)
-[W : fsAioRead]: *** fsAioRead(fd=36, offset=0x0, buf_addr=0x31a87000, size=0x12000, error=0x0, res=0x12000, xid=0x1 [dev_bdvd/D:/Emulateurs/Rpcs3/dev_hdd0/game/BLES00232-[SEGA Superstars Tennis]/PS3_GAME/USRDIR/RESOURCE/RESOURCE.PAC])
+[W : fsAioRead]: *** fsAioRead(fd=36, offset=0x0, buf_addr=0x31a87000, size=0x12000, error=0x0, res=0x12000, xid=0x1 [])
 [W : PPU[1] Thread (CPUThread)[0x00c9d004]]: sys_fs warning: cellFsClose(fd=36)
 [W : PPU[1] Thread (CPUThread)[0x00c9d034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/RESOURCE/RESOURCE.PAC"): fd = 37
 [E : PPU[1] Thread (CPUThread)[0x00c9f058]]: TODO: cellDiscGameGetBootDiscInfo
@@ -363,10 +342,10 @@
 [E : PPU[1] Thread (CPUThread)[0x00ca5010]]: sys_io error: cellPadInfoPressMode(port_no=0)
 [E : PPU[1] Thread (CPUThread)[0x00ca507c]]: sys_io error: cellPadInfoSensorMode(port_no=0)
 [E : PPU[1] Thread (CPUThread)[0x00ca50ac]]: Unknown func id: 0xdbf4c59c
-[W : PPU[38] Thread (GameDataThread)[0x00356adc]]: memory warning: *** memory_container created(addr=0x3b200000): id = 39
 [W : PPU[1] Thread (CPUThread)[0x0041dd1c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd000e4c0, attr_addr=0xd000e4c8, initial_count=1, max_count=2147483647)
+[W : PPU[38] Thread (GameDataThread)[0x00356adc]]: memory warning: *** memory_container created(addr=0x3b200000): id = 40
 [E : PPU[38] Thread (GameDataThread)[0x00c9f064]]: TODO: cellGameDataCheckCreate2
-[W : PPU[38] Thread (GameDataThread)[0x00356b38]]: memory warning: sys_memory_container_destroy(cid=39)
+[W : PPU[38] Thread (GameDataThread)[0x00356b38]]: memory warning: sys_memory_container_destroy(cid=40)
 [W : PPU[1] Thread (CPUThread)[0x0041dd1c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd000e4c0, attr_addr=0xd000e4c8, initial_count=1, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x0041dd1c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xd000e4c0, attr_addr=0xd000e4c8, initial_count=1, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00c9d034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/RESOURCE/SHADERCACHE/VS_SHADER_CACHE_24.BIN"): fd = 43

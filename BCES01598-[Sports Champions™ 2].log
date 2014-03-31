@@ -1,15 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions_ 2]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01598-[Sports Champions™ 2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1a267f98 in 'cellSysmodule' module
@@ -170,12 +177,8 @@
 [E]: TODO: cellSpursCreateTaskWithAttribute
 [W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
 [E]: TODO: cellSpursDestroyTaskset2
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x2edcff92 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetSetExceptionEventHandler
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x5202e53b in 'cellSpurs' module
@@ -190,14 +193,8 @@
 [E]: TODO: cellSpursJobChainUnsetExceptionEventHandler
 [W]: Unknown function 0x7b9cbb74 in 'cellSpurs' module
 [E]: TODO: cellSpursTraceFinalize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x94034c95 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetUnsetExceptionEventHandler
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
@@ -254,12 +251,8 @@
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkloadWithAttribute
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xe14ca62d in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask2
 [W]: Unknown function 0xefeb2679 in 'cellSpurs' module
@@ -443,7 +436,7 @@
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown module 'cellPhotoUtility'
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00aac7fc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00aac7fc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -498,10 +491,9 @@
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 43
 [W : PPU[1] Thread (CPUThread)[0x01a12058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x019ea0b8]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x14a5f78, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x019ea034]]: vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd1\cache\BCES01598\')
 [E : PPU[1] Thread (CPUThread)[0x00010818]]: GetRegBySPR error: Unknown SPR 0x10c! #pc: 0x10818
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r0 = 0x10748
-[! : PPU[1] Thread (CPUThread)[0x00010818]]: r1 = 0xd0020980
+[! : PPU[1] Thread (CPUThread)[0x00010818]]: r1 = 0xd0010980
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r2 = 0x14d8be0
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r3 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r4 = 0x2800
@@ -526,10 +518,10 @@
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r23 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r24 = 0x0
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r25 = 0x0
-[! : PPU[1] Thread (CPUThread)[0x00010818]]: r26 = 0xd0020e00
-[! : PPU[1] Thread (CPUThread)[0x00010818]]: r27 = 0xd0020df0
+[! : PPU[1] Thread (CPUThread)[0x00010818]]: r26 = 0xd0010e00
+[! : PPU[1] Thread (CPUThread)[0x00010818]]: r27 = 0xd0010df0
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r28 = 0x1
-[! : PPU[1] Thread (CPUThread)[0x00010818]]: r29 = 0xd0020e00
+[! : PPU[1] Thread (CPUThread)[0x00010818]]: r29 = 0xd0010e00
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r30 = 0xde4410
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: r31 = 0x8
 [! : PPU[1] Thread (CPUThread)[0x00010818]]: f0 = 0.000000

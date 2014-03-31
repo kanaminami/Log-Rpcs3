@@ -1,15 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\TEST00003\USRDIR\BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\TEST00003\
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\TEST00003\\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\TEST00003\\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
@@ -50,8 +57,6 @@
 [E]: TODO: cellGcmGetVBlankCount
 [W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
 [E]: TODO: cellGcmInitSystemMode
-[W]: Unknown function 0x626e8518 in 'cellGcmSys' module
-[E]: TODO: cellGcmMapEaIoAddressWithFlags
 [W]: Unknown function 0x172c3197 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetDefaultCommandBufferAndSegmentWordSize
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
@@ -119,7 +124,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x00134028]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x15f280, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0020750,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0010750,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
@@ -147,11 +152,12 @@
 [W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
 [W : PPU[1] Thread (CPUThread)[0x000125bc]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=5)
 [W : PPU[1] Thread (CPUThread)[0x000125cc]]: sys_spu warning: sys_raw_spu_create(id_addr=0x10032ad8, attr_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0013a01c]]: sysPrxForUser warning: sys_spu_elf_get_information(elf_img=0x0, entry_addr=0xd00207d0, nseg_addr=0xd00207d4
+[W : PPU[1] Thread (CPUThread)[0x0013a01c]]: sysPrxForUser warning: sys_spu_elf_get_information(elf_img=0x0, entry_addr=0xd00107d0, nseg_addr=0xd00107d4
 [W : PPU[1] Thread (CPUThread)[0x0013a028]]: sysPrxForUser warning: sys_spu_elf_get_segments(elf_img=0x0, segments_addr=0x3010ff80, nseg=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0013a058]]: sysPrxForUser warning: sys_spu_image_import(img=0x100a4e70, src=0x0, type=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0013a040]]: sysPrxForUser warning: sys_raw_spu_image_load(id=0x0, img_addr=0x100a4e70)
 [W : PPU[1] Thread (CPUThread)[0x0013a040]]: RawSPUThread[0]: Write32(SPU_NPC, 0x0)
+[! : PPU[1] Thread (CPUThread)[0x0013a070]]: *** New PPU Thread [Control Thread SPU Sound] (): id = 18
 [W : PPU[1] Thread (CPUThread)[0x00138004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x0013804c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x100a4d10, portNum_addr=0x100a4d08)
@@ -161,20 +167,20 @@
 [W : PPU[1] Thread (CPUThread)[0x00053e7c]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
 [W : PPU[1] Thread (CPUThread)[0x00053e80]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x100a4d30)
 [W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
-[W : PPU[18] Thread (Control Thread SPU Sound)[0x0005380c]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x670)
-[W : PPU[18] Thread (Control Thread SPU Sound)[0x00053814]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
 [E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8TetrisTheme.mp3" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
 [W : RawSPU[17] Thread (CPUThread)[0x00000000]]: Starting RawSPU...
-[W : RawSPU[17] Thread (CPUThread)[0x00000000]]: STOP: 0x0 (no message)
+[W : PPU[18] Thread (Control Thread SPU Sound)[0x0005380c]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x670)
+[W : PPU[18] Thread (Control Thread SPU Sound)[0x00053814]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
 [E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8click.mp3" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
 [W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
 [E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8beep.mp3" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -190,14 +196,20 @@ uniform vec4 vc1;
 out vec4 col0;
 layout (location = 0) in vec4 in_pos;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	col0 = vc0;
 	gl_Position.xyz = (vc1 + in_pos).xyz;
 	gl_Position.w = in_pos.w;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -214,8 +226,8 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[W : RSXThread]: VP not found in buffer!
 [W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (1):
 [! : RSXThread]: *** prog id = 4
 [! : RSXThread]: *** vp id = 2
@@ -232,14 +244,20 @@ uniform vec4 vc0;
 out vec4 col0;
 out vec4 tc0;
 
+void func0();
 
 void main()
 {
 	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
 	gl_Position = in_pos;
 	col0 = vc0;
 	tc0.xy = in_tc0.xy;
-	gl_Position = gl_Position * scaleOffsetMat;
 }
 
 [! : RSXThread]: *** fp shader = 
@@ -259,5 +277,6 @@ void main()
 	ocol = h0;
 }
 
-[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
+[!]: Closing memory...

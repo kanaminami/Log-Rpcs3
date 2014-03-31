@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00019-[TEKKEN™5 DARK RESURRECTION ONLINE]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
@@ -31,8 +31,6 @@
 [E]: TODO: cellSysutilAvcJoinRequest
 [W]: Unknown function 0x1a91874b in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetFullScreen2
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x4056c932 in 'cellSysutil' module
 [E]: TODO: cellSysutilAvcSetVoiceMuting
 [W]: Unknown function 0x619b1427 in 'cellSysutil' module
@@ -75,8 +73,6 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xbfea60fa in 'cellSpurs' module
 [E]: TODO: cellSpursKickJobChain
 [W]: Unknown function 0x858a930b in 'sys_net' module

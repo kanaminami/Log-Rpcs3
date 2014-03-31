@@ -1,34 +1,32 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]\PS3_GAME\\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10149-[Mahjong Dream Club ]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
 [E]: TODO: cellOskDialogUnloadAsync
 [W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
@@ -69,8 +67,6 @@
 [E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown function 0x832df17e in 'cellAudio' module
 [E]: TODO: cellAudioAdd6chData
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x21206642 in 'sceNp' module
@@ -305,7 +301,7 @@
 [W : PPU[1] Thread (CPUThread)[0x007d7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
 [W : PPU[1] Thread (CPUThread)[0x007d7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x002ea6ec]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
-[W : PPU[1] Thread (CPUThread)[0x004990e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x676b0130)
+[W : PPU[1] Thread (CPUThread)[0x004990e8]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x53ca7b00)
 [W : PPU[1] Thread (CPUThread)[0x00497010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [W : PPU[1] Thread (CPUThread)[0x00497010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x00241800]]: sys_spu warning: sys_raw_spu_create(id_addr=0x71f564, attr_addr=0xd0010960)
@@ -1142,9 +1138,10 @@
 [E : RSXThread]: TODO: cellGcmSetTransformBranchBits(0x0)
 [W : RSXThread]: null cmd: addr=0x500c2784, put=0x70390c00, get=0xc2784
 [! : RSXThread]: RSX thread exit...
-[W : PPU[352] Thread (CRI FS File Access 2)[0x00382738]]: sys_cond_wait(id=351) aborted
-[W : PPU[348] Thread (CRI FS File Access 1)[0x00382738]]: sys_cond_wait(id=347) aborted
-[W : PPU[344] Thread (CRI FS File Access 0)[0x00382738]]: sys_cond_wait(id=343) aborted
 [W : PPU[356] Thread (CRI FS File Access 3)[0x00382738]]: sys_cond_wait(id=355) aborted
+[W : PPU[344] Thread (CRI FS File Access 0)[0x00382738]]: sys_cond_wait(id=343) aborted
+[W : PPU[352] Thread (CRI FS File Access 2)[0x00382738]]: sys_cond_wait(id=351) aborted
 [W : PPU[360] Thread (CRI FS Memory File System)[0x00382738]]: sys_cond_wait(id=359) aborted
+[W : PPU[348] Thread (CRI FS File Access 1)[0x00382738]]: sys_cond_wait(id=347) aborted
 [W : PPU[364] Thread (CRI FS Data Decompression 0)[0x00382738]]: sys_cond_wait(id=363) aborted
+[!]: Closing memory...

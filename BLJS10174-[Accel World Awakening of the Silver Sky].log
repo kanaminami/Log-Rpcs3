@@ -13,6 +13,10 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10174-[Accel World Awakening of the Silver Sky]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -75,22 +79,10 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -137,22 +129,22 @@
 [W : PPU[1] Thread (CPUThread)[0x00626004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x4000000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x0062a0ac]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0062a0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0xc05af80)
+[W : PPU[1] Thread (CPUThread)[0x0062a0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x2, aspect=0x0, option=0x98f2a400)
 [W : PPU[1] Thread (CPUThread)[0x0062a07c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010850, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00626064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
 [W : PPU[1] Thread (CPUThread)[0x006260b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
 [W : PPU[1] Thread (CPUThread)[0x006260b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
 [W : PPU[1] Thread (CPUThread)[0x006260b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x2,offset=0x708000,pitch=4,width=1280,height=720)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
-[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
 [E : PPU[1] Thread (CPUThread)[0x006260dc]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x006260ac]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=6626488)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x2dc8)
 [E : PPU[1] Thread (CPUThread)[0x00626088]]: TODO: cellGcmGetReport
 [E : PPU[1] Thread (CPUThread)[0x00626088]]: TODO: cellGcmGetReport
 [E : RSXThread]: NV4097_GET_REPORT: bad type 2
@@ -161,9 +153,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00624010]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/init_ps3.dat"): fd = 18
 [W : PPU[1] Thread (CPUThread)[0x00624004]]: sys_fs warning: cellFsClose(fd=18)
 [W : PPU[1] Thread (CPUThread)[0x002e2f80]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 19
-[E : PPU[1] Thread (CPUThread)[0x006d6064]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010210, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=100)
-[E : PPU[1] Thread (CPUThread)[0x006d6004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010210, prefix_addr=0x5ab12c, size=0x8)
-[E : PPU[1] Thread (CPUThread)[0x006d6088]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x006d6064]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010210, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=100)
+[W : PPU[1] Thread (CPUThread)[0x006d6004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010210, prefix_addr=0x5ab12c, size=0x8)
+[W : PPU[1] Thread (CPUThread)[0x006d6088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x367f7600, spurs_addr=0xd0010210)
 [W : PPU[1] Thread (CPUThread)[0x0062801c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SPURS_JQ)
 [W : PPU[1] Thread (CPUThread)[0x00628010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
 [E : PPU[1] Thread (CPUThread)[0x006d2004]]: TODO: cellSyncQueueInitialize
@@ -241,7 +233,6 @@
 [W : PPU[1] Thread (CPUThread)[0x006d004c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
-[W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
@@ -250,7 +241,7 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0034]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
@@ -258,6 +249,12 @@
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
 [W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
 [W : PPU[1] Thread (CPUThread)[0x006d8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
@@ -268,6 +265,8 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[1] Thread (CPUThread)[0x0062a094]]: TODO: cellSysutilEnableBgmPlayback
 [W : PPU[1] Thread (CPUThread)[0x002eca2c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 77
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
@@ -275,16 +274,48 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[1] Thread (CPUThread)[0x002eca2c]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 78
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
@@ -299,16 +330,8 @@
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
@@ -316,16 +339,12 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[1] Thread (CPUThread)[0x006ca004]]: TODO: SJISstoUTF8s
@@ -345,16 +364,10 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
@@ -364,45 +377,8 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
@@ -412,33 +388,8 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
@@ -448,16 +399,10 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
-[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
@@ -465,8 +410,386 @@
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[1] Thread (CPUThread)[0x006ca004]]: TODO: SJISstoUTF8s
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[W : PPU[58] Thread (CRI Server Manager)[0x006d0028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3682f7f0)
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync
+[E : PPU[58] Thread (CRI Server Manager)[0x006d4034]]: TODO: _cellSpursJobQueuePort2CopyPushJobBody
 [E : PPU[58] Thread (CRI Server Manager)[0x006d4064]]: TODO: cellSpursJobQueuePort2Sync

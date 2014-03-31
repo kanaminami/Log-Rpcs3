@@ -1,15 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME//../
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet_]/PS3_GAME//USRDIR/
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00611-[LittleBigPlanet™]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x02f5ced0 in 'cellCamera' module
@@ -60,18 +67,10 @@
 [E]: TODO: cellSpursCreateTaskWithAttribute
 [W]: Unknown function 0x247414d0 in 'cellSpurs' module
 [E]: TODO: cellSpursQueueClear
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
@@ -80,10 +79,6 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
 [E]: TODO: cellSpursWorkloadAttributeSetName
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
@@ -94,12 +89,8 @@
 [E]: TODO: cellSpursWaitForWorkloadShutdown
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkloadWithAttribute
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -333,7 +324,7 @@
 [W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
 [E]: TODO: cellSslInit
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00539b2c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00539b2c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -379,10 +370,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [TropAwr] (attribute=0x11): sq_id = 46
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [Match2C] (attribute=0x11): sq_id = 47
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [ReqJoin] (attribute=0x11): sq_id = 48
-[W : PPU[1] Thread (CPUThread)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x8bb528, attr_addr=0xd0020b70, initial_count=0, max_count=1)
-[W : PPU[1] Thread (CPUThread)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x8bb530, attr_addr=0xd0020b70, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x8bb528, attr_addr=0xd0010b70, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x8bb530, attr_addr=0xd0010b70, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [Undo] (attribute=0x11): sq_id = 51
-[W : PPU[1] Thread (CPUThread)[0x00010e54]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020cc0)
+[W : PPU[1] Thread (CPUThread)[0x00010e54]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010cc0)
 [W : PPU[1] Thread (CPUThread)[0x0097f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_LV2DBG)
 [W : PPU[1] Thread (CPUThread)[0x0097f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x0097f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
@@ -408,33 +399,36 @@
 [W : PPU[1] Thread (CPUThread)[0x0097f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SEARCH)
 [W : PPU[1] Thread (CPUThread)[0x0097f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME_EXEC)
 [W : PPU[1] Thread (CPUThread)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [gcmcs] (attribute=0x11): sq_id = 52
+[! : PPU[1] Thread (CPUThread)[0x0097501c]]: *** New PPU Thread [bringup] (): id = 53
 [W : PPU[53] Thread (bringup)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [PrioQ] (attribute=0x11): sq_id = 54
-[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820050, attr_addr=0xd0030b10, initial_count=0, max_count=2147483647)
+[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820050, attr_addr=0xd0020b10, initial_count=0, max_count=2147483647)
 [W : PPU[53] Thread (bringup)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [PrioQ] (attribute=0x11): sq_id = 56
-[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820090, attr_addr=0xd0030b10, initial_count=0, max_count=2147483647)
+[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820090, attr_addr=0xd0020b10, initial_count=0, max_count=2147483647)
+[! : PPU[53] Thread (bringup)[0x0097501c]]: *** New PPU Thread [JobManagerWorker] (): id = 58
+[! : PPU[53] Thread (bringup)[0x0097501c]]: *** New PPU Thread [JobManagerWorker] (): id = 59
+[! : PPU[53] Thread (bringup)[0x0097501c]]: *** New PPU Thread [JobManagerWorker] (): id = 60
+[! : PPU[53] Thread (bringup)[0x0097501c]]: *** New PPU Thread [JobManagerWorker] (): id = 61
 [W : PPU[53] Thread (bringup)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [PrioQ] (attribute=0x11): sq_id = 62
-[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x378200f0, attr_addr=0xd0030b10, initial_count=0, max_count=2147483647)
+[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x378200f0, attr_addr=0xd0020b10, initial_count=0, max_count=2147483647)
 [W : PPU[53] Thread (bringup)[0x00975034]]: sys_lwmutex warning: *** lwmutex created [PrioQ] (attribute=0x11): sq_id = 64
-[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820130, attr_addr=0xd0030b10, initial_count=0, max_count=2147483647)
+[W : PPU[53] Thread (bringup)[0x005139bc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x37820130, attr_addr=0xd0020b10, initial_count=0, max_count=2147483647)
+[! : PPU[53] Thread (bringup)[0x0097501c]]: *** New PPU Thread [JobManagerWorker] (): id = 66
+[! : PPU[53] Thread (bringup)[0x0097501c]]: *** New PPU Thread [JobManagerWorker] (): id = 67
 [E : PPU[53] Thread (bringup)[0x00380038]]: Unknown syscall: 872 - 00000368
-[W : PPU[53] Thread (bringup)[0x0099f010]]: cellUserInfo warning: cellUserInfoGetList(listNum_addr=0x921b48, listBuf_addr=0xd0030be0, currentUserId_addr=0x921b4c)
-[W : PPU[53] Thread (bringup)[0x0099f004]]: cellUserInfo warning: cellUserInfoGetStat(id=1, stat_addr=0xd0030c20)
+[W : PPU[53] Thread (bringup)[0x0099f010]]: cellUserInfo warning: cellUserInfoGetList(listNum_addr=0x921b48, listBuf_addr=0xd0020be0, currentUserId_addr=0x921b4c)
+[W : PPU[53] Thread (bringup)[0x0099f004]]: cellUserInfo warning: cellUserInfoGetStat(id=1, stat_addr=0xd0020c20)
 [W : PPU[53] Thread (bringup)[0x00991070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x8bbaf0, commID_addr=0x74c2c1, commSign_addr=0x74c34d, options=0x0)
-[W : PPU[53] Thread (bringup)[0x00991010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x8bbaf4)
-[W : PPU[53] Thread (bringup)[0x0099d088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x863ae0, userdata=0x0)
-[W : PPU[53] Thread (bringup)[0x00985064]]: cellGame warning: cellGameBootCheck(type_addr=0x91ea90, attributes_addr=0x91eb24, size_addr=0x91ea80, dirName_addr=0x0)
-[W : PPU[53] Thread (bringup)[0x00985064]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=53, vptr_addr=0xd0020b10)
+[E : PPU[53] Thread (bringup)[0x00991064]]: sceNpTrophy error: Unimplemented function: sceNpTrophyTerm
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=53, vptr_addr=0xd0010b10)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37920b40)
-[E : PPU[1] Thread (CPUThread)[0x00991064]]: sceNpTrophy error: Unimplemented function: sceNpTrophyTerm
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=58, vptr_addr=0xd0020a00)
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=59, vptr_addr=0xd0020a00)
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=60, vptr_addr=0xd0020a00)
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=61, vptr_addr=0xd0020a00)
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=58, vptr_addr=0xd0010a00)
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=59, vptr_addr=0xd0010a00)
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=60, vptr_addr=0xd0010a00)
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=61, vptr_addr=0xd0010a00)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37820068)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37820028)
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=66, vptr_addr=0xd0020a00)
-[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=67, vptr_addr=0xd0020a00)
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=66, vptr_addr=0xd0010a00)
+[W : PPU[1] Thread (CPUThread)[0x00525f0c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=67, vptr_addr=0xd0010a00)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x37820108)
 [W : PPU[1] Thread (CPUThread)[0x00975094]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x378200c8)
 [W : PPU[1] Thread (CPUThread)[0x0097f004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_LV2DBG)

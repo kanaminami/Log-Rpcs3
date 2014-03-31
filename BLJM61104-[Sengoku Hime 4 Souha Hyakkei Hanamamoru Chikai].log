@@ -1,0 +1,205 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\..\
+[!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61104-[Sengoku Hime 4 Souha Hyakkei Hanamamoru Chikai]/PS3_GAME/\USRDIR\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x832df17e in 'cellAudio' module
+[E]: TODO: cellAudioAdd6chData
+[W]: Unknown function 0x0247c69e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFrame
+[W]: Unknown function 0x0abb318b in 'cellSail' module
+[E]: TODO: cellSailDescriptorCreateDatabase
+[W]: Unknown function 0x1139a206 in 'cellSail' module
+[E]: TODO: cellSailPlayerSetSoundAdapter
+[W]: Unknown function 0x1872331b in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterPtsToTimePosition
+[W]: Unknown function 0x18b4629d in 'cellSail' module
+[E]: TODO: cellSailPlayerFinalize
+[W]: Unknown function 0x18bcd21b in 'cellSail' module
+[E]: TODO: cellSailPlayerSetGraphicsAdapter
+[W]: Unknown function 0x1c983864 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterInitialize
+[W]: Unknown function 0x23654375 in 'cellSail' module
+[E]: TODO: cellSailPlayerInitialize2
+[W]: Unknown function 0x28336e89 in 'cellSail' module
+[E]: TODO: cellSailDescriptorDestroyDatabase
+[W]: Unknown function 0x2e3ccb5e in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterSetPreferredFormat
+[W]: Unknown function 0x346ebba3 in 'cellSail' module
+[E]: TODO: cellSailMemAllocatorInitialize
+[W]: Unknown function 0x34ecc1b9 in 'cellSail' module
+[E]: TODO: cellSailPlayerOpenStream
+[W]: Unknown function 0x3a2d806c in 'cellSail' module
+[E]: TODO: cellSailFutureGet
+[W]: Unknown function 0x3d0d3b72 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterInitialize
+[W]: Unknown function 0x44a20e79 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterUpdateAvSync
+[W]: Unknown function 0x47632810 in 'cellSail' module
+[E]: TODO: cellSailPlayerReplaceEventHandler
+[W]: Unknown function 0x4ae979df in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterPtsToTimePosition
+[W]: Unknown function 0x4c191088 in 'cellSail' module
+[E]: TODO: cellSailDescriptorGetUri
+[W]: Unknown function 0x4cc54f8e in 'cellSail' module
+[E]: TODO: cellSailFutureInitialize
+[W]: Unknown function 0x5783a454 in 'cellSail' module
+[E]: TODO: cellSailMp4MovieGetMovieInfo
+[W]: Unknown function 0x6e83f5c0 in 'cellSail' module
+[E]: TODO: cellSailAviMovieGetMovieInfo
+[W]: Unknown function 0x752f8585 in 'cellSail' module
+[E]: TODO: cellSailPlayerGetDescriptorCount
+[W]: Unknown function 0x76488bb1 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterFinalize
+[W]: Unknown function 0x7c8dff3b in 'cellSail' module
+[E]: TODO: cellSailPlayerAddDescriptor
+[W]: Unknown function 0x7eb8d6b5 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFrame
+[W]: Unknown function 0x85beffcc in 'cellSail' module
+[E]: TODO: cellSailPlayerCloseStream
+[W]: Unknown function 0x9553af65 in 'cellSail' module
+[E]: TODO: cellSailFutureFinalize
+[W]: Unknown function 0xa37fed15 in 'cellSail' module
+[E]: TODO: cellSailFutureSet
+[W]: Unknown function 0xaafa17b8 in 'cellSail' module
+[E]: TODO: cellSailPlayerIsPaused
+[W]: Unknown function 0xbdf21b0f in 'cellSail' module
+[E]: TODO: cellSailPlayerBoot
+[W]: Unknown function 0xd1462438 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterFinalize
+[W]: Unknown function 0xd1d55a90 in 'cellSail' module
+[E]: TODO: cellSailPlayerSetPaused
+[W]: Unknown function 0xd5f9a15b in 'cellSail' module
+[E]: TODO: cellSailDescriptorGetStreamType
+[W]: Unknown function 0xd7938b8d in 'cellSail' module
+[E]: TODO: cellSailPlayerCreateDescriptor
+[W]: Unknown function 0xe535b0d3 in 'cellSail' module
+[E]: TODO: cellSailPlayerStart
+[W]: Unknown function 0xeba8d4ec in 'cellSail' module
+[E]: TODO: cellSailPlayerStop
+[W]: Unknown function 0xeec22809 in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterUpdateAvSync
+[W]: Unknown function 0xf25f197d in 'cellSail' module
+[E]: TODO: cellSailSoundAdapterGetFormat
+[W]: Unknown function 0xfc5baf8a in 'cellSail' module
+[E]: TODO: cellSailPlayerSetRepeatMode
+[W]: Unknown function 0xfc839bd4 in 'cellSail' module
+[E]: TODO: cellSailPlayerDestroyDescriptor
+[W]: Unknown function 0xffd58aa4 in 'cellSail' module
+[E]: TODO: cellSailGraphicsAdapterGetFormat
+[W]: Unknown function 0x117cd726 in 'cellPngEnc' module
+[E]: TODO: cellPngEncClose
+[W]: Unknown function 0x19256dc5 in 'cellPngEnc' module
+[E]: TODO: cellPngEncOpen
+[W]: Unknown function 0x496cfcd0 in 'cellPngEnc' module
+[E]: TODO: cellPngEncQueryAttr
+[W]: Unknown function 0x585269bc in 'cellPngEnc' module
+[E]: TODO: cellPngEncGetStreamInfo
+[W]: Unknown function 0x5b546ca4 in 'cellPngEnc' module
+[E]: TODO: cellPngEncEncodePicture
+[W]: Unknown function 0x662bd637 in 'cellPngEnc' module
+[E]: TODO: cellPngEncWaitForInput
+[W]: Unknown function 0x90ef2963 in 'cellPngEnc' module
+[E]: TODO: cellPngEncWaitForOutput
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x1650aea4 in 'cellSsl' module
+[E]: TODO: cellSslEnd
+[W]: Unknown function 0x571afaca in 'cellSsl' module
+[E]: TODO: cellSslCertificateLoader
+[W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
+[E]: TODO: cellSslInit
+[W]: Unknown module 'sceNpCommerce2'
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x009b9034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_USERINFO)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_LICENSEAREA)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGENC)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONT)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FREETYPE_TT)
+[W : PPU[1] Thread (CPUThread)[0x00437010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONTFT)
+[W : PPU[1] Thread (CPUThread)[0x0043f094]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x458c68, userdata=0x31042780)
+[W : PPU[1] Thread (CPUThread)[0x00439004]]: cellUserInfo warning: cellUserInfoGetStat(id=0, stat_addr=0x310428cc)
+[W : PPU[1] Thread (CPUThread)[0x00439004]]: cellUserInfo warning: cellUserInfoGetStat(id=0, stat_addr=0x3104293c)
+[W : PPU[1] Thread (CPUThread)[0x00439004]]: cellUserInfo warning: cellUserInfoGetStat(id=0, stat_addr=0x310429ac)
+[W : PPU[1] Thread (CPUThread)[0x00439004]]: cellUserInfo warning: cellUserInfoGetStat(id=0, stat_addr=0x31042a1c)
+[W : PPU[1] Thread (CPUThread)[0x00993040]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010a40, attributes_addr=0xd0010a44, size_addr=0xd0010a48, dirName_addr=0x8e2688)
+[W : PPU[1] Thread (CPUThread)[0x00993004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xd0010a58, bufsize=256)
+[W : PPU[1] Thread (CPUThread)[0x00993010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x8e2788, usrdirPath_addr=0x8e2808)
+[W : PPU[1] Thread (CPUThread)[0x00283014]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x283014
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905b40)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905b68)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905b90)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905a78)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905aa0)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905ac8)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905af0)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x905b18)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x9063b8)
+[W : PPU[1] Thread (CPUThread)[0x009b90dc]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301001d0)
+[W : PPU[1] Thread (CPUThread)[0x009b90f4]]: Process warning: sys_process_exit(0)
+[S : PPU[1] Thread (CPUThread)[0x009b90f4]]: Process finished
+[!]: Closing memory...

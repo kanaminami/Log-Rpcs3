@@ -9,20 +9,18 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10244-[Super Heroine Chronicle]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x931ff25a in 'cellL10n' module
 [E]: TODO: L10nConvertStr
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
@@ -31,8 +29,6 @@
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
 [E]: TODO: cellOskDialogUnloadAsync
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
@@ -65,10 +61,6 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -81,18 +73,10 @@
 [E]: TODO: cellSpursAddWorkload
 [W]: Unknown function 0x7e4ea023 in 'cellSpurs' module
 [E]: TODO: cellSpursWakeUp
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa73bf47e in 'cellSpurs' module
 [E]: TODO: _cellSpursWorkloadFlagReceiver
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -143,7 +127,7 @@
 [W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_by_fd
 [W : PPU[1] Thread (CPUThread)[0x00938058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00549c5c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x00549c5c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x00938058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x00938058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x00938058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -185,7 +169,7 @@
 [E : PPU[1] Thread (CPUThread)[0x00920100]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x00920010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x78a1a0)
 [W : PPU[1] Thread (CPUThread)[0x0076f0ac]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0076f034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0020908)
+[W : PPU[1] Thread (CPUThread)[0x0076f034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0010908)
 [W : PPU[1] Thread (CPUThread)[0x00926010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0076f0f4]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x78a498, userdata=0x7e2550)
 [E : PPU[1] Thread (CPUThread)[0x00344f20]]: Read32 from null block: [0000000c]

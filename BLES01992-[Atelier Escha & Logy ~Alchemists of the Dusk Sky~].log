@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01992-[Atelier Escha & Logy ~Alchemists of the Dusk Sky~]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x3140f6e1 in 'sys_fs' module
@@ -27,12 +27,8 @@
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
 [E]: TODO: cellFsUtime
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
 [W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
@@ -61,36 +57,20 @@
 [E]: TODO: cellRescCreateInterlaceTable
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagClear
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
@@ -109,8 +89,6 @@
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xe717ac73 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeTryGet
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x931ff25a in 'cellL10n' module
 [E]: TODO: L10nConvertStr
@@ -204,7 +182,7 @@
 [W : PPU[1] Thread (CPUThread)[0x009c3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
 [W : PPU[1] Thread (CPUThread)[0x00b8104c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
 [W : PPU[1] Thread (CPUThread)[0x00b8104c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
-[E : PPU[1] Thread (CPUThread)[0x009cf0b8]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x009cf0b8]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x31b00080, nSpus=5, spuPriority=80, ppuPriority=10, exitIfNoWork=0)
 [W : PPU[1] Thread (CPUThread)[0x00b8104c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
 [W : PPU[1] Thread (CPUThread)[0x00b8104c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
 [W : PPU[1] Thread (CPUThread)[0x00b8104c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
@@ -319,15 +297,15 @@
 [W : PPU[1] Thread (CPUThread)[0x009cb0e8]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x009cb0e8]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x1900000)
 [! : RSXThread]: RSX thread entry
-[E : PPU[1] Thread (CPUThread)[0x009cf010]]: TODO: cellSpursCreateTaskset
+[E : PPU[1] Thread (CPUThread)[0x009cf010]]: cellSpurs error: cellSpursCreateTaskset(spurs_addr=0x31b00080, taskset_addr=0x31b59000, args=0x31b59000, priority_addr=0xd00109b0, maxContention=5)
 [E : PPU[1] Thread (CPUThread)[0x009cf004]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x009cf004]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x009cf004]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x009cf004]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x009cf004]]: TODO: _cellSpursLFQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x009cf040]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x009cf040]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x31b59000, taskID_addr=0x31b0a9d0, elf_addr_addr=0x8efc00, context_addr_addr=0x31b5a980, context_size=250880, lsPattern_addr=0x746300, argument_addr=0xd00109e0)
 [E : PPU[1] Thread (CPUThread)[0x009cf01c]]: TODO: _cellSpursLFQueuePushBody
-[W : PPU[86] Thread (KtglFsThread_Bdvd)[0x0039eeac]]: sys_event_flag_wait(id=84) aborted
-[W : PPU[90] Thread (KtglFsThread_Hdd)[0x0039eeac]]: sys_event_flag_wait(id=88) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[90] Thread (KtglFsThread_Hdd)[0x0039eeac]]: sys_event_flag_wait(id=88) aborted
+[W : PPU[86] Thread (KtglFsThread_Bdvd)[0x0039eeac]]: sys_event_flag_wait(id=84) aborted
 [!]: Closing memory...

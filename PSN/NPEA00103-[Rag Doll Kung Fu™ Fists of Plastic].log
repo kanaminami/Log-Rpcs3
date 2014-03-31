@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu™ Fists of Plastic]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xe6c8f3f9 in 'sceNp' module

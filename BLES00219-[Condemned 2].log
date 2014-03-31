@@ -9,13 +9,15 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00219-[Condemned 2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x13ae18f3 in 'cellSpurs' module
@@ -24,12 +26,8 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagClear
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -38,30 +36,16 @@
 [E]: TODO: cellSpursTasksetAttributeSetName
 [W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagTryWait
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa121a224 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xdbf4c59c in 'sys_io' module
 [E]: Unknown func id: 0xdbf4c59c
 [W]: Unknown function 0xf83f8182 in 'sys_io' module
@@ -86,12 +70,8 @@
 [E]: TODO: cellGameDataCheckCreate2
 [W]: Unknown function 0xdfdd302e in 'cellSysutil' module
 [E]: TODO: cellDiscGameRegisterDiscChangeCallback
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoSave
 [W]: Unknown function 0xb72bc4e6 in 'cellSysutil' module
@@ -425,11 +405,11 @@
 [W : PPU[1] Thread (CPUThread)[0x01183010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
 [W : PPU[1] Thread (CPUThread)[0x01183010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
 [W : PPU[1] Thread (CPUThread)[0x01183010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x00010838]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020a50)
+[W : PPU[1] Thread (CPUThread)[0x00010838]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010a50)
 [W : PPU[1] Thread (CPUThread)[0x0002a80c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=5, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x0107f0ac]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0020670, nSpus=1, spuPriority=2097154, ppuPriority=5, exitIfNoWork=100)
-[E : PPU[1] Thread (CPUThread)[0x0107f004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0020670, prefix_addr=0x1000c488, size=0x4)
-[E : PPU[1] Thread (CPUThread)[0x0107f0dc]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x0107f0ac]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010670, nSpus=1, spuPriority=2097154, ppuPriority=5, exitIfNoWork=100)
+[W : PPU[1] Thread (CPUThread)[0x0107f004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010670, prefix_addr=0x1000c488, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x0107f0dc]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x3018c300, spurs_addr=0xd0010670)
 [E : PPU[1] Thread (CPUThread)[0x0107f01c]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0107f07c]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x0107f0a0]]: TODO: cellSpursTasksetAttributeSetTasksetSize
@@ -438,22 +418,22 @@
 [W : PPU[1] Thread (CPUThread)[0x01177034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/cmdline.txt"): fd = 305
 [W : PPU[1] Thread (CPUThread)[0x01177004]]: sys_fs warning: cellFsClose(fd=305)
 [W : PPU[1] Thread (CPUThread)[0x0117f040]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x10eb9d0, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0117b0dc]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0020470)
+[W : PPU[1] Thread (CPUThread)[0x0117b0dc]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010470)
 [E : PPU[1] Thread (CPUThread)[0x0117d058]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[1] Thread (CPUThread)[0x00da6d2c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 306
-[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="//dev_bdvd/PS3_GAME/USRDIR/Custom/AdditionalContent/*.Arch02", fd_addr=0xd001f900)
+[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="//dev_bdvd/PS3_GAME/USRDIR/Custom/AdditionalContent/*.Arch02", fd_addr=0xd000f900)
 [W : PPU[1] Thread (CPUThread)[0x01177034]]: *** cellFsOpen(path="//dev_bdvd/PS3_GAME/USRDIR/default.archcfg"): fd = 307
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 308
-[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR/game", fd_addr=0xd001f2c0)
+[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR/game", fd_addr=0xd000f2c0)
 [W : PPU[1] Thread (CPUThread)[0x01177004]]: sys_fs warning: cellFsClose(fd=309)
-[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR/Layer.Arch02", fd_addr=0xd001f2c0)
+[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR/Layer.Arch02", fd_addr=0xd000f2c0)
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 310
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 311
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 312
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 313
 [E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
-[E : PPU[1] Thread (CPUThread)[0x0107f094]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0107f094]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x30157d80)
 [E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
 [E : PPU[1] Thread (CPUThread)[0x0107f0e8]]: TODO: _cellSpursTaskAttributeInitialize
@@ -462,7 +442,7 @@
 [E : PPU[1] Thread (CPUThread)[0x0107f028]]: TODO: cellSpursCreateTaskWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
-[E : PPU[1] Thread (CPUThread)[0x0107f094]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0107f094]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x30232900)
 [E : PPU[1] Thread (CPUThread)[0x0107f070]]: TODO: _cellSpursEventFlagInitialize
 [E : PPU[1] Thread (CPUThread)[0x0107f058]]: TODO: cellSpursEventFlagClear
 [E : PPU[1] Thread (CPUThread)[0x0107f0e8]]: TODO: _cellSpursTaskAttributeInitialize
@@ -470,6 +450,7 @@
 [E : PPU[1] Thread (CPUThread)[0x0107f0c4]]: TODO: cellSpursTaskAttributeSetExitCodeContainer
 [E : PPU[1] Thread (CPUThread)[0x0107f028]]: TODO: cellSpursCreateTaskWithAttribute
 [W : PPU[1] Thread (CPUThread)[0x0118b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 314
+[! : PPU[1] Thread (CPUThread)[0x0118b01c]]: *** New PPU Thread [FileDecomp] (): id = 315
 [W : PPU[315] Thread (FileDecomp)[0x007e9d68]]: sys_cond warning: *** condition created [] (mutex_id=312): id = 316
 [W : PPU[1] Thread (CPUThread)[0x01177034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Layer.Arch02"): fd = 317
 [W : PPU[1] Thread (CPUThread)[0x01177004]]: sys_fs warning: cellFsClose(fd=317)
@@ -477,11 +458,11 @@
 [W : PPU[1] Thread (CPUThread)[0x01177034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Layer.Arch02"): fd = 319
 [W : PPU[1] Thread (CPUThread)[0x01177034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Layer.Arch02"): fd = 320
 [W : PPU[1] Thread (CPUThread)[0x01177004]]: sys_fs warning: cellFsClose(fd=307)
-[W : PPU[1] Thread (CPUThread)[0x0001aea4]]: memory warning: sys_memory_container_create(cid_addr=0xd001fb20, yield_size=0x300000)
+[W : PPU[1] Thread (CPUThread)[0x0001aea4]]: memory warning: sys_memory_container_create(cid_addr=0xd000fb20, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x0001aea4]]: memory warning: *** memory_container created(addr=0x30300000): id = 321
 [E : PPU[1] Thread (CPUThread)[0x0117f058]]: TODO: cellGameDataCheckCreate2
 [W : PPU[1] Thread (CPUThread)[0x0001aed8]]: memory warning: sys_memory_container_destroy(cid=321)
-[W : PPU[1] Thread (CPUThread)[0x0001a940]]: memory warning: sys_memory_container_create(cid_addr=0xd001fb20, yield_size=0x300000)
+[W : PPU[1] Thread (CPUThread)[0x0001a940]]: memory warning: sys_memory_container_create(cid_addr=0xd000fb20, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x0001a940]]: memory warning: *** memory_container created(addr=0x30300000): id = 322
 [E : PPU[1] Thread (CPUThread)[0x0117f058]]: TODO: cellGameDataCheckCreate2
 [W : PPU[1] Thread (CPUThread)[0x0001a974]]: memory warning: sys_memory_container_destroy(cid=322)
@@ -503,11 +484,12 @@
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 330
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=true): id = 331
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 332
-[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="//dev_bdvd/PS3_GAME/USRDIR/Save", fd_addr=0xd00200f0)
+[W : PPU[1] Thread (CPUThread)[0x01177010]]: sys_fs warning: cellFsOpendir(path="//dev_bdvd/PS3_GAME/USRDIR/Save", fd_addr=0xd00100f0)
 [W : PPU[1] Thread (CPUThread)[0x01177004]]: sys_fs warning: cellFsClose(fd=333)
 [W : PPU[1] Thread (CPUThread)[0x0118b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 334
-[W : PPU[1] Thread (CPUThread)[0x0117f01c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[! : PPU[1] Thread (CPUThread)[0x0118b01c]]: *** New PPU Thread [ResourceLoader] (): id = 335
 [W : PPU[335] Thread (ResourceLoader)[0x007e9d68]]: sys_cond warning: *** condition created [] (mutex_id=329): id = 336
+[W : PPU[1] Thread (CPUThread)[0x0117f01c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x007ea8cc]]: sys_mutex warning: *** mutex created [] (protocol=0x1, recursive=false): id = 337
 [W : PPU[1] Thread (CPUThread)[0x007e9d68]]: sys_cond warning: *** condition created [] (mutex_id=337): id = 338
 [E : PPU[315] Thread (FileDecomp)[0x0107f118]]: TODO: cellSpursEventFlagSet
@@ -528,5 +510,4 @@
 [E : PPU[315] Thread (FileDecomp)[0x0107f088]]: TODO: cellSpursEventFlagTryWait
 [W : PPU[315] Thread (FileDecomp)[0x007e9f00]]: sys_cond_wait(id=316) aborted
 [W : PPU[335] Thread (ResourceLoader)[0x007e9f00]]: sys_cond_wait(id=336) aborted
-[!]: Mutex(313) was owned by thread 1 (recursive=1)
 [!]: Closing memory...

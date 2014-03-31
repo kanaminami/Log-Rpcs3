@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01658-[Dragon Ball Z Budokai HD Collection]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x0a862772 in 'cellGcmSys' module
@@ -43,24 +43,12 @@
 [E]: TODO: cellSysutilDisableBgmPlayback
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
 [W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagTryWait
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
@@ -79,11 +67,8 @@
 [E]: TODO: cellSpursTaskGetContextSaveAreaSize
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown module 'libgem'
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
 [E]: TODO: cellPadPeriphGetInfo
 [W]: Unknown function 0x07254fda in 'cellSync' module
@@ -146,8 +131,8 @@
 [E : PPU[1] Thread (CPUThread)[0x001580ac]]: TODO: cellRescSetVBlankHandler
 [E : PPU[1] Thread (CPUThread)[0x0015601c]]: TODO: cellGcmSetQueueHandler
 [W : PPU[1] Thread (CPUThread)[0x003400c4]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x2e3dac, entry=0x161f98)
-[W : PPU[15] Thread (CPUThread)[0x00340034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 16
 [! : PPU[1] Thread (CPUThread)[0x0034001c]]: *** New PPU Thread [Terminate Thread] (): id = 17
+[W : PPU[15] Thread (CPUThread)[0x00340034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 16
 [W : PPU[17] Thread (Terminate Thread)[0x0015a004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[17] Thread (Terminate Thread)[0x0015a004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_RESC)
 [E : PPU[17] Thread (Terminate Thread)[0x0002afe0]]: Read32 from null block: [0000000c]

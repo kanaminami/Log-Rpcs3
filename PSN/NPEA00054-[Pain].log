@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054-[Pain]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x02f5ced0 in 'cellCamera' module
@@ -254,12 +254,8 @@
 [E]: TODO: cellGameUpdateInit
 [W]: Unknown function 0xf463981c in 'cellNetCtl' module
 [E]: TODO: cellGameUpdateCheckFinishAsyncEx
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
@@ -268,12 +264,6 @@
 [E]: TODO: cellSpursAddWorkload
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
 [E]: TODO: cellSpursSetExceptionEventHandler
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
@@ -424,20 +414,20 @@
 [W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule()
 [W : PPU[1] Thread (CPUThread)[0x000ed424]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
 [W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
-[E : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010910, nSpus=2, spuPriority=3342336, ppuPriority=3, exitIfNoWork=127)
-[E : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010910, prefix_addr=0x608278, size=0x9)
-[E : PPU[1] Thread (CPUThread)[0x0141701c]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0010910, type=24)
-[E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010910, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=127)
-[E : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010910, prefix_addr=0x608268, size=0xb)
-[E : PPU[1] Thread (CPUThread)[0x0141701c]]: cellSpurs error: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0010910, type=24)
-[E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010910, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=128)
-[E : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010910, prefix_addr=0x608258, size=0xa)
-[E : PPU[1] Thread (CPUThread)[0x01417028]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010910, nSpus=2, spuPriority=3342336, ppuPriority=3, exitIfNoWork=127)
+[W : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010910, prefix_addr=0x608278, size=0x9)
+[W : PPU[1] Thread (CPUThread)[0x0141701c]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0010910, type=24)
+[W : PPU[1] Thread (CPUThread)[0x01417028]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0xa39080, spurs_addr=0xd0010910)
+[W : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010910, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=127)
+[W : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010910, prefix_addr=0x608268, size=0xb)
+[W : PPU[1] Thread (CPUThread)[0x0141701c]]: cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0xd0010910, type=24)
+[W : PPU[1] Thread (CPUThread)[0x01417028]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0xa3a080, spurs_addr=0xd0010910)
+[W : PPU[1] Thread (CPUThread)[0x01417010]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010910, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=128)
+[W : PPU[1] Thread (CPUThread)[0x01417004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010910, prefix_addr=0x608258, size=0xa)
+[W : PPU[1] Thread (CPUThread)[0x01417028]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0xa3b080, spurs_addr=0xd0010910)
 [W : PPU[1] Thread (CPUThread)[0x014030a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x01403034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0010930)
-[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x76c87e80)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x6afba900)
 [W : PPU[1] Thread (CPUThread)[0x01401010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 [E : PPU[1] Thread (CPUThread)[0x0142d004]]: TODO: cellVideoOutGetScreenSize
 [W : PPU[1] Thread (CPUThread)[0x01401004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
@@ -445,7 +435,7 @@
 [W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x006fd028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x100000, io=0x0, size=0xc00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x76c8b180)
+[W : PPU[1] Thread (CPUThread)[0x01403130]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x6afb8000)
 [W : PPU[1] Thread (CPUThread)[0x01403010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd001063c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x006fd064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x006fd070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
@@ -458,15 +448,11 @@
 [E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
 [W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=15794176, size=7864320, pitch=10240, comp=7, base=241, bank=0)
 [E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: fff0
 [W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=23658496, size=7864320, pitch=10240, comp=11, base=361, bank=1)
 [E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
 [W : PPU[1] Thread (CPUThread)[0x006fd0e8]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x1690000, width=1280, height=768, cullStart=0x0, zFormat=0x2, aaFormat=0x3, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
 [W : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=31522816, size=16777216, pitch=8192, comp=11, base=481, bank=1)
 [E : PPU[1] Thread (CPUThread)[0x006fd0dc]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
-[E : RSXThread]: TODO: unknown/illegal method [0x00001fcc](0x6f)
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xfeed0001)
-[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80004)
 [W : PPU[1] Thread (CPUThread)[0x00119f10]]: sys_mutex warning: *** mutex created [Texture] (protocol=0x2, recursive=false): id = 39
 [! : PPU[1] Thread (CPUThread)[0x0143d01c]]: *** New PPU Thread [pain_textureLoadManager] (): id = 40
 [E : PPU[1] Thread (CPUThread)[0x0143d070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x5e079c)

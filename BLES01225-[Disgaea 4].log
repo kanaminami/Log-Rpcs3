@@ -9,22 +9,19 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01225-[Disgaea 4]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x99d397ac in 'cellGcmSys' module
 [E]: TODO: cellGcmGetReport
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0xe7fa820b in 'cellSysutil' module
 [E]: TODO: cellSaveDataEnableOverlay
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
@@ -403,6 +400,7 @@
 [W : PPU[1] Thread (CPUThread)[0x028cc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
 [E : PPU[1] Thread (CPUThread)[0x028ca0b8]]: TODO: cellSaveDataEnableOverlay
 [W : PPU[106] Thread (fios mediathread 11)[0x028ce034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/NisAnmShadow.txf"): fd = 116
+[W : RSXThread]: NV0039_SET_CONTEXT_DMA_BUFFER_IN: TODO: srcContext=0xfeed0001, dstContext=0xfeed0000
 [W : PPU[106] Thread (fios mediathread 11)[0x028ce010]]: sys_fs warning: cellFsClose(fd=116)
 [E : PPU[1] Thread (CPUThread)[0x028e6214]]: TODO: sceNpManagerGetNpId
 [E : PPU[1] Thread (CPUThread)[0x028e6070]]: TODO: sceNpBasicRegisterContextSensitiveHandler
@@ -415,17 +413,17 @@
 [E : PPU[119] Thread (Trophy thread)[0x028ea064]]: sceNpTrophy error: Unimplemented function: sceNpTrophyTerm
 [W : PPU[119] Thread (Trophy thread)[0x028cc004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[1] Thread (CPUThread)[0x001e81e8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=119, vptr_addr=0xd0010ad0)
+[W : PPU[83] Thread (fios mediathread 8)[0x028f6040]]: sys_lwcond_wait(id=81) aborted
+[W : PPU[46] Thread (fios mediathread 3)[0x028f6040]]: sys_lwcond_wait(id=44) aborted
+[W : PPU[45] Thread (fios mediathread 2)[0x028f6040]]: sys_lwcond_wait(id=43) aborted
+[W : PPU[106] Thread (fios mediathread 11)[0x028f6040]]: sys_lwcond_wait(id=104) aborted
+[W : PPU[64] Thread (fios mediathread 5)[0x028f6040]]: sys_lwcond_wait(id=62) aborted
+[W : PPU[85] Thread (fios scheduler 7)[0x028f6040]]: sys_lwcond_wait(id=77) aborted
+[W : PPU[107] Thread (fios mediathread 12)[0x028f6040]]: sys_lwcond_wait(id=105) aborted
+[W : PPU[84] Thread (fios mediathread 9)[0x028f6040]]: sys_lwcond_wait(id=82) aborted
+[W : PPU[65] Thread (fios mediathread 6)[0x028f6040]]: sys_lwcond_wait(id=63) aborted
+[W : PPU[66] Thread (fios scheduler 4)[0x028f6040]]: sys_lwcond_wait(id=58) aborted
+[W : PPU[108] Thread (fios scheduler 10)[0x028f6040]]: sys_lwcond_wait(id=100) aborted
+[W : PPU[47] Thread (fios scheduler 1)[0x028f6040]]: sys_lwcond_wait(id=39) aborted
 [! : RSXThread]: RSX thread exit...
-[W : PPU[83] Thread (fios mediathread 8)[0x028f6040]]: sys_lwcond_wait(sq=81) aborted
-[W : PPU[106] Thread (fios mediathread 11)[0x028f6040]]: sys_lwcond_wait(sq=104) aborted
-[W : PPU[108] Thread (fios scheduler 10)[0x028f6040]]: sys_lwcond_wait(sq=100) aborted
-[W : PPU[46] Thread (fios mediathread 3)[0x028f6040]]: sys_lwcond_wait(sq=44) aborted
-[W : PPU[64] Thread (fios mediathread 5)[0x028f6040]]: sys_lwcond_wait(sq=62) aborted
-[W : PPU[85] Thread (fios scheduler 7)[0x028f6040]]: sys_lwcond_wait(sq=77) aborted
-[W : PPU[107] Thread (fios mediathread 12)[0x028f6040]]: sys_lwcond_wait(sq=105) aborted
-[W : PPU[65] Thread (fios mediathread 6)[0x028f6040]]: sys_lwcond_wait(sq=63) aborted
-[W : PPU[45] Thread (fios mediathread 2)[0x028f6040]]: sys_lwcond_wait(sq=43) aborted
-[W : PPU[47] Thread (fios scheduler 1)[0x028f6040]]: sys_lwcond_wait(sq=39) aborted
-[W : PPU[66] Thread (fios scheduler 4)[0x028f6040]]: sys_lwcond_wait(sq=58) aborted
-[W : PPU[84] Thread (fios mediathread 9)[0x028f6040]]: sys_lwcond_wait(sq=82) aborted
 [!]: Closing memory...

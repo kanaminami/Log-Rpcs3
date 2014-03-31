@@ -6,14 +6,19 @@
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00231-[DRAGON BALL Z BURST LIMIT]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x039d70b7 in 'cellSpurs' module
@@ -26,12 +31,6 @@
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x60eb2dec in 'cellSpurs' module
@@ -42,26 +41,16 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x91066667 in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePopBody
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xbfea60fa in 'cellSpurs' module
 [E]: TODO: cellSpursKickJobChain
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -215,7 +204,7 @@
 [W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
 [E]: TODO: _sys_heap_delete_heap
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x0034c25c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c34)
+[W : PPU[1] Thread (CPUThread)[0x0034c25c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c34)
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -236,17 +225,18 @@
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x0002956c]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
 [W : PPU[1] Thread (CPUThread)[0x00242260]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x00457124]]: TODO: cellSpursInitialize
-[W : PPU[1] Thread (CPUThread)[0x002421d0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x2126ac0, attr_addr=0xd0020a30, event_queue_key=0x0, size=1)
+[W : PPU[1] Thread (CPUThread)[0x00457124]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x2126b00, nSpus=5, spuPriority=250, ppuPriority=4294967295, exitIfNoWork=0)
+[W : PPU[1] Thread (CPUThread)[0x002421d0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x2126ac0, attr_addr=0xd0010a30, event_queue_key=0x0, size=1)
 [W : PPU[1] Thread (CPUThread)[0x002421d0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 15
 [E : PPU[1] Thread (CPUThread)[0x0045713c]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x2126b00, queue=0xf, port_addr=0x2126ad0, isDynamic=1)
 [W : PPU[1] Thread (CPUThread)[0x00459034]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
-[W : PPU[1] Thread (CPUThread)[0x002349d4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x2127f18, attr_addr=0xd0020880, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x002349d4]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x2127f18, attr_addr=0xd0010880, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0022322c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 20
 [W : PPU[1] Thread (CPUThread)[0x00223254]]: sys_cond warning: *** condition created [] (mutex_id=20): id = 21
+[! : PPU[1] Thread (CPUThread)[0x0221b01c]]: *** New PPU Thread [NU::System::VSync] (): id = 22
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 24
 [W : PPU[1] Thread (CPUThread)[0x02219010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x470d58)
@@ -254,6 +244,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x0022322c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 27
 [W : PPU[1] Thread (CPUThread)[0x00223254]]: sys_cond warning: *** condition created [] (mutex_id=27): id = 28
+[! : PPU[1] Thread (CPUThread)[0x0221b01c]]: *** New PPU Thread [NU::Draw::RequestManager] (): id = 29
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 30
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
@@ -261,14 +252,15 @@
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 34
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 35
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 36
-[W : PPU[1] Thread (CPUThread)[0x00211530]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x20c0250, attr_addr=0xd0020850, initial_count=0, max_count=2147483647)
-[W : PPU[1] Thread (CPUThread)[0x00211568]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x20c0258, attr_addr=0xd0020850, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00211530]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x20c0250, attr_addr=0xd0010850, initial_count=0, max_count=2147483647)
+[W : PPU[1] Thread (CPUThread)[0x00211568]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x20c0258, attr_addr=0xd0010850, initial_count=0, max_count=1)
+[! : PPU[1] Thread (CPUThread)[0x0221b01c]]: *** New PPU Thread [NU::Draw::Geometry::RequestManager] (): id = 39
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 40
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 42
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 43
 [W : PPU[1] Thread (CPUThread)[0x02219004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x00459094]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020860, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00459094]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010860, option_addr=0x0, waitForEvent=0x0)
 [E : PPU[1] Thread (CPUThread)[0x02219064]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x02219028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x02219004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -299,6 +291,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 60
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 61
 [W : PPU[1] Thread (CPUThread)[0x0221b034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 62
+[! : RSXThread]: RSX thread exit...
 [W : PPU[1] Thread (CPUThread)[0x00234770]]: sys_cond_wait(id=21) aborted
 [W : PPU[29] Thread (NU::Draw::RequestManager)[0x0022341c]]: sys_cond_wait(id=28) aborted
-[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

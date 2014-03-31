@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
@@ -138,24 +138,8 @@
 [E]: TODO: cellPadSetSensorMode
 [W]: Unknown function 0xf83f8182 in 'sys_io' module
 [E]: TODO: cellPadSetPressMode
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
@@ -278,7 +262,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x004f70c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x1, aspect=0x0, option=0xa36c8580)
+[W : PPU[1] Thread (CPUThread)[0x004f70c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x1, aspect=0x0, option=0x708e9400)
 [W : PPU[1] Thread (CPUThread)[0x004f7010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00101d4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00493034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -319,3 +303,4 @@
 [W : PPU[1] Thread (CPUThread)[0x000bddb8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x104a0cf4, attr_addr=0xd00103b0, initial_count=0, max_count=1)
 [E : PPU[1] Thread (CPUThread)[0x00493064]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

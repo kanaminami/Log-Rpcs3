@@ -9,20 +9,18 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61100-[Root Double Before Crime  After Days- Xtend edition]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
 [E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
@@ -31,8 +29,6 @@
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoSave
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -129,8 +125,6 @@
 [E]: TODO: cellSailGraphicsAdapterGetFormat
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x3929948d in 'cellSync' module
 [E]: TODO: cellSyncQueueInitialize
 [W]: Unknown function 0x4da349b2 in 'cellSync' module

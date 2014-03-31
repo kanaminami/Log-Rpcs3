@@ -1,22 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon ]/PS3_GAME/\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
@@ -25,8 +27,6 @@
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
 [E]: TODO: cellOskDialogUnloadAsync
 [W]: Unknown function 0x41f20828 in 'cellSysutil' module
@@ -57,8 +57,6 @@
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0x832df17e in 'cellAudio' module
 [E]: TODO: cellAudioAdd6chData
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x0582338a in 'cellSpursJq' module
 [E]: TODO: cellSpursJobQueueAttributeSetDoBusyWaiting
 [W]: Unknown function 0x0f03f712 in 'cellSpursJq' module
@@ -344,10 +342,10 @@
 [W : PPU[1] Thread (CPUThread)[0x021b7034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
 [W : PPU[1] Thread (CPUThread)[0x021b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 [W : PPU[1] Thread (CPUThread)[0x001f3df4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x021a7034]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010700, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=100)
-[E : PPU[1] Thread (CPUThread)[0x021a7004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010700, prefix_addr=0x325d28, size=0x6)
+[W : PPU[1] Thread (CPUThread)[0x021a7034]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010700, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=100)
+[W : PPU[1] Thread (CPUThread)[0x021a7004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010700, prefix_addr=0x325d28, size=0x6)
 [E : PPU[1] Thread (CPUThread)[0x021a7010]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0010700)
-[E : PPU[1] Thread (CPUThread)[0x021a701c]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x30100080, spurs_addr=0xd0010700)
+[W : PPU[1] Thread (CPUThread)[0x021a701c]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x30100080, spurs_addr=0xd0010700)
 [W : PPU[1] Thread (CPUThread)[0x021b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
 [E : PPU[1] Thread (CPUThread)[0x021a9028]]: TODO: cellSpursJobQueueAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x021a9070]]: TODO: cellSpursJobQueueAttributeSetGrabParameters
@@ -1376,9 +1374,9 @@
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2f (inst 19)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2f (inst 30)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2f (inst 36)
+[E : PPU[16] Thread (CRI FS File Access 0)[0x021b3040]]: sys_fs error: "com/loading.gtf" not found! flags: 0x00000000
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2f (inst 41)
 [E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2f (inst 46)
-[E : PPU[16] Thread (CRI FS File Access 0)[0x021b3040]]: sys_fs error: "com/loading.gtf" not found! flags: 0x00000000
 [W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
@@ -1481,9 +1479,10 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[! : RSXThread]: RSX thread exit...
-[W : PPU[24] Thread (CRI FS File Access 1)[0x002ac2b0]]: sys_cond_wait(id=23) aborted
 [W : PPU[28] Thread (CRI FS File Access 2)[0x002ac2b0]]: sys_cond_wait(id=27) aborted
-[W : PPU[20] Thread (CRI FS Memory File System)[0x002ac2b0]]: sys_cond_wait(id=19) aborted
 [W : PPU[36] Thread (CRI FS Data Decompression 0)[0x002ac2b0]]: sys_cond_wait(id=35) aborted
 [W : PPU[32] Thread (CRI FS File Access 3)[0x002ac2b0]]: sys_cond_wait(id=31) aborted
+[W : PPU[20] Thread (CRI FS Memory File System)[0x002ac2b0]]: sys_cond_wait(id=19) aborted
+[W : PPU[24] Thread (CRI FS File Access 1)[0x002ac2b0]]: sys_cond_wait(id=23) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

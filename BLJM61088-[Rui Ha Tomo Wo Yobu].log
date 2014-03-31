@@ -1,36 +1,32 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\USRDIR\DATA\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]\PS3_GAME\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61088-[Rui Ha Tomo Wo Yobu]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoSave
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
@@ -45,6 +41,7 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageGui
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -154,8 +151,6 @@
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'cellRemotePlay'
 [W]: Unknown module 'sceNpTus'
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x0247c69e in 'cellSail' module
 [E]: TODO: cellSailGraphicsAdapterGetFrame
 [W]: Unknown function 0x0abb318b in 'cellSail' module
@@ -367,8 +362,8 @@
 [W : PPU[1] Thread (CPUThread)[0x003be01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x003be01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x003b40c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xb290b080)
-[W : PPU[1] Thread (CPUThread)[0x003b40c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xb2909780)
+[W : PPU[1] Thread (CPUThread)[0x003b40c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xdf889700)
+[W : PPU[1] Thread (CPUThread)[0x003b40c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xdf888800)
 [W : PPU[1] Thread (CPUThread)[0x003be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x003be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3840)
 [W : PPU[1] Thread (CPUThread)[0x003be004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -409,17 +404,17 @@
 [W : PPU[1] Thread (CPUThread)[0x0025f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0001f908]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x1f908
 [W : PPU[1] Thread (CPUThread)[0x001578b8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=30)
-[! : PPU[1] Thread (CPUThread)[0x001578b8]]: Mutex(30) was owned by thread -1 (recursive=-1668805120)
+[! : PPU[1] Thread (CPUThread)[0x001578b8]]: Mutex(30) was owned by thread -1 (recursive=41)
 [W : PPU[1] Thread (CPUThread)[0x00187df4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=29)
-[! : PPU[1] Thread (CPUThread)[0x00187df4]]: Mutex(29) was owned by thread -1 (recursive=1758531072)
+[! : PPU[1] Thread (CPUThread)[0x00187df4]]: Mutex(29) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x00187e2c]]: sys_mutex warning: sys_mutex_destroy(mutex_id=28)
-[! : PPU[1] Thread (CPUThread)[0x00187e2c]]: Mutex(28) was owned by thread -1 (recursive=67160)
+[! : PPU[1] Thread (CPUThread)[0x00187e2c]]: Mutex(28) was owned by thread -1 (recursive=41)
 [W : PPU[1] Thread (CPUThread)[0x00209614]]: sys_mutex warning: sys_mutex_destroy(mutex_id=27)
 [! : PPU[1] Thread (CPUThread)[0x00209614]]: Mutex(27) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x0021a8e4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=26)
 [! : PPU[1] Thread (CPUThread)[0x0021a8e4]]: Mutex(26) was owned by thread -1 (recursive=41)
 [W : PPU[1] Thread (CPUThread)[0x0021cfbc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=25)
-[! : PPU[1] Thread (CPUThread)[0x0021cfbc]]: Mutex(25) was owned by thread -1 (recursive=41)
+[! : PPU[1] Thread (CPUThread)[0x0021cfbc]]: Mutex(25) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x003de0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301003c0)
 [W : PPU[1] Thread (CPUThread)[0x003de0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100390)
 [W : PPU[1] Thread (CPUThread)[0x003de0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100360)

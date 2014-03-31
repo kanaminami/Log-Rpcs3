@@ -9,14 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -71,8 +71,6 @@
 [E]: TODO: _cellSpursQueueInitialize
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -87,24 +85,14 @@
 [E]: TODO: cellSpursWakeUp
 [W]: Unknown function 0x7fdf4fef in 'cellSpurs' module
 [E]: TODO: cellSpursBarrierInitialize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x91066667 in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePopBody
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa73bf47e in 'cellSpurs' module
 [E]: TODO: _cellSpursWorkloadFlagReceiver
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc765b995 in 'cellSpurs' module
@@ -166,7 +154,7 @@
 [E : PPU[1] Thread (CPUThread)[0x008cb100]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x008cb010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x56a600)
 [W : PPU[1] Thread (CPUThread)[0x0053b094]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xfbd47f80)
+[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x59c99800)
 [W : PPU[1] Thread (CPUThread)[0x008cb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0053b07c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010aa4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008cb070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -193,8 +181,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0053f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
 [W : PPU[1] Thread (CPUThread)[0x0053f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0053b058]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x56ab88, userdata=0x837990)
-[E : PPU[1] Thread (CPUThread)[0x008cf0b8]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010970, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=250)
-[E : PPU[1] Thread (CPUThread)[0x008cf0f4]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x008cf0b8]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010970, nSpus=2, spuPriority=3342336, ppuPriority=2, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x008cf0f4]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x34200400, spurs_addr=0xd0010970)
 [W : PPU[1] Thread (CPUThread)[0x008c704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
 [W : PPU[1] Thread (CPUThread)[0x008c70b8]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x878140): id = 15
 [W : PPU[1] Thread (CPUThread)[0x008c704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
@@ -225,8 +213,8 @@
 [! : PPU[1] Thread (CPUThread)[0x008c7028]]: *** New PPU Thread [PhyreEngineHDDPathThread] (): id = 33
 [W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0050cd0, attributes_addr=0xd0050cd4, size_addr=0xd0050cd8, dirName_addr=0x0)
 [W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
-[! : RSXThread]: RSX thread exit...
+[W : PPU[32] Thread (PhyreEngineWorkerThread1)[0x008c7034]]: sys_lwcond_wait(id=28) aborted
+[W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(id=28) aborted
 [W : PPU[21] Thread (spu_printf_handler)[0x0035e6c8]]: sys_event_queue_receive(equeue=20) aborted
-[W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
-[W : PPU[32] Thread (PhyreEngineWorkerThread1)[0x008c7034]]: sys_lwcond_wait(sq=28) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

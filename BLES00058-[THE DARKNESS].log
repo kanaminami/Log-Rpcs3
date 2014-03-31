@@ -6,10 +6,17 @@
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00058-[THE DARKNESS]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
@@ -26,8 +33,6 @@
 [E]: TODO: inet_addr
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
 [E]: TODO: cellFsUtime
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -92,12 +97,12 @@
 [W : PPU[1] Thread (CPUThread)[0x010c4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
 [W : PPU[1] Thread (CPUThread)[0x010c4028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
 [W : PPU[1] Thread (CPUThread)[0x0002b34c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 12
-[W : PPU[1] Thread (CPUThread)[0x0005828c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00206d4)
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020780)
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020780)
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00206c0)
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00205b0)
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020570)
+[W : PPU[1] Thread (CPUThread)[0x0005828c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00106d4)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010780)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010780)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00106c0)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00105b0)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010570)
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 13
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(13)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=13): id = 14
@@ -140,7 +145,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=36): id = 37
 [W : PPU[1] Thread (CPUThread)[0x0008007c]]: memory warning: sys_memory_container_create(cid_addr=0x3096f540, yield_size=0x800000)
 [W : PPU[1] Thread (CPUThread)[0x0008007c]]: memory warning: *** memory_container created(addr=0x3f200000): id = 38
-[W : PPU[1] Thread (CPUThread)[0x00c68fd0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020528)
+[W : PPU[1] Thread (CPUThread)[0x00c68fd0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010528)
 [W : PPU[1] Thread (CPUThread)[0x00c69020]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x308015c0, attr_addr=0x308015d8, event_queue_key=0x0, size=127)
 [W : PPU[1] Thread (CPUThread)[0x00c69020]]: sys_event warning: *** event_queue created [] (protocol=0x1, type=0x2): id = 39
 [W : PPU[1] Thread (CPUThread)[0x00c69038]]: sys_event warning: sys_event_port_create(eport_id_addr=0x308015e8, port_type=0x1, name=0x0)
@@ -187,8 +192,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00c6930c]]: sys_spu warning: sys_spu_thread_connect_event(id=55, eq_id=41, event_type=0x1, spup=58)
 [W : PPU[1] Thread (CPUThread)[0x00c6931c]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=55, value=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00c69140]]: sys_spu warning: sys_spu_thread_group_start(id=42)
-[E : SPU[55] Thread (AI_0)[0x00000000]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x00c692e0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30926110, group=0x2e, spu_num=1, img_addr=0x30801658, attr_addr=0x30926160, arg_addr=0x308016b0)
+[E : SPU[55] Thread (AI_0)[0x00000000]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x00c692e0]]: sys_spu warning: *** New SPU Thread [Sound_0] (img_offset=0x1107000, ls_offset=0x1207000, ep=0x0, a1=0x101200100000000, a2=0x3b00000000, a3=0x0, a4=0x0): id=56
 [W : PPU[1] Thread (CPUThread)[0x00c692f4]]: sys_spu warning: sys_spu_thread_bind_queue(id=56, equeue_id=43, spuq_num=0x1012001)
 [W : PPU[1] Thread (CPUThread)[0x00c6930c]]: sys_spu warning: sys_spu_thread_connect_event(id=56, eq_id=45, event_type=0x1, spup=59)
@@ -215,7 +220,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00c6931c]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=59, value=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00c69140]]: sys_spu warning: sys_spu_thread_group_start(id=54)
 [E : SPU[59] Thread (Codec_0)[0x00000000]]: Unknown STOP code: 0x0 (no message)
-[W : PPU[1] Thread (CPUThread)[0x00c6915c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020548)
+[W : PPU[1] Thread (CPUThread)[0x00c6915c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010548)
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/ENVIRONMENT_PS3.CFG" not found.
 [W : PPU[1] Thread (CPUThread)[0x010ba040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/CONTENT_FREP5.XRG" not found.
@@ -227,6 +232,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 62
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(62)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=62): id = 63
+[! : PPU[1] Thread (CPUThread)[0x010c401c]]: *** New PPU Thread [AnimContext] (): id = 64
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 65
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(65)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
@@ -275,8 +281,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 95
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(95)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=95): id = 96
+[! : PPU[1] Thread (CPUThread)[0x010c401c]]: *** New PPU Thread [CSaveContentContextPS3] (): id = 97
 [E : PPU[1] Thread (CPUThread)[0x010ba0ac]]: TODO: cellGameDataCheckCreate2
-[W : PPU[1] Thread (CPUThread)[0x010b801c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd001f7a0)
+[W : PPU[1] Thread (CPUThread)[0x010b801c]]: sys_fs warning: cellFsOpendir(path="", fd_addr=0xd000f7a0)
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/game" not found.
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/home" not found.
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/log.txt" not found.
@@ -290,8 +297,8 @@
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 103
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(103)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=103): id = 104
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fe90)
-[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd001fe90)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fe90)
+[W : PPU[1] Thread (CPUThread)[0x000583ac]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd000fe90)
 [W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "CONTENT" not found.
 [W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 105
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(105)
@@ -351,7 +358,23 @@
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(141)
 [W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=141): id = 142
 [W : PPU[1] Thread (CPUThread)[0x010b8040]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/CONTENT/XDF/GAMECONTEXT_CREATE.XDF"): fd = 143
-[E : PPU[145] Thread (XDF Unpacker)[0x00c3fbe8]]: Read32 from null block: [fffffff0]
-[W : PPU[97] Thread (CSaveContentContextPS3)[0x00034324]]: sys_cond_wait(id=37) aborted
-[W : PPU[144] Thread (PS3 Async FileIO service)[0x00034324]]: sys_cond_wait(id=114) aborted
+[! : PPU[1] Thread (CPUThread)[0x010c401c]]: *** New PPU Thread [PS3 Async FileIO service] (): id = 144
+[! : PPU[1] Thread (CPUThread)[0x010c401c]]: *** New PPU Thread [XDF Unpacker] (): id = 145
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 146
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(146)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=146): id = 147
+[W : PPU[1] Thread (CPUThread)[0x00032fe4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 148
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition on recursive mutex(148)
+[W : PPU[1] Thread (CPUThread)[0x0003301c]]: sys_cond warning: *** condition created [] (mutex_id=148): id = 149
+[! : PPU[1] Thread (CPUThread)[0x010c401c]]: *** New PPU Thread [CNetworkCore::CWorkerThread] (): id = 150
+[W : PPU[1] Thread (CPUThread)[0x010ba040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x010b801c]]: sys_fs warning: cellFsOpendir(path="/dev_bdvd/PS3_GAME/USRDIR/EXTRACONTENT", fd_addr=0xd000e9b0)
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/EXTRACONTENT_FRE" not found.
+[W : PPU[1] Thread (CPUThread)[0x010b8040]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/CONTENT_FRE/P5.XRG"): fd = 152
+[! : PPU[1] Thread (CPUThread)[0x010c401c]]: *** New PPU Thread [PS3 Async FileIO service] (): id = 153
+[W : PPU[1] Thread (CPUThread)[0x010b8010]]: sys_fs warning: cellFsClose(fd=152)
+[W : PPU[1] Thread (CPUThread)[0x010b804c]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/CONTENT_FRE/USER.CFG" not found.
+[E : PPU[144] Thread (PS3 Async FileIO service)[0x0004ba40]]: Read32 from null block: [00000008]
 [!]: Closing memory...
+[W : ]: sys_cond_wait(id=122) aborted
+[W : ]: sys_cond_wait(id=37) aborted

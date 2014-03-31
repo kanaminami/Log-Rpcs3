@@ -1,15 +1,23 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]\PS3_GAME\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]\PS3_GAME\\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00954-[MONOPOLY Streets]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
@@ -75,8 +83,6 @@
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkloadWithAttribute
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
@@ -109,14 +115,10 @@
 [E]: TODO: cellOskDialogAbort
 [W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
 [E]: TODO: cellOskDialogSetLayoutMode
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xa11552f6 in 'cellSysutil' module
@@ -179,7 +181,7 @@
 [E]: TODO: cellMicStart
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x005cf1c0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020c04)
+[W : PPU[1] Thread (CPUThread)[0x005cf1c0]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
@@ -229,27 +231,27 @@
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
 [W : PPU[1] Thread (CPUThread)[0x017ba040]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 33
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x17824e8, attr_addr=0xd0020b40, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x17824e8, attr_addr=0xd0010b40, initial_count=0, max_count=100000)
 [W : PPU[1] Thread (CPUThread)[0x002ad048]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 35
 [W : PPU[1] Thread (CPUThread)[0x002ad048]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 36
 [W : PPU[1] Thread (CPUThread)[0x002ad048]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 37
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x14c3f88, attr_addr=0xd0020b40, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154afa8, attr_addr=0xd0020b40, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x14c3f88, attr_addr=0xd0010b40, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154afa8, attr_addr=0xd0010b40, initial_count=0, max_count=100000)
 [W : PPU[1] Thread (CPUThread)[0x002ac9f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 40
 [W : PPU[1] Thread (CPUThread)[0x002acac8]]: sys_cond warning: *** condition created [] (mutex_id=40): id = 41
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154afc8, attr_addr=0xd0020b40, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154afe8, attr_addr=0xd0020b40, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154b008, attr_addr=0xd0020b40, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x017b207c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x9b71b680)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154afc8, attr_addr=0xd0010b40, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154afe8, attr_addr=0xd0010b40, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x154b008, attr_addr=0xd0010b40, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x017b207c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x2daf8900)
 [W : PPU[1] Thread (CPUThread)[0x002ac9f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 45
 [W : PPU[1] Thread (CPUThread)[0x002acac8]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 46
 [W : PPU[1] Thread (CPUThread)[0x002ac9f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 47
 [W : PPU[1] Thread (CPUThread)[0x002acac8]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x125f780, attr_addr=0xd0020b50, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x125f780, attr_addr=0xd0010b50, initial_count=0, max_count=100000)
 [W : PPU[1] Thread (CPUThread)[0x017b4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x12471e8, attr_addr=0xd0020ac0, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1247248, attr_addr=0xd0020b50, initial_count=0, max_count=100000)
-[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x11d2e60, attr_addr=0xd0020aa0, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x12471e8, attr_addr=0xd0010ac0, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1247248, attr_addr=0xd0010b50, initial_count=0, max_count=100000)
+[W : PPU[1] Thread (CPUThread)[0x002ac0fc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x11d2e60, attr_addr=0xd0010aa0, initial_count=0, max_count=100000)
 [E : PPU[1] Thread (CPUThread)[0x017ba058]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x7dcbfc)
 [E : PPU[1] Thread (CPUThread)[0x017ba058]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x7dcc18)
 [W : PPU[1] Thread (CPUThread)[0x017b2070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=3, func_addr=0x91d1d8, userdata=0x0)
@@ -262,12 +264,12 @@
 [W : PPU[1] Thread (CPUThread)[0x008dc01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x008dc01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x400000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x008dc0ac]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30600000,size=0x9900000,offset_addr=0xd00205a0)
+[W : PPU[1] Thread (CPUThread)[0x008dc0ac]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30600000,size=0x9900000,offset_addr=0xd00105a0)
 [W : PPU[1] Thread (CPUThread)[0x008dc070]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=0)
 [W : PPU[1] Thread (CPUThread)[0x008dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [E : PPU[1] Thread (CPUThread)[0x008dc0e8]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x008dc064]]: cellGcmSys warning: cellGcmSetSecondVFrequency(level=2)
-[W : PPU[1] Thread (CPUThread)[0x017b2010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020664, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x017b2010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010664, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x008dc004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x008dc0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=3932160, pitch=5120, comp=10, base=0, bank=1)

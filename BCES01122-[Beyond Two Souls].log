@@ -6,10 +6,15 @@
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\Data\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -34,8 +39,6 @@
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
@@ -44,12 +47,8 @@
 [E]: TODO: _cellSpursJobChainAttributeInitialize
 [W]: Unknown function 0x35dae22b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePopBody
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
@@ -62,8 +61,6 @@
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x7fdf4fef in 'cellSpurs' module
 [E]: TODO: cellSpursBarrierInitialize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x8adadf65 in 'cellSpurs' module
@@ -72,28 +69,20 @@
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [W]: Unknown function 0x9034e538 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskGetContextSaveAreaSize
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa121a224 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttribute2Initialize
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xe14ca62d in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask2
 [W]: Unknown function 0xe4944a1c in 'cellSpurs' module

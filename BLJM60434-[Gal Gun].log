@@ -1,20 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]\PS3_GAME\\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60434-[Gal Gun]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
@@ -58,18 +60,6 @@
 [E]: TODO: cellCameraInit
 [W]: Unknown function 0xfa160f24 in 'cellCamera' module
 [E]: TODO: cellCameraIsOpen
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x33435818 in 'cellL10n' module
 [E]: TODO: SJISstoUTF8s
@@ -257,33 +247,33 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 36
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 37
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 38
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 39
-[W : PPU[38] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 40
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 40
+[W : PPU[38] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 39
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0070, attr_addr=0xd0010920, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 41
-[W : PPU[38] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=40)
-[W : PPU[38] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0080): id = 42
+[W : PPU[38] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=39)
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 42
+[W : PPU[38] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0080): id = 41
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 43
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 45
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 46
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 47
-[W : PPU[47] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 48
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 49
-[W : PPU[47] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=48)
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 48
+[W : PPU[47] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 49
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0110, attr_addr=0xd0010920, init=0x0)
-[W : PPU[47] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0120): id = 50
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 51
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 50
+[W : PPU[47] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=49)
+[W : PPU[47] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0120): id = 51
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 52
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 53
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 54
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 55
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 56
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[56] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 57
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 58
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
 [W : PPU[56] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=57)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da01b0, attr_addr=0xd0010920, init=0x0)
 [W : PPU[56] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da01c0): id = 59
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 60
@@ -291,22 +281,22 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 62
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 63
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 64
+[W : PPU[47] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=50, bitptn=0xffffffff)
+[W : PPU[47] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=50, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 65
-[W : PPU[47] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=51, bitptn=0xffffffff)
-[W : PPU[47] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=51, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 67
 [W : PPU[65] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 66
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0250, attr_addr=0xd0010920, init=0x0)
 [W : PPU[65] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=66)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 69
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0250, attr_addr=0xd0010920, init=0x0)
 [W : PPU[65] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0260): id = 68
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 69
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 71
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 72
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 73
-[! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 74
 [W : PPU[56] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=60, bitptn=0xffffffff)
 [W : PPU[56] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=60, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 74
 [W : PPU[74] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 75
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 76
 [W : PPU[74] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=75)
@@ -320,51 +310,51 @@
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 83
 [W : PPU[65] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=69, bitptn=0xffffffff)
 [W : PPU[65] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=69, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 85
 [W : PPU[83] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 84
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 85
 [W : PPU[83] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=84)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0390, attr_addr=0xd0010920, init=0x0)
 [W : PPU[83] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da03a0): id = 86
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 87
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 88
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 89
-[W : PPU[74] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=78, bitptn=0xffffffff)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 90
-[W : PPU[74] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=78, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 91
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 92
 [W : PPU[92] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 93
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 94
+[W : PPU[74] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=78, bitptn=0xffffffff)
 [W : PPU[92] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=93)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0430, attr_addr=0xd0010920, init=0x0)
+[W : PPU[74] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=78, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[92] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0440): id = 95
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 96
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 97
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 98
-[W : PPU[83] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=87, bitptn=0xffffffff)
-[W : PPU[83] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=87, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 99
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 100
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 101
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 103
+[W : PPU[83] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=87, bitptn=0xffffffff)
+[W : PPU[83] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=87, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[101] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 102
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da04d0, attr_addr=0xd0010920, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 103
 [W : PPU[101] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=102)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 105
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da04d0, attr_addr=0xd0010920, init=0x0)
 [W : PPU[101] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da04e0): id = 104
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 105
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 106
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 107
-[W : PPU[92] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=96, bitptn=0xffffffff)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 108
-[W : PPU[92] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=96, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 109
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 110
-[W : PPU[110] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 111
+[W : PPU[92] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=96, bitptn=0xffffffff)
+[W : PPU[92] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=96, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 112
-[W : PPU[110] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=111)
+[W : PPU[110] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 111
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0570, attr_addr=0xd0010920, init=0x0)
-[W : PPU[110] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0580): id = 113
+[W : PPU[110] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=111)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 114
+[W : PPU[110] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0580): id = 113
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 115
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 116
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 117
@@ -372,12 +362,12 @@
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 119
 [W : PPU[101] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=105, bitptn=0xffffffff)
 [W : PPU[101] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=105, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 120
-[W : PPU[119] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 121
+[W : PPU[119] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 120
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 121
+[W : PPU[119] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=120)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0610, attr_addr=0xd0010920, init=0x0)
-[W : PPU[119] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=121)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 123
 [W : PPU[119] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0620): id = 122
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 123
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 124
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 125
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 126
@@ -385,18 +375,18 @@
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 128
 [W : PPU[110] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=114, bitptn=0xffffffff)
 [W : PPU[110] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=114, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[128] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 129
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 130
+[W : PPU[128] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 129
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da06b0, attr_addr=0xd0010920, init=0x0)
 [W : PPU[128] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=129)
+[W : PPU[128] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da06c0): id = 131
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 132
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 133
-[W : PPU[128] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da06c0): id = 131
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 134
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 135
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 136
 [W : PPU[119] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=123, bitptn=0xffffffff)
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 135
 [W : PPU[119] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=123, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 136
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 137
 [W : PPU[137] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 138
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 139
@@ -408,12 +398,12 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 143
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 144
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 145
-[! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 146
 [W : PPU[128] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=132, bitptn=0xffffffff)
 [W : PPU[128] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=132, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[146] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 147
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 148
-[W : PPU[146] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=147)
+[! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 146
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 147
+[W : PPU[146] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 148
+[W : PPU[146] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=148)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da07f0, attr_addr=0xd0010920, init=0x0)
 [W : PPU[146] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0800): id = 149
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 150
@@ -422,8 +412,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 153
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 154
 [W : PPU[137] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=141, bitptn=0xffffffff)
-[W : PPU[137] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=141, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 155
+[W : PPU[137] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=141, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[155] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 156
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 157
 [W : PPU[155] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=156)
@@ -434,85 +424,85 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 161
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 162
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 163
-[! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 164
 [W : PPU[146] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=150, bitptn=0xffffffff)
+[! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 164
 [W : PPU[146] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=150, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[164] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 165
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 166
-[W : PPU[164] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=165)
+[W : PPU[164] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 165
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0930, attr_addr=0xd0010920, init=0x0)
-[W : PPU[164] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0940): id = 167
+[W : PPU[164] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=165)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 168
+[W : PPU[164] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0940): id = 167
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 169
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 170
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 171
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 172
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 173
 [W : PPU[155] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=159, bitptn=0xffffffff)
-[W : PPU[155] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=159, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 175
 [W : PPU[173] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 174
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da09d0, attr_addr=0xd0010920, init=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 175
+[W : PPU[155] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=159, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[173] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=174)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 177
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da09d0, attr_addr=0xd0010920, init=0x0)
 [W : PPU[173] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da09e0): id = 176
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 177
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 178
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 179
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 180
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 181
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 182
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 183
+[W : PPU[182] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 184
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0a70, attr_addr=0xd0010920, init=0x0)
+[W : PPU[182] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=184)
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 186
+[W : PPU[182] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0a80): id = 185
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 187
 [W : PPU[164] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=168, bitptn=0xffffffff)
 [W : PPU[164] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=168, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[182] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 183
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 184
-[W : PPU[182] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=183)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0a70, attr_addr=0xd0010920, init=0x0)
-[W : PPU[182] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0a80): id = 185
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 186
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 187
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 188
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 189
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 190
-[W : PPU[173] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=177, bitptn=0xffffffff)
-[W : PPU[173] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=177, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 191
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 193
-[W : PPU[191] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 192
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 192
+[W : PPU[191] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 193
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0b10, attr_addr=0xd0010920, init=0x0)
-[W : PPU[191] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=192)
+[W : PPU[191] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=193)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 195
 [W : PPU[191] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0b20): id = 194
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 196
+[W : PPU[173] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=177, bitptn=0xffffffff)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 197
+[W : PPU[173] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=177, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 198
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 199
-[W : PPU[182] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=186, bitptn=0xffffffff)
-[W : PPU[182] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=186, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 200
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 202
 [W : PPU[200] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 201
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 202
 [W : PPU[200] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=201)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0bb0, attr_addr=0xd0010920, init=0x0)
-[W : PPU[200] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0bc0): id = 203
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 204
+[W : PPU[200] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0bc0): id = 203
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 205
-[W : PPU[191] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=195, bitptn=0xffffffff)
-[W : PPU[200] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=204, bitptn=0xffffffff)
-[W : PPU[200] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=204, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[191] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=195, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[182] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=186, bitptn=0xffffffff)
+[W : PPU[182] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=186, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 206
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 207
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 208
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 209
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 210
-[W : PPU[209] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 211
+[W : PPU[209] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 210
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 211
+[W : PPU[209] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=210)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0c50, attr_addr=0xd0010920, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 212
-[W : PPU[209] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=211)
-[W : PPU[209] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0c60): id = 213
+[W : PPU[209] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0c60): id = 212
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 213
+[W : PPU[191] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=195, bitptn=0xffffffff)
+[W : PPU[191] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=195, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[200] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=204, bitptn=0xffffffff)
+[W : PPU[200] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=204, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033b010]]: cellGcmSys warning: cellGcmInit(context_addr=0x9d531c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-[W : PPU[209] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=212, bitptn=0xffffffff)
-[W : PPU[209] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=212, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[209] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=213, bitptn=0xffffffff)
+[W : PPU[209] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=213, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033b010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0033b010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
@@ -540,25 +530,25 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 217
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 218
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 219
-[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 220
-[W : PPU[219] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 221
+[W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 221
+[W : PPU[219] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 220
+[W : PPU[219] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=220)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0cf0, attr_addr=0xd00108a0, init=0x0)
-[W : PPU[219] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=221)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 223
 [W : PPU[219] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0d00): id = 222
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 223
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 224
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 225
 [W : PPU[224] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 226
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0d80, attr_addr=0xd00108a0, init=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 227
 [W : PPU[224] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=226)
-[W : PPU[224] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0d90): id = 228
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 228
+[W : PPU[224] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0d90): id = 227
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 229
 [W : PPU[229] Thread (thread00)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 230
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 231
 [W : PPU[229] Thread (thread00)[0x003370c4]]: sys_lwcond warning: Recursive lwmutex(sq=230)
-[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0e10, attr_addr=0xd00108a0, init=0x0)
 [W : PPU[229] Thread (thread00)[0x003370c4]]: sys_lwcond warning: *** lwcond created [] (lwmutex_addr=0x33da0e20): id = 232
+[W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x33da0e10, attr_addr=0xd00108a0, init=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0021a0ec]]: sys_event_flag warning: *** event_flag created [] (protocol=0x1, type=0x20000): id = 233
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [thread00] (): id = 234
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 236
@@ -763,12 +753,12 @@
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1280)
 [W : PPU[219] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=223, bitptn=0xffffffff)
-[W : PPU[224] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=227, bitptn=0xffffffff)
+[W : PPU[224] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=228, bitptn=0xffffffff)
 [W : PPU[229] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=233, bitptn=0xffffffff)
 [W : PPU[234] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=238, bitptn=0xffffffff)
 [W : PPU[219] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=223, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[224] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=228, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[229] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=233, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[224] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=227, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[234] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=238, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2560)
@@ -788,18 +778,48 @@
 [W : PPU[1] Thread (CPUThread)[0x0033f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_CAMERA)
 [W : PPU[1] Thread (CPUThread)[0x00212f70]]: memory warning: sys_memory_container_create(cid_addr=0x9b2804, yield_size=0x100000)
 [W : PPU[1] Thread (CPUThread)[0x00212f70]]: memory warning: *** memory_container created(addr=0x3bc00000): id = 327
-[E : PPU[1] Thread (CPUThread)[0x00a41004]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010978, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=250)
-[E : PPU[1] Thread (CPUThread)[0x00a41010]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00a41004]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010978, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00a41010]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x9b1800, spurs_addr=0xd0010978)
 [E : PPU[1] Thread (CPUThread)[0x00a3d010]]: TODO: cellGemInit
 [E : PPU[1] Thread (CPUThread)[0x00a3f070]]: TODO: cellCameraInit
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 328
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [Joy move update thread] (): id = 329
 [W : PPU[1] Thread (CPUThread)[0x0033904c]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[1] Thread (CPUThread)[0x00a3f064]]: TODO: cellCameraIsAvailable
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[1] Thread (CPUThread)[0x00a3d058]]: TODO: cellGemGetInfo
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
@@ -865,12 +885,36 @@
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/se.bin"): fd = 330
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=330)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/bgm.bin"): fd = 331
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=331)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/voice.bin"): fd = 332
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=332)
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/voice_pack.bin"): fd = 333
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=333)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
@@ -1036,7 +1080,10 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 433
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 434
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 435
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 436
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 437
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 438
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 439
@@ -1046,10 +1093,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 443
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 444
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 445
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 446
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 447
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 448
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [ms_mtx] (attribute=0x11): sq_id = 449
@@ -1080,17 +1124,38 @@
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [MultiStream PU Thread] (): id = 474
 [W : PPU[474] Thread (MultiStream PU Thread)[0x00a49040]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [W : PPU[474] Thread (MultiStream PU Thread)[0x00249f94]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=337, value=0x9d9080)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x000020f8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/midi.bin"): fd = 475
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[E : SPU[337] Thread (_Multistream SPU Thread)[0x000020f8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
-[E : SPU[337] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[337] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=475)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/midi_pack.bin"): fd = 476
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=476)
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/se.bin"): fd = 477
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
@@ -1101,10 +1166,34 @@
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=479)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=479)
 [W : PPU[1] Thread (CPUThread)[0x0033f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
 [W : PPU[1] Thread (CPUThread)[0x0033f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
 [W : PPU[1] Thread (CPUThread)[0x003390c4]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x358020, userdata=0x0)
@@ -1129,6 +1218,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00a43064]]: cellGame warning: cellGameBootCheck(type_addr=0x0, attributes_addr=0xd0010990, size_addr=0x0, dirName_addr=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00a43064]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[1] Thread (CPUThread)[0x0033f004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data_ps3/unicode_data.bin"): fd = 484
 [W : PPU[1] Thread (CPUThread)[0x00a3b004]]: sys_fs warning: cellFsClose(fd=484)
 [E : PPU[1] Thread (CPUThread)[0x00a3f064]]: TODO: cellCameraIsAvailable
@@ -1143,10 +1238,10 @@
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0033d058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf560000,pitch=4,width=1280,height=720)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0033d058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf560000,pitch=4,width=1280,height=720)
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
@@ -1244,9 +1339,6 @@ void main()
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
 [W : RSXThread]: FP not found in buffer!
 [W : RSXThread]: VP not found in buffer!
@@ -1321,9 +1413,6 @@ void main()
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [! : PPU[1] Thread (CPUThread)[0x00337028]]: *** New PPU Thread [gg3_game_data] (): id = 485
@@ -1357,150 +1446,568 @@ void main()
 [E : PPU[485] Thread (gg3_game_data)[0x00a43040]]: TODO: cellGameSetParamString
 [E : PPU[485] Thread (gg3_game_data)[0x00a43040]]: TODO: cellGameSetParamString
 [E : PPU[485] Thread (gg3_game_data)[0x00a4301c]]: TODO: cellGameContentPermit
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x003370b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x9b3360)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 486
 [W : PPU[1] Thread (CPUThread)[0x003370b8]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x9b3380)
 [W : PPU[1] Thread (CPUThread)[0x0033704c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 487
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/data_ps3/vdml_be.vdm"): fd = 488
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
 [W : PPU[1] Thread (CPUThread)[0x00a3b028]]: *** cellFsOpen(path="/data_ps3/vdml_chr.vdm"): fd = 489
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=41, bitptn=0x1)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
-[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0021a020]]: sys_event_flag warning: sys_event_flag_set(eflag_id=42, bitptn=0x1)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[474] Thread (MultiStream PU Thread)[0x00249f94]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=337, value=0x9d9080)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[337] Thread (_Multistream SPU Thread)[0x0000765c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033d058]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf560000,pitch=4,width=1280,height=720)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x00007f98]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
 [E : RSXThread]: TODO: unknown/illegal method [0x00001fe8](0xffff)
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
@@ -1517,172 +2024,149 @@ void main()
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: f0
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[474] Thread (MultiStream PU Thread)[0x00249f94]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=337, value=0x9d9080)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
+[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x00000a0c]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[337] Thread (_Multistream SPU Thread)[0x000020e4]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x0033b004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
 [W : PPU[1] Thread (CPUThread)[0x00a4d010]]: cellL10n warning: UTF16stoUTF8s(utf16_addr=0x3394771c, utf16_len_addr=0xd0010848, utf8_addr=0xd0010880, utf8_len_addr=0xd0010858)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
 [E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
 [E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[E : PPU[329] Thread (Joy move update thread)[0x00a3f004]]: TODO: cellCameraGetBufferInfoEx
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d004]]: TODO: cellGemUpdateStart
-[E : PPU[329] Thread (Joy move update thread)[0x00a3d01c]]: TODO: cellGemUpdateFinish
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
-[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=41, bitptn=0xffffffff)
-[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=41, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)
+[W : PPU[38] Thread (thread00)[0x0021a048]]: sys_event_flag warning: sys_event_flag_clear(eflag_id=42, bitptn=0xffffffff)
+[W : PPU[38] Thread (thread00)[0x0021a96c]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=42, bitptn=0x1, mode=0x1, result_addr=0x0, timeout=0)

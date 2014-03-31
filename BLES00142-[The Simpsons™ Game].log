@@ -1,21 +1,23 @@
 [!]: path: /dev_hdd0/game/
-[W]: SELF: No NPDRM control info found!
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]\PS3_GAME\\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00142-[The Simpsons™ Game]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
@@ -102,12 +104,8 @@
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xc9645c41 in 'cellSysutil' module
 [E]: TODO: cellGameDataCheckCreate2
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
@@ -229,5 +227,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0082e694]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 43
 [W : PPU[1] Thread (CPUThread)[0x0082e694]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 44
 [W : PPU[1] Thread (CPUThread)[0x00a9f04c]]: cellGcmSys warning: cellGcmSetDefaultCommandBuffer()
-[W : PPU[22] Thread (DiskErrorRenderThread)[0x0082f2b8]]: sys_cond_wait(id=20) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[22] Thread (DiskErrorRenderThread)[0x0082f2b8]]: sys_cond_wait(id=20) aborted
+[!]: Mutex(24) was owned by thread 1 (recursive=1)
+[!]: Closing memory...

@@ -9,19 +9,14 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\..\
 [!]: /host_root/ -> 
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/
-[!]: Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
-[!]: Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Res\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Res\install\
-[!]: /Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Res\
-[!]: ///resource -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\resource\
-[!]: /app_home/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xd0e766fe in 'cellUsbd' module
@@ -138,22 +133,10 @@
 [E]: TODO: sceNp2Init
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
@@ -172,8 +155,6 @@
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
 [E]: TODO: cellSpursGetWorkloadInfo
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
@@ -194,16 +175,12 @@
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkloadWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttribute2Initialize
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
 [E]: TODO: cellSpursSetExceptionEventHandler
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xe14ca62d in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask2
 [W]: Unknown function 0xefeb2679 in 'cellSpurs' module

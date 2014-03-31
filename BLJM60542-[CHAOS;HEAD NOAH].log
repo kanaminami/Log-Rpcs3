@@ -15,12 +15,10 @@
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[E]: Function 'cellAANConnect' not found
-[E]: Function 'cellAANDisconnect' not found
-[E]: Function group [mixerAAN] failed: missing;
-[S]: Function group [surMixer] successfully hooked
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
 [E]: TODO: cellGcmGetLastFlipTime
 [W]: Unknown function 0x99d397ac in 'cellGcmSys' module
@@ -193,6 +191,16 @@
 [W : PPU[1] Thread (CPUThread)[0x0044a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 44
 [W : PPU[1] Thread (CPUThread)[0x002c0174]]: sys_fs warning: cellFsClose(fd=43)
 [W : PPU[1] Thread (CPUThread)[0x0044a100]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301a1730)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x002c01fc]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/shaders/vsUseTexture2D.cgelf"): fd = 45
 [W : PPU[1] Thread (CPUThread)[0x0044a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 46
 [W : PPU[1] Thread (CPUThread)[0x002c0174]]: sys_fs warning: cellFsClose(fd=45)
@@ -212,16 +220,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00033278]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80002)
 [W : PPU[1] Thread (CPUThread)[0x00033278]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
 [W : PPU[1] Thread (CPUThread)[0x000332fc]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x002c01fc]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/shaders/fsUseTexture2D_Tile.cgelf"): fd = 53
 [W : PPU[1] Thread (CPUThread)[0x0044a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 54
 [W : PPU[1] Thread (CPUThread)[0x002c0174]]: sys_fs warning: cellFsClose(fd=53)

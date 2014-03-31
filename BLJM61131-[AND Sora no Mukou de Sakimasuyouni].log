@@ -9,28 +9,24 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61131-[AND Sora no Mukou de Sakimasuyouni]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
 [W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedLoad2
 [W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoSave
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
@@ -45,6 +41,7 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageGui
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -146,8 +143,6 @@
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'cellRemotePlay'
 [W]: Unknown module 'sceNpTus'
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x0247c69e in 'cellSail' module
 [E]: TODO: cellSailGraphicsAdapterGetFrame
 [W]: Unknown function 0x0abb318b in 'cellSail' module
@@ -356,8 +351,8 @@
 [W : PPU[1] Thread (CPUThread)[0x003d401c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x003d401c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x200000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x003ca0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x570fac80)
-[W : PPU[1] Thread (CPUThread)[0x003ca0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x570f9380)
+[W : PPU[1] Thread (CPUThread)[0x003ca0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xdeba8100)
+[W : PPU[1] Thread (CPUThread)[0x003ca0c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0xdebaa500)
 [W : PPU[1] Thread (CPUThread)[0x003d4004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x003d4004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3840)
 [W : PPU[1] Thread (CPUThread)[0x003d4004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
@@ -398,9 +393,9 @@
 [W : PPU[1] Thread (CPUThread)[0x003c6010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0001f908]]: SysCall 988! r3: 0x1, r4: 0x0, pc: 0x1f908
 [W : PPU[1] Thread (CPUThread)[0x0015ac74]]: sys_mutex warning: sys_mutex_destroy(mutex_id=30)
-[! : PPU[1] Thread (CPUThread)[0x0015ac74]]: Mutex(30) was owned by thread -1 (recursive=67160)
+[! : PPU[1] Thread (CPUThread)[0x0015ac74]]: Mutex(30) was owned by thread -1 (recursive=4521984)
 [W : PPU[1] Thread (CPUThread)[0x0018b88c]]: sys_mutex warning: sys_mutex_destroy(mutex_id=29)
-[! : PPU[1] Thread (CPUThread)[0x0018b88c]]: Mutex(29) was owned by thread -1 (recursive=41)
+[! : PPU[1] Thread (CPUThread)[0x0018b88c]]: Mutex(29) was owned by thread -1 (recursive=6553646)
 [W : PPU[1] Thread (CPUThread)[0x0018b8c4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=28)
 [! : PPU[1] Thread (CPUThread)[0x0018b8c4]]: Mutex(28) was owned by thread -1 (recursive=67160)
 [W : PPU[1] Thread (CPUThread)[0x0020cdc4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=27)

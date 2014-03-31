@@ -9,25 +9,18 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/
-[!]: Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
-[!]: Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Res\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Res\install\
-[!]: /Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Res\
-[!]: ///resource -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x832df17e in 'cellAudio' module
 [E]: TODO: cellAudioAdd6chData
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
@@ -50,10 +43,6 @@
 [E]: TODO: cellSpursReadyCountStore
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
 [E]: TODO: cellFsAioWrite
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
@@ -182,10 +171,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00f99010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
 [W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: sys_memory_container_create(cid_addr=0xd0010bdc, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x00033698]]: memory warning: *** memory_container created(addr=0x3f800000): id = 15
-[E : PPU[1] Thread (CPUThread)[0x00f9301c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00109d8, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=128)
-[E : PPU[1] Thread (CPUThread)[0x00f93004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00109d8, prefix_addr=0x458ce4, size=0xc)
+[W : PPU[1] Thread (CPUThread)[0x00f9301c]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00109d8, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=128)
+[W : PPU[1] Thread (CPUThread)[0x00f93004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00109d8, prefix_addr=0x458ce4, size=0xc)
 [E : PPU[1] Thread (CPUThread)[0x00f93010]]: cellSpurs error: cellSpursAttributeSetMemoryContainerForSpuThread(attr_addr=0xd00109d8, container=0xf)
-[E : PPU[1] Thread (CPUThread)[0x00f93028]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00f93028]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x3010c100, spurs_addr=0xd00109d8)
 [W : PPU[1] Thread (CPUThread)[0x00f97094]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x00f97094]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
 [W : PPU[1] Thread (CPUThread)[0x00f9d124]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=2)
@@ -217,7 +206,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xd3507a80)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xe5399000)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)

@@ -1,20 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]\PS3_GAME\\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10083-[The Idolm@ster 2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x12d9b6c5 in 'cellJpgEnc' module
@@ -45,8 +47,6 @@
 [E]: TODO: cellSpursJobChainAttributeSetName
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0x039d70b7 in 'cellSpurs' module
@@ -59,32 +59,22 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
 [W]: Unknown function 0x86c864a2 in 'cellSpurs' module
 [E]: TODO: cellSpursGetJobChainId
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [W]: Unknown function 0x91066667 in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePopBody
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa121a224 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
@@ -316,9 +306,9 @@
 [W : PPU[1] Thread (CPUThread)[0x0061c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x0061c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x003a6ca0]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x0061e040]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00107b0, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=200)
-[E : PPU[1] Thread (CPUThread)[0x0061e004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00107b0, prefix_addr=0x5bd438, size=0x3)
-[E : PPU[1] Thread (CPUThread)[0x0061e064]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x0061e040]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00107b0, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=200)
+[W : PPU[1] Thread (CPUThread)[0x0061e004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00107b0, prefix_addr=0x5bd438, size=0x3)
+[W : PPU[1] Thread (CPUThread)[0x0061e064]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x30100080, spurs_addr=0xd00107b0)
 [W : PPU[1] Thread (CPUThread)[0x0061c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
 [W : PPU[1] Thread (CPUThread)[0x0092f070]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x00957034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
@@ -348,13 +338,13 @@
 [E : PPU[1] Thread (CPUThread)[0x0061e01c]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0061e010]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x0061e0f4]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0061e118]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0061e118]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x37f10300)
 [E : PPU[1] Thread (CPUThread)[0x0061e19c]]: TODO: cellSpursEventFlagSet
 [E : PPU[1] Thread (CPUThread)[0x0061e0f4]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0061e118]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0061e118]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x37f10380)
 [E : PPU[1] Thread (CPUThread)[0x0061e19c]]: TODO: cellSpursEventFlagSet
 [E : PPU[1] Thread (CPUThread)[0x0061e0f4]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0061e118]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0061e118]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x37f10400)
 [E : PPU[1] Thread (CPUThread)[0x0061e028]]: TODO: cellSpursJobGuardInitialize
 [E : PPU[1] Thread (CPUThread)[0x0061e028]]: TODO: cellSpursJobGuardInitialize
 [E : PPU[1] Thread (CPUThread)[0x0061e07c]]: TODO: cellSpursRunJobChain
@@ -435,8 +425,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0094707c]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x92adc4, commID_addr=0x71d430, commSign_addr=0x71d4bc, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00947010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x92adc8)
 [! : PPU[1] Thread (CPUThread)[0x0095701c]]: *** New PPU Thread [imas2_trp_init_thread] (): id = 71
-[W : PPU[71] Thread (imas2_trp_init_thread)[0x00947004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x670218, arg_addr=0x92ad90, options=0x0)
 [E : PPU[1] Thread (CPUThread)[0x0093d034]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[W : PPU[71] Thread (imas2_trp_init_thread)[0x00947004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x670218, arg_addr=0x92ad90, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00937028]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30d00000,size=0x1800000,offset_addr=0xd0010a80)
 [W : PPU[1] Thread (CPUThread)[0x00937028]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x32500000,size=0x5100000,offset_addr=0xd0010a80)
 [W : PPU[1] Thread (CPUThread)[0x00957034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 72
@@ -501,5 +491,6 @@
 [E : PPU[1] Thread (CPUThread)[0x00941010]]: TODO: cellFiberPpuRunFibers
 [E : PPU[1] Thread (CPUThread)[0x0092d01c]]: TODO: cellSpursJobQueuePortSync
 [W : PPU[38] Thread (NU::Draw::RequestManager)[0x00430178]]: sys_cond_wait(id=37) aborted
-[W : PPU[1] Thread (CPUThread)[0x0042c1b8]]: sys_cond_wait(id=27) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[1] Thread (CPUThread)[0x0042c1b8]]: sys_cond_wait(id=27) aborted
+[!]: Closing memory...

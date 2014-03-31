@@ -1,15 +1,22 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man_]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\Data\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00001-[Resistance Fall of Man™]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
@@ -46,8 +53,6 @@
 [E]: TODO: cellSpursAddWorkload
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
 [E]: TODO: cellSpursSetExceptionEventHandler
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
@@ -133,7 +138,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00726028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
 [W : PPU[1] Thread (CPUThread)[0x00726028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
 [W : PPU[1] Thread (CPUThread)[0x00726028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x00014940]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0020cc4)
+[W : PPU[1] Thread (CPUThread)[0x00014940]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010cc4)
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_MIC)
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
@@ -142,10 +147,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x00793010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [E : PPU[1] Thread (CPUThread)[0x0072a040]]: sys_fs error: "/parameters.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/packed/game/game.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/dev_hdd0/game.psarc" not found.
+[W : PPU[1] Thread (CPUThread)[0x0072a04c]]: sys_fs warning: cellFsStat: "/app_home/packed/game/game.wad" not found.
 [W : PPU[1] Thread (CPUThread)[0x00799040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[E : PPU[1] Thread (CPUThread)[0x0072a040]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/parameters.txt" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x0072a040]]: sys_fs error: "/app_home/parameters.txt" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x007990c4]]: TODO: cellDiscGameGetBootDiscInfo
 [E : PPU[1] Thread (CPUThread)[0x007990c4]]: TODO: cellDiscGameGetBootDiscInfo
 [!]: Closing memory...

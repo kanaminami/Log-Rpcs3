@@ -9,38 +9,28 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\..\
 [!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\DATA\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00289-[Sound Shapes™]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
 [E]: TODO: cellSpursDestroyTaskset2
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagClear
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xe14ca62d in 'cellSpurs' module
@@ -49,14 +39,10 @@
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
@@ -104,6 +90,7 @@
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0xa11552f6 in 'cellSysutil' module
 [E]: TODO: cellSysutilGetBgmPlaybackStatus
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown module 'cellOskExtUtility'
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -267,7 +254,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00171d34]]: memory warning: *** memory_container created(addr=0x36700000): id = 37
 [W : PPU[1] Thread (CPUThread)[0x00ae6040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[1] Thread (CPUThread)[0x00ae6040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[E : PPU[1] Thread (CPUThread)[0x00ad207c]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x00ad207c]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x301ff180, nSpus=1, spuPriority=150, ppuPriority=4294967295, exitIfNoWork=0)
 [W : PPU[1] Thread (CPUThread)[0x00ae401c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x00ae4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x00ae401c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
