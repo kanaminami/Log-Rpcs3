@@ -1,0 +1,875 @@
+[!]: path: /dev_hdd0/game/
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BLES00019 - [Untold Legends Dark Kingdom]\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6414/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6414/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6414/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6414/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BLES00019 - [Untold Legends Dark Kingdom]\
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BLES00019 - [Untold Legends Dark Kingdom]\/../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BLES00019 - [Untold Legends Dark Kingdom]\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x1bd633f8 in 'cellGcmSys' module
+[E]: TODO: _cellGcmFunc3
+[W]: Unknown function 0x5f909b17 in 'cellGcmSys' module
+[E]: TODO: _cellGcmFunc1
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x661fe266 in 'cellGcmSys' module
+[E]: TODO: _cellGcmFunc12
+[W]: Unknown function 0x8effb7fd in 'cellGcmSys' module
+[E]: TODO: _cellGcmFunc2
+[W]: Unknown function 0xbb42a9dd in 'cellGcmSys' module
+[E]: TODO: _cellGcmFunc13
+[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetInvalidateTile
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x3dbd2314 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListSave
+[W]: Unknown function 0x41bc2ca1 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0xa4ed7dfe in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xb72bc4e6 in 'cellSysutil' module
+[E]: TODO: cellDiscGameGetBootDiscInfo
+[W]: Unknown function 0xc22c79b5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad
+[W]: Unknown function 0xcfdf24bb in 'cellSysutil' module
+[E]: TODO: cellVideoOutDebugSetMonitorType
+[W]: Unknown function 0xe7951dee in 'cellSysutil' module
+[E]: TODO: cellGameDataCheckCreate
+[W]: Unknown function 0xef5a353d in 'cellSysutil' module
+[E]: TODO: cellSaveDataListLoad
+[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogOpen
+[W]: Unknown function 0xf8a175ec in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave
+[W]: Unknown module 'cellHttp'
+[W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
+[E]: TODO: cellHttpUtilParseUri
+[W]: Unknown function 0x13efe7f5 in 'sys_net' module
+[E]: TODO: getsockname
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0x5a045bd1 in 'sys_net' module
+[E]: TODO: getsockopt
+[W]: Unknown function 0x71f4c717 in 'sys_net' module
+[E]: TODO: gethostbyname
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xf9ec2db6 in 'sys_net' module
+[E]: TODO: getpeername
+[W]: Unknown function 0xbef554a4 in 'sys_fs' module
+[E]: TODO: cellFsUtime
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0x03c741a7 in 'sceNp' module
+[E]: TODO: sceNpMatchingGetResult
+[W]: Unknown function 0x0968aa36 in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicket
+[W]: Unknown function 0x16f88a6f in 'sceNp' module
+[E]: TODO: sceNpManagerGetPsHandle
+[W]: Unknown function 0x26b3bc94 in 'sceNp' module
+[E]: TODO: sceNpMatchingGetResultGUI
+[W]: Unknown function 0x2ad7837d in 'sceNp' module
+[E]: TODO: sceNpMatchingAcceptInvitationGUI
+[W]: Unknown function 0x2e1c5068 in 'sceNp' module
+[E]: TODO: sceNpMatchingDestroyCtx
+[W]: Unknown function 0x32febb4c in 'sceNp' module
+[E]: TODO: sceNpMatchingSearchJoinRoomGUI
+[W]: Unknown function 0x34cc0ca4 in 'sceNp' module
+[E]: TODO: sceNpMatchingKickRoomMember
+[W]: Unknown function 0x3cc8588a in 'sceNp' module
+[E]: TODO: sceNpMatchingCreateRoomGUI
+[W]: Unknown function 0x3f0808aa in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresence
+[W]: Unknown function 0x474b7b13 in 'sceNp' module
+[E]: TODO: sceNpMatchingJoinRoomGUI
+[W]: Unknown function 0x58fa4fcd in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicketParam
+[W]: Unknown function 0x691f429d in 'sceNp' module
+[E]: TODO: sceNpMatchingGetRoomInfo
+[W]: Unknown function 0x6f8fd267 in 'sceNp' module
+[E]: TODO: sceNpMatchingSetRoomInfo
+[W]: Unknown function 0x7e2fef28 in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket
+[W]: Unknown function 0x8b7bbd73 in 'sceNp' module
+[E]: TODO: sceNpMatchingSendInvitationGUI
+[W]: Unknown function 0xa284bd1d in 'sceNp' module
+[E]: TODO: sceNpMatchingSetRoomSearchFlag
+[W]: Unknown function 0xac66568c in 'sceNp' module
+[E]: TODO: sceNpMatchingCreateCtx
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xaf505def in 'sceNp' module
+[E]: TODO: sceNpBasicGetMatchingInvitationEntryCount
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xdae2d351 in 'sceNp' module
+[E]: TODO: sceNpMatchingGrantOwnership
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xec0a1fbf in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessage
+[W]: Unknown function 0xf806c54c in 'sceNp' module
+[E]: TODO: sceNpMatchingLeaveRoom
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown module 'sceNpMatchingInt'
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0xf5507729 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagSet
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x00a2e07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0xa54120, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP_UTIL)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+[W : PPU[1] Thread (CPUThread)[0x00a9f004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010c40)
+[W : PPU[1] Thread (CPUThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
+[W : PPU[1] Thread (CPUThread)[0x005598f4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
+[W : PPU[1] Thread (CPUThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 25
+[! : PPU[1] Thread (CPUThread)[0x00aa701c]]: *** New PPU Thread [BigStackThread] (): id = 26
+[E : PPU[1] Thread (CPUThread)[0x0055a38c]]: sysPrxForUser error: sys_ppu_thread_detach(thread_id=26)
+[W : PPU[26] Thread (BigStackThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 27
+[W : PPU[26] Thread (BigStackThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 28
+[W : PPU[26] Thread (BigStackThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 29
+[W : PPU[26] Thread (BigStackThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 30
+[W : PPU[26] Thread (BigStackThread)[0x00559e88]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30166940, attr_addr=0xd00208c0, initial_count=0, max_count=2147483647)
+[W : PPU[26] Thread (BigStackThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 32
+[W : PPU[26] Thread (BigStackThread)[0x00a2e040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[E : PPU[26] Thread (BigStackThread)[0x00a2e0a0]]: TODO: cellDiscGameGetBootDiscInfo
+[W : PPU[26] Thread (BigStackThread)[0x00a2e040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_GAME_PARENTAL_LEVEL
+[W : PPU[26] Thread (BigStackThread)[0x00559e88]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301ae2d0, attr_addr=0xd0020270, initial_count=0, max_count=2147483647)
+[W : PPU[26] Thread (BigStackThread)[0x00aa7028]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 34
+[W : PPU[26] Thread (BigStackThread)[0x00a2e010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00203d4, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[26] Thread (BigStackThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[26] Thread (BigStackThread)[0x00a2c010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[26] Thread (BigStackThread)[0x007dfbe8]]: sys_spu warning: sys_raw_spu_create(id_addr=0x10320220, attr_addr=0xd0020110)
+[W : PPU[26] Thread (BigStackThread)[0x007e0388]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[26] Thread (BigStackThread)[0x007e0388]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[26] Thread (BigStackThread)[0x007e06a4]]: RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
+[W : PPU[26] Thread (BigStackThread)[0x007e06a8]]: RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
+[W : PPU[26] Thread (BigStackThread)[0x007e06a8]]: RawSPUThread[0]: Prxy Query Immediate.
+[W : PPU[26] Thread (BigStackThread)[0x007e06b8]]: RawSPUThread[0]: Read32(MFC_QStatus)
+[W : PPU[26] Thread (BigStackThread)[0x007e06fc]]: RawSPUThread[0]: Write32(SPU_NPC, 0x90)
+[W : PPU[26] Thread (BigStackThread)[0x007dfd7c]]: RawSPUThread[0]: Write32(SPU_NPC, 0x90)
+[W : PPU[26] Thread (BigStackThread)[0x007dfe74]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
+[W : RawSPU[35] Thread (CPUThread)[0x00000090]]: Starting RawSPU...
+[W : PPU[26] Thread (BigStackThread)[0x007d8f38]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[26] Thread (BigStackThread)[0x007d8f74]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[26] Thread (BigStackThread)[0x00a2a004]]: cellGcmSys warning: cellGcmInit(context_addr=0x10321178,cmdSize=0x10000,ioSize=0x2300000,ioAddress=0x31400000)
+[W : PPU[26] Thread (BigStackThread)[0x00a2a004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[26] Thread (BigStackThread)[0x00a2a004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x31400000, io=0x0, size=0x2300000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[26] Thread (BigStackThread)[0x00a2a040]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0e8]]: TODO: cellGcmSetGraphicsHandler
+[E : PPU[26] Thread (BigStackThread)[0x00a2a07c]]: TODO: _cellGcmFunc2
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0d0]]: TODO: _cellGcmFunc13
+[E : PPU[26] Thread (BigStackThread)[0x00a2a064]]: TODO: _cellGcmFunc12
+[E : PPU[26] Thread (BigStackThread)[0x00a2a04c]]: TODO: _cellGcmFunc1
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a010]]: TODO: _cellGcmFunc3
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0dc]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00000000](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetContextDmaNotifies(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaA(0x0, 0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetContextDmaState(0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaVertexA(0x0, 0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00000060](0x0)
+[E : RSXThread]: TODO: cellGcmSetContextDmaSemaphore(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetContextDmaClipId(0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001da4](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x000002bc](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d98](0xfff0000, 0xfff0000)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d00](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d04](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d08](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d0c](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d10](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d14](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d18](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d1c](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d20](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d24](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d28](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d2c](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d30](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d34](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d38](0x0)
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0x8)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTextureControl2(0xbc8)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d3c](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetCylindricalWrap(0x0)
+[E : RSXThread]: TODO: cellGcmSetCylindricalWrap1(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001454](0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d80](0x3)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fc4](0x6144321)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fc8](0xedcba987, 0x6f)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fd0](0x171615)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fd4](0x1b1a19)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00000a0c](0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001428](0x1)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001e94](0x11)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001450](0x80003)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001d64](0x2000000)
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x0000145c](0x1)
+[E : RSXThread]: TODO: cellGcmSetZpassPixelCountEnable(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetLineStipplePattern(0xffff0000)
+[E : RSXThread]: NV4097_SET_REDUCE_DST_COLOR
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00002000](0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x00006000](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x0000a000](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00008000](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x0000c000](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x0000a184](0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x0000a2fc](0x3, 0x4)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00002180](0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x0000a180](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x0000a19c](0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x0000c180](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00006180](0x0)
+[E : RSXThread]: TODO: unknown/illegal method [0x00006184](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00008180](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : RSXThread]: TODO: unknown/illegal method [0x00008184](0x0)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00aa9064]]: cellResc warning: cellRescInit(initConfig_addr=0xd0020034)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00a2a0f4]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=2949120, pitch=3072, comp=7, base=1, bank=0)
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0f4]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00aa9034]]: cellResc warning: cellRescSetDisplayMode(displayMode=1)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30017000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9070]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0020018, vertexArray_addr=0xd0020014, fragmentShader_addr=0xd002001c)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9088]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0010000, vertexArray_addr=0xc0000080, fragmentShader_addr=0xc0000200)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=720,height=480)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x178000,pitch=4,width=720,height=480)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00a2a0f4]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=4521984, pitch=3072, comp=7, base=1, bank=0)
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0f4]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00a2a0f4]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=259522560, size=1572864, pitch=3072, comp=10, base=70, bank=3)
+[E : PPU[26] Thread (BigStackThread)[0x00a2a0f4]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00a2a100]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xf780000, width=768, height=512, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x0083f098]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1032088c, attr_addr=0xd0020108, initial_count=0, max_count=1)
+[W : PPU[26] Thread (BigStackThread)[0x00aa9058]]: cellResc warning: cellRescSetFlipHandler(handler_addr=0xa7f388)
+[W : PPU[26] Thread (BigStackThread)[0x00aa907c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x2e0000,pitch=4,width=720,height=480)
+[W : PPU[26] Thread (BigStackThread)[0x007df8c4]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 37
+[W : PPU[26] Thread (BigStackThread)[0x007dfa74]]: sys_cond warning: *** condition created [] (mutex_id=37): id = 38
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : RSXThread]: NV4097_SET_COLOR_MASK_MRT: 8880
+[E : PPU[26] Thread (BigStackThread)[0x007e4e58]]: Read16 from null block: [0000000e]
+[W : PPU[26] Thread (BigStackThread)[0x00aa304c]]: sys_fs warning: cellFsStat: "/app_home/programming/shaders/gles/bin/typec/ul3shaders.cgb" not found.
+[E : PPU[26] Thread (BigStackThread)[0x0084a170]]: Read32 from null block: [00000000]
+[E : PPU[26] Thread (BigStackThread)[0x0084a1d4]]: Read32 from null block: [00000008]
+[W : PPU[26] Thread (BigStackThread)[0x00aa707c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301bd278)
+[W : PPU[26] Thread (BigStackThread)[0x00aa707c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301a9c38)
+[W : PPU[26] Thread (BigStackThread)[0x00aa707c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301a9bd8)
+[W : PPU[26] Thread (BigStackThread)[0x00aa7088]]: Process warning: sys_process_exit(0)
+[S : PPU[26] Thread (BigStackThread)[0x00aa7088]]: Process finished
+[W : PPU[26] Thread (BigStackThread)[0x00aa707c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100b30)
+[W : PPU[26] Thread (BigStackThread)[0x00aa707c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100b00)
+[W : PPU[26] Thread (BigStackThread)[0x00aa707c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30100a10)
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
