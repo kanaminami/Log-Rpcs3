@@ -1,0 +1,1734 @@
+[!]: path: /dev_hdd0/game/
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BCUS98279 - [Medieval Moves Deadmund's Quest]\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6415/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6415/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BCUS98279 - [Medieval Moves Deadmund's Quest]\
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BCUS98279 - [Medieval Moves Deadmund's Quest]\/../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BCUS98279 - [Medieval Moves Deadmund's Quest]\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown module 'sceNpSns'
+[W]: Unknown function 0x18d3df30 in 'cellVoice' module
+[E]: TODO: cellVoiceDisconnectIPortFromOPort
+[W]: Unknown function 0x2a01013e in 'cellVoice' module
+[E]: TODO: cellVoiceCreateNotifyEventQueue
+[W]: Unknown function 0x2de54871 in 'cellVoice' module
+[E]: TODO: cellVoiceCreatePort
+[W]: Unknown function 0x30f0b5ab in 'cellVoice' module
+[E]: TODO: cellVoiceWriteToIPortEx
+[W]: Unknown function 0x35d84910 in 'cellVoice' module
+[E]: TODO: cellVoiceSetNotifyEventQueue
+[W]: Unknown function 0x36472c57 in 'cellVoice' module
+[E]: TODO: cellVoiceReadFromOPort
+[W]: Unknown function 0x54ac3519 in 'cellVoice' module
+[E]: TODO: cellVoiceGetPortInfo
+[W]: Unknown function 0x94d51f92 in 'cellVoice' module
+[E]: TODO: cellVoiceStartEx
+[W]: Unknown function 0x9f70c475 in 'cellVoice' module
+[E]: TODO: cellVoiceDeletePort
+[W]: Unknown function 0xae6a21d5 in 'cellVoice' module
+[E]: TODO: cellVoiceConnectIPortToOPort
+[W]: Unknown function 0xb1a2c38f in 'cellVoice' module
+[E]: TODO: cellVoiceInitEx
+[W]: Unknown function 0xd3a84be1 in 'cellVoice' module
+[E]: TODO: cellVoiceStop
+[W]: Unknown function 0xdd000886 in 'cellVoice' module
+[E]: TODO: cellVoiceRemoveNotifyEventQueue
+[W]: Unknown function 0xe0e1ae12 in 'cellVoice' module
+[E]: TODO: cellVoiceEnd
+[W]: Unknown function 0x82f294b2 in 'cellOvis' module
+[E]: TODO: cellOvisGetOverlayTableSize
+[W]: Unknown function 0xa876c911 in 'cellOvis' module
+[E]: TODO: cellOvisInitializeOverlayTable
+[W]: Unknown function 0x6d3bb15b in 'sys_fs' module
+[E]: TODO: cellFsSdataOpenByFd
+[W]: Unknown function 0x7f13fc8c in 'sys_fs' module
+[E]: TODO: cellFsAioCancel
+[W]: Unknown function 0x967a162b in 'sys_fs' module
+[E]: TODO: cellFsFsync
+[W]: Unknown function 0x4cef342e in 'sys_fs' module
+[E]: TODO: cellFsAioWrite
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x52aac4fa in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserAutoSave
+[W]: Unknown function 0x6cfd856f in 'cellSysutil' module
+[E]: TODO: cellSysutilGetBgmPlaybackStatus2
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x8b8a2f48 in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserFixedDelete
+[W]: Unknown function 0xcdc6aefd in 'cellSysutil' module
+[E]: TODO: cellSaveDataUserAutoLoad
+[W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
+[E]: TODO: cellSysutilDisableBgmPlayback
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarReset
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0x01fbbc9b in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessageGui
+[W]: Unknown function 0x0968aa36 in 'sceNp' module
+[E]: TODO: sceNpManagerGetTicket
+[W]: Unknown function 0x168a3117 in 'sceNp' module
+[E]: TODO: sceNpBasicAddPlayersHistory
+[W]: Unknown function 0x32c78a6a in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendPresenceByIndex
+[W]: Unknown function 0x36d0c2c5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetAvatarUrl
+[W]: Unknown function 0x3f0808aa in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresence
+[W]: Unknown function 0x45f8f3aa in 'sceNp' module
+[E]: TODO: sceNpCustomMenuRegisterActions
+[W]: Unknown function 0x4b9efb7a in 'sceNp' module
+[E]: TODO: sceNpManagerGetCachedInfo
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x64a704cc in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageAttachmentLoad
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x7e2fef28 in 'sceNp' module
+[E]: TODO: sceNpManagerRequestTicket
+[W]: Unknown function 0x806960ab in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageCustom
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xeb7a3d84 in 'sceNp' module
+[E]: TODO: sceNpManagerGetChatRestrictionFlag
+[W]: Unknown function 0xecd503de in 'sceNp' module
+[E]: TODO: sceNpBasicGetMessageEntryCount
+[W]: Unknown function 0xf0a9182b in 'sceNp' module
+[E]: TODO: sceNpFriendlist
+[W]: Unknown function 0xf9732ac8 in 'sceNp' module
+[E]: TODO: sceNpCustomMenuActionSetActivation
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0xf042b14f in 'sceNp' module
+[E]: TODO: sceNpDrmIsAvailable2
+[W]: Unknown module 'cellScreenShotUtility'
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x17001000 in 'cellSpurs' module
+[E]: TODO: cellSpursAddUrgentCommand
+[W]: Unknown function 0x1d2bca4b in 'cellSpurs' module
+[E]: TODO: cellSpursSendWorkloadSignal
+[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskWithAttribute
+[W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
+[E]: TODO: cellSpursDestroyTaskset2
+[W]: Unknown function 0x2edcff92 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetSetExceptionEventHandler
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset2
+[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagClear
+[W]: Unknown function 0x5202e53b in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainSetExceptionEventHandler
+[W]: Unknown function 0x569674e3 in 'cellSpurs' module
+[E]: TODO: cellSpursTraceInitialize
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x6aa76999 in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainUnsetExceptionEventHandler
+[W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagTryWait
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0x7b9cbb74 in 'cellSpurs' module
+[E]: TODO: cellSpursTraceFinalize
+[W]: Unknown function 0x7fdf4fef in 'cellSpurs' module
+[E]: TODO: cellSpursBarrierInitialize
+[W]: Unknown function 0x838fa4f0 in 'cellSpurs' module
+[E]: TODO: cellSpursTryJoinTask2
+[W]: Unknown function 0x9034e538 in 'cellSpurs' module
+[E]: TODO: cellSpursTaskGetContextSaveAreaSize
+[W]: Unknown function 0x94034c95 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetUnsetExceptionEventHandler
+[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainAttributeSetName
+[W]: Unknown function 0xa7a94892 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTask2
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xb8474eff in 'cellSpurs' module
+[E]: TODO: _cellSpursTaskAttributeInitialize
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttribute2Initialize
+[W]: Unknown function 0xce853fbf in 'cellSpurs' module
+[E]: TODO: cellSpursTraceStart
+[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
+[E]: TODO: cellSpursSetExceptionEventHandler
+[W]: Unknown function 0xddc81b5a in 'cellSpurs' module
+[E]: TODO: cellSpursTraceStop
+[W]: Unknown function 0xe14ca62d in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask2
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x182d9890 in 'cellSpurs' module
+[E]: TODO: cellSpursRequestIdleSpu
+[W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
+[E]: TODO: cellSpursWorkloadAttributeSetName
+[W]: Unknown function 0x4e153e3e in 'cellSpurs' module
+[E]: TODO: cellSpursGetWorkloadInfo
+[W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
+[E]: TODO: cellSpursRemoveWorkload
+[W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
+[E]: TODO: cellSpursWaitForWorkloadShutdown
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x98d5b343 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownWorkload
+[W]: Unknown function 0xc0158d8b in 'cellSpurs' module
+[E]: TODO: cellSpursAddWorkloadWithAttribute
+[W]: Unknown function 0xefeb2679 in 'cellSpurs' module
+[E]: TODO: _cellSpursWorkloadAttributeInitialize
+[W]: Unknown function 0xf843818d in 'cellSpurs' module
+[E]: TODO: cellSpursReadyCountStore
+[W]: Unknown function 0xf5507729 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagSet
+[W]: Unknown function 0x0f03f712 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetSubmitWithEntryLock
+[W]: Unknown function 0x29c2acc5 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueClose
+[W]: Unknown function 0x43ddab4f in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeInitialize
+[W]: Unknown function 0x6c61bf87 in 'cellSpursJq' module
+[E]: Unknown func id: 0x6c61bf87
+[W]: Unknown function 0x701fd8a9 in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePushSync
+[W]: Unknown function 0x8c97a96c in 'cellSpursJq' module
+[E]: TODO: cellSpursShutdownJobQueue
+[W]: Unknown function 0x8ce4cffa in 'cellSpursJq' module
+[E]: TODO: cellSpursJoinJobQueue
+[W]: Unknown function 0x93248b92 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueUnsetExceptionEventHandler
+[W]: Unknown function 0x934abb00 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2AllocateJobDescriptor
+[W]: Unknown function 0x98203e3c in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePushJobBody2
+[W]: Unknown function 0x983be7fc in 'cellSpursJq' module
+[E]: TODO: _cellSpursCreateJobQueueWithJobDescriptorPool
+[W]: Unknown function 0xaf1c7a1d in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePushJobListBody
+[W]: Unknown function 0xb53436e7 in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePort2PushJobListBody
+[W]: Unknown function 0xc343ee10 in 'cellSpursJq' module
+[E]: TODO: cellSpursGetJobQueueId
+[W]: Unknown function 0xc485d207 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2Destroy
+[W]: Unknown function 0xcf89f218 in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePort2PushJobBody
+[W]: Unknown function 0xdf0120c2 in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePushFlush
+[W]: Unknown function 0xe1731df3 in 'cellSpursJq' module
+[E]: TODO: _cellSpursJobQueuePort2PushAndReleaseJobBody
+[W]: Unknown function 0xf11fe0f1 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2Create
+[W]: Unknown function 0xf244e799 in 'cellSpursJq' module
+[E]: TODO: _cellSpursCreateJobQueue
+[W]: Unknown function 0xfacb3ced in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2Sync
+[W]: Unknown function 0xfc526b72 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueuePort2PushSync
+[W]: Unknown function 0xff03cc79 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
+[W]: Unknown function 0xff7a7bd2 in 'cellSpursJq' module
+[E]: TODO: cellSpursJobQueueOpen
+[W]: Unknown function 0x051ee3ee in 'sys_net' module
+[E]: TODO: socketpoll
+[W]: Unknown function 0x13efe7f5 in 'sys_net' module
+[E]: TODO: getsockname
+[W]: Unknown function 0x28e208bb in 'sys_net' module
+[E]: TODO: listen
+[W]: Unknown function 0x3f09e20a in 'sys_net' module
+[E]: TODO: socketselect
+[W]: Unknown function 0x5a045bd1 in 'sys_net' module
+[E]: TODO: getsockopt
+[W]: Unknown function 0x71f4c717 in 'sys_net' module
+[E]: TODO: gethostbyname
+[W]: Unknown function 0x858a930b in 'sys_net' module
+[E]: TODO: inet_ntoa
+[W]: Unknown function 0xa9a079e0 in 'sys_net' module
+[E]: TODO: inet_aton
+[W]: Unknown function 0xc98a3146 in 'sys_net' module
+[E]: TODO: inet_ntop
+[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
+[E]: TODO: inet_addr
+[W]: Unknown function 0xf9ec2db6 in 'sys_net' module
+[E]: TODO: getpeername
+[W]: Unknown module 'libgem'
+[W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
+[E]: TODO: cellGcmDumpGraphicsError
+[W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
+[E]: TODO: cellGcmSortRemapEaIoAddress
+[W]: Unknown function 0x371674cf in 'cellGcmSys' module
+[E]: TODO: cellGcmGetDisplayBufferByFlipIndex
+[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetFlipImmediate
+[W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
+[E]: TODO: cellGcmInitSystemMode
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0x0e63c444 in 'cellCamera' module
+[E]: TODO: cellCameraGetBufferInfoEx
+[W]: Unknown function 0x21fc151f in 'cellCamera' module
+[E]: TODO: cellCameraReadEx
+[W]: Unknown function 0x379c5dd6 in 'cellCamera' module
+[E]: TODO: cellCameraClose
+[W]: Unknown function 0x44673f07 in 'cellCamera' module
+[E]: TODO: cellCameraRemoveNotifyEventQueue2
+[W]: Unknown function 0x456dc4aa in 'cellCamera' module
+[E]: TODO: cellCameraStart
+[W]: Unknown function 0x532b8aaa in 'cellCamera' module
+[E]: TODO: cellCameraGetAttribute
+[W]: Unknown function 0x58bc5870 in 'cellCamera' module
+[E]: TODO: cellCameraGetType
+[W]: Unknown function 0x5ad46570 in 'cellCamera' module
+[E]: TODO: cellCameraEnd
+[W]: Unknown function 0x5d25f866 in 'cellCamera' module
+[E]: TODO: cellCameraOpenEx
+[W]: Unknown function 0x7dac520c in 'cellCamera' module
+[E]: TODO: cellCameraGetBufferSize
+[W]: Unknown function 0x81f83db9 in 'cellCamera' module
+[E]: TODO: cellCameraReset
+[W]: Unknown function 0x8cd56eee in 'cellCamera' module
+[E]: TODO: cellCameraSetAttribute
+[W]: Unknown function 0xa7fd2f5b in 'cellCamera' module
+[E]: TODO: cellCameraSetNotifyEventQueue2
+[W]: Unknown function 0xbf47c5dd in 'cellCamera' module
+[E]: TODO: cellCameraInit
+[W]: Unknown function 0xfdbf6ac5 in 'cellL10n' module
+[E]: TODO: UTF8stoUCS2s
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0x84bb6774 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_info
+[W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
+[W]: Unknown function 0xa5d06bf0 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_list
+[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer
+[W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_by_fd
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00778114]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00768e30]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00768e30]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0076ffc0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0076ffc0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0076a8a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0076a8a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0076ffc0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0076ffc0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00768ddc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x00768ddc]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x0076a8a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+[W : PPU[1] Thread (CPUThread)[0x0076a8a0]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00ea9058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x00e890ac]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xd051e8, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FIBER)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_USERINFO)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_SNS)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGENC)
+[W : PPU[1] Thread (CPUThread)[0x00e87010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS_JQ)
+[E : PPU[1] Thread (CPUThread)[0x00ea90f4]]: TODO: sys_prx_get_module_list
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011000]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011004]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011008]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001100c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011010]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011014]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011018]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001101c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011020]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011024]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011028]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001102c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011030]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011034]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011038]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001103c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011040]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011044]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011048]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001104c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011050]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011054]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011058]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001105c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011060]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011064]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011068]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001106c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011070]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011074]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011078]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001107c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011080]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011084]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011088]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001108c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011090]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011094]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011098]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001109c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110a0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110a4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110a8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110ac]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110b0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110b4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110b8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110bc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110c0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110c4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110c8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110cc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110d0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110d4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110d8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110dc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110e0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110e4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110e8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110ec]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110f0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110f4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110f8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00110fc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011100]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011104]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011108]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001110c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011110]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011114]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011118]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001111c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011120]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011124]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011128]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001112c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011130]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011134]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011138]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001113c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011140]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011144]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011148]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001114c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011150]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011154]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011158]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001115c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011160]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011164]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011168]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001116c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011170]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011174]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011178]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001117c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011180]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011184]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011188]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001118c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011190]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011194]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011198]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001119c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111a0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111a4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111a8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111ac]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111b0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111b4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111b8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111bc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111c0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111c4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111c8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111cc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111d0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111d4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111d8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111dc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111e0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111e4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111e8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111ec]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111f0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111f4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111f8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00111fc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011200]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011204]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011208]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001120c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011210]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011214]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011218]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001121c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011220]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011224]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011228]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001122c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011230]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011234]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011238]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001123c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011240]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011244]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011248]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001124c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011250]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011254]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011258]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001125c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011260]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011264]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011268]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001126c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011270]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011274]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011278]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001127c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011280]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011284]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011288]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001128c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011290]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011294]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011298]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001129c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112a0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112a4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112a8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112ac]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112b0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112b4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112b8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112bc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112c0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112c4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112c8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112cc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112d0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112d4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112d8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112dc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112e0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112e4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112e8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112ec]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112f0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112f4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112f8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00112fc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011300]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011304]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011308]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001130c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011310]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011314]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011318]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001131c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011320]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011324]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011328]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001132c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011330]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011334]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011338]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001133c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011340]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011344]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011348]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001134c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011350]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011354]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011358]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001135c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011360]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011364]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011368]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001136c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011370]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011374]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011378]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001137c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011380]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011384]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011388]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001138c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011390]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011394]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011398]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001139c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113a0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113a4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113a8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113ac]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113b0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113b4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113b8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113bc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113c0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113c4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113c8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113cc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113d0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113d4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113d8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113dc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113e0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113e4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113e8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113ec]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113f0]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113f4]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113f8]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d00113fc]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011400]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011404]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011408]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001140c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011410]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011414]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011418]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001141c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011420]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011424]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011428]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001142c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011430]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011434]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011438]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001143c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011440]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011444]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011448]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001144c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011450]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011454]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011458]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001145c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011460]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011464]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011468]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001146c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011470]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011474]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011478]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001147c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011480]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011484]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011488]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d001148c]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011490]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[E : PPU[1] Thread (CPUThread)[0x00013620]]: Read32 from null block: [d0011494]
+[E : PPU[1] Thread (CPUThread)[0x00ea90c4]]: TODO: sys_prx_get_module_info
+[!]: Closing memory...
