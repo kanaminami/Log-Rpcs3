@@ -1,0 +1,300 @@
+[!]: path: /dev_hdd0/game/
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BLJM60038 - [Agarest Senki ]\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6415/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6415/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BLJM60038 - [Agarest Senki ]\
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BLJM60038 - [Agarest Senki ]\/../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BLJM60038 - [Agarest Senki ]\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0xbe5be3ba in 'sys_io' module
+[E]: TODO: cellPadSetSensorMode
+[W]: Unknown function 0xf83f8182 in 'sys_io' module
+[E]: TODO: cellPadSetPressMode
+[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedLoad2
+[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedSave2
+[W]: Unknown function 0x523a96c4 in 'cellSysutil' module
+[E]: TODO: cellGameDataSetSystemVer
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xc9645c41 in 'cellSysutil' module
+[E]: TODO: cellGameDataCheckCreate2
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0xdfdd302e in 'cellSysutil' module
+[E]: TODO: cellDiscGameRegisterDiscChangeCallback
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x07254fda in 'cellSync' module
+[E]: TODO: cellSyncBarrierInitialize
+[W]: Unknown function 0x268edd6d in 'cellSync' module
+[E]: TODO: cellSyncBarrierTryNotify
+[W]: Unknown function 0x35f21355 in 'cellSync' module
+[E]: TODO: cellSyncBarrierWait
+[W]: Unknown function 0x3929948d in 'cellSync' module
+[E]: TODO: cellSyncQueueInitialize
+[W]: Unknown function 0x5ae841e5 in 'cellSync' module
+[E]: TODO: cellSyncQueuePush
+[W]: Unknown function 0x6c272124 in 'cellSync' module
+[E]: TODO: cellSyncBarrierTryWait
+[W]: Unknown function 0x33435818 in 'cellL10n' module
+[E]: TODO: SJISstoUTF8s
+[W]: Unknown function 0x05d65dff in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpId
+[W]: Unknown function 0x1672170e in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScore
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x3f0808aa in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresence
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x5de61626 in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTitleCtx
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x8440537c in 'sceNp' module
+[E]: TODO: sceNpLookupTerm
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xce81c7f0 in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTitleCtx
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xea2e9ffc in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTransactionCtx
+[W]: Unknown function 0xf4e0f607 in 'sceNp' module
+[E]: TODO: sceNpScoreGetBoardInfo
+[W]: Unknown function 0xfb87cf5e in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTransactionCtx
+[W]: Unknown function 0xfbc82301 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRange
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
+[E]: TODO: cellGcmSetInvalidateTile
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x007c3034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_OVIS)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SHEAP)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00368230]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=1)
+[W : PPU[1] Thread (CPUThread)[0x0076b088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x792488, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONT)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FONTFT)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x0076d010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x0045aea8]]: sys_spu warning: sys_raw_spu_create(id_addr=0x1985b5c0, attr_addr=0xd0010520)
+[W : PPU[1] Thread (CPUThread)[0x0045b648]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[1] Thread (CPUThread)[0x0045b648]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
+[W : PPU[1] Thread (CPUThread)[0x0045b964]]: RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
+[W : PPU[1] Thread (CPUThread)[0x0045b968]]: RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
+[W : PPU[1] Thread (CPUThread)[0x0045b968]]: RawSPUThread[0]: Prxy Query Immediate.
+[W : PPU[1] Thread (CPUThread)[0x0045b978]]: RawSPUThread[0]: Read32(MFC_QStatus)
+[W : PPU[1] Thread (CPUThread)[0x0045b9bc]]: RawSPUThread[0]: Write32(SPU_NPC, 0x90)
+[W : PPU[1] Thread (CPUThread)[0x0045b03c]]: RawSPUThread[0]: Write32(SPU_NPC, 0x90)
+[W : PPU[1] Thread (CPUThread)[0x0045b134]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
+[W : RawSPU[25] Thread (CPUThread)[0x00000090]]: Starting RawSPU...
+[W : PPU[1] Thread (CPUThread)[0x004541d4]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x00454210]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
+[W : PPU[1] Thread (CPUThread)[0x007c1004]]: cellGcmSys warning: cellGcmInit(context_addr=0x1985c4d0,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x007c1004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x007c1004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x007c1034]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+[E : PPU[1] Thread (CPUThread)[0x007c10b8]]: TODO: cellGcmSetGraphicsHandler
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : PPU[1] Thread (CPUThread)[0x007c10ac]]: TODO: cellGcmSetInvalidateTile
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
+[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[W : PPU[1] Thread (CPUThread)[0x007b3064]]: cellResc warning: cellRescInit(initConfig_addr=0xd0010440)
+[W : PPU[1] Thread (CPUThread)[0x007c10c4]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=2949120, pitch=3072, comp=7, base=1, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x007c10c4]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x007b3034]]: cellResc warning: cellRescSetDisplayMode(displayMode=1)
+[W : PPU[1] Thread (CPUThread)[0x007b3034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x007b3034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x007b3070]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0010430, vertexArray_addr=0xd001042c, fragmentShader_addr=0xd0010420)
+[W : PPU[1] Thread (CPUThread)[0x007b3088]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0010000, vertexArray_addr=0xc0000080, fragmentShader_addr=0xc0000200)
+[W : PPU[1] Thread (CPUThread)[0x007b3088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x007b3088]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x178000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x007b3004]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x007c10c4]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=3014656, size=3932160, pitch=5120, comp=7, base=46, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x007c10c4]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x007c10c4]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=257163264, size=3932160, pitch=5120, comp=10, base=106, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x007c10c4]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x007c10d0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xf540000, width=1280, height=768, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+[W : PPU[1] Thread (CPUThread)[0x004b1c58]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1985bbac, attr_addr=0xd0010538, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x007b3058]]: cellResc warning: cellRescSetFlipHandler(handler_addr=0x79c618)
+[W : PPU[1] Thread (CPUThread)[0x007b307c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x2e0000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x0045ab84]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 27
+[W : PPU[1] Thread (CPUThread)[0x0045ad34]]: sys_cond warning: *** condition created [] (mutex_id=27): id = 28
+[E : PPU[1] Thread (CPUThread)[0x006d83b0]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/shaders.bin" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x004aa7e4]]: Read32 from null block: [00000018]
+[E : PPU[1] Thread (CPUThread)[0x00481fb0]]: Read32 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x0046a4b4]]: Read32 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x0046a4d4]]: Read32 from null block: [00000014]
+[E : PPU[1] Thread (CPUThread)[0x0046a4e8]]: Read8 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x0046a4ec]]: Read8 from null block: [00000023]
+[E : PPU[1] Thread (CPUThread)[0x0046a4f8]]: Read8 from null block: [00000025]
+[E : PPU[1] Thread (CPUThread)[0x0046a50c]]: Read8 from null block: [00000022]
+[E : PPU[1] Thread (CPUThread)[0x0046a514]]: Read16 from null block: [0000001c]
+[E : PPU[1] Thread (CPUThread)[0x0046a51c]]: Read16 from null block: [0000001e]
+[E : PPU[1] Thread (CPUThread)[0x0046a524]]: Read16 from null block: [00000020]
+[E : PPU[1] Thread (CPUThread)[0x0046a620]]: Read8 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x004aa880]]: Read32 from null block: [00000000]
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: NV4097_SET_REDUCE_DST_COLOR
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x004aa7e4]]: Read32 from null block: [00000018]
+[E : PPU[1] Thread (CPUThread)[0x00481fb0]]: Read32 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x0046a4b4]]: Read32 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x0046a4d4]]: Read32 from null block: [00000014]
+[E : PPU[1] Thread (CPUThread)[0x0046a4e8]]: Read8 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x0046a4ec]]: Read8 from null block: [00000023]
+[E : PPU[1] Thread (CPUThread)[0x0046a4f8]]: Read8 from null block: [00000025]
+[E : PPU[1] Thread (CPUThread)[0x0046a50c]]: Read8 from null block: [00000022]
+[E : PPU[1] Thread (CPUThread)[0x0046a514]]: Read16 from null block: [0000001c]
+[E : PPU[1] Thread (CPUThread)[0x0046a51c]]: Read16 from null block: [0000001e]
+[E : PPU[1] Thread (CPUThread)[0x0046a524]]: Read16 from null block: [00000020]
+[E : PPU[1] Thread (CPUThread)[0x0046a620]]: Read8 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x004aa880]]: Read32 from null block: [00000000]
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: NV4097_SET_REDUCE_DST_COLOR
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : PPU[1] Thread (CPUThread)[0x007c1064]]: TODO: cellGcmGetReport
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[E : RSXThread]: NV4097_GET_REPORT: bad type 2
+[E : RSXThread]: NV4097_GET_REPORT: bad type 3
+[E : RSXThread]: NV4097_GET_REPORT: bad type 4
+[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : PPU[1] Thread (CPUThread)[0x004aa7e4]]: Read32 from null block: [00000018]
+[E : PPU[1] Thread (CPUThread)[0x00481fb0]]: Read32 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x0046a4b4]]: Read32 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x0046a4d4]]: Read32 from null block: [00000014]
+[E : PPU[1] Thread (CPUThread)[0x0046a4e8]]: Read8 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x0046a4ec]]: Read8 from null block: [00000023]
+[E : PPU[1] Thread (CPUThread)[0x0046a4f8]]: Read8 from null block: [00000025]
+[E : PPU[1] Thread (CPUThread)[0x0046a50c]]: Read8 from null block: [00000022]
+[E : PPU[1] Thread (CPUThread)[0x0046a514]]: Read16 from null block: [0000001c]
+[E : PPU[1] Thread (CPUThread)[0x0046a51c]]: Read16 from null block: [0000001e]
+[E : PPU[1] Thread (CPUThread)[0x0046a524]]: Read16 from null block: [00000020]
+[E : PPU[1] Thread (CPUThread)[0x0046a620]]: Read8 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x004aa880]]: Read32 from null block: [00000000]
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
+[E : RSXThread]: NV4097_SET_REDUCE_DST_COLOR
+[E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
+[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
+[E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
+[E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
+[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
+[W : PPU[1] Thread (CPUThread)[0x007b3004]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[E : PPU[1] Thread (CPUThread)[0x007c1040]]: TODO: cellGcmGetLastFlipTime
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
