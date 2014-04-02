@@ -1,0 +1,1624 @@
+[!]: path: /dev_hdd0/game/
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BLJM60571 - [White Album 2 Shiawase no Mukougawa]\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6415/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6415/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BLJM60571 - [White Album 2 Shiawase no Mukougawa]\
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BLJM60571 - [White Album 2 Shiawase no Mukougawa]\/../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BLJM60571 - [White Album 2 Shiawase no Mukougawa]\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
+[E]: TODO: cellGcmGetVBlankCount
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xbb68d76e in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainAttributeSetHaltOnError
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x220894e3 in 'cellSysutil' module
+[E]: TODO: cellSysutilEnableBgmPlayback
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
+[E]: TODO: cellSysutilDisableBgmPlayback
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x33435818 in 'cellL10n' module
+[E]: TODO: SJISstoUTF8s
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_finalize
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x000f7fdc]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x0013e0a0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x140568, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x01212010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [vpl] (attribute=0x21): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [inputsys] (attribute=0x21): sq_id = 15
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [input] (): id = 16
+[W : PPU[1] Thread (CPUThread)[0x0013807c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x114238 (/dev_bdvd/PS3_GAME/USRDIR))
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [uty] (attribute=0x21): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00134070]]: cellGcmSys warning: cellGcmInit(context_addr=0x117c920,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30300000)
+[W : PPU[1] Thread (CPUThread)[0x00134070]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x00134070]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30300000, io=0x0, size=0x100000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [vpl] (attribute=0x21): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [sndsys] (attribute=0x21): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x0120c010]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x0013e04c]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010870, option_addr=0x0, (!)waitForEvent=0)
+[W : PPU[1] Thread (CPUThread)[0x012200f4]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x11c9f0, align=0x40000, size=0x110000)
+[W : PPU[1] Thread (CPUThread)[0x012200f4]]: sys_heap warning: *** sys_heap created: id = 22
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x1080)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x1c8)
+[W : PPU[1] Thread (CPUThread)[0x0122004c]]: sys_heap warning: sys_heap_malloc(heap_id=22, size=0x40)
+[W : PPU[1] Thread (CPUThread)[0x0122004c]]: sys_heap warning: sys_heap_malloc(heap_id=22, size=0x40)
+[W : PPU[1] Thread (CPUThread)[0x0122004c]]: sys_heap warning: sys_heap_malloc(heap_id=22, size=0x40)
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr200] (attribute=0x22): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr201] (attribute=0x22): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr202] (attribute=0x22): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr203] (attribute=0x22): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr204] (attribute=0x22): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr205] (attribute=0x22): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr206] (attribute=0x22): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr207] (attribute=0x22): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr208] (attribute=0x22): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr209] (attribute=0x22): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr20:] (attribute=0x22): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr20;] (attribute=0x22): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr20<] (attribute=0x22): sq_id = 36
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr20=] (attribute=0x22): sq_id = 37
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr20>] (attribute=0x22): sq_id = 38
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x88)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr20?] (attribute=0x22): sq_id = 39
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x4e00)
+[W : PPU[1] Thread (CPUThread)[0x000cc6e4]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 40
+[W : PPU[1] Thread (CPUThread)[0x000cc708]]: sys_cond warning: *** condition created [] (mutex_id=40): id = 41
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [_sys_MixerChStripMain] (): id = 42
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 43
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x4e80)
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x15280)
+[W : PPU[1] Thread (CPUThread)[0x01220064]]: sys_heap warning: _sys_heap_memalign(heap_id=22, align=0x10, size=0x17f80)
+[W : PPU[1] Thread (CPUThread)[0x000c5c18]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 44
+[W : PPU[1] Thread (CPUThread)[0x000c5c3c]]: sys_cond warning: *** condition created [] (mutex_id=44): id = 45
+[W : PPU[1] Thread (CPUThread)[0x000c5cc8]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 46
+[W : PPU[1] Thread (CPUThread)[0x000c5cec]]: sys_cond warning: *** condition created [] (mutex_id=46): id = 47
+[W : PPU[1] Thread (CPUThread)[0x000c5d70]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 48
+[W : PPU[1] Thread (CPUThread)[0x000c5d94]]: sys_cond warning: *** condition created [] (mutex_id=48): id = 49
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 50
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 51
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 52
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [_cellsurMixerMain] (): id = 53
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 54
+[W : PPU[53] Thread (_cellsurMixerMain)[0x000c752c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x117cea4, attr_addr=0x117df50, event_queue_key=0x8000cafe02460300, size=2)
+[W : PPU[1] Thread (CPUThread)[0x0120c058]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x117cee8, portNum_addr=0x117ce58)
+[W : PPU[1] Thread (CPUThread)[0x0120c058]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x0120c034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x117cf08)
+[W : PPU[53] Thread (_cellsurMixerMain)[0x000c752c]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 55
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 56
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 57
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 58
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 59
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 60
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 61
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 62
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 63
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 66
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbuf] (attribute=0x21): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [synth2] (attribute=0x21): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x0120c058]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x30101590, portNum_addr=0x301015d0)
+[W : PPU[1] Thread (CPUThread)[0x0120c058]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 1
+[W : PPU[1] Thread (CPUThread)[0x0120c034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x301015b0)
+[E : PPU[1] Thread (CPUThread)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0120c004]]: cellAudio warning: cellAudioCreateNotifyEventQueue(id_addr=0x301015dc, key_addr=0x301015e0)
+[W : PPU[1] Thread (CPUThread)[0x000cdfd8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
+[W : PPU[1] Thread (CPUThread)[0x000ce14c]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1205690, num=1, prio=100, attr_addr=0x1205784)
+[W : PPU[1] Thread (CPUThread)[0x000ce14c]]: sys_spu warning: *** SPU Thread Group created [_synth2 Group] (type=0x0, option.ct=0x0): id=75
+[W : PPU[1] Thread (CPUThread)[0x01220130]]: sysPrxForUser warning: sys_spu_image_import(img=0x1205694, src=0x126e00, type=0x1)
+[W : PPU[1] Thread (CPUThread)[0x01220130]]: LoadShdr32 error: shstrndx too big!
+[W : PPU[1] Thread (CPUThread)[0x01220130]]: desc = 'synth2.elf'
+[W : PPU[1] Thread (CPUThread)[0x000ce24c]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x120568c, group=0x4b, spu_num=0, img_addr=0x1205694, attr_addr=0x1205794, arg_addr=0x12057a0)
+[W : PPU[1] Thread (CPUThread)[0x000ce24c]]: sys_spu warning: *** New SPU Thread [_synth2 Thread] (img_offset=0x1224000, ls_offset=0x1264000, ep=0xf0, a1=0x1205700, a2=0x0, a3=0x0, a4=0x0): id=76
+[W : PPU[1] Thread (CPUThread)[0x000ce71c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x117e028, attr_addr=0x117e030, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x000ce71c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 77
+[W : PPU[1] Thread (CPUThread)[0x000ce738]]: sys_spu warning: sys_spu_thread_connect_event(id=76, eq_id=77, event_type=0x1, spup=58)
+[W : PPU[1] Thread (CPUThread)[0x000ce758]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x117e02c, attr_addr=0x117e030, event_queue_key=0x0, size=32)
+[W : PPU[1] Thread (CPUThread)[0x000ce758]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 78
+[W : PPU[1] Thread (CPUThread)[0x000ce770]]: sys_event warning: sys_event_port_create(eport_id_addr=0x117e040, port_type=0x1, name=0x0)
+[W : PPU[1] Thread (CPUThread)[0x000ce770]]: sys_event warning: *** sys_event_port created: id = 79
+[W : PPU[1] Thread (CPUThread)[0x000ce780]]: sys_event warning: sys_event_port_connect_local(eport_id=79, equeue_id=78)
+[W : PPU[1] Thread (CPUThread)[0x000ce798]]: sys_spu warning: sys_spu_thread_bind_queue(id=76, equeue_id=78, spuq_num=0x1012000)
+[W : PPU[1] Thread (CPUThread)[0x000ce280]]: sys_spu warning: sys_spu_thread_group_start(id=75)
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [synth2se] (): id = 80
+[W : PPU[80] Thread (synth2se)[0x0120c040]]: cellAudio warning: cellAudioPortStart(portNum=0x1)
+[W : PPU[80] Thread (synth2se)[0x0120c01c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x80004d494f323221)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 81
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf0] (attribute=0x21): sq_id = 82
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 83
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-0] (): id = 84
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf1] (attribute=0x21): sq_id = 85
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 86
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-1] (): id = 87
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf2] (attribute=0x21): sq_id = 88
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 89
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-2] (): id = 90
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf3] (attribute=0x21): sq_id = 91
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 92
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-3] (): id = 93
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf4] (attribute=0x21): sq_id = 94
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 95
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-4] (): id = 96
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf5] (attribute=0x21): sq_id = 97
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 98
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-5] (): id = 99
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf6] (attribute=0x21): sq_id = 100
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 101
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-6] (): id = 102
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf7] (attribute=0x21): sq_id = 103
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 104
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-7] (): id = 105
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf8] (attribute=0x21): sq_id = 106
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 107
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-8] (): id = 108
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf9] (attribute=0x21): sq_id = 109
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 110
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-9] (): id = 111
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf10] (attribute=0x21): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 113
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-10] (): id = 114
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf11] (attribute=0x21): sq_id = 115
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 116
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-11] (): id = 117
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf12] (attribute=0x21): sq_id = 118
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 119
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-12] (): id = 120
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [ringbf13] (attribute=0x21): sq_id = 121
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [megpipe] (attribute=0x21): sq_id = 122
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [atrac3-13] (): id = 123
+[W : PPU[1] Thread (CPUThread)[0x0120c040]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0120c01c]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x000143ec]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x012200c4]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x1208f64, entry=0x141280)
+[W : PPU[1] Thread (CPUThread)[0x0013a07c]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00109c8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[124] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 125
+[E : PPU[1] Thread (CPUThread)[0x0013a004]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd00109c8)
+[W : PPU[1] Thread (CPUThread)[0x0013a0ac]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x1177380, spurs_addr=0xd00109c8)
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178380)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0013e064]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5760)
+[W : PPU[1] Thread (CPUThread)[0x0013e004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010990, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0013c058]]: cellResc warning: cellRescInit(initConfig_addr=0xd00109c8)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=3072)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
+[W : PPU[1] Thread (CPUThread)[0x0013c034]]: cellResc warning: cellRescSetDisplayMode(displayMode=1)
+[W : PPU[1] Thread (CPUThread)[0x0013c034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30085000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0013c034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x0013c064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00109a4, vertexArray_addr=0xd00109a8, fragmentShader_addr=0xd00109ac)
+[W : PPU[1] Thread (CPUThread)[0x0013c07c]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc13a0000, vertexArray_addr=0xc23a0000, fragmentShader_addr=0xc23b0200)
+[W : PPU[1] Thread (CPUThread)[0x0013c07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x13a0000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x0013c07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x1520000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x00134040]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=20578304, size=16777216, pitch=3072, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0013401c]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x0013c04c]]: cellResc warning: cellRescSetFlipHandler(handler_addr=0x140c60)
+[W : PPU[1] Thread (CPUThread)[0x00134040]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=16777216, size=3801088, pitch=5120, comp=0, base=0, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x0013401c]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 126
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [vpl] (attribute=0x21): sq_id = 127
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [installGameData] (): id = 128
+[W : PPU[1] Thread (CPUThread)[0x0006dde4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=128, vptr_addr=0xd0010af8)
+[W : PPU[128] Thread (installGameData)[0x0120a04c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0170db0, attributes_addr=0xd0170db4, size_addr=0xd0170db8, dirName_addr=0xd0170dd0)
+[W : PPU[128] Thread (installGameData)[0x0120a010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1175688, usrdirPath_addr=0x1175708)
+[E : PPU[128] Thread (installGameData)[0x0120a040]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[128] Thread (installGameData)[0x0120a010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x1175888, usrdirPath_addr=0x1175908)
+[W : PPU[128] Thread (installGameData)[0x0013807c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x1175908 (/dev_hdd0/game/BLJM60571/USRDIR))
+[W : PPU[1] Thread (CPUThread)[0x01214064]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x6b1998, commID_addr=0x3ecf74, commSign_addr=0x3ecf80, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x01214010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x6b199c)
+[W : PPU[1] Thread (CPUThread)[0x0121401c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0x6b19b0, options=0x0)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a058]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x0013a0c4]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x0013a04c]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a070]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a0e8]]: TODO: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x0013a0f4]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a118]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x1178900, taskID_addr=0xd0010720, elf_addr_addr=0x122180, context_addr_addr=0x30104c00, context_size=3072, lsPattern_addr=0x11ab78, argument_addr=0xd0010728)
+[E : PPU[1] Thread (CPUThread)[0x0013a10c]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x0013a040]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x1178880, flag_bits_addr=0xd00109ec, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0013a100]]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0013a01c]]: cellSpurs error: cellSpursEventFlagDetachLv2EventQueue(event_flag_addr=0x1178880)
+[E : PPU[1] Thread (CPUThread)[0x0013a094]]: cellSpurs error: cellSpursShutdownTaskset(taskset_addr=0x1178900)
+[E : PPU[1] Thread (CPUThread)[0x0013a088]]: cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x1178900)
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [nld] (): id = 129
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x1405a0, arg_addr=0x0, options=0x1)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROPCONF.SFM')
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 96
+[! : RSXThread]: *** fp data size = 32
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 3) in vec4 in_col0;
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+out vec4 col0;
+out vec4 tc0;
+uniform vec4 vc257;
+uniform vec4 vc256;
+uniform vec4 vc258;
+uniform vec4 vc259;
+vec4 tmp0;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	col0 = in_col0;
+	tmp0 = (in_pos.yyyy * vc257);
+	tc0.xy = in_tc0.xyxx.xy;
+	tmp0 = (in_pos.xxxx * vc256 + tmp0);
+	tmp0 = (in_pos.zzzz * vc258 + tmp0);
+	gl_Position = (vc259 + tmp0);
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 col0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	r0 = (r0 * col0);
+	ocol = r0;
+}
+
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\ICON0.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP000.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP001.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP002.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP003.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP004.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP005.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP006.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP007.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP008.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP009.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP010.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP011.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP012.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP013.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP014.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP015.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP016.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP017.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP018.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP019.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP020.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP021.PNG')
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP022.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP023.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP024.PNG')
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP025.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP026.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP027.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP028.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP029.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROP030.PNG')
+[W : PPU[1] Thread (CPUThread)[0x01214004]]: vfsLocalFile::Create('F:\Ps3 game\dev_hdd0\home\00000001\trophy\NPWR03729_00\TROPUSR.DAT')
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 130
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 131
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 132
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [dir] (attribute=0x21): sq_id = 133
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [req] (attribute=0x21): sq_id = 134
+[E : PPU[1] Thread (CPUThread)[0x00138034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/data.dar" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 135
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [fpl] (attribute=0x21): sq_id = 136
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [dir] (attribute=0x21): sq_id = 137
+[W : PPU[1] Thread (CPUThread)[0x01220034]]: sys_lwmutex warning: *** lwmutex created [req] (attribute=0x21): sq_id = 138
+[E : PPU[1] Thread (CPUThread)[0x00138034]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/voice.dar" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00134034]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x200000,offset_addr=0x1178488)
+[W : PPU[1] Thread (CPUThread)[0x00134034]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x33400000,size=0x100000,offset_addr=0x3010014c)
+[W : PPU[1] Thread (CPUThread)[0x00019cb8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=129, vptr_addr=0xd0010b10)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (720x480)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : RSXThread]: New FBO (1280x720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[129] Thread (nld)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[1] Thread (CPUThread)[0x0013e034]]: TODO: cellSysutilEnableBgmPlayback
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[! : PPU[1] Thread (CPUThread)[0x0122001c]]: *** New PPU Thread [save] (): id = 139
+[E : PPU[139] Thread (save)[0x0013e0d0]]: TODO: cellSaveDataAutoLoad2
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (1):
+[! : RSXThread]: *** prog id = 4
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 112
+[! : RSXThread]: *** fp data size = 48
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 3) in vec4 in_col0;
+layout (location = 4) in vec4 in_col1;
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+out vec4 col0;
+out vec4 col1;
+out vec4 tc0;
+uniform vec4 vc257;
+uniform vec4 vc467;
+uniform vec4 vc256;
+uniform vec4 vc259;
+uniform vec4 vc466;
+vec4 tmp0;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	col0 = in_col0;
+	col1 = in_col1;
+	tmp0 = (in_pos.yyyy * vc257);
+	tc0.xy = (in_tc0.xyxx * vc467.xyxx).xy;
+	tmp0 = (in_pos.xxxx * vc256 + tmp0);
+	tmp0 = (vc259 + tmp0);
+	gl_Position = (vc466.xxxx + tmp0);
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+in vec4 col1;
+in vec4 col0;
+uniform sampler2D tex0;
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	r1.xyz = col1.xyz;
+	r0 = (r0 * col0 + r1);
+	ocol = r0;
+}
+
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[W : RSXThread]: New FBO (720x480)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[W : RSXThread]: New FBO (1280x720)
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[E : PPU[80] Thread (synth2se)[0x0120c028]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c028]]: cellResc warning: cellRescAdjustAspectRatio(horizontal=1.000000, vertical=1.000000)
+[W : PPU[1] Thread (CPUThread)[0x0013c070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1000000,pitch=4,width=1280,height=720)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x00134004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[E : PPU[1] Thread (CPUThread)[0x00134028]]: TODO: cellGcmGetVBlankCount
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : RSXThread]: null cmd: addr=0x5000380c, put=0x28380000, get=0x380c
+[W : Audio Thread]: Audio aborted
+[W : PPU[80] Thread (synth2se)[0x000ce654]]: sys_event_queue_receive(equeue=77) aborted
+[W : PPU[50] Thread (_sys_mixerSurBusReq)[0x000c50c4]]: sys_cond_wait(id=45) aborted
+[W : PPU[1] Thread (CPUThread)[0x01220004]]: sys_lwmutex_t::lock(sq=72) aborted
+[W : PPU[42] Thread (_sys_MixerChStripMain)[0x000cbb38]]: sys_cond_wait(id=41) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
