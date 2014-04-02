@@ -1,0 +1,208 @@
+[!]: path: /dev_hdd0/game/
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'F:\Ps3 game\dev_hdd0\game\BLJM60430 - [Maji de Watashi ni Koi Shinasai R]\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> F:\Ps3 game\dev_hdd0
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6415/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6415/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6415/dev_usb000/
+[!]: /app_home/ -> F:\Ps3 game\dev_hdd0\game\BLJM60430 - [Maji de Watashi ni Koi Shinasai R]\
+[!]: /dev_bdvd/ -> F:\Ps3 game\dev_hdd0\game\BLJM60430 - [Maji de Watashi ni Koi Shinasai R]\/../
+[!]: /host_root/ -> 
+[!]: / -> F:\Ps3 game\dev_hdd0\game\BLJM60430 - [Maji de Watashi ni Koi Shinasai R]\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x7f13fc8c in 'sys_fs' module
+[E]: TODO: cellFsAioCancel
+[W]: Unknown function 0x8cb722d5 in 'sys_fs' module
+[E]: TODO: cellFsWriteWithOffset
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x66f5e388 in 'cellResc' module
+[E]: TODO: cellRescGetLastFlipTime
+[W]: Unknown function 0xd3758645 in 'cellResc' module
+[E]: TODO: cellRescSetVBlankHandler
+[W]: Unknown function 0xe0cef79e in 'cellResc' module
+[E]: TODO: cellRescCreateInterlaceTable
+[W]: Unknown function 0x63387071 in 'cellGcmSys' module
+[E]: TODO: cellGcmGetLastFlipTime
+[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
+[E]: TODO: cellGcmGetVBlankCount
+[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReport
+[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
+[E]: TODO: cellGcmGetReportDataLocation
+[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
+[E]: TODO: cellGcmSetGraphicsHandler
+[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
+[E]: TODO: cellGcmSetVBlankFrequency
+[W]: Unknown function 0x33435818 in 'cellL10n' module
+[E]: TODO: SJISstoUTF8s
+[W]: Unknown function 0x0791015f in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckStartAsyncEx
+[W]: Unknown function 0x10dae56d in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateTerm
+[W]: Unknown function 0x99ab1a26 in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateInit
+[W]: Unknown function 0xf463981c in 'cellNetCtl' module
+[E]: TODO: cellGameUpdateCheckFinishAsyncEx
+[W]: Unknown function 0x117cd726 in 'cellPngEnc' module
+[E]: TODO: cellPngEncClose
+[W]: Unknown function 0x19256dc5 in 'cellPngEnc' module
+[E]: TODO: cellPngEncOpen
+[W]: Unknown function 0x496cfcd0 in 'cellPngEnc' module
+[E]: TODO: cellPngEncQueryAttr
+[W]: Unknown function 0x585269bc in 'cellPngEnc' module
+[E]: TODO: cellPngEncGetStreamInfo
+[W]: Unknown function 0x5b546ca4 in 'cellPngEnc' module
+[E]: TODO: cellPngEncEncodePicture
+[W]: Unknown function 0x662bd637 in 'cellPngEnc' module
+[E]: TODO: cellPngEncWaitForInput
+[W]: Unknown function 0x90ef2963 in 'cellPngEnc' module
+[E]: TODO: cellPngEncWaitForOutput
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x001f9564]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x00075fbc]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x00392034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_DMUX_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VPOST)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_AVC)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ADEC_ATX)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGENC)
+[W : PPU[1] Thread (CPUThread)[0x00370010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+[W : PPU[1] Thread (CPUThread)[0x0027a0a0]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x286a90, userdata=0x0)
+[E : PPU[1] Thread (CPUThread)[0x00380034]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[1] Thread (CPUThread)[0x00380010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x2eca08, usrdirPath_addr=0x2eca88)
+[W : PPU[1] Thread (CPUThread)[0x00276070]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x251048 (/dev_bdvd/PS3_GAME/USRDIR))
+[W : PPU[1] Thread (CPUThread)[0x00276070]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x2eca88 (/dev_hdd0/game/BLJM60430/USRDIR))
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA00.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00031dd4]]: Read32 from null block: [00000004]
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA01.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA01.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA02.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA02.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA03.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA03.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA04.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA04.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA05.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA05.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA06.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA06.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA07.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA07.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA08.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA08.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA09.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA09.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA10.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA10.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA15.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA15.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA16.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA16.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA17.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA17.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/USRDIR/DATA18.BIN" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA18.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/PIC1.PNG" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/ICON0.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276034]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/BLJM60430/ICON0.PNG" not found.
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/PIC1.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA01.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA02.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA03.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA04.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA05.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA06.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA07.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA08.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA09.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA10.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA15.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA16.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA17.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/DATA18.BIN" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/ICON0.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00276010]]: sys_fs warning: cellFsClose(fd=0)
+[E : PPU[1] Thread (CPUThread)[0x00276028]]: sys_fs error: "/dev_bdvd/PS3_GAME/USRDIR/DATA/PIC1.PNG" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x0027e028]]: cellGcmSys warning: cellGcmInit(context_addr=0x328314,cmdSize=0x10000,ioSize=0x1000000,ioAddress=0x30300000)
+[W : PPU[1] Thread (CPUThread)[0x0027e028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x0027e028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30300000, io=0x0, size=0x1000000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x0027e004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[W : PPU[1] Thread (CPUThread)[0x0027c07c]]: cellResc warning: cellRescInit(initConfig_addr=0xd0010a94)
+[W : PPU[1] Thread (CPUThread)[0x0027c04c]]: cellResc warning: cellRescSetDisplayMode(displayMode=1)
+[W : PPU[1] Thread (CPUThread)[0x0027c04c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0027c04c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x0027c088]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd0010a60, vertexArray_addr=0xd0010a58, fragmentShader_addr=0xd0010a5c)
+[W : PPU[1] Thread (CPUThread)[0x0027c0ac]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0e80000, vertexArray_addr=0xc1600000, fragmentShader_addr=0xc1600400)
+[W : PPU[1] Thread (CPUThread)[0x0027c0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xe80000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x0027c0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x1000000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x0027e10c]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x31400000,size=0x100000,offset_addr=0x2c3e24)
+[W : PPU[1] Thread (CPUThread)[0x0027e16c]]: cellGcmSys warning: cellGcmSetDefaultCommandBuffer()
+[W : PPU[1] Thread (CPUThread)[0x0027c0a0]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
