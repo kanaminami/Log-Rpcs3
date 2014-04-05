@@ -17,8 +17,28 @@
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61067-[DISORDER6]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61067-[DISORDER6]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61067-[DISORDER6]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM61067-[DISORDER6]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANAddData' hooked (addr=0x2d988c)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x2d98e4)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x2d991c)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x2d99b0)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x2da1e8)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x2dbacc)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x2dbb9c)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x2dbea4)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x2dc524)
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [surmxAAN] failed: missing;
+[E]: Function 'cellSurMixerSurBusAddData' not found
+[E]: Function 'cellSurMixerChStripSetParameter' not found
+[E]: Function 'cellSurMixerPause' not found
+[E]: Function 'cellSurMixerGetCurrentBlockTag' not found
+[E]: Function 'cellSurMixerGetTimestamp' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown module 'cellPhotoUtility'
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
@@ -673,3 +693,11 @@
 [W : PPU[1] Thread (CPUThread)[0x0041f040]]: sys_fs warning: cellFsStat: "aaa" not found.
 [W : PPU[1] Thread (CPUThread)[0x0041f040]]: sys_fs warning: cellFsStat: "disorder6.rio" not found.
 [W : PPU[1] Thread (CPUThread)[0x0041f040]]: sys_fs warning: cellFsStat: "disorder6.rio.ici" not found.
+[W : PPU[1] Thread (CPUThread)[0x0041f040]]: sys_fs warning: cellFsStat: "DF_CHYUMARUGOTHIC%$-B$-A.rfr" not found.
+[W : PPU[1] Thread (CPUThread)[0x0041f040]]: sys_fs warning: cellFsStat: "DF_CHYUMARUGOTHIC%$-B$-A.rfr" not found.
+[W : PPU[1] Thread (CPUThread)[0x0041f040]]: sys_fs warning: cellFsStat: "DF_CHYUMARUGOTHIC%$-B$-A.rfr" not found.
+[W : PPU[1] Thread (CPUThread)[0x0030783c]]: SysCall 988! r3: 0x4, r4: 0x0, pc: 0x30783c
+[W : PPU[1] Thread (CPUThread)[0x00499118]]: Process warning: sys_process_exit(1)
+[S : PPU[1] Thread (CPUThread)[0x00499118]]: Process finished
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

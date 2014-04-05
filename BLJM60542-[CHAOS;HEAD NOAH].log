@@ -17,8 +17,28 @@
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJM60542-[CHAOS;HEAD NOAH]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANAddData' hooked (addr=0x298b28)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x298b80)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x298bb8)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x298c4c)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x299484)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x29ad68)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x29ae38)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x29b140)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x29b7c0)
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [surmxAAN] failed: missing;
+[E]: Function 'cellSurMixerSurBusAddData' not found
+[E]: Function 'cellSurMixerChStripSetParameter' not found
+[E]: Function 'cellSurMixerPause' not found
+[E]: Function 'cellSurMixerGetCurrentBlockTag' not found
+[E]: Function 'cellSurMixerGetTimestamp' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown function 0x63387071 in 'cellGcmSys' module
 [E]: TODO: cellGcmGetLastFlipTime
 [W]: Unknown function 0x99d397ac in 'cellGcmSys' module
