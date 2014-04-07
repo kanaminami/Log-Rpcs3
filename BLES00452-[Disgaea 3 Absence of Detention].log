@@ -13,16 +13,32 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00452-[Disgaea 3 Absence of Detention]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
+[!]: Function 'cellAANConnect' hooked (addr=0x24a130)
+[!]: Function 'cellAANDisconnect' hooked (addr=0x24a1c8)
+[!]: Function 'cellAANAddData' hooked (addr=0x24a260)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x24a3c0)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x24a3f8)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x24a490)
+[!]: Function 'cellSurMixerSurBusAddData' hooked (addr=0x24a528)
+[!]: Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0x24a5e8)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x24aec8)
+[!]: Function 'cellSurMixerBeep' hooked (addr=0x24af08)
+[!]: Function 'cellSurMixerChStripSetParameter' hooked (addr=0x24b300)
+[!]: Function 'cellSurMixerPause' hooked (addr=0x24b5c0)
+[!]: Function 'cellSurMixerGetTimestamp' hooked (addr=0x24cc58)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x24ccc0)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x24cd90)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x24d0a0)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x24d980)
+[S]: Function group [surmxAAN] successfully hooked
+[S]: Function group [surmixer] successfully hooked
 [W]: Unknown function 0xc9645c41 in 'cellSysutil' module
 [E]: TODO: cellGameDataCheckCreate2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
@@ -87,8 +103,6 @@
 [E]: TODO: sceNpScoreGetBoardInfoAsync
 [W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
 [E]: TODO: sceNpManagerRegisterCallback
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
 [E]: TODO: sceNpScoreRecordScoreAsync
 [W]: Unknown function 0xf76847c2 in 'sceNp' module
@@ -117,12 +131,12 @@
 [W : PPU[1] Thread (CPUThread)[0x0029d07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x2a0578, userdata=0x0)
 [! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [Check game data thread] (): id = 15
 [W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: sys_memory_container_create(cid_addr=0xd0020dd0, yield_size=0x300000)
-[W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: *** memory_container created(addr=0x30100000): id = 16
-[E : PPU[15] Thread (Check game data thread)[0x0029d094]]: TODO: cellGameDataCheckCreate2
-[W : PPU[15] Thread (Check game data thread)[0x0001531c]]: memory warning: sys_memory_container_destroy(cid=16)
 [W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [W : PPU[1] Thread (CPUThread)[0x01f27004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010bd0)
+[W : PPU[15] Thread (Check game data thread)[0x000152f4]]: memory warning: *** memory_container created(addr=0x30100000): id = 16
+[E : PPU[15] Thread (Check game data thread)[0x0029d094]]: TODO: cellGameDataCheckCreate2
+[W : PPU[15] Thread (Check game data thread)[0x0001531c]]: memory warning: sys_memory_container_destroy(cid=16)
 [W : PPU[1] Thread (CPUThread)[0x0029f01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [E : PPU[1] Thread (CPUThread)[0x01f37034]]: TODO: sceNpScoreInit
@@ -169,207 +183,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f1c02c, group=0x11, spu_num=5, img_addr=0x1f1bec0, attr_addr=0xd0010a30, arg_addr=0xd0010a50)
 [W : PPU[1] Thread (CPUThread)[0x00017354]]: sys_spu warning: *** New SPU Thread [NGS_Thread5] (img_offset=0x1f43000, ls_offset=0x20c3000, ep=0x90, a1=0x1f1c0b0, a2=0x1f1c160, a3=0x0, a4=0x1f1c194): id=23
 [W : PPU[1] Thread (CPUThread)[0x00017380]]: sys_spu warning: sys_spu_thread_group_start(id=17)
-[W : PPU[1] Thread (CPUThread)[0x01f1f0a0]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x27f9b8 (/dev_bdvd/PS3_GAME/USRDIR))
-[W : PPU[1] Thread (CPUThread)[0x01f1f0a0]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x27f9d8 (/app_home))
-[W : PPU[1] Thread (CPUThread)[0x01f1f0a0]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x27f9e8 (/dev_hdd0))
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_DATE_FORMAT
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIME_FORMAT
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_GAME_PARENTAL_LEVEL
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USER_HAS_NP_ACCOUNT
-[W : PPU[1] Thread (CPUThread)[0x0029d040]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_CAMERA_PLFREQ
-[W : PPU[1] Thread (CPUThread)[0x0029d070]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_NICKNAME
-[W : PPU[1] Thread (CPUThread)[0x0029d070]]: cellSysutil warning: cellSysutilGetSystemParamString: CELL_SYSUTIL_SYSTEMPARAM_ID_CURRENT_USERNAME
-[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/NisAnmShadow.txf"): fd = 24
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=24, offset=0x0, buf_addr=0x32326000, size=0x1010, error=0x0, res=0x1010, xid=0x0 [])
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 25
-[W : PPU[1] Thread (CPUThread)[0x0029d088]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
-[W : PPU[1] Thread (CPUThread)[0x0029d04c]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010af4, option_addr=0x0, (!)waitForEvent=0)
-[W : PPU[1] Thread (CPUThread)[0x0029d0a0]]: cellSysutil warning: cellAudioOutSetCopyControl(audioOut=0,control=1)
-[W : PPU[1] Thread (CPUThread)[0x002497a0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
-[W : PPU[1] Thread (CPUThread)[0x00249914]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x1f05890, num=1, prio=100, attr_addr=0x1f05984)
-[W : PPU[1] Thread (CPUThread)[0x00249914]]: sys_spu warning: *** SPU Thread Group created [_synth2 Group] (type=0x0, option.ct=0x0): id=27
-[W : PPU[1] Thread (CPUThread)[0x01f3f100]]: sysPrxForUser warning: sys_spu_image_import(img=0x1f05894, src=0x287d00, type=0x1)
-[W : PPU[1] Thread (CPUThread)[0x01f3f100]]: desc = 'synth2.elf'
-[W : PPU[1] Thread (CPUThread)[0x00249a14]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x1f0588c, group=0x1b, spu_num=0, img_addr=0x1f05894, attr_addr=0x1f05994, arg_addr=0x1f059a0)
-[W : PPU[1] Thread (CPUThread)[0x00249a14]]: sys_spu warning: *** New SPU Thread [_synth2 Thread] (img_offset=0x2103000, ls_offset=0x2143000, ep=0x100, a1=0x1f05900, a2=0x0, a3=0x0, a4=0x0): id=28
-[W : PPU[1] Thread (CPUThread)[0x00249ffc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1e7e228, attr_addr=0x1e7e230, event_queue_key=0x0, size=32)
-[W : PPU[1] Thread (CPUThread)[0x00249ffc]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 29
-[W : PPU[1] Thread (CPUThread)[0x0024a018]]: sys_spu warning: sys_spu_thread_connect_event(id=28, eq_id=29, event_type=0x1, spup=58)
-[W : PPU[1] Thread (CPUThread)[0x0024a038]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1e7e22c, attr_addr=0x1e7e230, event_queue_key=0x0, size=32)
-[W : PPU[1] Thread (CPUThread)[0x0024a038]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 30
-[W : PPU[1] Thread (CPUThread)[0x0024a050]]: sys_event warning: sys_event_port_create(eport_id_addr=0x1e7e240, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0024a050]]: sys_event warning: *** sys_event_port created: id = 31
-[W : PPU[1] Thread (CPUThread)[0x0024a060]]: sys_event warning: sys_event_port_connect_local(eport_id=31, equeue_id=30)
-[W : PPU[1] Thread (CPUThread)[0x0024a078]]: sys_spu warning: sys_spu_thread_bind_queue(id=28, equeue_id=30, spuq_num=0x1012000)
-[W : PPU[1] Thread (CPUThread)[0x00249a48]]: sys_spu warning: sys_spu_thread_group_start(id=27)
-[W : PPU[1] Thread (CPUThread)[0x01f23004]]: cellAudio warning: cellAudioInit()
-[! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010b08, portNum_addr=0xd0010af0)
-[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x0, level=0.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x01f23040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0010b28)
-[W : PPU[1] Thread (CPUThread)[0x01f3f0d0]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x287350, align=0x30000, size=0x110000)
-[W : PPU[1] Thread (CPUThread)[0x01f3f0d0]]: sys_heap warning: *** sys_heap created: id = 32
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x1080)
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 33
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x1c8)
-[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x14)
-[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x14)
-[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr100] (attribute=0x22): sq_id = 34
-[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x8)
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr201] (attribute=0x22): sq_id = 35
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x88)
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr202] (attribute=0x22): sq_id = 36
-[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x60)
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr603] (attribute=0x22): sq_id = 37
-[W : PPU[1] Thread (CPUThread)[0x01f3f04c]]: sys_heap warning: sys_heap_malloc(heap_id=32, size=0x4)
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x60)
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr804] (attribute=0x22): sq_id = 38
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x4e00)
-[W : PPU[1] Thread (CPUThread)[0x0025452c]]: sys_mutex warning: *** mutex created [_mxr020] (protocol=0x2, recursive=false): id = 39
-[W : PPU[1] Thread (CPUThread)[0x00254550]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 40
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [_sys_MixerChStripMain] (): id = 41
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr022] (attribute=0x22): sq_id = 42
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x4e80)
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x10b00)
-[W : PPU[1] Thread (CPUThread)[0x01f3f064]]: sys_heap warning: _sys_heap_memalign(heap_id=32, align=0x10, size=0x8400)
-[W : PPU[1] Thread (CPUThread)[0x0024c854]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 43
-[W : PPU[1] Thread (CPUThread)[0x0024c878]]: sys_cond warning: *** condition created [] (mutex_id=43): id = 44
-[W : PPU[1] Thread (CPUThread)[0x0024c904]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 45
-[W : PPU[1] Thread (CPUThread)[0x0024c928]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 46
-[W : PPU[1] Thread (CPUThread)[0x0024c9ac]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 47
-[W : PPU[1] Thread (CPUThread)[0x0024c9d0]]: sys_cond warning: *** condition created [] (mutex_id=47): id = 48
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 49
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 50
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 51
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [_cellsurMixerMain] (): id = 52
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 53
-[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x1f05f24, attr_addr=0x1f06fd0, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x1f05f68, portNum_addr=0x1f05ed8)
-[W : PPU[52] Thread (_cellsurMixerMain)[0x0024ec54]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 54
-[W : PPU[1] Thread (CPUThread)[0x01f23064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 1
-[W : PPU[1] Thread (CPUThread)[0x01f23040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x1f05f88)
-[W : PPU[1] Thread (CPUThread)[0x00016218]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 55
-[W : PPU[1] Thread (CPUThread)[0x0001623c]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [synth2_generate] (): id = 57
-[W : PPU[1] Thread (CPUThread)[0x01f2304c]]: cellAudio warning: cellAudioPortStart(portNum=0x1)
-[W : PPU[1] Thread (CPUThread)[0x01f23010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
-[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [NisAt3Line0] (): id = 58
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [NisAt3Line1] (): id = 59
-[! : PPU[1] Thread (CPUThread)[0x01f3f01c]]: *** New PPU Thread [NisAt3Line2] (): id = 60
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_0.pak"): fd = 61
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_1.pak"): fd = 62
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/SOUND/SndPak_2.pak"): fd = 63
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_3.pak"): fd = 64
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_4.pak"): fd = 65
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_5.pak"): fd = 66
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_6.pak"): fd = 67
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_7.pak"): fd = 68
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_8.pak"): fd = 69
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_9.pak"): fd = 70
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/SOUND/SndPak_10.pak"): fd = 71
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x0, buf_addr=0x1e79000, size=0x1dc, error=0x0, res=0x1dc, xid=0x1 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=62, offset=0x0, buf_addr=0x1e78000, size=0x927c, error=0x0, res=0x927c, xid=0x2 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=63, offset=0x0, buf_addr=0x1e6f000, size=0x9264, error=0x0, res=0x9264, xid=0x3 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=64, offset=0x0, buf_addr=0x1e66954, size=0x24, error=0x0, res=0x24, xid=0x4 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=65, offset=0x0, buf_addr=0x1e6692c, size=0x2c, error=0x0, res=0x2c, xid=0x5 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=66, offset=0x0, buf_addr=0x1e66000, size=0x1ab4, error=0x0, res=0x1ab4, xid=0x6 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=67, offset=0x0, buf_addr=0x1e64000, size=0x1abc, error=0x0, res=0x1abc, xid=0x7 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=68, offset=0x0, buf_addr=0x1e63384, size=0x54, error=0x0, res=0x54, xid=0x8 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=69, offset=0x0, buf_addr=0x1e6332c, size=0x5c, error=0x0, res=0x5c, xid=0x9 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=70, offset=0x0, buf_addr=0x1e632cc, size=0x54, error=0x0, res=0x54, xid=0xa [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=71, offset=0x0, buf_addr=0x1e63274, size=0x1f4, error=0x0, res=0x1f4, xid=0xb [])
-[E : PPU[1] Thread (CPUThread)[0x00297004]]: sys_io error: cellPadInfoPressMode(port_no=0)
-[E : PPU[1] Thread (CPUThread)[0x00297034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
-[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_eu.dat"): fd = 72
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=72, offset=0x0, buf_addr=0xd0010828, size=0x800, error=0x0, res=0x800, xid=0xc [])
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0x800, buf_addr=0x1e79a14, size=0x60c, error=0x0, res=0x60c, xid=0xd [])
-[W : PPU[1] Thread (CPUThread)[0x01f3304c]]: cellPamf warning: cellPamfGetHeaderSize(pAddr=0xd0010028, fileSize=413009920, pSize_addr=0xd00108d0)
-[W : PPU[1] Thread (CPUThread)[0x01f3301c]]: cellPamf warning: cellPamfGetStreamOffsetAndSize(pAddr=0xd0010028, fileSize=413009920, pOffset_addr=0xd000fff0, pSize_addr=0xd000fff8)
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=72, offset=0x0, buf_addr=0x36ca5820, size=0x800, error=0x0, res=0x800, xid=0xe [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=61, offset=0xe40, buf_addr=0x3303f000, size=0x339131, error=0x0, res=0x339131, xid=0xf [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f010]]: sys_fs warning: cellFsClose(fd=72)
-[W : PPU[1] Thread (CPUThread)[0x01f33040]]: cellPamf warning: cellPamfReaderInitialize(pSelf=0xd00108e8, pAddr=0x36ca5020, fileSize=413009920, attribute=0x1)
-[W : PPU[1] Thread (CPUThread)[0x01f33058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00108e8, streamType=20)
-[W : PPU[1] Thread (CPUThread)[0x01f33010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00108e8, streamType=20, streamIndex=0)
-[W : PPU[1] Thread (CPUThread)[0x01f33034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00108e8 (stream=0), pType_addr=0xd0010a48, pCh_addr=0xd0010810
-[W : PPU[1] Thread (CPUThread)[0x01f33004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=0, ch=0, pEsFilterId_addr=0xd0010814)
-[W : PPU[1] Thread (CPUThread)[0x01f33028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00108e8 (stream=0), pInfo_addr=0xd0010824, size=32)
-[W : PPU[1] Thread (CPUThread)[0x01f33028]]: cellPamf warning: cellPamfReaderGetStreamInfo: CELL_PAMF_STREAM_TYPE_AVC
-[W : PPU[1] Thread (CPUThread)[0x01f33058]]: cellPamf warning: cellPamfReaderGetNumberOfSpecificStreams(pSelf=0xd00108e8, streamType=21)
-[W : PPU[1] Thread (CPUThread)[0x01f33010]]: cellPamf warning: cellPamfReaderSetStreamWithTypeAndIndex(pSelf=0xd00108e8, streamType=21, streamIndex=0)
-[W : PPU[1] Thread (CPUThread)[0x01f33034]]: cellPamf warning: cellPamfReaderGetStreamTypeAndChannel(pSelf=0xd00108e8 (stream=1), pType_addr=0xd0010a18, pCh_addr=0xd0010830
-[E : PPU[1] Thread (CPUThread)[0x01f33034]]: cellPamf error: TODO: pamfGetStreamChannel (-> 0)
-[W : PPU[1] Thread (CPUThread)[0x01f33004]]: cellPamf warning: cellPamfStreamTypeToEsFilterId(type=2, ch=0, pEsFilterId_addr=0xd001083c)
-[W : PPU[1] Thread (CPUThread)[0x01f33028]]: cellPamf warning: cellPamfReaderGetStreamInfo(pSelf=0xd00108e8 (stream=1), pInfo_addr=0xd0010834, size=8)
-[W : PPU[1] Thread (CPUThread)[0x0029f004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/Data/dis3_0_eu.dat"): fd = 73
-[W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
-[W : PPU[1] Thread (CPUThread)[0x0002524c]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
-[W : PPU[1] Thread (CPUThread)[0x0029f010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_DMUX_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x01f31064]]: cellDmux warning: cellDmuxQueryAttr(demuxerType_addr=0x5b5670, demuxerAttr_addr=0xd0010878)
-[W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 76
-[W : PPU[1] Thread (CPUThread)[0x0002524c]]: sys_cond warning: *** condition created [] (mutex_id=76): id = 77
-[W : PPU[1] Thread (CPUThread)[0x01f31040]]: cellDmux warning: cellDmuxOpen(demuxerType_addr=0x5b5670, demuxerResource_addr=0xd0010884, demuxerCb_addr=0xd0010870, demuxerHandle_addr=0x5b567c)
-[! : Demuxer[79] Thread]: Demuxer enter (mem=0x36ea5120, size=0x10000, cb=0x2a13f0, arg=0x5b5650)
-[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x5b5670, esFilterId_addr=0xd0010a4c, esSpecificInfo_addr=0xd0010a5c, esAttr_addr=0xd0010870)
-[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: *** filter(0xe0, 0x0, 0x1, 0x0)
-[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=79, esFilterId_addr=0xd0010a4c, esResourceInfo_addr=0xd0010874, esCb_addr=0xd001087c, esSpecificInfo_addr=0xd0010a5c, esHandle_addr=0x36eb5120)
-[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x36eb5180, size=0x500020, filter(0xe0, 0x0, 0x1, 0x0), cb=0x2a1530(arg=0x5b54d0), spec=0xd0010a5c): id = 80
-[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: cellDmuxQueryEsAttr(demuxerType_addr=0x5b5670, esFilterId_addr=0xd0010a1c, esSpecificInfo_addr=0xd0010a2c, esAttr_addr=0xd0010870)
-[W : PPU[1] Thread (CPUThread)[0x01f31004]]: cellDmux warning: *** filter(0xbd, 0x0, 0x0, 0x0)
-[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: cellDmuxEnableEs(demuxerHandle=79, esFilterId_addr=0xd0010a1c, esResourceInfo_addr=0xd0010874, esCb_addr=0xd001087c, esSpecificInfo_addr=0xd0010a2c, esHandle_addr=0x36eb5140)
-[W : PPU[1] Thread (CPUThread)[0x01f3104c]]: cellDmux warning: *** New ES(dmux=79, addr=0x373b5180, size=0x8020, filter(0xbd, 0x0, 0x0, 0x0), cb=0x2a11e8(arg=0x5b55d8), spec=0xd0010a2c): id = 81
-[W : PPU[1] Thread (CPUThread)[0x01f3f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 82
-[W : PPU[1] Thread (CPUThread)[0x0029b034]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2758112)
-[W : PPU[1] Thread (CPUThread)[0x000251f8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 83
-[W : PPU[1] Thread (CPUThread)[0x0002524c]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
-[E : PPU[1] Thread (CPUThread)[0x00297004]]: sys_io error: cellPadInfoPressMode(port_no=0)
-[E : PPU[1] Thread (CPUThread)[0x00297034]]: sys_io error: cellPadInfoSensorMode(port_no=0)
-[W : PPU[1] Thread (CPUThread)[0x01f370b8]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0x278220, drm_path_addr=0xd00109e0)
-[W : PPU[1] Thread (CPUThread)[0x01f370b8]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /Data/START_fr.edat
-[W : PPU[1] Thread (CPUThread)[0x01f370b8]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4e49535f44495347414541335f4e4953
-[E : PPU[1] Thread (CPUThread)[0x01f370b8]]: EDAT: Failed to open files!
-
-[W : PPU[1] Thread (CPUThread)[0x01f1f034]]: *** cellFsOpen(path="/Data/START_fr.edat"): fd = 85
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de888, id_addr=0x2de8b4, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=85, offset=0x0, buf_addr=0xd0010939, size=0x8, error=0x0, res=0x8, xid=0x10 [])
-[W : fsAioRead]: *** fsAioRead(fd=62, offset=0xa000, buf_addr=0x1e7b000, size=0x132c, error=0x0, res=0x132c, xid=0x11 [])
-[W : PPU[1] Thread (CPUThread)[0x01f1f010]]: sys_fs warning: cellFsClose(fd=85)
-[W : PPU[1] Thread (CPUThread)[0x01f1f094]]: sys_fs warning: cellFsAioRead(aio_addr=0x2de828, id_addr=0x2de854, func_addr=0x2a06c0)
-[W : fsAioRead]: *** fsAioRead(fd=62, offset=0xb340, buf_addr=0x3290a000, size=0x4e5d51, error=0x0, res=0x4e5d51, xid=0x12 [])
-[E : PPU[1] Thread (CPUThread)[0x000b439c]]: Read16 from null block: [00000194]
-[W : Audio Thread]: Audio aborted
-[W : Demuxer[79] Thread]: Demuxer aborted
-[W : PPU[49] Thread (_sys_mixerSurBusReq)[0x0024bb24]]: sys_cond_wait(id=44) aborted
-[W : PPU[57] Thread (synth2_generate)[0x00249f30]]: sys_event_queue_receive(equeue=29) aborted
-[W : PPU[41] Thread (_sys_MixerChStripMain)[0x0025359c]]: sys_cond_wait(id=40) aborted
+[E : SPU[18] Thread (NGS_Thread1)[0x00001df8]]: SPURecompiler::HEQI #pc: 0x1df8
+[E : SPU[19] Thread (NGS_Thread2)[0x00001df8]]: SPURecompiler::HEQI #pc: 0x1df8
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

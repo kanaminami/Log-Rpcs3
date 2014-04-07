@@ -13,18 +13,17 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
 [W]: Unknown function 0x60eb2dec in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChain
 [W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
@@ -304,13 +303,13 @@
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/loading_3_fr.gtf.mxf"): fd = 30
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=30)
 [! : PPU[1] Thread (CPUThread)[0x0028001c]]: *** New PPU Thread [LoadingScreen] (): id = 31
-[E : PPU[31] Thread (LoadingScreen)[0x0026604c]]: TODO: cellPadSetPressMode
+[E : PPU[31] Thread (LoadingScreen)[0x0026604c]]: sys_io error: cellPadSetPressMode(port_no=0)
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
 [W : RSXThread]: FP not found in buffer!
-[W : RSXThread]: VP not found in buffer!
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
+[W : RSXThread]: VP not found in buffer!
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
@@ -858,11 +857,11 @@ void main()
 [W : PPU[1] Thread (CPUThread)[0x0026e004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x0026e058]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010a30, portNum_addr=0x11fdb0)
-[W : PPU[1] Thread (CPUThread)[0x0026e058]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=16, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x0026e058]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=16, attr=0x0, level=1.000000): port = 0
 [E : PPU[1] Thread (CPUThread)[0x0026e01c]]: cellAudio error: cellAudioSetPortLevel(portNum=0x0, level=0.090000)
 [W : PPU[1] Thread (CPUThread)[0x0026e034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x11fd70)
 [W : PPU[1] Thread (CPUThread)[0x0026e058]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010a30, portNum_addr=0x11fdb4)
-[W : PPU[1] Thread (CPUThread)[0x0026e058]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=16, attr=0x0, level=0.000000): port = 1
+[W : PPU[1] Thread (CPUThread)[0x0026e058]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=16, attr=0x0, level=1.000000): port = 1
 [E : PPU[1] Thread (CPUThread)[0x0026e01c]]: cellAudio error: cellAudioSetPortLevel(portNum=0x1, level=0.090000)
 [W : PPU[1] Thread (CPUThread)[0x0026e034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x1, portConfig_addr=0x11fd90)
 [W : PPU[1] Thread (CPUThread)[0x000152d8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 131
@@ -2895,8 +2894,8 @@ void main()
 }
 
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[W : PPU[1] Thread (CPUThread)[0x000421dc]]: sys_event_queue_receive(equeue=23) aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[17] Thread (SpuPrintfHandler)[0x00042e70]]: sys_event_queue_receive(equeue=16) aborted
+[W : PPU[1] Thread (CPUThread)[0x000421dc]]: sys_event_queue_receive(equeue=23) aborted
 [!]: Closing memory...

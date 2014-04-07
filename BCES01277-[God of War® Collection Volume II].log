@@ -13,11 +13,28 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01277-[God of War® Collection Volume II]/PS3_GAME/
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x1c9338)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x1c9370)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x1c9404)
+[!]: Function 'cellSurMixerSurBusAddData' hooked (addr=0x1c9494)
+[!]: Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0x1c9544)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x1c9da0)
+[!]: Function 'cellSurMixerBeep' hooked (addr=0x1c9ddc)
+[!]: Function 'cellSurMixerChStripSetParameter' hooked (addr=0x1ca1b8)
+[!]: Function 'cellSurMixerPause' hooked (addr=0x1ca46c)
+[!]: Function 'cellSurMixerGetTimestamp' hooked (addr=0x1cba84)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x1cbaec)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x1cbbbc)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x1cbec4)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x1cc788)
+[S]: Function group [surmixer] successfully hooked
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x832df17e in 'cellAudio' module
 [E]: TODO: cellAudioAdd6chData
@@ -206,7 +223,7 @@
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=24)
 [W : PPU[1] Thread (CPUThread)[0x00f95034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/common/shaders/2ac6c2dfe8d86041"): fd = 25
 [W : PPU[1] Thread (CPUThread)[0x00f95010]]: sys_fs warning: cellFsClose(fd=25)
-[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xe5399000)
+[W : PPU[1] Thread (CPUThread)[0x00f97064]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x2, aspect=0x0, option=0xc2d57fe0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00f97004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010954, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f9d004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)

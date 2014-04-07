@@ -1,23 +1,23 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620/
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00620\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -936,9 +936,6 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
-[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8867e8, portNum_addr=0x88670c)
-[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x00af1028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x886808)
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
@@ -953,6 +950,9 @@
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
 [E : PPU[33] Thread (flip_thread)[0x00aed118]]: TODO: cellGcmGetReportDataLocation
+[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x8867e8, portNum_addr=0x88670c)
+[W : PPU[1] Thread (CPUThread)[0x00af104c]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x00af1028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x886808)
 [W : PPU[1] Thread (CPUThread)[0x003cb004]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x885700, nSpus=1, spuPriority=250, ppuPriority=4294967295, exitIfNoWork=0)
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
