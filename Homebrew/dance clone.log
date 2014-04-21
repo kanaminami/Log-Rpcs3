@@ -1,15 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateur\Rpcs3\dev_hdd0\game\DANCECLON/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateur\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateur\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateur\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateur\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\DANCECLON/
-[!]: /dev_bdvd/ -> D:\Emulateur\Rpcs3\dev_hdd0\game\DANCECLON/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateur\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
@@ -50,8 +59,6 @@
 [E]: TODO: cellGcmGetVBlankCount
 [W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
 [E]: TODO: cellGcmInitSystemMode
-[W]: Unknown function 0x626e8518 in 'cellGcmSys' module
-[E]: TODO: cellGcmMapEaIoAddressWithFlags
 [W]: Unknown function 0x172c3197 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetDefaultCommandBufferAndSegmentWordSize
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
@@ -144,14 +151,10 @@
 [E]: TODO: cellPadLddGetPortNo
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
 [W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: Unknown func id: 0xdbf4c59c
+[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
 [E]: TODO: cellPadPeriphGetInfo
 [W]: Unknown function 0x8a00f264 in 'sys_io' module
@@ -165,11 +168,11 @@
 [W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
 [W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0020a90,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+[W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0010a90,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00064010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0020b20, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x00064010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010b20, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
 [W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
 [W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
@@ -181,4 +184,3 @@
 [W : PPU[1] Thread (CPUThread)[0x00068004]]: Process warning: sys_process_exit(1)
 [S : PPU[1] Thread (CPUThread)[0x00068004]]: Process finished
 [! : RSXThread]: RSX thread exit...
-[!]: Closing memory...

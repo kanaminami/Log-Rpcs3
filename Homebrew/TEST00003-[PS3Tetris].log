@@ -13,10 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
@@ -101,14 +103,10 @@
 [E]: TODO: cellPadLddGetPortNo
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
 [W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: Unknown func id: 0xdbf4c59c
+[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
 [E]: TODO: cellPadPeriphGetInfo
 [W]: Unknown function 0x8a00f264 in 'sys_io' module
@@ -171,112 +169,14 @@
 [W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
 [W : RawSPU[17] Thread (CPUThread)[0x00000000]]: Starting RawSPU...
 [W : PPU[18] Thread (Control Thread SPU Sound)[0x0005380c]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x670)
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
 [W : PPU[18] Thread (Control Thread SPU Sound)[0x00053814]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: Unknown STOP code: 0x0 (no message)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
-[E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8click.mp3" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
-[E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8beep.mp3" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : RSXThread]: FP not found in buffer!
-[W : RSXThread]: VP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 48
-[! : RSXThread]: *** fp data size = 16
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-uniform vec4 vc0;
-uniform vec4 vc1;
-out vec4 col0;
-layout (location = 0) in vec4 in_pos;
-
-void func0();
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	func0();
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	col0 = vc0;
-	gl_Position.xyz = (vc1 + in_pos).xyz;
-	gl_Position.w = in_pos.w;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 col0;
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	h0 = col0;
-	ocol = h0;
-}
-
-[W : RSXThread]: New FBO (1280x720)
-[W : RSXThread]: FP not found in buffer!
-[W : RSXThread]: VP not found in buffer!
-[! : RSXThread]: Add program (1):
-[! : RSXThread]: *** prog id = 4
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 48
-[! : RSXThread]: *** fp data size = 32
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-uniform vec4 vc0;
-out vec4 col0;
-out vec4 tc0;
-
-void func0();
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	func0();
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	gl_Position = in_pos;
-	col0 = vc0;
-	tc0.xy = in_tc0.xy;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-in vec4 col0;
-uniform sampler2D tex0;
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	r0 = texture(tex0, tc0.xy);
-	h0 = (r0 * col0);
-	ocol = h0;
-}
-
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
+[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
 [! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
-[!]: Closing memory...

@@ -1,22 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\USRDIR\DATA\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space™ Ignition]/
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00338-[Dead Space Ignition]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
@@ -29,14 +31,10 @@
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0x1d344406 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskGetLoadableSegmentPattern
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
@@ -51,8 +49,6 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x7cb33c2e in 'cellSpurs' module
 [E]: TODO: cellSpursTaskGetReadOnlyAreaPattern
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x8adadf65 in 'cellSpurs' module
@@ -61,18 +57,12 @@
 [E]: TODO: cellSpursTaskGetContextSaveAreaSize
 [W]: Unknown function 0x9197915f in 'cellSpurs' module
 [E]: TODO: cellSpursTaskGenerateLsPattern
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
@@ -85,22 +75,15 @@
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0xf5507729 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagSet
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xced17573 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedDelete
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown function 0x04372385 in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntry
 [W]: Unknown function 0x155de760 in 'sceNp' module
@@ -109,8 +92,6 @@
 [E]: TODO: sceNpScoreGetRankingByRangeAsync
 [W]: Unknown function 0x259113b8 in 'sceNp' module
 [E]: TODO: sceNpScoreDestroyTitleCtx
-[W]: Unknown function 0x2ecd48ed in 'sceNp' module
-[E]: TODO: sceNpDrmVerifyUpgradeLicense
 [W]: Unknown function 0x32c78a6a in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendPresenceByIndex
 [W]: Unknown function 0x32cf311f in 'sceNp' module
@@ -201,8 +182,6 @@
 [E]: TODO: sceNpScoreAbortTransaction
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
 [E]: TODO: sceNpScoreRecordScoreAsync
-[W]: Unknown function 0xf283c143 in 'sceNp' module
-[E]: TODO: sceNpDrmExecuteGamePurchase
 [W]: Unknown function 0xf2b3338a in 'sceNp' module
 [E]: TODO: sceNpBasicGetBlockListEntry
 [W]: Unknown function 0xf42c0df8 in 'sceNp' module
@@ -428,56 +407,56 @@
 [W : PPU[1] Thread (CPUThread)[0x0057b004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
 [W : PPU[1] Thread (CPUThread)[0x0057b040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x330102e0, portNum_addr=0xd0010790)
-[W : PPU[1] Thread (CPUThread)[0x0057b040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x0057b040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
 [W : PPU[1] Thread (CPUThread)[0x0057b01c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x33010300)
 [W : PPU[1] Thread (CPUThread)[0x00573070]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0057307c]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0010794)
-[E : PPU[1] Thread (CPUThread)[0x0026e1c0]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x0026e1c0]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x333c4b00, nSpus=1, spuPriority=250, ppuPriority=4294967294, exitIfNoWork=1)
 [W : PPU[1] Thread (CPUThread)[0x0058f034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
-[E : PPU[1] Thread (CPUThread)[0x0026e1a8]]: TODO: cellSpursCreateTaskset
+[E : PPU[1] Thread (CPUThread)[0x0026e1a8]]: cellSpurs error: cellSpursCreateTaskset(spurs_addr=0x333c4b00, taskset_addr=0x529c00, args=0x0, priority_addr=0xd0010850, maxContention=1)
 [E : PPU[1] Thread (CPUThread)[0x0026e070]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0026e0b8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0026e0b8]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x52b580)
 [E : PPU[1] Thread (CPUThread)[0x0026e070]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x529c00, taskID_addr=0x52b500, elf_addr_addr=0x24fb80, context_addr_addr=0x52f700, context_size=250880, lsPattern_addr=0x214878, argument_addr=0xd0010780)
 [W : PPU[1] Thread (CPUThread)[0x0056f034]]: *** cellFsOpen(path="/dev_flash/sys/external/flashATRAC.pic"): fd = 42
 [W : PPU[1] Thread (CPUThread)[0x0056f004]]: sys_fs warning: cellFsClose(fd=42)
-[E : PPU[1] Thread (CPUThread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[1] Thread (CPUThread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[1] Thread (CPUThread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[1] Thread (CPUThread)[0x0026e058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[1] Thread (CPUThread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
+[E : PPU[1] Thread (CPUThread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[1] Thread (CPUThread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [MultiStream PU Thread] (): id = 43
 [W : PPU[43] Thread (MultiStream PU Thread)[0x0057b028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: TODO: _cellSpursSendSignal
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: TODO: cellSpursEventFlagWait
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [DLC_File_Check] (): id = 44
 [E : PPU[44] Thread (DLC_File_Check)[0x00589028]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[44] Thread (DLC_File_Check)[0x00589010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0080c00, usrdirPath_addr=0xd0080c80)
 [W : PPU[1] Thread (CPUThread)[0x0056f058]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x28c020 (/))
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 45
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 46
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [E : PPU[1] Thread (CPUThread)[0x0026e010]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0026e07c]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x0026e148]]: TODO: cellSpursCreateTasksetWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x0026e070]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x0026e0b8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x0026e0b8]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x2a3a00)
 [E : PPU[1] Thread (CPUThread)[0x0026e01c]]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: TODO: cellSpursCreateTask
-[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: TODO: cellSpursCreateTask
-[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: TODO: cellSpursCreateTask
-[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: TODO: cellSpursCreateTask
-[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x2a3b00, taskID_addr=0xd00106b0, elf_addr_addr=0x25fc80, context_addr_addr=0x33578980, context_size=3072, lsPattern_addr=0x22e6d0, argument_addr=0xd00106b8)
+[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x2a3b00, taskID_addr=0xd00106b0, elf_addr_addr=0x25fc80, context_addr_addr=0x33579600, context_size=3072, lsPattern_addr=0x22e6d0, argument_addr=0xd00106b8)
+[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x2a3b00, taskID_addr=0xd00106b0, elf_addr_addr=0x25fc80, context_addr_addr=0x3357a280, context_size=3072, lsPattern_addr=0x22e6d0, argument_addr=0xd00106b8)
+[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x2a3b00, taskID_addr=0xd00106b0, elf_addr_addr=0x25fc80, context_addr_addr=0x3357af00, context_size=3072, lsPattern_addr=0x22e6d0, argument_addr=0xd00106b8)
+[E : PPU[1] Thread (CPUThread)[0x0026e1d8]]: cellSpurs error: cellSpursCreateTask(taskset_addr=0x2a3b00, taskID_addr=0xd00106b0, elf_addr_addr=0x25fc80, context_addr_addr=0x3357bb80, context_size=3072, lsPattern_addr=0x22e6d0, argument_addr=0xd00106b8)
 [E : PPU[1] Thread (CPUThread)[0x00107350]]: Write16 to null block: [00000000]: 6
 [W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...

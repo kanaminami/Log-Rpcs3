@@ -13,12 +13,33 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01897-[KINGDOM HEARTS HD 1.5 ReMIX]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANAddData' hooked (addr=0x72f94)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x72fec)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x73024)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x730b8)
+[!]: Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0x73154)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x7391c)
+[!]: Function 'cellSurMixerGetTimestamp' hooked (addr=0x75200)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x75268)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x75570)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x75bf0)
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [surmxAAN] failed: missing;
+[E]: Function 'cellSurMixerSetParameter' not found
+[E]: Function 'cellSurMixerSurBusAddData' not found
+[E]: Function 'cellSurMixerChStripSetParameter' not found
+[E]: Function 'cellSurMixerPause' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown function 0x0247c69e in 'cellSail' module
 [E]: TODO: cellSailGraphicsAdapterGetFrame
 [W]: Unknown function 0x0abb318b in 'cellSail' module
@@ -192,8 +213,8 @@
 [E : PPU[1] Thread (CPUThread)[0x001fe004]]: TODO: _cellFiberPpuInitialize
 [W : PPU[1] Thread (CPUThread)[0x0015d094]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1447928)
 [! : PPU[1] Thread (CPUThread)[0x0020a028]]: *** New PPU Thread [TrophyThread] (): id = 39
-[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f00368, attr_addr=0xd000f538, initial_count=0, max_count=1)
 [W : PPU[39] Thread (TrophyThread)[0x00206070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x19fee0, commID_addr=0x119a50, commSign_addr=0x119a5c, options=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f00368, attr_addr=0xd000f538, initial_count=0, max_count=1)
 [E : PPU[39] Thread (TrophyThread)[0x001f8040]]: TODO: cellMsgDialogAbort
 [W : PPU[39] Thread (TrophyThread)[0x00206010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x19fee4)
 [W : PPU[39] Thread (TrophyThread)[0x0020601c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0040d00, options=0x0)
@@ -255,4 +276,3 @@
 [E : PPU[93] Thread (Axa PPU Thread)[0x001f80ac]]: TODO: cellSaveDataAutoLoad2
 [W : PPU[1] Thread (CPUThread)[0x00208034]]: cellGame warning: cellGameBootCheck(type_addr=0xd000faa8, attributes_addr=0xd000faac, size_addr=0x19fe68, dirName_addr=0xd000f770)
 [! : RSXThread]: RSX thread exit...
-[!]: Closing memory...

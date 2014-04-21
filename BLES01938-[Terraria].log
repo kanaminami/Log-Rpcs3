@@ -13,10 +13,11 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
@@ -129,8 +130,6 @@
 [E]: TODO: sceNpManagerRegisterCallback
 [W]: Unknown function 0xeb7a3d84 in 'sceNp' module
 [E]: TODO: sceNpManagerGetChatRestrictionFlag
-[W]: Unknown function 0xf283c143 in 'sceNp' module
-[E]: TODO: sceNpDrmExecuteGamePurchase
 [W]: Unknown function 0xfbc82301 in 'sceNp' module
 [E]: TODO: sceNpScoreGetRankingByRange
 [W]: Unknown function 0xfd0eb5ae in 'sceNp' module

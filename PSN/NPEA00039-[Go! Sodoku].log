@@ -18,6 +18,7 @@
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00039-[Go! Sudoku]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -309,8 +310,11 @@
 [W : RSXThread]: FP not found in buffer!
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 32
 [W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=32)
-[W : RSXThread]: VP not found in buffer!
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
+[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 33
+[W : RSXThread]: VP not found in buffer!
+[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=33)
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
 [! : RSXThread]: *** vp id = 2
@@ -364,9 +368,6 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 33
-[W : PPU[1] Thread (CPUThread)[0x00268010]]: sys_fs warning: cellFsClose(fd=33)
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x00268028]]: sys_fs error: "/siff/sudoku_grid.gpu.gz" not found! flags: 0x00000000
 [W : PPU[1] Thread (CPUThread)[0x00268028]]: *** cellFsOpen(path="/siff/sudoku_grid.gpu.mxf"): fd = 34
@@ -2894,8 +2895,9 @@ void main()
 }
 
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x100)
-[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...
-[W : PPU[17] Thread (SpuPrintfHandler)[0x00042e70]]: sys_event_queue_receive(equeue=16) aborted
+[W : Audio Thread]: Audio aborted
 [W : PPU[1] Thread (CPUThread)[0x000421dc]]: sys_event_queue_receive(equeue=23) aborted
-[!]: Closing memory...
+[W : PPU[133] Thread (Audio::Thread)[0x00014e80]]: sys_mutex warning: sys_mutex_lock(id=131) aborted
+[W : PPU[17] Thread (SpuPrintfHandler)[0x00042e70]]: sys_event_queue_receive(equeue=16) aborted
+[!]: Mutex(131) was owned by thread 133 (recursive=0)
