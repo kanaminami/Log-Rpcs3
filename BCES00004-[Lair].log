@@ -18,6 +18,7 @@
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
 [!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -93,8 +94,6 @@
 [E]: TODO: socketpoll
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
@@ -127,8 +126,6 @@
 [E]: TODO: cellWebBrowserConfigSetTabCount2
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x7f21c918 in 'cellSysutil' module

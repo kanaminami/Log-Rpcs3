@@ -208,8 +208,6 @@
 [E]: TODO: cellOskDialogSetSeparateWindowOption
 [W]: Unknown function 0x619b1427 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetTabCount2
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x76948bfc in 'cellSysutil' module
@@ -466,14 +464,10 @@
 [E]: TODO: inet_ntoa
 [W]: Unknown function 0xa9a079e0 in 'sys_net' module
 [E]: TODO: inet_aton
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
 [W]: Unknown function 0xf9ec2db6 in 'sys_net' module
 [E]: TODO: getpeername
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
 [E]: TODO: socketpoll
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module

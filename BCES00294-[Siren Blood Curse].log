@@ -13,26 +13,22 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00294-[Siren Blood Curse]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
 [W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: Unknown func id: 0xdbf4c59c
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
+[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0x1a91874b in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetFullScreen2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x619b1427 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetTabCount2
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
@@ -59,12 +55,8 @@
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0xfe669845 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetHeapSize2
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
@@ -220,10 +212,10 @@
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x00f6301c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x37500000, io=0x0, size=0xd00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xfb51a000)
+[W : PPU[1] Thread (CPUThread)[0x0078516c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x2e2e16d0)
 [W : PPU[1] Thread (CPUThread)[0x00785124]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00109dc, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00f63064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [E : PPU[1] Thread (CPUThread)[0x000122a8]]: Read16 from null block: [000006ea]
-[W : PPU[17] Thread (Job Manager Event Handler)[0x002e22b0]]: sys_event_queue_receive(equeue=16) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[17] Thread (Job Manager Event Handler)[0x002e22b0]]: sys_event_queue_receive(equeue=16) aborted
 [!]: Closing memory...

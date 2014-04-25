@@ -13,12 +13,33 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00081-[Killzone®2]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANAddData' hooked (addr=0x7ae5c8)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x7ae630)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x7ae668)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x7ae700)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x7aefd0)
+[!]: Function 'cellSurMixerChStripSetParameter' hooked (addr=0x7af328)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x7b0a18)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x7b0ae8)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x7b0df8)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x7b1490)
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [surmxAAN] failed: missing;
+[E]: Function 'cellSurMixerSurBusAddData' not found
+[E]: Function 'cellSurMixerPause' not found
+[E]: Function 'cellSurMixerGetCurrentBlockTag' not found
+[E]: Function 'cellSurMixerGetTimestamp' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown function 0x99406d0b in 'sys_fs' module
 [E]: TODO: cellFsChmod
 [W]: Unknown function 0xbef554a4 in 'sys_fs' module
@@ -97,8 +118,6 @@
 [E]: TODO: cellSaveDataUserAutoSave
 [W]: Unknown function 0x619b1427 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetTabCount2
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x7fb3c6a5 in 'cellSysutil' module
@@ -137,8 +156,6 @@
 [E]: TODO: socketpoll
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
@@ -147,8 +164,6 @@
 [E]: TODO: gethostbyname
 [W]: Unknown function 0xa9a079e0 in 'sys_net' module
 [E]: TODO: inet_aton
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0xf7ac8941 in 'sys_net' module
 [E]: TODO: gethostbyaddr
 [W]: Unknown function 0xf9ec2db6 in 'sys_net' module
@@ -519,7 +534,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 135
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: Recursive lwmutex(sq=135)
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x30194a20): id = 136
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 137
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 138
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 139
@@ -572,6 +586,7 @@
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: *** lwcond created [overlay] (lwmutex_addr=0x30199118): id = 166
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: Recursive lwmutex(sq=165)
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: *** lwcond created [overlay] (lwmutex_addr=0x30199118): id = 167
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 168
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [cache_r] (attribute=0x12): sq_id = 169
 [W : PPU[1] Thread (CPUThread)[0x01248130]]: sys_lwcond warning: Recursive lwmutex(sq=169)
@@ -605,7 +620,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0124804c]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 191
 [W : PPU[1] Thread (CPUThread)[0x007c3d7c]]: sys_fs warning: cellFsClose(fd=190)
 [W : PPU[1] Thread (CPUThread)[0x01248124]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3015eea0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [W : PPU[186] Thread (fios mediathread)[0x0121c07c]]: *** cellFsOpen(path="/data_ps3.psarc"): fd = 192
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
@@ -625,35 +639,17 @@
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [E : PPU[1] Thread (CPUThread)[0x007c3e08]]: sys_fs error: "/Game_PS3.ini" not found! flags: 0x00000000
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [W : PPU[1] Thread (CPUThread)[0x01226058]]: cellGcmSys warning: cellGcmInit(context_addr=0x1041a58,cmdSize=0x10000,ioSize=0x1b00000,ioAddress=0x30400000)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
@@ -663,17 +659,18 @@
 [E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [W : PPU[1] Thread (CPUThread)[0x01226058]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x01226058]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30400000, io=0x0, size=0x1b00000)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
+[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x01220160]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xec9e01b0)
+[W : PPU[1] Thread (CPUThread)[0x01220160]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x83d8d2f0)
 [W : PPU[1] Thread (CPUThread)[0x0122010c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd001068c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x01226094]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[E : PPU[128] Thread (FpPadThread)[0x00396a38]]: sys_event error: sys_event_queue_tryreceive(equeue_id=127, event_array_addr=0xd0020cc8, size=8, number_addr=0xd0020cc0)
 [E : PPU[1] Thread (CPUThread)[0x0039d518]]: Read16 from null block: [00000608]
 [! : RSXThread]: RSX thread exit...
-[W : PPU[188] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(id=185) aborted
-[W : PPU[130] Thread (Job Manager Event Handler)[0x003c9298]]: sys_event_queue_receive(equeue=129) aborted
 [W : PPU[186] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(id=185) aborted
 [W : PPU[133] Thread (Job Manager Event Handler)[0x003c9298]]: sys_event_queue_receive(equeue=132) aborted
-[W : PPU[187] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(id=185) aborted
+[W : PPU[188] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(id=185) aborted
+[W : PPU[130] Thread (Job Manager Event Handler)[0x003c9298]]: sys_event_queue_receive(equeue=129) aborted
 [W : PPU[189] Thread (fios scheduler)[0x01248034]]: sys_lwcond_wait(id=180) aborted
+[W : PPU[187] Thread (fios mediathread)[0x01248034]]: sys_lwcond_wait(id=185) aborted
 [!]: Closing memory...

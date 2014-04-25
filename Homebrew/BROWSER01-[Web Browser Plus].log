@@ -1,0 +1,319 @@
+[!]: path: /dev_hdd0/game/
+[!]: PKG Loader: Package successfully installed in: /dev_hdd0/game/BROWSER01
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\..\
+[!]: /host_root/ -> 
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BROWSER01\\USRDIR\
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0xcfdf24bb in 'cellSysutil' module
+[E]: TODO: cellVideoOutDebugSetMonitorType
+[W]: Unknown function 0x8e8bc444 in 'cellSysutil' module
+[E]: TODO: cellVideoOutRegisterCallback
+[W]: Unknown function 0x7871bed4 in 'cellSysutil' module
+[E]: TODO: cellVideoOutUnregisterCallback
+[W]: Unknown function 0x55e425c3 in 'cellSysutil' module
+[E]: TODO: cellVideoOutGetConvertCursorColorInfo
+[W]: Unknown function 0x20543730 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogClose
+[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogOpen
+[W]: Unknown function 0x94862702 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarInc
+[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogAbort
+[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarReset
+[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
+[E]: TODO: cellMsgDialogProgressBarSetMsg
+[W]: Unknown function 0x1d99c3ee in 'cellSysutil' module
+[E]: TODO: cellOskDialogGetInputText
+[W]: Unknown function 0xf3b4b43e in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetInitialInputDevice
+[W]: Unknown function 0x35beade0 in 'cellSysutil' module
+[E]: TODO: cellOskDialogGetSize
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x41f20828 in 'cellSysutil' module
+[E]: TODO: cellOskDialogDisableDimmer
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAbort
+[W]: Unknown function 0xd3790a86 in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetDeviceMask
+[W]: Unknown function 0x53e39df3 in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetSeparateWindowOption
+[W]: Unknown function 0x7f21c918 in 'cellSysutil' module
+[E]: TODO: cellOskDialogAddSupportLanguage
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0xc427890c in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetInitialKeyLayout
+[W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetLayoutMode
+[W]: Unknown function 0x21425307 in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoLoad
+[W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
+[E]: TODO: cellSaveDataListAutoSave
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xedadd797 in 'cellSysutil' module
+[E]: TODO: cellSaveDataDelete2
+[W]: Unknown function 0xdb9819f3 in 'cellSysutil' module
+[E]: TODO: cellGameDataCheck
+[W]: Unknown function 0xf52639ea in 'cellSysutil' module
+[E]: TODO: cellGameBootCheck
+[W]: Unknown function 0xce4374f6 in 'cellSysutil' module
+[E]: TODO: cellGamePatchCheck
+[W]: Unknown function 0x42a2e133 in 'cellSysutil' module
+[E]: TODO: cellGameCreateGameData
+[W]: Unknown function 0xb7a45caf in 'cellSysutil' module
+[E]: TODO: cellGameGetParamInt
+[W]: Unknown function 0x3a5d726a in 'cellSysutil' module
+[E]: TODO: cellGameGetParamString
+[W]: Unknown function 0xef9d42d5 in 'cellSysutil' module
+[E]: TODO: cellGameGetSizeKB
+[W]: Unknown function 0xdaa5cd20 in 'cellSysutil' module
+[E]: TODO: cellGameSetParamString
+[W]: Unknown function 0x2a8e6b92 in 'cellSysutil' module
+[E]: TODO: cellGameGetDiscContentInfoUpdatePath
+[W]: Unknown function 0x70acec67 in 'cellSysutil' module
+[E]: TODO: cellGameContentPermit
+[W]: Unknown function 0xb0a1f8c6 in 'cellSysutil' module
+[E]: TODO: cellGameContentErrorDialog
+[W]: Unknown function 0xd24e3928 in 'cellSysutil' module
+[E]: TODO: cellGameThemeInstall
+[W]: Unknown function 0x87406734 in 'cellSysutil' module
+[E]: TODO: cellGameThemeInstallFromBuffer
+[W]: Unknown function 0xa80bf223 in 'cellSysutil' module
+[E]: TODO: cellGameGetLocalWebContentPath
+[W]: Unknown function 0xb367c6e3 in 'cellSysutil' module
+[E]: TODO: cellGameDeleteGameData
+[W]: Unknown function 0xf8115d69 in 'cellSysutil' module
+[E]: TODO: cellGameRegisterDiscChangeCallback
+[W]: Unknown function 0x21fc0c71 in 'cellSysutil' module
+[E]: TODO: cellGameUnregisterDiscChangeCallback
+[W]: Unknown function 0xdfdd302e in 'cellSysutil' module
+[E]: TODO: cellDiscGameRegisterDiscChangeCallback
+[W]: Unknown function 0xedc34e1a in 'cellSysutil' module
+[E]: TODO: cellDiscGameUnregisterDiscChangeCallback
+[W]: Unknown function 0x39567781 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyInit
+[W]: Unknown function 0x48bd97c7 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyAbortHandle
+[W]: Unknown function 0xe3bf9a28 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyCreateContext
+[W]: Unknown function 0x1c25470d in 'cellSysutil' module
+[E]: TODO: sceNpTrophyCreateHandle
+[W]: Unknown function 0x3741ecc7 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyDestroyContext
+[W]: Unknown function 0x623cd2dc in 'cellSysutil' module
+[E]: TODO: sceNpTrophyDestroyHandle
+[W]: Unknown function 0xff299e03 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetGameIcon
+[W]: Unknown function 0x49d18217 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetGameInfo
+[W]: Unknown function 0x079f0e87 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetGameProgress
+[W]: Unknown function 0x370136fe in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetRequiredDiskSpace
+[W]: Unknown function 0xbaedf689 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetTrophyIcon
+[W]: Unknown function 0xfce6d30a in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetTrophyInfo
+[W]: Unknown function 0xb3ac3478 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyGetTrophyUnlockState
+[W]: Unknown function 0x1197b52c in 'cellSysutil' module
+[E]: TODO: sceNpTrophyRegisterContext
+[W]: Unknown function 0x27deda93 in 'cellSysutil' module
+[E]: TODO: sceNpTrophySetSoundLevel
+[W]: Unknown function 0xa7fabf4d in 'cellSysutil' module
+[E]: TODO: sceNpTrophyTerm
+[W]: Unknown function 0x8ceedd21 in 'cellSysutil' module
+[E]: TODO: sceNpTrophyUnlockTrophy
+[W]: Unknown function 0x620e35a7 in 'sysPrxForUser' module
+[E]: TODO: sys_game_get_system_sw_version
+[W]: Unknown function 0x3172759d in 'sysPrxForUser' module
+[E]: TODO: sys_game_get_temperature
+[W]: Unknown function 0x71a8472a in 'sysPrxForUser' module
+[E]: TODO: sys_get_random_number
+[W]: Unknown function 0x9f950780 in 'sysPrxForUser' module
+[E]: TODO: sys_game_get_rtc_status
+[W]: Unknown function 0xe76964f5 in 'sysPrxForUser' module
+[E]: TODO: sys_game_board_storage_read
+[W]: Unknown function 0x8bb03ab8 in 'sysPrxForUser' module
+[E]: TODO: sys_game_board_storage_write
+[W]: Unknown function 0xd0ea47a7 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_unregister_library
+[W]: Unknown function 0x9f18429d in 'sysPrxForUser' module
+[E]: TODO: sys_prx_start_module
+[W]: Unknown function 0x80fb0c19 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_stop_module
+[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module
+[W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_by_fd
+[W]: Unknown function 0xb27c8ae7 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_list
+[W]: Unknown function 0xe7ef3a80 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_list_on_memcontainer
+[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer
+[W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
+[W]: Unknown function 0x84bb6774 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_info
+[W]: Unknown function 0xa5d06bf0 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_list
+[W]: Unknown function 0x74311398 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_my_module_id
+[W]: Unknown function 0x0341bb97 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_id_by_address
+[W]: Unknown function 0xe0998dbf in 'sysPrxForUser' module
+[E]: TODO: sys_prx_get_module_id_by_name
+[W]: Unknown function 0xf0aece0d in 'sysPrxForUser' module
+[E]: TODO: sys_prx_unload_module
+[W]: Unknown function 0xa2c7ba64 in 'sysPrxForUser' module
+[E]: TODO: sys_prx_exitspawn_with_level
+[W]: Unknown function 0x3dd4a957 in 'sysPrxForUser' module
+[E]: TODO: sys_ppu_thread_register_atexit
+[W]: Unknown function 0xac6fc404 in 'sysPrxForUser' module
+[E]: TODO: sys_ppu_thread_unregister_atexit
+[W]: Unknown function 0x4a071d98 in 'sysPrxForUser' module
+[E]: TODO: sys_interrupt_thread_disestablish
+[W]: Unknown function 0xacad8fb6 in 'sysPrxForUser' module
+[E]: TODO: sys_game_watchdog_clear
+[W]: Unknown function 0x9e0623b5 in 'sysPrxForUser' module
+[E]: TODO: sys_game_watchdog_start
+[W]: Unknown function 0x6e05231d in 'sysPrxForUser' module
+[E]: TODO: sys_game_watchdog_stop
+[W]: Unknown function 0xbdb18f83 in 'sysPrxForUser' module
+[E]: TODO: _sys_malloc
+[W]: Unknown function 0x318f17e1 in 'sysPrxForUser' module
+[E]: TODO: _sys_memalign
+[W]: Unknown function 0x3bd53c7b in 'sysPrxForUser' module
+[E]: TODO: _sys_memchr
+[W]: Unknown function 0xfb5db080 in 'sysPrxForUser' module
+[E]: TODO: _sys_memcmp
+[W]: Unknown function 0x6bf66ea7 in 'sysPrxForUser' module
+[E]: TODO: _sys_memcpy
+[W]: Unknown function 0x27427742 in 'sysPrxForUser' module
+[E]: TODO: _sys_memmove
+[W]: Unknown function 0x68b9b011 in 'sysPrxForUser' module
+[E]: TODO: _sys_memset
+[W]: Unknown function 0xf7f7fb20 in 'sysPrxForUser' module
+[E]: TODO: _sys_free
+[W]: Unknown function 0xb9bf1078 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_alloc_heap_memory
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xd1ad4570 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_get_mallinfo
+[W]: Unknown function 0xb6369393 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_get_total_free_size
+[W]: Unknown function 0x8985b5b6 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_stats
+[W]: Unknown function 0xc4fd6121 in 'sysPrxForUser' module
+[E]: TODO: _sys_qsort
+[W]: Unknown function 0xca9a60bf in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_create
+[W]: Unknown function 0x9d3c0f81 in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_destroy
+[W]: Unknown function 0x25596f51 in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_get_count
+[W]: Unknown function 0xa146a143 in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_allocate_block
+[W]: Unknown function 0x05c65656 in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_try_allocate_block
+[W]: Unknown function 0x608212fc in 'sysPrxForUser' module
+[E]: TODO: sys_mempool_free_block
+[W]: Unknown function 0x99c88692 in 'sysPrxForUser' module
+[E]: TODO: _sys_strcpy
+[W]: Unknown function 0xd3039d4d in 'sysPrxForUser' module
+[E]: TODO: _sys_strncpy
+[W]: Unknown function 0x052d29a6 in 'sysPrxForUser' module
+[E]: TODO: _sys_strcat
+[W]: Unknown function 0x996f7cf8 in 'sysPrxForUser' module
+[E]: TODO: _sys_strncat
+[W]: Unknown function 0x7498887b in 'sysPrxForUser' module
+[E]: TODO: _sys_strchr
+[W]: Unknown function 0x191f0c4a in 'sysPrxForUser' module
+[E]: TODO: _sys_strrchr
+[W]: Unknown function 0x459b4393 in 'sysPrxForUser' module
+[E]: TODO: _sys_strcmp
+[W]: Unknown function 0x04e83d2c in 'sysPrxForUser' module
+[E]: TODO: _sys_strncmp
+[W]: Unknown function 0x1ca525a2 in 'sysPrxForUser' module
+[E]: TODO: _sys_strncasecmp
+[W]: Unknown function 0x4b2f301a in 'sysPrxForUser' module
+[E]: TODO: _sys_tolower
+[W]: Unknown function 0xeef75113 in 'sysPrxForUser' module
+[E]: TODO: _sys_toupper
+[W]: Unknown function 0xdd0c1e09 in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_attach_group
+[W]: Unknown function 0x1ae10b92 in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_attach_thread
+[W]: Unknown function 0x5fdfb2fe in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_detach_group
+[W]: Unknown function 0xb3bbcf2a in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_detach_thread
+[W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
+[E]: TODO: _sys_spu_printf_finalize
+[W]: Unknown function 0x8a2f159b in 'sysPrxForUser' module
+[E]: TODO: console_getc
+[W]: Unknown function 0xe66bac36 in 'sysPrxForUser' module
+[E]: TODO: console_putc
+[W]: Unknown function 0xf57e1d6f in 'sysPrxForUser' module
+[E]: TODO: console_write
+[W]: Unknown function 0x9f04f7af in 'sysPrxForUser' module
+[E]: TODO: _sys_printf
+[W]: Unknown function 0xa1f9eafe in 'sysPrxForUser' module
+[E]: TODO: _sys_sprintf
+[W]: Unknown function 0x06574237 in 'sysPrxForUser' module
+[E]: TODO: _sys_snprintf
+[W]: Unknown function 0xfa7f693d in 'sysPrxForUser' module
+[E]: TODO: _sys_vprintf
+[W]: Unknown function 0x791b9219 in 'sysPrxForUser' module
+[E]: TODO: _sys_vsprintf
+[W]: Unknown function 0x0618936b in 'sysPrxForUser' module
+[E]: TODO: _sys_vsnprintf
+[W : PPU[1] Thread (CPUThread)[0x000105f0]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x40f, alignment=0x0, alloc_addr=0x10011108)
+[W : PPU[1] Thread (CPUThread)[0x0002b1d8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x0002919c]]: cellSysutil warning: cellSysutilUnregisterCallback(slot=0)
+[E : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process error: sys_game_process_exitspawn2 UNIMPLEMENTED
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: path: /dev_hdd0/game/BROWSER01/USRDIR/WEB.SELF
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: argv: 0x0
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: envp: 0x0
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: data: 0x0
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: data_size: 0x0
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: prio: 1001
+[W : PPU[1] Thread (CPUThread)[0x0002b07c]]: Process warning: flags: 112
+[W : PPU[1] Thread (CPUThread)[0x0002b1d8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x0002b3e8]]: memory warning: sys_mmapper_unmap_memory(start_addr=0x0, mem_id_addr=0xd0010af0)
+[W : PPU[1] Thread (CPUThread)[0x0002b3d0]]: memory warning: sys_mmapper_free_memory(mem_id=0x0)
+[W : PPU[1] Thread (CPUThread)[0x000106f8]]: memory warning: sys_mmapper_free_address(start_addr=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0002b064]]: Process warning: sys_process_exit(0)
+[S : PPU[1] Thread (CPUThread)[0x0002b064]]: Process finished
+[!]: Closing memory...

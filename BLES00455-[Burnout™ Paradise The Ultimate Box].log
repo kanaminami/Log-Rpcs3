@@ -1,22 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout™ Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xa52d2ae4 in 'cellMic' module
@@ -47,18 +49,12 @@
 [E]: TODO: cellGcmSetSecondVHandler
 [W]: Unknown function 0x1a91874b in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetFullScreen2
-[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedLoad2
-[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedSave2
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
 [E]: TODO: cellOskDialogUnloadAsync
 [W]: Unknown function 0x523a96c4 in 'cellSysutil' module
 [E]: TODO: cellGameDataSetSystemVer
 [W]: Unknown function 0x619b1427 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetTabCount2
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x7fb3c6a5 in 'cellSysutil' module
@@ -166,14 +162,10 @@
 [E]: TODO: cellPadLddRegisterController
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
 [W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: Unknown func id: 0xdbf4c59c
+[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
 [E]: TODO: cellFsAioWrite
 [W]: Unknown function 0x7a0329a1 in 'sys_fs' module
@@ -200,14 +192,10 @@
 [E]: TODO: cellUsbdInit
 [W]: Unknown function 0xdb819e03 in 'cellUsbd' module
 [E]: TODO: cellUsbdGetDeviceLocation
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
 [E]: TODO: socketpoll
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
@@ -353,7 +341,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=69, eq_id=65, event_type=0x1, spup=3)
 [W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=69, eq_id=65, event_type=0x1, spup=4)
 [W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=68)
-[E : SPU[69] Thread (Job Manager - Job Thread)[0x0000ab90]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefe908, num=1, prio=16, attr_addr=0xd000f66c)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=70
 [W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xefe924, group=0x46, spu_num=1, img_addr=0xfe21e8, attr_addr=0xd000f660, arg_addr=0xd000f680)
@@ -363,7 +350,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=71, eq_id=65, event_type=0x1, spup=3)
 [W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=71, eq_id=65, event_type=0x1, spup=4)
 [W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=70)
-[E : SPU[71] Thread (Job Manager - Job Thread)[0x0000ab90]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefe90c, num=1, prio=16, attr_addr=0xd000f66c)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=72
 [W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xefe928, group=0x48, spu_num=2, img_addr=0xfe21e8, attr_addr=0xd000f660, arg_addr=0xd000f680)
@@ -373,7 +359,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=73, eq_id=65, event_type=0x1, spup=3)
 [W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=73, eq_id=65, event_type=0x1, spup=4)
 [W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=72)
-[E : SPU[73] Thread (Job Manager - Job Thread)[0x0000ab90]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefe910, num=1, prio=16, attr_addr=0xd000f66c)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=74
 [W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xefe92c, group=0x4a, spu_num=3, img_addr=0xfe21e8, attr_addr=0xd000f660, arg_addr=0xd000f680)
@@ -383,54 +368,13 @@
 [W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=75, eq_id=65, event_type=0x1, spup=3)
 [W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=75, eq_id=65, event_type=0x1, spup=4)
 [W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=74)
-[E : SPU[75] Thread (Job Manager - Job Thread)[0x0000ab90]]: Unknown STOP code: 0x0 (no message)
 [W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0100e034]]: cellGame warning: cellGameBootCheck(type_addr=0xd000f7e4, attributes_addr=0xec28d0, size_addr=0xd000f7e8, dirName_addr=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0100e034]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[1] Thread (CPUThread)[0x0100e004]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0xec26c1, bufsize=128)
 [W : PPU[1] Thread (CPUThread)[0x0100e01c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0xd000f7e0)
-[W : PPU[1] Thread (CPUThread)[0x0100e004]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0xec2741, bufsize=128)
-[W : PPU[1] Thread (CPUThread)[0x0100e004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0xec2641, bufsize=128)
-[W : PPU[1] Thread (CPUThread)[0x0100e010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xec27c1, usrdirPath_addr=0xec2841)
-[E : PPU[1] Thread (CPUThread)[0x0100e028]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[1] Thread (CPUThread)[0x0100e010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000f6b0, usrdirPath_addr=0xec28e8)
-[E : PPU[1] Thread (CPUThread)[0x0100e028]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[1] Thread (CPUThread)[0x0100e010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000f6b0, usrdirPath_addr=0xec2968)
-[E : PPU[1] Thread (CPUThread)[0x0100e028]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[1] Thread (CPUThread)[0x0100e010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000f6b0, usrdirPath_addr=0xec29e8)
-[E : PPU[1] Thread (CPUThread)[0x0100e028]]: cellGame error: Unimplemented function: cellGameDataCheck
-[W : PPU[1] Thread (CPUThread)[0x0100e010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd000f6b0, usrdirPath_addr=0xec2a68)
-[W : PPU[1] Thread (CPUThread)[0x00aef004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x00fe413c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xb2ed60, userdata=0x0)
-[E : PPU[1] Thread (CPUThread)[0x007954b0]]: sys_fs error: "PARTY.DAT" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x007954b0]]: sys_fs error: "autotest.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x004d08f8]]: memory warning: sys_memory_container_create(cid_addr=0xeb2ef0, yield_size=0x300000)
-[W : PPU[1] Thread (CPUThread)[0x004d08f8]]: memory warning: *** memory_container created(addr=0x3b000000): id = 76
-[W : PPU[1] Thread (CPUThread)[0x004d0908]]: memory warning: sys_memory_container_create(cid_addr=0xeb2ef4, yield_size=0x100000)
-[W : PPU[1] Thread (CPUThread)[0x004d0908]]: memory warning: *** memory_container created(addr=0x3b300000): id = 77
-[W : PPU[1] Thread (CPUThread)[0x00fe4034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0010760)
-[W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: cellGcmInit(context_addr=0xf9aa90,cmdSize=0x2ff000,ioSize=0x300000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00aed010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x300000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00aed0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x800000,offset_addr=0xd00102d0)
-[W : PPU[1] Thread (CPUThread)[0x00aed094]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=0)
-[W : PPU[1] Thread (CPUThread)[0x00aed004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=274268160)
-[W : PPU[1] Thread (CPUThread)[0x00aed034]]: cellGcmSys warning: cellGcmSetSecondVFrequency(level=1)
-[E : PPU[1] Thread (CPUThread)[0x00aed0d0]]: TODO: cellGcmSetSecondVHandler
-[W : PPU[1] Thread (CPUThread)[0x00fe41d8]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010390, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00aed004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=274268160)
-[W : PPU[1] Thread (CPUThread)[0x00aed004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=65536)
-[W : PPU[1] Thread (CPUThread)[0x00aed058]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=-1073741824, pitch=65536, comp=7, base=0, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x00aed058]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x00aed0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=16384,height=49152)
-[W : PPU[1] Thread (CPUThread)[0x00aed004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=65536)
-[W : PPU[1] Thread (CPUThread)[0x00aed058]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=0, size=-1073741824, pitch=65536, comp=7, base=0, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x00aed058]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x00aed0ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x0,pitch=4,width=16384,height=49152)
-[W : PPU[1] Thread (CPUThread)[0x00aed088]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x00aed034]]: cellGcmSys warning: cellGcmSetSecondVFrequency(level=2)
-[! : RSXThread]: RSX thread exit...
-[W : PPU[66] Thread (Job Manager - PPU Proxy)[0x0097bd98]]: sys_event_queue_receive(equeue=65) aborted
+[E : SPU[69] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
+[E : SPU[71] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
+[E : SPU[75] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
+[E : SPU[73] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
 [!]: Closing memory...

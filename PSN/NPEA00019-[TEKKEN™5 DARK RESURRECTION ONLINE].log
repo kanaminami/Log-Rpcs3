@@ -39,8 +39,6 @@
 [E]: TODO: cellWebBrowserConfigSetTabCount2
 [W]: Unknown function 0x6c673f78 in 'cellSysutil' module
 [E]: TODO: cellSysutilAvcUnloadAsync
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x7fb3c6a5 in 'cellSysutil' module
