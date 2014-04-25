@@ -525,13 +525,13 @@
 [! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vpostStart] (): id = 80
 [! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [vdecStart] (): id = 81
 [! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [apostStart] (): id = 82
+[W : Video Decoder[73] Thread]: vdecStartSeq:
 [W : PPU[1] Thread (CPUThread)[0x006fd010]]: cellAdec warning: cellAdecStartSeq: (TODO) initialization
 [! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [adecStart] (): id = 83
-[W : Video Decoder[73] Thread]: vdecStartSeq:
 [! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [dmuxStart] (): id = 84
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=78, vptr_addr=0xd0010860)
-[W : Demuxer[48] Thread]: dmuxSetStream (beginning)
 [W : Audio Decoder[77] Thread]: adecStartSeq:
+[W : Demuxer[48] Thread]: dmuxSetStream (beginning)
 [W : RSXThread]: FP not found in buffer!
 [W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
@@ -580,38 +580,19 @@ void main()
 [W : RSXThread]: New FBO (1280x720)
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=84, vptr_addr=0xd0010860)
 [E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
-[E : Demuxer[48] Thread]: No pts info found
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=83, vptr_addr=0xd0010860)
 [W : PPU[81] Thread (vdecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x31)
 [W : PPU[83] Thread (adecStart)[0x006ff07c]]: cellDmux warning: cellDmuxFlushEs(esHandle=0x32)
-[W : PPU[81] Thread (vdecStart)[0x006fb034]]: libvdec warning: cellVdecEndSeq(handle=73)
 [W : PPU[83] Thread (adecStart)[0x006fd058]]: cellAdec warning: cellAdecEndSeq(handle=77)
 [W : Audio Decoder[77] Thread]: adecEndSeq:
+[W : PPU[81] Thread (vdecStart)[0x006fb034]]: libvdec warning: cellVdecEndSeq(handle=73)
 [W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=82, vptr_addr=0xd0010860)
 [W : Video Decoder[73] Thread]: vdecEndSeq:
 [W : Audio Decoder[77] Thread]: Audio Decoder aborted
-[W : Audio Thread]: Audio aborted
 [W : PPU[79] Thread (vdispStart)[0x00035004]]: sys_cond_wait(id=53) aborted
-[W : Video Decoder[73] Thread]: Video Decoder aborted
+[W : PPU[1] Thread (CPUThread)[0x0002e83c]]: sys_ppu_thread_join(82) aborted
 [W : Demuxer[48] Thread]: Demuxer aborted
+[W : Video Decoder[73] Thread]: Video Decoder aborted
+[W : Audio Thread]: Audio aborted
+[W : Surmixer Thread]: Surmixer aborted
 [! : RSXThread]: RSX thread exit...

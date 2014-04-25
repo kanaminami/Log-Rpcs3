@@ -213,8 +213,8 @@
 [E : PPU[1] Thread (CPUThread)[0x001fe004]]: TODO: _cellFiberPpuInitialize
 [W : PPU[1] Thread (CPUThread)[0x0015d094]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1447928)
 [! : PPU[1] Thread (CPUThread)[0x0020a028]]: *** New PPU Thread [TrophyThread] (): id = 39
-[W : PPU[39] Thread (TrophyThread)[0x00206070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x19fee0, commID_addr=0x119a50, commSign_addr=0x119a5c, options=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0005e274]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x36f00368, attr_addr=0xd000f538, initial_count=0, max_count=1)
+[W : PPU[39] Thread (TrophyThread)[0x00206070]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x19fee0, commID_addr=0x119a50, commSign_addr=0x119a5c, options=0x0)
 [E : PPU[39] Thread (TrophyThread)[0x001f8040]]: TODO: cellMsgDialogAbort
 [W : PPU[39] Thread (TrophyThread)[0x00206010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x19fee4)
 [W : PPU[39] Thread (TrophyThread)[0x0020601c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0040d00, options=0x0)
@@ -275,4 +275,6 @@
 [! : PPU[1] Thread (CPUThread)[0x0020a028]]: *** New PPU Thread [Axa PPU Thread] (): id = 93
 [E : PPU[93] Thread (Axa PPU Thread)[0x001f80ac]]: TODO: cellSaveDataAutoLoad2
 [W : PPU[1] Thread (CPUThread)[0x00208034]]: cellGame warning: cellGameBootCheck(type_addr=0xd000faa8, attributes_addr=0xd000faac, size_addr=0x19fe68, dirName_addr=0xd000f770)
+[W : RSXThread]: Callback::Branch() aborted
 [! : RSXThread]: RSX thread exit...
+[!]: Closing memory...
