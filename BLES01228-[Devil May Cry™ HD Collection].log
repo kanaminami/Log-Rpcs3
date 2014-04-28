@@ -1,24 +1,45 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry™ HD Collection]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANConnect' hooked (addr=0x15a0a0)
+[!]: Function 'cellAANDisconnect' hooked (addr=0x15a138)
+[!]: Function 'cellAANAddData' hooked (addr=0x15a1d0)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x15a31c)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x15a354)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x15a3e8)
+[!]: Function 'cellSurMixerSurBusAddData' hooked (addr=0x15a478)
+[!]: Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0x15a528)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x15ad84)
+[!]: Function 'cellSurMixerBeep' hooked (addr=0x15adc0)
+[!]: Function 'cellSurMixerChStripSetParameter' hooked (addr=0x15b19c)
+[!]: Function 'cellSurMixerPause' hooked (addr=0x15b450)
+[!]: Function 'cellSurMixerGetTimestamp' hooked (addr=0x15ca68)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x15cad0)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x15cba0)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x15cea8)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x15d76c)
+[S]: Function group [surmxAAN] successfully hooked
+[S]: Function group [surmixer] successfully hooked
 [W]: Unknown module 'libgem'
 [W]: Unknown function 0x0e63c444 in 'cellCamera' module
 [E]: TODO: cellCameraGetBufferInfoEx
@@ -110,8 +131,6 @@
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
-[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
-[E]: TODO: cellSysutilGetBgmPlaybackStatus
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
@@ -128,14 +147,8 @@
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0x41251f74 in 'sceNp2' module
 [E]: TODO: sceNp2Init
 [W]: Unknown function 0xaadb7c12 in 'sceNp2' module

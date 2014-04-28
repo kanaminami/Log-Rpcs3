@@ -13,10 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00510-[God of War III]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
@@ -105,8 +107,6 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module

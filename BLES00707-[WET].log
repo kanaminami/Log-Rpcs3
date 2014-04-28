@@ -13,11 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
 [!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00707-[WET]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x172c3197 in 'cellGcmSys' module
@@ -50,16 +51,12 @@
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0xf7681b9a in 'cellL10n' module
 [E]: TODO: UTF8stoUTF16s
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
 [W]: Unknown function 0x167ea63e in 'cellSync' module
@@ -260,4 +257,6 @@
 [! : PPU[1] Thread (CPUThread)[0x01942028]]: *** New PPU Thread [SysUtilCallbackPollingThrea] (): id = 64
 [W : PPU[1] Thread (CPUThread)[0x01444010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [E : PPU[1] Thread (CPUThread)[0x0050e7c4]]: Read32 from null block: [00000000]
+[W : PPU[63] Thread (CommandQueueConsumerThread)[0x01942040]]: sys_lwcond_wait(id=61) aborted
+[W : PPU[62] Thread (CommandQueueConsumerThread)[0x01942040]]: sys_lwcond_wait(id=59) aborted
 [!]: Closing memory...

@@ -13,8 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01122-[Beyond Two Souls]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -134,16 +138,12 @@
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown function 0x6ee62ed2 in 'sceNp' module
 [E]: TODO: sceNpManagerGetContentRatingFlag
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
 [W]: Unknown function 0xa9a079e0 in 'sys_net' module
 [E]: TODO: inet_aton
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x82f294b2 in 'cellOvis' module
 [E]: TODO: cellOvisGetOverlayTableSize
 [W]: Unknown function 0xa876c911 in 'cellOvis' module

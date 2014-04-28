@@ -9,19 +9,37 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/
-[!]: Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Data\
-[!]: Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Res\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Res\install\
-[!]: /Res/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\Res\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01907-[DEAD OR ALIVE 5 Ultimate]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANAddData' hooked (addr=0xabb778)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0xabb7d0)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0xabb808)
+[!]: Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0xabb8a8)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0xabc070)
+[!]: Function 'cellSurMixerGetTimestamp' hooked (addr=0xabd954)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0xabd9bc)
+[!]: Function 'cellSurMixerStart' hooked (addr=0xabda8c)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0xabdd94)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0xabe414)
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [surmxAAN] failed: missing;
+[E]: Function 'cellSurMixerRemoveNotifyCallback' not found
+[E]: Function 'cellSurMixerSurBusAddData' not found
+[E]: Function 'cellSurMixerChStripSetParameter' not found
+[E]: Function 'cellSurMixerPause' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown function 0x571afaca in 'cellSsl' module
 [E]: TODO: cellSslCertificateLoader
 [W]: Unknown function 0x1650aea4 in 'cellSsl' module
@@ -56,22 +74,16 @@
 [E]: TODO: cellGcmSetVBlankFrequency
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1656d49f in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
@@ -88,22 +100,14 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8adadf65 in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttribute2Initialize
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
@@ -118,16 +122,12 @@
 [E]: TODO: cellSpursCreateTaskWithAttribute
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeInitialize
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [W]: Unknown function 0xa121a224 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xe717ac73 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeTryGet
 [W]: Unknown function 0x01379fd7 in 'sceNp2' module
@@ -263,8 +263,6 @@
 [E]: TODO: sceNpBasicGetMessageEntryCount
 [W]: Unknown function 0xee5b20d9 in 'sceNp' module
 [E]: TODO: sceNpScoreAbortTransaction
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
 [E]: TODO: sceNpScoreRecordScoreAsync
 [W]: Unknown function 0xf2b3338a in 'sceNp' module
@@ -302,14 +300,10 @@
 [E]: TODO: cellOskDialogSetDeviceMask
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoSave
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
@@ -403,8 +397,6 @@
 [E]: TODO: cellSync2QueueInitialize
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
@@ -583,12 +575,12 @@
 [E : PPU[1] Thread (CPUThread)[0x0276c07c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0xff8b08)
 [E : PPU[1] Thread (CPUThread)[0x0276c07c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0xff8b24)
 [E : PPU[1] Thread (CPUThread)[0x0276c07c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0xff8b40)
-[E : PPU[1] Thread (CPUThread)[0x0273410c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00108f8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
-[E : PPU[1] Thread (CPUThread)[0x02734034]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108f8, prefix_addr=0x10cd9fc, size=0x4)
-[E : PPU[1] Thread (CPUThread)[0x02734070]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x2532400, spurs_addr=0xd00108f8)
-[E : PPU[1] Thread (CPUThread)[0x0273410c]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00108f8, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
-[E : PPU[1] Thread (CPUThread)[0x02734034]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108f8, prefix_addr=0x10cda04, size=0x6)
-[E : PPU[1] Thread (CPUThread)[0x02734070]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x2534480, spurs_addr=0xd00108f8)
+[W : PPU[1] Thread (CPUThread)[0x0273410c]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108f8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
+[W : PPU[1] Thread (CPUThread)[0x02734034]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108f8, prefix_addr=0x10cd9fc, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x02734070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x2532400, spurs_addr=0xd00108f8)
+[W : PPU[1] Thread (CPUThread)[0x0273410c]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108f8, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
+[W : PPU[1] Thread (CPUThread)[0x02734034]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108f8, prefix_addr=0x10cda04, size=0x6)
+[W : PPU[1] Thread (CPUThread)[0x02734070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x2534480, spurs_addr=0xd00108f8)
 [W : PPU[1] Thread (CPUThread)[0x0276c058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x0276c058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
 [W : PPU[1] Thread (CPUThread)[0x0276c058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28

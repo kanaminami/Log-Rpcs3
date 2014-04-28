@@ -13,24 +13,22 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01698-[DmC Devil May Cry]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x7a0329a1 in 'sys_fs' module
@@ -77,8 +75,6 @@
 [E]: TODO: cellOskDialogSetLayoutMode
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
-[E]: TODO: cellSysutilGetBgmPlaybackStatus
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
@@ -201,8 +197,6 @@
 [E]: TODO: sceNpManagerRegisterCallback
 [W]: Unknown function 0xee5b20d9 in 'sceNp' module
 [E]: TODO: sceNpScoreAbortTransaction
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
 [E]: TODO: sceNpScoreRecordScoreAsync
 [W]: Unknown function 0xf76847c2 in 'sceNp' module
@@ -324,14 +318,12 @@
 [W : PPU[1] Thread (CPUThread)[0x00d54030]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 64
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 65
-[W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [aêÀ] (attribute=0x12): sq_id = 66
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 67
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
-[W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [?€] (attribute=0x12): sq_id = 73
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 74
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 75
 [W : PPU[1] Thread (CPUThread)[0x01b0f058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 76

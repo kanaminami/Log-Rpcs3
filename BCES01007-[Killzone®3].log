@@ -13,10 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES01007-[Killzone®3]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -101,8 +103,6 @@
 [E]: TODO: cellSaveDataUserAutoSave
 [W]: Unknown function 0x619b1427 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetTabCount2
-[W]: Unknown function 0x6d087930 in 'cellSysutil' module
-[E]: TODO: cellWebBrowserEstimate2
 [W]: Unknown function 0x749c9b5f in 'cellSysutil' module
 [E]: TODO: cellWebBrowserInitialize
 [W]: Unknown function 0x7f21c918 in 'cellSysutil' module
@@ -138,14 +138,10 @@
 [W]: Unknown function 0xfe669845 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetHeapSize2
 [W]: Unknown module 'cellOskExtUtility'
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0xf7ac8941 in 'sys_net' module
 [E]: TODO: gethostbyaddr
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
@@ -181,8 +177,6 @@
 [E]: TODO: sceNpBasicAddBlockListEntry
 [W]: Unknown function 0x27c69eba in 'sceNp' module
 [E]: TODO: sceNpBasicAddFriend
-[W]: Unknown function 0x2ecd48ed in 'sceNp' module
-[E]: TODO: sceNpDrmVerifyUpgradeLicense
 [W]: Unknown function 0x36d0c2c5 in 'sceNp' module
 [E]: TODO: sceNpManagerGetAvatarUrl
 [W]: Unknown function 0x3d1760dc in 'sceNp' module
@@ -241,8 +235,6 @@
 [E]: TODO: sceNpManagerGetChatRestrictionFlag
 [W]: Unknown function 0xf0a9182b in 'sceNp' module
 [E]: TODO: sceNpFriendlist
-[W]: Unknown function 0xf283c143 in 'sceNp' module
-[E]: TODO: sceNpDrmExecuteGamePurchase
 [W]: Unknown function 0xf2b3338a in 'sceNp' module
 [E]: TODO: sceNpBasicGetBlockListEntry
 [W]: Unknown function 0xf42c0df8 in 'sceNp' module
@@ -251,8 +243,6 @@
 [E]: TODO: sceNpLookupDestroyTransactionCtx
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown module 'sceNpCommerce2'
 [W]: Unknown function 0x94e9f81d in 'cellGameExec' module
@@ -695,7 +685,6 @@
 [W : PPU[182] Thread (fios mediathread 2)[0x00abd4ec]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
 [W : PPU[182] Thread (fios mediathread 2)[0x00abd4ec]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
 [W : PPU[1] Thread (CPUThread)[0x0166f010]]: sys_fs warning: cellFsOpendir(path="/patch_data_ps3_sp", fd_addr=0x3025c6d0)
-[W : PPU[1] Thread (CPUThread)[0x0166f010]]: sys_fs warning: cellFsOpendir(path="/patch_data_ps3_sp", fd_addr=0x3025c6d0)
 [E : PPU[1] Thread (CPUThread)[0x0169b004]]: Unknown func id: 0xb20f87b3
 [W : PPU[1] Thread (CPUThread)[0x000c544c]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010a40)
 [W : PPU[1] Thread (CPUThread)[0x000c5490]]: memory warning: sys_mmapper_allocate_address(size=0x10000000, flags=0x208, alignment=0x10000000, alloc_addr=0x13aa93c)
@@ -705,40 +694,40 @@
 [W : PPU[1] Thread (CPUThread)[0x016a3100]]: memory warning: sys_mmapper_allocate_memory(size=0x10000, flags=0x200, mem_id_addr=0x305b868c)
 [W : PPU[1] Thread (CPUThread)[0x016a3100]]: memory warning: sys_mmapper_allocate_memory(size=0x10000, flags=0x200, mem_id_addr=0x305b8690)
 [W : PPU[1] Thread (CPUThread)[0x000882b4]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd00109c0)
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xbf, flags=0x80000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x0, mem_id=0xbe, flags=0x80000)
 [W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory mapped 0x30010000 to 0x0 size=0x10000
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x10000, mem_id=0xbf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x10000, mem_id=0xbe, flags=0x40000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x20000, mem_id=0xc0, flags=0x80000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x20000, mem_id=0xbf, flags=0x80000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x30000, mem_id=0xc0, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x30000, mem_id=0xbf, flags=0x40000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x40000, mem_id=0xc1, flags=0x80000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x40000, mem_id=0xc0, flags=0x80000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x50000, mem_id=0xc1, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x50000, mem_id=0xc0, flags=0x40000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x60000, mem_id=0xc2, flags=0x80000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x60000, mem_id=0xc1, flags=0x80000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x70000, mem_id=0xc2, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x70000, mem_id=0xc1, flags=0x40000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x80000, mem_id=0xc3, flags=0x80000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x80000, mem_id=0xc2, flags=0x80000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x90000, mem_id=0xc3, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0x90000, mem_id=0xc2, flags=0x40000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
-[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0xa0000, mem_id=0xbf, flags=0x80000)
+[W : PPU[1] Thread (CPUThread)[0x016a3124]]: memory warning: sys_mmapper_map_memory(start_addr=0xa0000, mem_id=0xbe, flags=0x80000)
 [E : PPU[1] Thread (CPUThread)[0x016a3124]]: memory error: sys_mmapper_map_memory failed!
 [W : PPU[1] Thread (CPUThread)[0x000c55a8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010a40)
 [E : PPU[1] Thread (CPUThread)[0x00ac68ac]]: sys_fs error: "/Game_PS3.ini" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x1d9a7a00)
-[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x5, option_addr=0x0, aspect=0x0, option=0x1d9a7c00)
-[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x0, aspect=0x0, option=0x1d9a9b00)
-[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x8b, option_addr=0x0, aspect=0x0, option=0x1d9aac00)
-[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x9b, option_addr=0x0, aspect=0x0, option=0x1d9a8f00)
+[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x7cb292c0)
+[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x5, option_addr=0x0, aspect=0x0, option=0x7cb2a8b0)
+[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x0, aspect=0x0, option=0x7cb2a550)
+[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x8b, option_addr=0x0, aspect=0x0, option=0x7cb29500)
+[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x9b, option_addr=0x0, aspect=0x0, option=0x7cb29bc0)
 [W : PPU[1] Thread (CPUThread)[0x0167d094]]: cellGcmSys warning: cellGcmInit(context_addr=0x161cc50,cmdSize=0x10000,ioSize=0x1b00000,ioAddress=0x30700000)
 [W : PPU[1] Thread (CPUThread)[0x0167d094]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0167d094]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30700000, io=0x0, size=0x1b00000)
 [! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x1d9a8f00)
+[W : PPU[1] Thread (CPUThread)[0x0167510c]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x7cb2a280)
 [W : PPU[1] Thread (CPUThread)[0x01675010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd001058c, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0167d01c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x0167d124]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=7536640, pitch=5120, comp=7, base=1, bank=0)
@@ -835,9 +824,9 @@
 [W : RSXThread]: null cmd: addr=0x50400000, put=0x8100100, get=0x400000
 [! : RSXThread]: RSX thread exit...
 [W : PPU[184] Thread (fios mediathread 4)[0x016a3040]]: sys_lwcond_wait(id=181) aborted
-[W : PPU[183] Thread (fios mediathread 3)[0x016a3040]]: sys_lwcond_wait(id=180) aborted
-[W : PPU[185] Thread (fios scheduler 1)[0x016a3040]]: sys_lwcond_wait(id=175) aborted
-[W : PPU[119] Thread (Job Manager Event Handler)[0x00a8f070]]: sys_event_queue_receive(equeue=118) aborted
-[W : PPU[122] Thread (Job Manager Event Handler)[0x00a8f070]]: sys_event_queue_receive(equeue=121) aborted
 [W : PPU[182] Thread (fios mediathread 2)[0x016a3040]]: sys_lwcond_wait(id=179) aborted
+[W : PPU[122] Thread (Job Manager Event Handler)[0x00a8f070]]: sys_event_queue_receive(equeue=121) aborted
+[W : PPU[183] Thread (fios mediathread 3)[0x016a3040]]: sys_lwcond_wait(id=180) aborted
+[W : PPU[119] Thread (Job Manager Event Handler)[0x00a8f070]]: sys_event_queue_receive(equeue=118) aborted
+[W : PPU[185] Thread (fios scheduler 1)[0x016a3040]]: sys_lwcond_wait(id=175) aborted
 [!]: Closing memory...

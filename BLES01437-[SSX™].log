@@ -1,20 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX™]\PS3_GAME\\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01437-[SSX]\PS3_GAME\\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x27c69eba in 'sceNp' module
@@ -97,20 +101,12 @@
 [E]: TODO: cellOskDialogLoadAsync
 [W]: Unknown function 0xb53c54fa in 'cellSysutil' module
 [E]: TODO: cellOskDialogSetKeyLayoutOption
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
 [E]: TODO: cellSysutilEnableBgmPlayback
-[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoSave
-[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
-[E]: TODO: cellSysutilGetBgmPlaybackStatus
 [W]: Unknown function 0xced17573 in 'cellSysutil' module
 [E]: TODO: cellSaveDataFixedDelete
 [W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
@@ -177,13 +173,12 @@
 [E]: TODO: cellMicStart
 [W]: Unknown module 'cellSearchUtility'
 [W]: Unknown module 'cellMusicDecodeUtility'
+[W]: Unknown module 'cellSaveData'
 [W]: Unknown module 'cellBGDLUtility'
 [W]: Unknown function 0x051ee3ee in 'sys_net' module
 [E]: TODO: socketpoll
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
