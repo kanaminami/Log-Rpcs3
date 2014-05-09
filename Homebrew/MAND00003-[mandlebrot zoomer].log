@@ -151,8 +151,6 @@
 [E]: TODO: cellPadLddGetPortNo
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -205,10 +203,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x1d4000, ep=0x28, a1=0x30100510, a2=0x0, a3=0x0, a4=0x0): id=15
 [W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=15, value=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00010ea4]]: sys_spu warning: sys_spu_thread_group_start(id=9)
-[! : RSXThread]: RSX thread exit...
-[W : SPU[13] Thread (mythread)[0x0000092c]]: SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
 [W : SPU[12] Thread (mythread)[0x0000092c]]: SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
-[W : SPU[11] Thread (mythread)[0x0000092c]]: SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
-[W : SPU[14] Thread (mythread)[0x0000092c]]: SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
-[W : SPU[15] Thread (mythread)[0x0000092c]]: SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
-[W : SPU[10] Thread (mythread)[0x0000092c]]: SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

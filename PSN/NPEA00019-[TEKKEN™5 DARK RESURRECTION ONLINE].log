@@ -27,8 +27,6 @@
 [E]: TODO: cellGcmSetInvalidateTile
 [W]: Unknown function 0x3f797dff in 'sys_io' module
 [E]: TODO: cellPadGetRawData
-[W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0x17dbe8b3 in 'cellSysutil' module
 [E]: TODO: cellSysutilAvcJoinRequest
 [W]: Unknown function 0x1a91874b in 'cellSysutil' module

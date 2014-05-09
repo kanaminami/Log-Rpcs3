@@ -103,8 +103,6 @@
 [E]: TODO: cellPadLddGetPortNo
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -171,12 +169,6 @@
 [W : PPU[18] Thread (Control Thread SPU Sound)[0x0005380c]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x670)
 [E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
 [W : PPU[18] Thread (Control Thread SPU Sound)[0x00053814]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[! : RSXThread]: RSX thread exit...
 [W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

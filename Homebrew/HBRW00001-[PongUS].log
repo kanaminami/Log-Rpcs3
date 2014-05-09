@@ -42,8 +42,6 @@
 [E]: TODO: cellPadLddGetPortNo
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
 [W]: Unknown function 0x4cc9b68d in 'sys_io' module
@@ -59,3 +57,4 @@
 [W : PPU[1] Thread (CPUThread)[0x0003204c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x0003204c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
 [! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

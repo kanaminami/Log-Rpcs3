@@ -1,24 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]\PS3_GAME\\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00455-[Burnout Paradise The Ultimate Box]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xa52d2ae4 in 'cellMic' module
@@ -162,8 +162,6 @@
 [E]: TODO: cellPadLddRegisterController
 [W]: Unknown function 0xbafd6409 in 'sys_io' module
 [E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: TODO: cellPadGetCapabilityInfo
 [W]: Unknown function 0xe442faa8 in 'sys_io' module
 [E]: TODO: cellPadLddUnregisterController
 [W]: Unknown function 0x4cef342e in 'sys_fs' module
@@ -344,37 +342,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefe908, num=1, prio=16, attr_addr=0xd000f66c)
 [W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=70
 [W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xefe924, group=0x46, spu_num=1, img_addr=0xfe21e8, attr_addr=0xd000f660, arg_addr=0xd000f680)
+[E : SPU[69] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
 [W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x1013000, ls_offset=0x1093000, ep=0xab90, a1=0xefe980, a2=0x0, a3=0x97f2fc, a4=0x0): id=71
 [W : PPU[1] Thread (CPUThread)[0x00979534]]: sys_spu warning: sys_spu_thread_connect_event(id=71, eq_id=65, event_type=0x1, spup=1)
-[W : PPU[1] Thread (CPUThread)[0x0097954c]]: sys_spu warning: sys_spu_thread_connect_event(id=71, eq_id=65, event_type=0x1, spup=2)
-[W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=71, eq_id=65, event_type=0x1, spup=3)
-[W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=71, eq_id=65, event_type=0x1, spup=4)
-[W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=70)
-[W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefe90c, num=1, prio=16, attr_addr=0xd000f66c)
-[W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=72
-[W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xefe928, group=0x48, spu_num=2, img_addr=0xfe21e8, attr_addr=0xd000f660, arg_addr=0xd000f680)
-[W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x1013000, ls_offset=0x10d3000, ep=0xab90, a1=0xefe9a0, a2=0x0, a3=0x97f2fc, a4=0x0): id=73
-[W : PPU[1] Thread (CPUThread)[0x00979534]]: sys_spu warning: sys_spu_thread_connect_event(id=73, eq_id=65, event_type=0x1, spup=1)
-[W : PPU[1] Thread (CPUThread)[0x0097954c]]: sys_spu warning: sys_spu_thread_connect_event(id=73, eq_id=65, event_type=0x1, spup=2)
-[W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=73, eq_id=65, event_type=0x1, spup=3)
-[W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=73, eq_id=65, event_type=0x1, spup=4)
-[W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=72)
-[W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xefe910, num=1, prio=16, attr_addr=0xd000f66c)
-[W : PPU[1] Thread (CPUThread)[0x0097a538]]: sys_spu warning: *** SPU Thread Group created [Job Manager - Job Thread] (type=0x0, option.ct=0x0): id=74
-[W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0xefe92c, group=0x4a, spu_num=3, img_addr=0xfe21e8, attr_addr=0xd000f660, arg_addr=0xd000f680)
-[W : PPU[1] Thread (CPUThread)[0x0097a5d0]]: sys_spu warning: *** New SPU Thread [Job Manager - Job Thread] (img_offset=0x1013000, ls_offset=0x1113000, ep=0xab90, a1=0xefe9c0, a2=0x0, a3=0x97f2fc, a4=0x0): id=75
-[W : PPU[1] Thread (CPUThread)[0x00979534]]: sys_spu warning: sys_spu_thread_connect_event(id=75, eq_id=65, event_type=0x1, spup=1)
-[W : PPU[1] Thread (CPUThread)[0x0097954c]]: sys_spu warning: sys_spu_thread_connect_event(id=75, eq_id=65, event_type=0x1, spup=2)
-[W : PPU[1] Thread (CPUThread)[0x00979564]]: sys_spu warning: sys_spu_thread_connect_event(id=75, eq_id=65, event_type=0x1, spup=3)
-[W : PPU[1] Thread (CPUThread)[0x0097957c]]: sys_spu warning: sys_spu_thread_connect_event(id=75, eq_id=65, event_type=0x1, spup=4)
-[W : PPU[1] Thread (CPUThread)[0x0097a600]]: sys_spu warning: sys_spu_thread_group_start(id=74)
-[W : PPU[1] Thread (CPUThread)[0x00aef010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x0100e034]]: cellGame warning: cellGameBootCheck(type_addr=0xd000f7e4, attributes_addr=0xec28d0, size_addr=0xd000f7e8, dirName_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0100e034]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
-[W : PPU[1] Thread (CPUThread)[0x0100e004]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0xec26c1, bufsize=128)
-[W : PPU[1] Thread (CPUThread)[0x0100e01c]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0xd000f7e0)
-[E : SPU[69] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
-[E : SPU[71] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
-[E : SPU[75] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
-[E : SPU[73] Thread (Job Manager - Job Thread)[0x0000ab90]]: SPURecompilerCore::Compile(ls_addr=0xab90): branch to 0x0 opcode
+[W : PPU[66] Thread (Job Manager - PPU Proxy)[0x0097bd98]]: sys_event_queue_receive(equeue=65) aborted
 [!]: Closing memory...
