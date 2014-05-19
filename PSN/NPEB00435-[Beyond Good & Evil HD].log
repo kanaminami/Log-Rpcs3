@@ -9,38 +9,20 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
@@ -67,8 +49,6 @@
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
@@ -113,8 +93,6 @@
 [E]: TODO: sceNpProfileCallGui
 [W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
 [E]: TODO: sceNpManagerRegisterCallback
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
 [E]: TODO: sceNpScoreRecordScoreAsync
 [W]: Unknown function 0xf42c0df8 in 'sceNp' module
@@ -143,12 +121,8 @@
 [E]: TODO: gethostbyname
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
 [E]: TODO: getsockopt
 [W]: Unknown module 'sceNpCommerce2'
@@ -223,11 +197,11 @@
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x0202c004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)
-[E : PPU[1] Thread (CPUThread)[0x00c88010]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010a50, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00c88010]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010a50, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=250)
 [W : PPU[1] Thread (CPUThread)[0x0203e094]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x1fe4244, entry=0xcb4008)
 [W : PPU[45] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 46
 [E : PPU[1] Thread (CPUThread)[0x00c88004]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0010a50)
-[E : PPU[1] Thread (CPUThread)[0x00c8801c]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00c8801c]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x30716280, spurs_addr=0xd0010a50)
 [W : PPU[1] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 47
 [W : PPU[1] Thread (CPUThread)[0x00bae81c]]: *** cellFsOpen(path="/jade.spe"): fd = 48
 [W : PPU[1] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 49
@@ -297,6 +271,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0202a0d0]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a04c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 1
 [W : PPU[1] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 64
 [W : PPU[1] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 65
 [W : PPU[1] Thread (CPUThread)[0x0202a028]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x38600000,size=0x400000,offset_addr=0x1fcc378)

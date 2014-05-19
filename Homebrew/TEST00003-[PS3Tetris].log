@@ -169,6 +169,6 @@
 [W : PPU[18] Thread (Control Thread SPU Sound)[0x0005380c]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x670)
 [E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
 [W : PPU[18] Thread (Control Thread SPU Sound)[0x00053814]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
-[W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...
+[W : Audio Thread]: Audio aborted
 [!]: Closing memory...

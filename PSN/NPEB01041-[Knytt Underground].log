@@ -13,10 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01041-[Knytt Underground]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
@@ -25,8 +27,6 @@
 [E]: TODO: cellSaveDataFixedDelete
 [W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
-[E]: TODO: cellSysutilGetBgmPlaybackStatus
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
 [E]: TODO: cellFsSdataOpenByFd
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -39,8 +39,6 @@
 [E]: TODO: sceNpBasicUnregisterHandler
 [W]: Unknown function 0xbcc09fe7 in 'sceNp' module
 [E]: TODO: sceNpBasicRegisterHandler
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown function 0x41251f74 in 'sceNp2' module
@@ -57,12 +55,8 @@
 [E]: TODO: sys_prx_load_module_on_memcontainer
 [W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module_by_fd
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0xacee8542 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0x039d70b7 in 'cellSpurs' module
@@ -154,7 +148,7 @@
 [E : PPU[1] Thread (CPUThread)[0x008cb100]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x008cb010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x56a600)
 [W : PPU[1] Thread (CPUThread)[0x0053b094]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x59c99800)
+[W : PPU[1] Thread (CPUThread)[0x0053b0ac]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xa6790c80)
 [W : PPU[1] Thread (CPUThread)[0x008cb004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x0053b07c]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010aa4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008cb070]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -214,7 +208,7 @@
 [W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0050cd0, attributes_addr=0xd0050cd4, size_addr=0xd0050cd8, dirName_addr=0x0)
 [W : PPU[33] Thread (PhyreEngineHDDPathThread)[0x008b701c]]: cellGame warning: cellGameBootCheck returns CELL_GAME_ERROR_PARAM. As a result size->hddFreeSizeKB may be 0.
 [W : PPU[32] Thread (PhyreEngineWorkerThread1)[0x008c7034]]: sys_lwcond_wait(id=28) aborted
-[W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(id=28) aborted
 [W : PPU[21] Thread (spu_printf_handler)[0x0035e6c8]]: sys_event_queue_receive(equeue=20) aborted
+[W : PPU[31] Thread (PhyreEngineWorkerThread0)[0x008c7034]]: sys_lwcond_wait(id=28) aborted
 [! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

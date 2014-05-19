@@ -464,7 +464,7 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
 [E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
 [W : PPU[1] Thread (CPUThread)[0x013880a0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3f800000, io=0xe000000, size=0x100000)
-[W : PPU[1] Thread (CPUThread)[0x013860a0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x36596820)
+[W : PPU[1] Thread (CPUThread)[0x013860a0]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x4fd05dc0)
 [W : PPU[1] Thread (CPUThread)[0x01388190]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x01388190]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x01388190]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -505,10 +505,10 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [E : PPU[1] Thread (CPUThread)[0x01388124]]: TODO: cellGcmGetReportDataLocation
@@ -520,10 +520,10 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [E : PPU[1] Thread (CPUThread)[0x01388124]]: TODO: cellGcmGetReportDataLocation
@@ -534,10 +534,10 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [E : PPU[1] Thread (CPUThread)[0x01388124]]: TODO: cellGcmGetReportDataLocation
@@ -548,10 +548,10 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [E : PPU[1] Thread (CPUThread)[0x01388124]]: TODO: cellGcmGetReportDataLocation
@@ -562,10 +562,10 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x01388154]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=245366784, size=3932160, pitch=5120, comp=0, base=0, bank=0)
@@ -607,10 +607,10 @@
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [E : PPU[1] Thread (CPUThread)[0x01388124]]: TODO: cellGcmGetReportDataLocation
@@ -619,11 +619,11 @@
 [E : PPU[1] Thread (CPUThread)[0x01388124]]: TODO: cellGcmGetReportDataLocation
 [E : RSXThread]: TODO: cellGcmSetTransformBranchBits(0x0)
 [W : RSXThread]: null cmd: addr=0x513047c8, put=0xa4533001, get=0x13047c8
-[! : RSXThread]: RSX thread exit...
-[W : PPU[81] Thread (fios scheduler 1)[0x0139c040]]: sys_lwcond_wait(id=71) aborted
 [W : PPU[39] Thread (Job Manager Event Handler)[0x003a8a10]]: sys_event_queue_receive(equeue=38) aborted
-[W : PPU[36] Thread (Job Manager Event Handler)[0x003a8a10]]: sys_event_queue_receive(equeue=35) aborted
-[W : PPU[79] Thread (fios mediathread 3)[0x0139c040]]: sys_lwcond_wait(id=76) aborted
-[W : PPU[78] Thread (fios mediathread 2)[0x0139c040]]: sys_lwcond_wait(id=75) aborted
 [W : PPU[80] Thread (fios mediathread 4)[0x0139c040]]: sys_lwcond_wait(id=77) aborted
+[W : PPU[36] Thread (Job Manager Event Handler)[0x003a8a10]]: sys_event_queue_receive(equeue=35) aborted
+[W : PPU[81] Thread (fios scheduler 1)[0x0139c040]]: sys_lwcond_wait(id=71) aborted
+[W : PPU[78] Thread (fios mediathread 2)[0x0139c040]]: sys_lwcond_wait(id=75) aborted
+[W : PPU[79] Thread (fios mediathread 3)[0x0139c040]]: sys_lwcond_wait(id=76) aborted
+[! : RSXThread]: RSX thread exit...
 [!]: Closing memory...

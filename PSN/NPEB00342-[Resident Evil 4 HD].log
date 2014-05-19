@@ -272,8 +272,9 @@ void main()
 
 [W : RSXThread]: New FBO (1280x720)
 [E : RSXThread]: glAlphaFunc: opengl error 0x0500
-[! : RSXThread]: RSX thread exit...
-[W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
 [W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
-[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
 [W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
+[W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
+[W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

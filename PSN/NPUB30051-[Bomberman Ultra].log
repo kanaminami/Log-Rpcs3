@@ -9,14 +9,16 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30051/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
@@ -25,8 +27,6 @@
 [E]: TODO: sceNpScoreGetRankingByRangeAsync
 [W]: Unknown function 0x259113b8 in 'sceNp' module
 [E]: TODO: sceNpScoreDestroyTitleCtx
-[W]: Unknown function 0x2ecd48ed in 'sceNp' module
-[E]: TODO: sceNpDrmVerifyUpgradeLicense
 [W]: Unknown function 0x32cf311f in 'sceNp' module
 [E]: TODO: sceNpScoreInit
 [W]: Unknown function 0x3db7914d in 'sceNp' module
@@ -69,8 +69,6 @@
 [E]: TODO: sceNpScoreAbortTransaction
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
 [E]: TODO: sceNpScoreRecordScoreAsync
-[W]: Unknown function 0xf283c143 in 'sceNp' module
-[E]: TODO: sceNpDrmExecuteGamePurchase
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
 [W]: Unknown function 0x01379fd7 in 'sceNp2' module
@@ -131,12 +129,6 @@
 [E]: TODO: sceNpMatching2Init2
 [W]: Unknown function 0xfee11e72 in 'sceNp2' module
 [E]: TODO: sceNpMatching2RegisterRoomMessageCallback
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
-[W]: Unknown function 0xdbf4c59c in 'sys_io' module
-[E]: Unknown func id: 0xdbf4c59c
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
 [W]: Unknown module 'cellSysutilAvc2'
 [W]: Unknown function 0x52aac4fa in 'cellSysutil' module
 [E]: TODO: cellSaveDataUserAutoSave
@@ -156,36 +148,16 @@
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
 [W : PPU[1] Thread (CPUThread)[0x0030a034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
@@ -214,20 +186,6 @@
 [W : PPU[1] Thread (CPUThread)[0x0030207c]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x1bc921 (/app_home/))
 [W : PPU[1] Thread (CPUThread)[0x00302010]]: sys_fs warning: cellFsOpendir(path="/app_home", fd_addr=0xd00106a0)
 [E : PPU[1] Thread (CPUThread)[0x00302034]]: sys_fs error: "/app_home/flog_ps3.fpg" not found! flags: 0x00000000
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
-[E : PPU[1] Thread (CPUThread)[0x002f20d0]]: TODO: cellPadSetPressMode
-[E : PPU[1] Thread (CPUThread)[0x002f207c]]: TODO: cellPadSetSensorMode
 [E : PPU[1] Thread (CPUThread)[0x002fe01c]]: TODO: cellKey2CharOpen
 [W : PPU[1] Thread (CPUThread)[0x002fc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
 [W : PPU[1] Thread (CPUThread)[0x002fa010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1d8cb8,cmdSize=0x400000,ioSize=0x2800000,ioAddress=0x30200000)
@@ -241,7 +199,7 @@
 [W : PPU[1] Thread (CPUThread)[0x0014dcf8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b13c, attr_addr=0xd0010a00, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x002fa04c]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=1785696)
 [W : PPU[1] Thread (CPUThread)[0x002f6028]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0010854)
-[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x3228280)
+[W : PPU[1] Thread (CPUThread)[0x002f6088]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0xdd3d38c0)
 [W : PPU[1] Thread (CPUThread)[0x001576c0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1ac, attr_addr=0xd0010a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00157890]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28b1bc, attr_addr=0xd0010a20, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x0030a034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
@@ -249,9 +207,9 @@
 [W : PPU[1] Thread (CPUThread)[0x00157d4c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x28d49c, attr_addr=0xd00109e8, initial_count=0, max_count=1)
 [! : PPU[1] Thread (CPUThread)[0x0030a01c]]: *** New PPU Thread [crTaskQueue] (): id = 26
 [W : PPU[1] Thread (CPUThread)[0x00158694]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[E : PPU[1] Thread (CPUThread)[0x00308070]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00107f8, nSpus=2, spuPriority=2359297, ppuPriority=3, exitIfNoWork=250)
-[E : PPU[1] Thread (CPUThread)[0x00308004]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00107f8, prefix_addr=0x186328, size=0x2)
-[E : PPU[1] Thread (CPUThread)[0x003080ac]]: TODO: cellSpursInitializeWithAttribute
+[W : PPU[1] Thread (CPUThread)[0x00308070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00107f8, nSpus=2, spuPriority=2359297, ppuPriority=3, exitIfNoWork=250)
+[W : PPU[1] Thread (CPUThread)[0x00308004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00107f8, prefix_addr=0x186328, size=0x2)
+[W : PPU[1] Thread (CPUThread)[0x003080ac]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x301cd180, spurs_addr=0xd00107f8)
 [W : PPU[1] Thread (CPUThread)[0x00158734]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x28d4bc, attr_addr=0xd00107e4, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x00158734]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 27
 [! : PPU[1] Thread (CPUThread)[0x0030a01c]]: *** New PPU Thread [CrSpursPrintf] (): id = 28
@@ -451,6 +409,12 @@
 [E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
+[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
+[W : PPU[19] Thread (crCommandQueue)[0x002fa040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [W : RSXThread]: FP not found in buffer!
 [E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
@@ -458,122 +422,116 @@
 [E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
-[W : PPU[19] Thread (crCommandQueue)[0x002fa040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
 [E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
 [E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x00308028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[26] Thread (crTaskQueue)[0x00308088]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[26] Thread (crTaskQueue)[0x0030801c]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[26] Thread (crTaskQueue)[0x003080f4]]: TODO: cellSpursRunJobChain
-[E : PPU[26] Thread (crTaskQueue)[0x003080a0]]: TODO: cellSpursJoinJobChain
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049565)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 1049566)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x20 (inst 1049568)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x24 (inst 1049569)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x28 (inst 1049570)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2c (inst 1049571)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x30 (inst 1049572)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x34 (inst 1049573)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x3c (inst 1049575)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049581)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 1049582)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x20 (inst 1049584)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x24 (inst 1049585)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x28 (inst 1049586)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2c (inst 1049587)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x30 (inst 1049588)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x34 (inst 1049589)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x3c (inst 1049591)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x40 (inst 1049592)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x44 (inst 1049593)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x48 (inst 1049594)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x4c (inst 1049595)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x50 (inst 1049596)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x54 (inst 1049597)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x58 (inst 1049598)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049599)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x60 (inst 1049600)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x64 (inst 1049601)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x68 (inst 1049602)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x6c (inst 1049603)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x70 (inst 1049604)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x74 (inst 1049605)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x78 (inst 1049606)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x7c (inst 1049607)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x40 (inst 1049608)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x44 (inst 1049609)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x48 (inst 1049610)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x4c (inst 1049611)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x50 (inst 1049612)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x54 (inst 1049613)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x58 (inst 1049614)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049615)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x60 (inst 1049616)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x64 (inst 1049617)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x68 (inst 1049618)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x6c (inst 1049619)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x70 (inst 1049620)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x74 (inst 1049621)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x78 (inst 1049622)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x7c (inst 1049623)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049781)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 1049782)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x20 (inst 1049784)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x24 (inst 1049785)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x28 (inst 1049786)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2c (inst 1049787)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x30 (inst 1049788)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x34 (inst 1049789)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x3c (inst 1049791)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x14 (inst 1049797)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x18 (inst 1049798)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x20 (inst 1049800)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x24 (inst 1049801)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x28 (inst 1049802)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x2c (inst 1049803)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x30 (inst 1049804)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x34 (inst 1049805)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x3c (inst 1049807)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x40 (inst 1049808)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x44 (inst 1049809)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x48 (inst 1049810)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x4c (inst 1049811)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x50 (inst 1049812)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x54 (inst 1049813)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x58 (inst 1049814)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049815)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x60 (inst 1049816)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x64 (inst 1049817)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x68 (inst 1049818)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x6c (inst 1049819)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x70 (inst 1049820)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x74 (inst 1049821)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x78 (inst 1049822)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x7c (inst 1049823)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x40 (inst 1049824)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x44 (inst 1049825)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x48 (inst 1049826)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x4c (inst 1049827)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x50 (inst 1049828)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x54 (inst 1049829)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x58 (inst 1049830)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049831)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x60 (inst 1049832)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x64 (inst 1049833)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x68 (inst 1049834)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x6c (inst 1049835)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x70 (inst 1049836)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x74 (inst 1049837)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x78 (inst 1049838)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x7c (inst 1049839)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x1e (inst 1049920)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049921)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049922)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049923)
-[E : Fragment Shader Decompiler Thread]: Unknown opcode 0x5c (inst 1049924)
+[E : RSXThread]: Unknown opcode 0x14 (inst 1049565)
+[E : RSXThread]: Unknown opcode 0x18 (inst 1049566)
+[E : RSXThread]: Unknown opcode 0x20 (inst 1049568)
+[E : RSXThread]: Unknown opcode 0x24 (inst 1049569)
+[E : RSXThread]: Unknown opcode 0x28 (inst 1049570)
+[E : RSXThread]: Unknown opcode 0x2c (inst 1049571)
+[E : RSXThread]: Unknown opcode 0x30 (inst 1049572)
+[E : RSXThread]: Unknown opcode 0x34 (inst 1049573)
+[E : RSXThread]: Unknown opcode 0x3c (inst 1049575)
+[E : RSXThread]: Unknown opcode 0x14 (inst 1049581)
+[E : RSXThread]: Unknown opcode 0x18 (inst 1049582)
+[E : RSXThread]: Unknown opcode 0x20 (inst 1049584)
+[E : RSXThread]: Unknown opcode 0x24 (inst 1049585)
+[E : RSXThread]: Unknown opcode 0x28 (inst 1049586)
+[E : RSXThread]: Unknown opcode 0x2c (inst 1049587)
+[E : RSXThread]: Unknown opcode 0x30 (inst 1049588)
+[E : RSXThread]: Unknown opcode 0x34 (inst 1049589)
+[E : RSXThread]: Unknown opcode 0x3c (inst 1049591)
+[E : RSXThread]: Unknown opcode 0x40 (inst 1049592)
+[E : RSXThread]: Unknown opcode 0x44 (inst 1049593)
+[E : RSXThread]: Unknown opcode 0x48 (inst 1049594)
+[E : RSXThread]: Unknown opcode 0x4c (inst 1049595)
+[E : RSXThread]: Unknown opcode 0x50 (inst 1049596)
+[E : RSXThread]: Unknown opcode 0x54 (inst 1049597)
+[E : RSXThread]: Unknown opcode 0x58 (inst 1049598)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049599)
+[E : RSXThread]: Unknown opcode 0x60 (inst 1049600)
+[E : RSXThread]: Unknown opcode 0x64 (inst 1049601)
+[E : RSXThread]: Unknown opcode 0x68 (inst 1049602)
+[E : RSXThread]: Unknown opcode 0x6c (inst 1049603)
+[E : RSXThread]: Unknown opcode 0x70 (inst 1049604)
+[E : RSXThread]: Unknown opcode 0x74 (inst 1049605)
+[E : RSXThread]: Unknown opcode 0x78 (inst 1049606)
+[E : RSXThread]: Unknown opcode 0x7c (inst 1049607)
+[E : RSXThread]: Unknown opcode 0x40 (inst 1049608)
+[E : RSXThread]: Unknown opcode 0x44 (inst 1049609)
+[E : RSXThread]: Unknown opcode 0x48 (inst 1049610)
+[E : RSXThread]: Unknown opcode 0x4c (inst 1049611)
+[E : RSXThread]: Unknown opcode 0x50 (inst 1049612)
+[E : RSXThread]: Unknown opcode 0x54 (inst 1049613)
+[E : RSXThread]: Unknown opcode 0x58 (inst 1049614)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049615)
+[E : RSXThread]: Unknown opcode 0x60 (inst 1049616)
+[E : RSXThread]: Unknown opcode 0x64 (inst 1049617)
+[E : RSXThread]: Unknown opcode 0x68 (inst 1049618)
+[E : RSXThread]: Unknown opcode 0x6c (inst 1049619)
+[E : RSXThread]: Unknown opcode 0x70 (inst 1049620)
+[E : RSXThread]: Unknown opcode 0x74 (inst 1049621)
+[E : RSXThread]: Unknown opcode 0x78 (inst 1049622)
+[E : RSXThread]: Unknown opcode 0x7c (inst 1049623)
+[E : RSXThread]: Unknown opcode 0x14 (inst 1049781)
+[E : RSXThread]: Unknown opcode 0x18 (inst 1049782)
+[E : RSXThread]: Unknown opcode 0x20 (inst 1049784)
+[E : RSXThread]: Unknown opcode 0x24 (inst 1049785)
+[E : RSXThread]: Unknown opcode 0x28 (inst 1049786)
+[E : RSXThread]: Unknown opcode 0x2c (inst 1049787)
+[E : RSXThread]: Unknown opcode 0x30 (inst 1049788)
+[E : RSXThread]: Unknown opcode 0x34 (inst 1049789)
+[E : RSXThread]: Unknown opcode 0x3c (inst 1049791)
+[E : RSXThread]: Unknown opcode 0x14 (inst 1049797)
+[E : RSXThread]: Unknown opcode 0x18 (inst 1049798)
+[E : RSXThread]: Unknown opcode 0x20 (inst 1049800)
+[E : RSXThread]: Unknown opcode 0x24 (inst 1049801)
+[E : RSXThread]: Unknown opcode 0x28 (inst 1049802)
+[E : RSXThread]: Unknown opcode 0x2c (inst 1049803)
+[E : RSXThread]: Unknown opcode 0x30 (inst 1049804)
+[E : RSXThread]: Unknown opcode 0x34 (inst 1049805)
+[E : RSXThread]: Unknown opcode 0x3c (inst 1049807)
+[E : RSXThread]: Unknown opcode 0x40 (inst 1049808)
+[E : RSXThread]: Unknown opcode 0x44 (inst 1049809)
+[E : RSXThread]: Unknown opcode 0x48 (inst 1049810)
+[E : RSXThread]: Unknown opcode 0x4c (inst 1049811)
+[E : RSXThread]: Unknown opcode 0x50 (inst 1049812)
+[E : RSXThread]: Unknown opcode 0x54 (inst 1049813)
+[E : RSXThread]: Unknown opcode 0x58 (inst 1049814)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049815)
+[E : RSXThread]: Unknown opcode 0x60 (inst 1049816)
+[E : RSXThread]: Unknown opcode 0x64 (inst 1049817)
+[E : RSXThread]: Unknown opcode 0x68 (inst 1049818)
+[E : RSXThread]: Unknown opcode 0x6c (inst 1049819)
+[E : RSXThread]: Unknown opcode 0x70 (inst 1049820)
+[E : RSXThread]: Unknown opcode 0x74 (inst 1049821)
+[E : RSXThread]: Unknown opcode 0x78 (inst 1049822)
+[E : RSXThread]: Unknown opcode 0x7c (inst 1049823)
+[E : RSXThread]: Unknown opcode 0x40 (inst 1049824)
+[E : RSXThread]: Unknown opcode 0x44 (inst 1049825)
+[E : RSXThread]: Unknown opcode 0x48 (inst 1049826)
+[E : RSXThread]: Unknown opcode 0x4c (inst 1049827)
+[E : RSXThread]: Unknown opcode 0x50 (inst 1049828)
+[E : RSXThread]: Unknown opcode 0x54 (inst 1049829)
+[E : RSXThread]: Unknown opcode 0x58 (inst 1049830)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049831)
+[E : RSXThread]: Unknown opcode 0x60 (inst 1049832)
+[E : RSXThread]: Unknown opcode 0x64 (inst 1049833)
+[E : RSXThread]: Unknown opcode 0x68 (inst 1049834)
+[E : RSXThread]: Unknown opcode 0x6c (inst 1049835)
+[E : RSXThread]: Unknown opcode 0x70 (inst 1049836)
+[E : RSXThread]: Unknown opcode 0x74 (inst 1049837)
+[E : RSXThread]: Unknown opcode 0x78 (inst 1049838)
+[E : RSXThread]: Unknown opcode 0x7c (inst 1049839)
+[E : RSXThread]: Unknown opcode 0x1e (inst 1049920)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049921)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049922)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049923)
+[E : RSXThread]: Unknown opcode 0x5c (inst 1049924)
 [W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
@@ -645,3 +603,4 @@ void main()
 [W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
 [W : PPU[28] Thread (CrSpursPrintf)[0x00158824]]: sys_event_queue_receive(equeue=27) aborted
 [! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

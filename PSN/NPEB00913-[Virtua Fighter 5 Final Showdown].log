@@ -9,16 +9,33 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00913-[Virtua Fighter 5 Final Showdown]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x4e29e0)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x4e2a18)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x4e2aac)
+[!]: Function 'cellSurMixerSurBusAddData' hooked (addr=0x4e2b3c)
+[!]: Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0x4e2bec)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x4e3448)
+[!]: Function 'cellSurMixerBeep' hooked (addr=0x4e3484)
+[!]: Function 'cellSurMixerChStripSetParameter' hooked (addr=0x4e3860)
+[!]: Function 'cellSurMixerPause' hooked (addr=0x4e3b14)
+[!]: Function 'cellSurMixerGetTimestamp' hooked (addr=0x4e512c)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x4e5194)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x4e5264)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x4e556c)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x4e5e30)
+[S]: Function group [surmixer] successfully hooked
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
@@ -31,18 +48,10 @@
 [E]: TODO: cellSyncBarrierInitialize
 [W]: Unknown function 0x6c272124 in 'cellSync' module
 [E]: TODO: cellSyncBarrierTryWait
-[W]: Unknown function 0x1dfbfdd6 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListLoad2
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
 [E]: TODO: cellSysutilEnableBgmPlayback
-[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedLoad2
-[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0x2de0d663 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListSave2
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
 [E]: TODO: cellOskDialogUnloadAsync
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
@@ -69,10 +78,6 @@
 [E]: TODO: _cellSpursTasksetAttributeInitialize
 [W]: Unknown function 0x1ebcf459 in 'cellSpurs' module
 [E]: TODO: cellSpursDestroyTaskset2
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
@@ -81,20 +86,12 @@
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x91066667 in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePopBody
 [W]: Unknown function 0x92cff6ed in 'cellSpurs' module
 [E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
@@ -111,8 +108,6 @@
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
@@ -169,8 +164,6 @@
 [E]: TODO: sceNpManagerGetChatRestrictionFlag
 [W]: Unknown function 0xee5b20d9 in 'sceNp' module
 [E]: TODO: sceNpScoreAbortTransaction
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xf0a9182b in 'sceNp' module
 [E]: TODO: sceNpFriendlist
 [W]: Unknown function 0xf0b1e399 in 'sceNp' module
@@ -439,228 +432,187 @@
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 62
 [W : PPU[1] Thread (CPUThread)[0x01055004]]: cellAudio warning: cellAudioInit()
 [! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x01077124]]: sys_heap warning: sys_heap_create_heap(heap_addr=0x7aecb0, align=0x20000, size=0x110000)
-[W : PPU[1] Thread (CPUThread)[0x01077124]]: sys_heap warning: *** sys_heap created: id = 63
-[W : PPU[1] Thread (CPUThread)[0x01077088]]: sys_heap warning: _sys_heap_memalign(heap_id=63, align=0x10, size=0x1080)
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr004] (attribute=0x22): sq_id = 64
-[W : PPU[1] Thread (CPUThread)[0x01077088]]: sys_heap warning: _sys_heap_memalign(heap_id=63, align=0x10, size=0x8280)
-[W : PPU[1] Thread (CPUThread)[0x004e4d38]]: sys_mutex warning: *** mutex created [_mxr005] (protocol=0x2, recursive=false): id = 65
-[W : PPU[1] Thread (CPUThread)[0x004e4d5c]]: sys_cond warning: *** condition created [] (mutex_id=65): id = 66
-[W : PPU[1] Thread (CPUThread)[0x004e4de8]]: sys_mutex warning: *** mutex created [_mxr007] (protocol=0x2, recursive=false): id = 67
-[W : PPU[1] Thread (CPUThread)[0x004e4e0c]]: sys_cond warning: *** condition created [] (mutex_id=67): id = 68
-[W : PPU[1] Thread (CPUThread)[0x004e4e90]]: sys_mutex warning: *** mutex created [_mxr009] (protocol=0x2, recursive=false): id = 69
-[W : PPU[1] Thread (CPUThread)[0x004e4eb4]]: sys_cond warning: *** condition created [] (mutex_id=69): id = 70
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [_sys_mixerSurBusReq] (): id = 71
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr001] (attribute=0x22): sq_id = 72
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr002] (attribute=0x22): sq_id = 73
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [_cellsurMixerMain] (): id = 74
-[W : PPU[74] Thread (_cellsurMixerMain)[0x004e70fc]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xff1ea4, attr_addr=0xff2f50, event_queue_key=0x8000cafe02460300, size=2)
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [_mxr003] (attribute=0x22): sq_id = 75
-[W : PPU[1] Thread (CPUThread)[0x01055064]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0xff1ee8, portNum_addr=0xff1e58)
-[W : PPU[74] Thread (_cellsurMixerMain)[0x004e70fc]]: sys_event warning: *** event_queue created [_mxr000] (protocol=0x1, type=0x1): id = 76
-[W : PPU[1] Thread (CPUThread)[0x01055064]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x01055040]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xff1f08)
-[W : PPU[1] Thread (CPUThread)[0x0105504c]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x01055010]]: cellAudio warning: cellAudioSetNotifyEventQueue(key=0x8000cafe02460300)
+[W : PPU[1] Thread (CPUThread)[0x004e5e34]]: libmixer warning: cellSurMixerCreate(config_addr=0x6d3b60)
+[W : PPU[1] Thread (CPUThread)[0x004e5e34]]: libmixer warning: *** surMixer created (ch1=0, ch2=0, ch6=0, ch8=0)
+[W : PPU[1] Thread (CPUThread)[0x004e2a1c]]: libmixer warning: cellSurMixerSetNotifyCallback(func_addr=0x876530, arg=0x0) (surMixerCb=0x0)
+[W : PPU[1] Thread (CPUThread)[0x004e5268]]: libmixer warning: cellSurMixerStart()
+[W : PPU[1] Thread (CPUThread)[0x004e5268]]: libmixer warning: *** audio port opened(default)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 64
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 65
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 66
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(66)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=66): id = 67
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 0] (): id = 68
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=68, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 70
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(70)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=70): id = 71
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 1] (): id = 72
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=72, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 74
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(74)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=74): id = 75
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 2] (): id = 76
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=76, prio=900)
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 77
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 78
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 79
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(79)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=79): id = 80
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 0] (): id = 81
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=81, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 82
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 83
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(83)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=83): id = 84
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 1] (): id = 85
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=85, prio=900)
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 86
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 87
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(87)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 2] (): id = 89
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=89, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 78
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(78)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=78): id = 79
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 3] (): id = 80
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=80, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 81
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 82
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(82)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=82): id = 83
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS Memory File System] (): id = 84
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=84, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 85
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 86
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(86)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=86): id = 87
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS Data Decompression 0] (): id = 88
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=88, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 89
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 90
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 91
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(91)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=91): id = 92
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS File Access 3] (): id = 93
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=93, prio=900)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 91
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 92
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 93
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 94
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 95
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(95)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=95): id = 96
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS Memory File System] (): id = 97
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=97, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 95
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 96
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 97
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 98
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 99
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(99)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=99): id = 100
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI FS Data Decompression 0] (): id = 101
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=101, prio=1100)
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 99
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 100
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI Server Manager] (): id = 101
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=101, prio=500)
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 102
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 103
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 104
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 105
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 106
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 107
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 108
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 109
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 110
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 111
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 112
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CRI Server Manager] (): id = 114
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=114, prio=500)
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 115
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 116
-[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 117
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(117)
-[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=117): id = 118
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CriSr_ProcessServer] (): id = 119
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=119, prio=500)
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CriSr_SignalingServer] (): id = 120
-[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=120, prio=500)
+[W : PPU[1] Thread (CPUThread)[0x00522134]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 104
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition on recursive mutex(104)
+[W : PPU[1] Thread (CPUThread)[0x0052218c]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 105
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CriSr_ProcessServer] (): id = 106
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=106, prio=500)
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [CriSr_SignalingServer] (): id = 107
+[W : PPU[1] Thread (CPUThread)[0x005235dc]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=107, prio=500)
 [W : PPU[1] Thread (CPUThread)[0x0040f28c]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0x308820c8, num=1, prio=100, attr_addr=0xd001059c)
-[W : PPU[1] Thread (CPUThread)[0x0040f28c]]: sys_spu warning: *** SPU Thread Group created [CriSr thread group] (type=0x0, option.ct=0x0): id=121
+[W : PPU[1] Thread (CPUThread)[0x0040f28c]]: sys_spu warning: *** SPU Thread Group created [CriSr thread group] (type=0x0, option.ct=0x0): id=108
 [W : PPU[1] Thread (CPUThread)[0x0107716c]]: sysPrxForUser warning: sys_spu_image_import(img=0x308820cc, src=0x7b3280, type=0x1)
 [W : PPU[1] Thread (CPUThread)[0x0107716c]]: LoadShdr32 error: shstrndx too big!
 [W : PPU[1] Thread (CPUThread)[0x0107716c]]: desc = 'PS3_Release/cri_audio_ps3spu.elf'
-[W : PPU[1] Thread (CPUThread)[0x0040f318]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x308820dc, group=0x79, spu_num=0, img_addr=0x308820cc, attr_addr=0xd0010590, arg_addr=0xd00105b0)
-[W : PPU[1] Thread (CPUThread)[0x0040f318]]: sys_spu warning: *** New SPU Thread [CriSr thread] (img_offset=0x107a000, ls_offset=0x10ba000, ep=0xf0, a1=0x3088212000000000, a2=0x0, a3=0x0, a4=0x0): id=122
+[W : PPU[1] Thread (CPUThread)[0x0040f318]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x308820dc, group=0x6c, spu_num=0, img_addr=0x308820cc, attr_addr=0xd0010590, arg_addr=0xd00105b0)
+[W : PPU[1] Thread (CPUThread)[0x0040f318]]: sys_spu warning: *** New SPU Thread [CriSr thread] (img_offset=0x107a000, ls_offset=0x10ba000, ep=0xf0, a1=0x3088212000000000, a2=0x0, a3=0x0, a4=0x0): id=109
 [W : PPU[1] Thread (CPUThread)[0x0040ff00]]: sys_event warning: sys_event_port_create(eport_id_addr=0x30886408, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0040ff00]]: sys_event warning: *** sys_event_port created: id = 123
+[W : PPU[1] Thread (CPUThread)[0x0040ff00]]: sys_event warning: *** sys_event_port created: id = 110
 [W : PPU[1] Thread (CPUThread)[0x0040ff3c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x30886404, attr_addr=0xd0010540, event_queue_key=0x0, size=3)
-[W : PPU[1] Thread (CPUThread)[0x0040ff3c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 124
-[W : PPU[1] Thread (CPUThread)[0x0040ff54]]: sys_event warning: sys_event_port_connect_local(eport_id=123, equeue_id=124)
-[W : PPU[1] Thread (CPUThread)[0x0040ff70]]: sys_spu warning: sys_spu_thread_bind_queue(id=122, equeue_id=124, spuq_num=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0040ff3c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x2): id = 111
+[W : PPU[1] Thread (CPUThread)[0x0040ff54]]: sys_event warning: sys_event_port_connect_local(eport_id=110, equeue_id=111)
+[W : PPU[1] Thread (CPUThread)[0x0040ff70]]: sys_spu warning: sys_spu_thread_bind_queue(id=109, equeue_id=111, spuq_num=0x0)
 [W : PPU[1] Thread (CPUThread)[0x0040fbf0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x30886444, attr_addr=0xd0010540, event_queue_key=0x0, size=3)
-[W : PPU[1] Thread (CPUThread)[0x0040fbf0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 125
-[W : PPU[1] Thread (CPUThread)[0x0040fc18]]: sys_spu warning: sys_spu_thread_connect_event(id=122, eq_id=125, event_type=0x1, spup=0)
-[W : PPU[1] Thread (CPUThread)[0x0040f11c]]: sys_spu warning: sys_spu_thread_group_start(id=121)
+[W : PPU[1] Thread (CPUThread)[0x0040fbf0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 112
+[W : PPU[1] Thread (CPUThread)[0x0040fc18]]: sys_spu warning: sys_spu_thread_connect_event(id=109, eq_id=112, event_type=0x1, spup=0)
+[W : PPU[1] Thread (CPUThread)[0x0040f11c]]: sys_spu warning: sys_spu_thread_group_start(id=108)
+[W : PPU[1] Thread (CPUThread)[0x004e29e4]]: libmixer warning: cellSurMixerGetAANHandle(handle_addr=0xd0010a94) -> 0x11111111
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 113
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 114
+[W : PPU[1] Thread (CPUThread)[0x0045ecc8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 115
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition on recursive mutex(115)
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition created [] (mutex_id=115): id = 116
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 117
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_dlg] (): id = 118
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 119
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 120
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 121
+[W : PPU[1] Thread (CPUThread)[0x0045ecc8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 122
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition on recursive mutex(122)
+[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition created [] (mutex_id=122): id = 123
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 124
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_dlg] (): id = 125
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 126
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 127
-[W : PPU[1] Thread (CPUThread)[0x0045ecc8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 128
-[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition on recursive mutex(128)
-[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition created [] (mutex_id=128): id = 129
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 130
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_dlg] (): id = 131
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 132
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 133
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 134
-[W : PPU[1] Thread (CPUThread)[0x0045ecc8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 135
-[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition on recursive mutex(135)
-[W : PPU[1] Thread (CPUThread)[0x0045ecfc]]: sys_cond warning: *** condition created [] (mutex_id=135): id = 136
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 128
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(128)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=128): id = 129
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 130
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(130)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=130): id = 131
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 132
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(132)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=132): id = 133
+[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 134
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(134)
+[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=134): id = 135
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 136
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 137
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_dlg] (): id = 138
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 138
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 139
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 140
-[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 141
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(141)
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=141): id = 142
-[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 143
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(143)
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=143): id = 144
-[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 145
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(145)
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=145): id = 146
-[W : PPU[1] Thread (CPUThread)[0x004338ec]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 147
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition on recursive mutex(147)
-[W : PPU[1] Thread (CPUThread)[0x00433924]]: sys_cond warning: *** condition created [] (mutex_id=147): id = 148
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 149
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 141
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 142
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 143
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 144
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_vv_proc] (): id = 145
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 146
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_vsync_proc] (): id = 147
+[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 148
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_fs_proc] (): id = 149
 [W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 150
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 151
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 152
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 153
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 154
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 155
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 156
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 157
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_vv_proc] (): id = 158
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 159
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_vsync_proc] (): id = 160
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 161
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_fs_proc] (): id = 162
-[W : PPU[1] Thread (CPUThread)[0x01077058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 163
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_idle_proc] (): id = 164
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [cri_adxm_idle_proc] (): id = 151
 [W : PPU[1] Thread (CPUThread)[0x00433e20]]: sysPrxForUser warning: sys_ppu_thread_set_priority(thread_id=1, prio=1001)
 [W : PPU[1] Thread (CPUThread)[0x0082f100]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
 [W : PPU[1] Thread (CPUThread)[0x0082f01c]]: cellGcmSys warning: cellGcmInit(context_addr=0xff2fbc,cmdSize=0x6ff000,ioSize=0x700000,ioAddress=0x3b300000)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0082f01c]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0082f01c]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3b300000, io=0x0, size=0x700000)
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [! : RSXThread]: RSX thread entry
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0082f0a0]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x3ba00000,size=0x400000,offset_addr=0x8c3b70)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=7536640, pitch=10240, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=7536640, size=1966080, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=9502720, size=3145728, pitch=4096, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=12648448, size=524288, pitch=2560, comp=0, base=0, bank=0)
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=3)
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=13172736, size=2097152, pitch=2048, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=15269888, size=2359296, pitch=1280, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0082f04c]]: cellGcmSys warning: cellGcmBindTile(index=5)
 [W : PPU[1] Thread (CPUThread)[0x0082f0f4]]: cellGcmSys warning: cellGcmSetTileInfo(index=6, location=0, offset=17629184, size=3145728, pitch=1024, comp=0, base=0, bank=0)
@@ -687,16 +639,16 @@
 [E : PPU[1] Thread (CPUThread)[0x0082f010]]: TODO: cellGcmSetQueueHandler
 [E : PPU[1] Thread (CPUThread)[0x0082f0d0]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [W : PPU[1] Thread (CPUThread)[0x0082f0ac]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=8861960)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x0105b0a0]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 [W : PPU[1] Thread (CPUThread)[0x0105b034]]: cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd00108b8)
 [W : PPU[1] Thread (CPUThread)[0x0106304c]]: cellResc warning: cellRescInit(initConfig_addr=0xd00108b8)
@@ -708,123 +660,138 @@
 [W : PPU[1] Thread (CPUThread)[0x0082f0b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1620000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x0082f0b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x19c2000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x0082f0b8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x2,offset=0x1d64000,pitch=4,width=1280,height=720)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
 [W : PPU[1] Thread (CPUThread)[0x0082f0e8]]: cellGcmSys warning: cellGcmSetDefaultCommandBuffer()
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
 [W : PPU[1] Thread (CPUThread)[0x0105b130]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0010ac0)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[1] Thread (CPUThread)[0x010770a0]]: TODO: sys_get_random_number
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : PPU[1] Thread (CPUThread)[0x010770a0]]: TODO: sys_get_random_number
 [E : PPU[1] Thread (CPUThread)[0x010770a0]]: TODO: sys_get_random_number
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [thr_bootcheck] (): id = 165
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[W : PPU[165] Thread (thr_bootcheck)[0x0105d04c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0140bd0, attributes_addr=0xd0140bd8, size_addr=0xd0140bec, dirName_addr=0xd0140c18)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[! : PPU[1] Thread (CPUThread)[0x01077028]]: *** New PPU Thread [thr_bootcheck] (): id = 152
+[W : PPU[152] Thread (thr_bootcheck)[0x0105d04c]]: cellGame warning: cellGameBootCheck(type_addr=0xd0130bd0, attributes_addr=0xd0130bd8, size_addr=0xd0130bec, dirName_addr=0xd0130c18)
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
 [E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
 [E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
@@ -833,36 +800,41 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
 [E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
 [E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
 [E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
@@ -871,23 +843,11 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
 [E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : RSXThread]: NV4097_SET_POINT_PARAMS_ENABLE
 [E : RSXThread]: NV4097_SET_POINT_SPRITE_CONTROL enable
 [E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
@@ -896,24 +856,40 @@
 [E : RSXThread]: TODO: cellGcmSetBackPolygonMode(0x1b02)
 [E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
 [E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : PPU[74] Thread (_cellsurMixerMain)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=125, event_array_addr=0xd002f418, size=1, number_addr=0xd002f410)
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[122] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=160, vptr_addr=0xd00108b0)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[1] Thread (CPUThread)[0x004e3b18]]: libmixer error: cellSurMixerPause(type=2)
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=147, vptr_addr=0xd00108b0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9b9f0)
-[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=162, vptr_addr=0xd00108b0)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=149, vptr_addr=0xd00108b0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9ba60)
-[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=164, vptr_addr=0xd00108b0)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=151, vptr_addr=0xd00108b0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9bad0)
-[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=158, vptr_addr=0xd00108b0)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[W : PPU[1] Thread (CPUThread)[0x004394d8]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=145, vptr_addr=0xd00108b0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9b980)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb55c8)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb55e8)
@@ -923,92 +899,87 @@
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb5668)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb5688)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb56a8)
-[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=148)
-[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=147)
-[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(147) was owned by thread -1 (recursive=41)
-[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=146)
-[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=145)
-[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(145) was owned by thread -1 (recursive=0)
-[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=144)
-[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=143)
-[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(143) was owned by thread -1 (recursive=0)
-[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=142)
-[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=141)
-[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(141) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=135)
+[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=134)
+[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(134) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=133)
+[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=132)
+[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(132) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=131)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=130)
+[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(130) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x004336a8]]: sys_cond warning: sys_cond_destroy(cond_id=129)
+[W : PPU[1] Thread (CPUThread)[0x004336ec]]: sys_mutex warning: sys_mutex_destroy(mutex_id=128)
+[! : PPU[1] Thread (CPUThread)[0x004336ec]]: Mutex(128) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9b910)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x101dc80)
-[W : PPU[1] Thread (CPUThread)[0x0045ea04]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=138, vptr_addr=0xd0010830)
-[W : PPU[1] Thread (CPUThread)[0x0045ea18]]: sys_cond warning: sys_cond_destroy(cond_id=136)
-[W : PPU[1] Thread (CPUThread)[0x0045eadc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=135)
-[! : PPU[1] Thread (CPUThread)[0x0045eadc]]: Mutex(135) was owned by thread -1 (recursive=0)
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x0045ea04]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=125, vptr_addr=0xd0010830)
+[W : PPU[1] Thread (CPUThread)[0x0045ea18]]: sys_cond warning: sys_cond_destroy(cond_id=123)
+[W : PPU[1] Thread (CPUThread)[0x0045eadc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=122)
+[! : PPU[1] Thread (CPUThread)[0x0045eadc]]: Mutex(122) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb4c08)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb5848)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9b6c0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x101dc58)
-[W : PPU[1] Thread (CPUThread)[0x0045ea04]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=131, vptr_addr=0xd0010910)
-[W : PPU[1] Thread (CPUThread)[0x0045ea18]]: sys_cond warning: sys_cond_destroy(cond_id=129)
-[W : PPU[1] Thread (CPUThread)[0x0045eadc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=128)
-[! : PPU[1] Thread (CPUThread)[0x0045eadc]]: Mutex(128) was owned by thread -1 (recursive=0)
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : PPU[63] Thread (Surmixer Callback)[0x0040f964]]: sys_event error: sys_event_queue_tryreceive(equeue_id=112, event_array_addr=0xd001f618, size=1, number_addr=0xd001f610)
+[E : SPU[109] Thread (CriSr thread)[0x00000a40]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x00000a80]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[109] Thread (CriSr thread)[0x000006bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : PPU[1] Thread (CPUThread)[0x0045ea04]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=118, vptr_addr=0xd0010910)
+[W : PPU[1] Thread (CPUThread)[0x0045ea18]]: sys_cond warning: sys_cond_destroy(cond_id=116)
+[W : PPU[1] Thread (CPUThread)[0x0045eadc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=115)
+[! : PPU[1] Thread (CPUThread)[0x0045eadc]]: Mutex(115) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb4c70)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb5818)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xfb52a0)
-[W : PPU[1] Thread (CPUThread)[0x0105507c]]: cellAudio warning: cellAudioRemoveNotifyEventQueue(key=0x8000cafe02460300)
-[W : PPU[1] Thread (CPUThread)[0x01055034]]: cellAudio warning: cellAudioPortStop(portNum=0x0)
-[E : PPU[1] Thread (CPUThread)[0x010770c4]]: TODO: _sys_heap_free
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012460)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012478)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012490)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x300124a8)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x300124c0)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x300124d8)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x300124f0)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012508)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012520)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012538)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012550)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012568)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30012640)
-[W : PPU[1] Thread (CPUThread)[0x004e786c]]: sys_cond warning: sys_cond_destroy(cond_id=68)
-[W : PPU[1] Thread (CPUThread)[0x004e7884]]: sys_mutex warning: sys_mutex_destroy(mutex_id=67)
-[! : PPU[1] Thread (CPUThread)[0x004e7884]]: Mutex(67) was owned by thread -1 (recursive=41)
-[W : PPU[1] Thread (CPUThread)[0x004e789c]]: sys_cond warning: sys_cond_destroy(cond_id=66)
-[W : PPU[1] Thread (CPUThread)[0x004e78b4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=65)
-[! : PPU[1] Thread (CPUThread)[0x004e78b4]]: Mutex(65) was owned by thread -1 (recursive=0)
-[W : PPU[1] Thread (CPUThread)[0x004e78cc]]: sys_cond warning: sys_cond_destroy(cond_id=70)
-[W : PPU[1] Thread (CPUThread)[0x004e78e4]]: sys_mutex warning: sys_mutex_destroy(mutex_id=69)
-[! : PPU[1] Thread (CPUThread)[0x004e78e4]]: Mutex(69) was owned by thread -1 (recursive=0)
-[E : PPU[1] Thread (CPUThread)[0x010770c4]]: TODO: _sys_heap_free
-[W : PPU[1] Thread (CPUThread)[0x004e5460]]: sys_event warning: sys_event_port_create(eport_id_addr=0xd0010930, port_type=0x1, name=0x0)
-[W : PPU[1] Thread (CPUThread)[0x004e5460]]: sys_event warning: *** sys_event_port created: id = 166
-[W : PPU[1] Thread (CPUThread)[0x004e5470]]: sys_event warning: sys_event_port_connect_local(eport_id=166, equeue_id=76)
-[E : PPU[74] Thread (_cellsurMixerMain)[0x004e7368]]: sys_event error: sys_event_queue_destroy(equeue_id=76, mode=0x0)
-[W : PPU[1] Thread (CPUThread)[0x004e54a0]]: sys_event warning: sys_event_port_disconnect(eport_id=166)
-[W : PPU[1] Thread (CPUThread)[0x004e54ac]]: sys_event warning: sys_event_port_destroy(eport_id=166)
-[W : PPU[1] Thread (CPUThread)[0x01055028]]: cellAudio warning: cellAudioPortClose(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xff1e88)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xff19b0)
-[W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xff1e60)
-[E : PPU[1] Thread (CPUThread)[0x0107710c]]: TODO: _sys_heap_delete_heap
+[E : PPU[1] Thread (CPUThread)[0x004e3b18]]: libmixer error: cellSurMixerPause(type=2)
+[W : PPU[1] Thread (CPUThread)[0x004e2ab0]]: libmixer warning: cellSurMixerSetNotifyCallback(func_addr=0x876530) (surMixerCb=0x876530)
+[W : PPU[1] Thread (CPUThread)[0x004e5570]]: libmixer warning: cellSurMixerFinalize()
 [W : PPU[1] Thread (CPUThread)[0x01055058]]: cellAudio warning: cellAudioQuit()
 [! : Audio Thread]: Audio finished
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xa734c0)
-[W : PPU[1] Thread (CPUThread)[0x0040f0a4]]: sys_spu warning: sys_spu_thread_group_join(id=121, cause_addr=0xd0010820, status_addr=0xd0010824)
-[W : PPU[1] Thread (CPUThread)[0x0040fab8]]: sys_spu warning: sys_spu_thread_disconnect_event(id=122, event_type=0x1, spup=0)
-[E : PPU[1] Thread (CPUThread)[0x0040fadc]]: sys_event error: sys_event_queue_destroy(equeue_id=125, mode=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0040fd48]]: sys_spu warning: sys_spu_thread_unbind_queue(id=0x7a, spuq_num=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0040fd68]]: sys_event warning: sys_event_port_disconnect(eport_id=123)
-[E : PPU[1] Thread (CPUThread)[0x0040fd8c]]: sys_event error: sys_event_queue_destroy(equeue_id=124, mode=0x1)
-[W : PPU[1] Thread (CPUThread)[0x0040fdac]]: sys_event warning: sys_event_port_destroy(eport_id=123)
-[W : PPU[1] Thread (CPUThread)[0x0040f1b8]]: sys_spu warning: sys_spu_thread_group_destroy(id=121)
+[W : PPU[1] Thread (CPUThread)[0x0040f0a4]]: sys_spu warning: sys_spu_thread_group_join(id=108, cause_addr=0xd0010820, status_addr=0xd0010824)
+[W : PPU[1] Thread (CPUThread)[0x0040fab8]]: sys_spu warning: sys_spu_thread_disconnect_event(id=109, event_type=0x1, spup=0)
+[E : PPU[1] Thread (CPUThread)[0x0040fadc]]: sys_event error: sys_event_queue_destroy(equeue_id=112, mode=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0040fd48]]: sys_spu warning: sys_spu_thread_unbind_queue(id=0x6d, spuq_num=0x0)
+[W : PPU[1] Thread (CPUThread)[0x0040fd68]]: sys_event warning: sys_event_port_disconnect(eport_id=110)
+[E : PPU[1] Thread (CPUThread)[0x0040fd8c]]: sys_event error: sys_event_queue_destroy(equeue_id=111, mode=0x1)
+[W : PPU[1] Thread (CPUThread)[0x0040fdac]]: sys_event warning: sys_event_port_destroy(eport_id=110)
+[W : PPU[1] Thread (CPUThread)[0x0040f1b8]]: sys_spu warning: sys_spu_thread_group_destroy(id=108)
 [W : PPU[1] Thread (CPUThread)[0x01077148]]: sysPrxForUser warning: sys_spu_image_close(img=0x308820cc)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=120, vptr_addr=0xd0010690)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=119, vptr_addr=0xd0010690)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=118)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=117)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(117) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=107, vptr_addr=0xd0010690)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=106, vptr_addr=0xd0010690)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=105)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=104)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(104) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3081b5a0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3081b550)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=114, vptr_addr=0xd00108c0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=101, vptr_addr=0xd00108c0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x1006140)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x308197b8)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30819438)
@@ -1021,35 +992,35 @@
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3080e860)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3080c560)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3080c1e0)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=101, vptr_addr=0xd0010820)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=100)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=99)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(99) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=88, vptr_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=87)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=86)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(86) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9a8b0)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=81, vptr_addr=0xd0010820)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=80)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=79)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(79) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=68, vptr_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=67)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=66)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(66) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9ae30)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=85, vptr_addr=0xd0010820)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=84)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=83)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(83) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=72, vptr_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=71)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=70)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(70) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9af08)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=89, vptr_addr=0xd0010820)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=88)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=87)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(87) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=76, vptr_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=75)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=74)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(74) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9afe0)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=93, vptr_addr=0xd0010820)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=92)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=91)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(91) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=80, vptr_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=79)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=78)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(78) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9b0b8)
-[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=97, vptr_addr=0xd0010820)
-[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=96)
-[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=95)
-[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(95) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x005234d4]]: sysPrxForUser warning: sys_ppu_thread_join(thread_id=84, vptr_addr=0xd0010820)
+[W : PPU[1] Thread (CPUThread)[0x00522270]]: sys_cond warning: sys_cond_destroy(cond_id=83)
+[W : PPU[1] Thread (CPUThread)[0x005222cc]]: sys_mutex warning: sys_mutex_destroy(mutex_id=82)
+[! : PPU[1] Thread (CPUThread)[0x005222cc]]: Mutex(82) was owned by thread -1 (recursive=0)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0xf9b190)
 [W : PPU[1] Thread (CPUThread)[0x01077130]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x8b3aa0)
 [W : PPU[1] Thread (CPUThread)[0x0105b004]]: cellSysutil warning: cellSysutilUnregisterCallback(slot=0)

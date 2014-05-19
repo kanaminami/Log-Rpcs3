@@ -13,12 +13,33 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00333-[MOTORSTORM® RC]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellAANAddData' hooked (addr=0x510c84)
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0x510ce8)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0x510d20)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0x510db4)
+[!]: Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0x5115c4)
+[!]: Function 'cellSurMixerChStripSetParameter' hooked (addr=0x5118f0)
+[!]: Function 'cellSurMixerSetParameter' hooked (addr=0x512f60)
+[!]: Function 'cellSurMixerStart' hooked (addr=0x513030)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0x513338)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0x513bfc)
+[E]: Function 'cellAANConnect' not found
+[E]: Function 'cellAANDisconnect' not found
+[E]: Function group [surmxAAN] failed: missing;
+[E]: Function 'cellSurMixerSurBusAddData' not found
+[E]: Function 'cellSurMixerPause' not found
+[E]: Function 'cellSurMixerGetCurrentBlockTag' not found
+[E]: Function 'cellSurMixerGetTimestamp' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown function 0xd0e766fe in 'cellUsbd' module
 [E]: TODO: cellUsbdInit
 [W]: Unknown function 0x0f411262 in 'cellUsbd' module
@@ -127,8 +148,6 @@
 [E]: TODO: sceNpBasicGetFriendPresenceByNpId
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0x41251f74 in 'sceNp2' module
 [E]: TODO: sceNp2Init
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
@@ -240,10 +259,6 @@
 [E]: TODO: cellGameGetHomeDataExportPath
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0xf7681b9a in 'cellL10n' module

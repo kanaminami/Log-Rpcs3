@@ -13,10 +13,12 @@
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
 [!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\media\
 [!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPUB30106/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x21cee035 in 'cellGcmSys' module
@@ -76,8 +78,6 @@
 [E]: TODO: sceNpManagerGetChatRestrictionFlag
 [W]: Unknown function 0xee5b20d9 in 'sceNp' module
 [E]: TODO: sceNpScoreAbortTransaction
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0xf2b3338a in 'sceNp' module
 [E]: TODO: sceNpBasicGetBlockListEntry
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
@@ -264,8 +264,6 @@
 [E]: TODO: cellSysutilEnableBgmPlayback
 [W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
 [E]: TODO: cellSaveDataAutoSave2
-[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
-[E]: TODO: cellSysutilGetBgmPlaybackStatus
 [W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
 [E]: TODO: cellSysutilDisableBgmPlayback
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
@@ -274,8 +272,6 @@
 [E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown function 0x5a045bd1 in 'sys_net' module
@@ -284,8 +280,6 @@
 [E]: TODO: gethostbyname
 [W]: Unknown function 0x858a930b in 'sys_net' module
 [E]: TODO: inet_ntoa
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0xf7ac8941 in 'sys_net' module
 [E]: TODO: gethostbyaddr
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
@@ -342,7 +336,6 @@
 [W : PPU[1] Thread (CPUThread)[0x010dc010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x010da0c4]]: sys_fs warning: cellFsAioInit(mount_point_addr=0xc4ae38 (/dev_hdd0))
 [W : PPU[1] Thread (CPUThread)[0x010da0a0]]: sys_fs warning: cellFsSdataOpen(path="/ar.vromfs.sdat", flags=0x0, fd_addr=0xd0010b50, arg_addr=0x0, size=0x0)
-[E : PPU[1] Thread (CPUThread)[0x010da0a0]]: sys_fs error: '/dev_hdd1/ar.vromfs.sdat.unpacked' couldn't be created! flags: 0x00000002
 [W : PPU[1] Thread (CPUThread)[0x010ea058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
 [E : PPU[1] Thread (CPUThread)[0x010da040]]: sys_fs error: "/settings.blk" not found! flags: 0x00000000
 [E : PPU[1] Thread (CPUThread)[0x010da040]]: sys_fs error: "/settings.blk.blk" not found! flags: 0x00000000

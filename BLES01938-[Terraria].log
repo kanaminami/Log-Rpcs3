@@ -18,6 +18,7 @@
 [!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01938-[Terraria]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x20543730 in 'cellSysutil' module

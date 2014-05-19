@@ -434,18 +434,14 @@
 [E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
 [E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [DLC_File_Check] (): id = 44
 [E : PPU[44] Thread (DLC_File_Check)[0x00589028]]: cellGame error: Unimplemented function: cellGameDataCheck
 [W : PPU[44] Thread (DLC_File_Check)[0x00589010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0080c00, usrdirPath_addr=0xd0080c80)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [W : PPU[1] Thread (CPUThread)[0x0056f058]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x28c020 (/))
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 45
 [! : PPU[1] Thread (CPUThread)[0x0058f01c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 46
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e1e4]]: cellSpurs error: _cellSpursSendSignal(taskset_addr=0x529c00, taskID=0)
-[E : PPU[43] Thread (MultiStream PU Thread)[0x0026e058]]: cellSpurs error: cellSpursEventFlagWait(event_flag_addr=0x52b580, flag_bits_addr=0x28fd78, wait_mode=1)
 [E : PPU[1] Thread (CPUThread)[0x0026e010]]: TODO: _cellSpursTasksetAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x0026e07c]]: TODO: cellSpursTasksetAttributeSetName
 [E : PPU[1] Thread (CPUThread)[0x0026e148]]: TODO: cellSpursCreateTasksetWithAttribute
@@ -460,3 +456,4 @@
 [E : PPU[1] Thread (CPUThread)[0x00107350]]: Write16 to null block: [00000000]: 6
 [W : Audio Thread]: Audio aborted
 [! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

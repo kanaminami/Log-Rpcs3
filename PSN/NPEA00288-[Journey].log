@@ -9,14 +9,16 @@
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
 [!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\..\
 [!]: /host_root/ -> 
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
-[!]: /app_home/Game/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/
-[!]: data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\Data\
-[!]: /data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\Data\
-[!]: DATA/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\DATA\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\Data\
 [!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/
-[!]: /USRDIR/PS3_GAME/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00288-[Journey]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown module 'HotLoadEUGold'
@@ -53,24 +55,16 @@
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
 [W]: Unknown function 0x9034e538 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskGetContextSaveAreaSize
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
-[E]: TODO: cellSpursInitializeWithAttribute
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
 [W]: Unknown function 0x57e4dec3 in 'cellSpurs' module
@@ -85,8 +79,6 @@
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xa73bf47e in 'cellSpurs' module
 [E]: TODO: _cellSpursWorkloadFlagReceiver
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0xc765b995 in 'cellSpurs' module
 [E]: TODO: cellSpursGetWorkloadFlag
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
@@ -350,10 +342,10 @@
 [E : PPU[1] Thread (CPUThread)[0x00eed070]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x50b5b8)
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
 [W : PPU[1] Thread (CPUThread)[0x00ecd010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC2)
-[E : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd0010628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
+[W : PPU[1] Thread (CPUThread)[0x00ecf088]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010628, nSpus=2, spuPriority=3342336, ppuPriority=6, exitIfNoWork=249)
 [E : PPU[1] Thread (CPUThread)[0x00ecf004]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd0010628)
-[E : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0010628, priority[4187121552], maxSpu=6, isPreemptible[4187121560])
-[E : PPU[1] Thread (CPUThread)[0x00ecf0d0]]: TODO: cellSpursInitializeWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x00ecf094]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd0010628, priority[3132345616], maxSpu=6, isPreemptible[3132345624])
+[W : PPU[1] Thread (CPUThread)[0x00ecf0d0]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x37a00400, spurs_addr=0xd0010628)
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xe8e610, attr_addr=0xd0010540, event_queue_key=0x0, size=8)
 [W : PPU[1] Thread (CPUThread)[0x002aa56c]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 86
 [! : PPU[1] Thread (CPUThread)[0x00eed028]]: *** New PPU Thread [spu_printf_handler] (): id = 87
@@ -414,10 +406,13 @@
 [W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd0010350, drm_path_addr=0xd00103f0)
 [W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /Data/Prx/HotLoadEUGold.sprx
 [W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0xb0090227200902272009022720090227
+[E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: EDAT: File has invalid NPD header.
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
 [W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd0010350, drm_path_addr=0xd00103f0)
 [W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /Data/Prx/elfEUGold.sprx
 [W : PPU[1] Thread (CPUThread)[0x00edb0ac]]: sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0xb0090227200902272009022720090227
+[E : PPU[1] Thread (CPUThread)[0x00edb0ac]]: EDAT: Failed to open files!
+
 [E : PPU[1] Thread (CPUThread)[0x00eed034]]: TODO: sys_prx_load_module
 [E : PPU[1] Thread (CPUThread)[0x0020a7d0]]: Write64 to null block: [cffee860]: d0010560
 [! : RSXThread]: RSX thread exit...
