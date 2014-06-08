@@ -1,0 +1,1655 @@
+[!]: path: /dev_hdd0/game/
+[!]: Loading 'E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BLUS-30578-[Family Game Night 3]/USRDIR/BOOT.BIN'...
+[!]: Mount info:
+[!]: /dev_hdd0/ -> E:\PS3EMU\Rpcs3-x6412/dev_hdd0/
+[!]: /dev_hdd1/ -> E:\PS3EMU\Rpcs3-x6412/dev_hdd1/
+[!]: /dev_flash/ -> E:\PS3EMU\Rpcs3-x6412/dev_flash/
+[!]: /dev_usb000/ -> E:\PS3EMU\Rpcs3-x6412/dev_usb000/
+[!]: /dev_usb/ -> E:\PS3EMU\Rpcs3-x6412/dev_usb000/
+[!]: /app_home/ -> E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BLUS-30578-[Family Game Night 3]/
+[!]: /dev_bdvd/ -> E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BLUS-30578-[Family Game Night 3]//../
+[!]: /host_root/ -> 
+[!]: / -> E:\PS3EMU\Rpcs3-x6412\dev_hdd0\game\BLUS-30578-[Family Game Night 3]/
+[!]: Initing memory...
+[!]: Memory initialized.
+[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
+[E]: TODO: cellGcmGetVBlankCount
+[W]: Unknown function 0x011ee38b in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueueInitialize
+[W]: Unknown function 0x16394a4e in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttributeInitialize
+[W]: Unknown function 0x1656d49f in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[W]: Unknown function 0x1d344406 in 'cellSpurs' module
+[E]: TODO: cellSpursTaskGetLoadableSegmentPattern
+[W]: Unknown function 0x22aab31d in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
+[W]: Unknown function 0x303c19cd in 'cellSpurs' module
+[E]: TODO: cellSpursCreateJobChainWithAttribute
+[W]: Unknown function 0x3548f483 in 'cellSpurs' module
+[E]: TODO: _cellSpursJobChainAttributeInitialize
+[W]: Unknown function 0x373523d4 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagWait
+[W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset2
+[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
+[E]: TODO: _cellSpursEventFlagInitialize
+[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
+[E]: TODO: cellSpursTasksetAttributeSetName
+[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardInitialize
+[W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagTryWait
+[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownJobChain
+[W]: Unknown function 0x7cb33c2e in 'cellSpurs' module
+[E]: TODO: cellSpursTaskGetReadOnlyAreaPattern
+[W]: Unknown function 0x87630976 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[W]: Unknown function 0x8a85674d in 'cellSpurs' module
+[E]: TODO: _cellSpursLFQueuePushBody
+[W]: Unknown function 0x8adadf65 in 'cellSpurs' module
+[E]: TODO: _cellSpursTaskAttribute2Initialize
+[W]: Unknown function 0x9034e538 in 'cellSpurs' module
+[E]: TODO: cellSpursTaskGetContextSaveAreaSize
+[W]: Unknown function 0x9197915f in 'cellSpurs' module
+[E]: TODO: cellSpursTaskGenerateLsPattern
+[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTaskset
+[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
+[E]: TODO: cellSpursJobChainAttributeSetName
+[W]: Unknown function 0xa789e631 in 'cellSpurs' module
+[E]: TODO: cellSpursShutdownTaskset
+[W]: Unknown function 0xa7a94892 in 'cellSpurs' module
+[E]: TODO: cellSpursJoinTask2
+[W]: Unknown function 0xa7c066de in 'cellSpurs' module
+[E]: TODO: cellSpursJoinJobChain
+[W]: Unknown function 0xaa6269a8 in 'cellSpurs' module
+[E]: TODO: cellSpursInitializeWithAttribute
+[W]: Unknown function 0xc10931cb in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTasksetWithAttribute
+[W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
+[E]: TODO: _cellSpursTasksetAttribute2Initialize
+[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
+[E]: TODO: cellSpursJobGuardNotify
+[W]: Unknown function 0xe14ca62d in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask2
+[W]: Unknown function 0xf31731bb in 'cellSpurs' module
+[E]: TODO: cellSpursRunJobChain
+[W]: Unknown function 0xf5507729 in 'cellSpurs' module
+[E]: TODO: cellSpursEventFlagSet
+[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTaskset
+[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
+[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
+[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
+[E]: TODO: cellSpursInitialize
+[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
+[E]: TODO: cellSpursCreateTask
+[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
+[E]: TODO: _cellSpursSendSignal
+[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
+[E]: TODO: cellOskDialogUnloadAsync
+[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
+[E]: TODO: cellOskDialogLoadAsync
+[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoSave2
+[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
+[E]: TODO: cellOskDialogSetKeyLayoutOption
+[W]: Unknown function 0xced17573 in 'cellSysutil' module
+[E]: TODO: cellSaveDataFixedDelete
+[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
+[E]: TODO: cellSaveDataAutoLoad2
+[W]: Unknown function 0x01fbbc9b in 'sceNp' module
+[E]: TODO: sceNpBasicSendMessageGui
+[W]: Unknown function 0x04372385 in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntry
+[W]: Unknown function 0x155de760 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionInfo
+[W]: Unknown function 0x21206642 in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByRangeAsync
+[W]: Unknown function 0x259113b8 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTitleCtx
+[W]: Unknown function 0x32c78a6a in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendPresenceByIndex
+[W]: Unknown function 0x32cf311f in 'sceNp' module
+[E]: TODO: sceNpScoreInit
+[W]: Unknown function 0x34ce82a0 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionFromPeerAddress
+[W]: Unknown function 0x36d0c2c5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetAvatarUrl
+[W]: Unknown function 0x3d1760dc in 'sceNp' module
+[E]: TODO: sceNpLookupAbortTransaction
+[W]: Unknown function 0x3db7914d in 'sceNp' module
+[E]: TODO: sceNpScoreGetRankingByNpIdAsync
+[W]: Unknown function 0x45f8f3aa in 'sceNp' module
+[E]: TODO: sceNpCustomMenuRegisterActions
+[W]: Unknown function 0x50b86d94 in 'sceNp' module
+[E]: TODO: sceNpSignalingAddExtendedHandler
+[W]: Unknown function 0x52a6b523 in 'sceNp' module
+[E]: TODO: sceNpManagerUnregisterCallback
+[W]: Unknown function 0x5de61626 in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTitleCtx
+[W]: Unknown function 0x5e849303 in 'sceNp' module
+[E]: TODO: sceNpBasicSetPresenceDetails2
+[W]: Unknown function 0x5f2d9257 in 'sceNp' module
+[E]: TODO: sceNpLookupInit
+[W]: Unknown function 0x60897c38 in 'sceNp' module
+[E]: TODO: sceNpSignalingActivateConnection
+[W]: Unknown function 0x6356082e in 'sceNp' module
+[E]: TODO: sceNpSignalingCreateCtx
+[W]: Unknown function 0x64a704cc in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageAttachmentLoad
+[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
+[E]: TODO: sceNpManagerGetContentRatingFlag
+[W]: Unknown function 0x6f5e8143 in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTransactionCtx
+[W]: Unknown function 0x73931bd0 in 'sceNp' module
+[E]: TODO: sceNpBasicGetBlockListEntryCount
+[W]: Unknown function 0x7508112e in 'sceNp' module
+[E]: TODO: sceNpLookupPollAsync
+[W]: Unknown function 0x806960ab in 'sceNp' module
+[E]: TODO: sceNpBasicRecvMessageCustom
+[W]: Unknown function 0x8440537c in 'sceNp' module
+[E]: TODO: sceNpLookupTerm
+[W]: Unknown function 0x95c7bba3 in 'sceNp' module
+[E]: TODO: sceNpSignalingTerminateConnection
+[W]: Unknown function 0x9851f805 in 'sceNp' module
+[E]: TODO: sceNpScoreTerm
+[W]: Unknown function 0xa7a090e5 in 'sceNp' module
+[E]: TODO: sceNpScorePollAsync
+[W]: Unknown function 0xa8cf8451 in 'sceNp' module
+[E]: TODO: sceNpSignalingDestroyCtx
+[W]: Unknown function 0xacb9ee8e in 'sceNp' module
+[E]: TODO: sceNpBasicUnregisterHandler
+[W]: Unknown function 0xafef640d in 'sceNp' module
+[E]: TODO: sceNpBasicGetFriendListEntryCount
+[W]: Unknown function 0xb1e0718b in 'sceNp' module
+[E]: TODO: sceNpManagerGetAccountRegion
+[W]: Unknown function 0xb9f93bbb in 'sceNp' module
+[E]: TODO: sceNpScoreCreateTitleCtx
+[W]: Unknown function 0xbcc09fe7 in 'sceNp' module
+[E]: TODO: sceNpBasicRegisterHandler
+[W]: Unknown function 0xbcdbb2ab in 'sceNp' module
+[E]: TODO: sceNpBasicAddPlayersHistoryAsync
+[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNetworkTime
+[W]: Unknown function 0xbf9eea93 in 'sceNp' module
+[E]: TODO: sceNpLookupAvatarImageAsync
+[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
+[E]: TODO: sceNpScoreDestroyTransactionCtx
+[W]: Unknown function 0xca0a2d04 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionStatus
+[W]: Unknown function 0xce81c7f0 in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTitleCtx
+[W]: Unknown function 0xceeebc7a in 'sceNp' module
+[E]: TODO: sceNpProfileCallGui
+[W]: Unknown function 0xd208f91d in 'sceNp' module
+[E]: TODO: sceNpUtilCmpNpId
+[W]: Unknown function 0xdb2e4dc2 in 'sceNp' module
+[E]: TODO: sceNpScoreGetGameDataAsync
+[W]: Unknown function 0xe035f7d6 in 'sceNp' module
+[E]: TODO: sceNpBasicGetEvent
+[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
+[E]: TODO: sceNpManagerRegisterCallback
+[W]: Unknown function 0xe853d388 in 'sceNp' module
+[E]: TODO: sceNpSignalingGetConnectionFromNpId
+[W]: Unknown function 0xea2e9ffc in 'sceNp' module
+[E]: TODO: sceNpLookupCreateTransactionCtx
+[W]: Unknown function 0xeb7a3d84 in 'sceNp' module
+[E]: TODO: sceNpManagerGetChatRestrictionFlag
+[W]: Unknown function 0xee5b20d9 in 'sceNp' module
+[E]: TODO: sceNpScoreAbortTransaction
+[W]: Unknown function 0xf0b1e399 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordScoreAsync
+[W]: Unknown function 0xf2b3338a in 'sceNp' module
+[E]: TODO: sceNpBasicGetBlockListEntry
+[W]: Unknown function 0xf42c0df8 in 'sceNp' module
+[E]: TODO: sceNpManagerGetOnlineName
+[W]: Unknown function 0xf76847c2 in 'sceNp' module
+[E]: TODO: sceNpScoreRecordGameDataAsync
+[W]: Unknown function 0xf9732ac8 in 'sceNp' module
+[E]: TODO: sceNpCustomMenuActionSetActivation
+[W]: Unknown function 0xfb87cf5e in 'sceNp' module
+[E]: TODO: sceNpLookupDestroyTransactionCtx
+[W]: Unknown function 0xfd0eb5ae in 'sceNp' module
+[E]: TODO: sceNpSignalingDeactivateConnection
+[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
+[E]: TODO: sceNpManagerGetNpId
+[W]: Unknown function 0x01379fd7 in 'sceNp2' module
+[E]: TODO: sceNpMatching2DestroyContext
+[W]: Unknown function 0x03a2f42a in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterLobbyMessageCallback
+[W]: Unknown function 0x05bf2fbd in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetWorldInfoList
+[W]: Unknown function 0x0884fc95 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterLobbyEventCallback
+[W]: Unknown function 0x0d22867f in 'sceNp2' module
+[E]: TODO: sceNpMatching2SearchRoom
+[W]: Unknown function 0x1f372697 in 'sceNp2' module
+[E]: TODO: sceNpMatching2LeaveRoom
+[W]: Unknown function 0x215b0d75 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataExternal
+[W]: Unknown function 0x2ed909dc in 'sceNp2' module
+[E]: TODO: sceNpMatching2AbortRequest
+[W]: Unknown function 0x2fe0da7d in 'sceNp2' module
+[E]: TODO: sceNpMatching2Term
+[W]: Unknown function 0x3c00c9d4 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetEventData
+[W]: Unknown function 0x3f62c759 in 'sceNp2' module
+[E]: TODO: sceNpMatching2Init
+[W]: Unknown function 0x41251f74 in 'sceNp2' module
+[E]: TODO: sceNp2Init
+[W]: Unknown function 0x430ce063 in 'sceNp2' module
+[E]: TODO: sceNpMatching2AbortContextStart
+[W]: Unknown function 0x5721e711 in 'sceNp2' module
+[E]: TODO: sceNpMatching2JoinRoom
+[W]: Unknown function 0x58a04247 in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetRoomMemberDataInternalLocal
+[W]: Unknown function 0x6ba4c668 in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStartAsync
+[W]: Unknown function 0x748029a2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterContextCallback
+[W]: Unknown function 0x817d1090 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetRoomDataInternal
+[W]: Unknown function 0x8e5cfe9f in 'sceNp2' module
+[E]: TODO: sceNpMatching2GetServerIdListLocal
+[W]: Unknown function 0x9cbce3f2 in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateContext
+[W]: Unknown function 0xa9e6103e in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterSignalingCallback
+[W]: Unknown function 0xaadb7c12 in 'sceNp2' module
+[E]: TODO: sceNp2Term
+[W]: Unknown function 0xdb87b088 in 'sceNp2' module
+[E]: TODO: sceNpMatching2SetDefaultRequestOptParam
+[W]: Unknown function 0xdcb6b27d in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomEventCallback
+[W]: Unknown function 0xe7a3bc7a in 'sceNp2' module
+[E]: TODO: sceNpMatching2CreateJoinRoom
+[W]: Unknown function 0xf43c647a in 'sceNp2' module
+[E]: TODO: sceNpMatching2ContextStop
+[W]: Unknown function 0xfee11e72 in 'sceNp2' module
+[E]: TODO: sceNpMatching2RegisterRoomMessageCallback
+[W]: Unknown function 0x0a563878 in 'cellVoice' module
+[E]: TODO: cellVoiceStart
+[W]: Unknown function 0x18d3df30 in 'cellVoice' module
+[E]: TODO: cellVoiceDisconnectIPortFromOPort
+[W]: Unknown function 0x2a01013e in 'cellVoice' module
+[E]: TODO: cellVoiceCreateNotifyEventQueue
+[W]: Unknown function 0x2de54871 in 'cellVoice' module
+[E]: TODO: cellVoiceCreatePort
+[W]: Unknown function 0x35d84910 in 'cellVoice' module
+[E]: TODO: cellVoiceSetNotifyEventQueue
+[W]: Unknown function 0x36472c57 in 'cellVoice' module
+[E]: TODO: cellVoiceReadFromOPort
+[W]: Unknown function 0x3dad26e7 in 'cellVoice' module
+[E]: TODO: cellVoiceWriteToIPort
+[W]: Unknown function 0x54ac3519 in 'cellVoice' module
+[E]: TODO: cellVoiceGetPortInfo
+[W]: Unknown function 0x7e60adc6 in 'cellVoice' module
+[E]: TODO: cellVoiceSetBitRate
+[W]: Unknown function 0x9f70c475 in 'cellVoice' module
+[E]: TODO: cellVoiceDeletePort
+[W]: Unknown function 0xae6a21d5 in 'cellVoice' module
+[E]: TODO: cellVoiceConnectIPortToOPort
+[W]: Unknown function 0xc7cf1182 in 'cellVoice' module
+[E]: TODO: cellVoiceInit
+[W]: Unknown function 0xdd000886 in 'cellVoice' module
+[E]: TODO: cellVoiceRemoveNotifyEventQueue
+[W]: Unknown function 0xe0e1ae12 in 'cellVoice' module
+[E]: TODO: cellVoiceEnd
+[W]: Unknown module 'cellSysutilAvc2'
+[W]: Unknown module 'sceNpTus'
+[W]: Unknown module 'cellSysutilAvconfExt'
+[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_free
+[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
+[E]: TODO: _sys_heap_delete_heap
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 3
+[W : PPU[1] Thread (CPUThread)[0x00016218]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010bf8)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 17
+[W : PPU[1] Thread (CPUThread)[0x00289d88]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x68c888, attr_addr=0xd0010bc0, initial_count=0, max_count=32)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 19
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [iSAL0_OpenClose] (): id = 20
+[W : PPU[1] Thread (CPUThread)[0x00255a58]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x669a80, attr_addr=0xd0010b90, initial_count=0, max_count=513)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 23
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [SSTJobQueue] (): id = 24
+[W : PPU[1] Thread (CPUThread)[0x0004ffa0]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x42ba50, attr_addr=0xd0010bb0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0004ffcc]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x42ba54, attr_addr=0xd0010bb0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00022c2c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x4264f0, attr_addr=0xd0010be0, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x00011960]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x405c30, attr_addr=0xd0010bb0, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x0001198c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x405a28, attr_addr=0xd0010bb0, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x006dd070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x3cbc30, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [GameContentThread] (): id = 31
+[W : PPU[31] Thread (GameContentThread)[0x006f3028]]: cellGame warning: cellGameBootCheck(type_addr=0x405780, attributes_addr=0x405784, size_addr=0x405788, dirName_addr=0x405794)
+[W : PPU[31] Thread (GameContentThread)[0x006f3004]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x405a14, bufsize=10)
+[W : PPU[31] Thread (GameContentThread)[0x006f3004]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x405994, bufsize=128)
+[W : PPU[31] Thread (GameContentThread)[0x006f3010]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x405814, usrdirPath_addr=0x405894)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SAVEDATA)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+[W : PPU[1] Thread (CPUThread)[0x006dd034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+[W : PPU[1] Thread (CPUThread)[0x003bb040]]: cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb100]]: cellGcmSys warning: cellGcmInit(context_addr=0x665470,cmdSize=0xbff000,ioSize=0xc00000,ioAddress=0x3ae00000)
+[W : PPU[1] Thread (CPUThread)[0x003bb100]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+[W : PPU[1] Thread (CPUThread)[0x003bb100]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x3ae00000, io=0x0, size=0xc00000)
+[! : RSXThread]: RSX thread entry
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x003bb07c]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30100000,size=0xad00000,offset_addr=0xd0010b78)
+[E : PPU[1] Thread (CPUThread)[0x006e7088]]: TODO: cellVoiceInit
+[E : PPU[1] Thread (CPUThread)[0x006e701c]]: TODO: cellVoiceCreateNotifyEventQueue
+[E : PPU[1] Thread (CPUThread)[0x006e7034]]: TODO: cellVoiceSetNotifyEventQueue
+[E : PPU[1] Thread (CPUThread)[0x006e7028]]: TODO: cellVoiceCreatePort
+[E : PPU[1] Thread (CPUThread)[0x006e7028]]: TODO: cellVoiceCreatePort
+[E : PPU[1] Thread (CPUThread)[0x006e707c]]: TODO: cellVoiceConnectIPortToOPort
+[E : PPU[1] Thread (CPUThread)[0x006e7064]]: TODO: cellVoiceSetBitRate
+[E : PPU[1] Thread (CPUThread)[0x006e7028]]: TODO: cellVoiceCreatePort
+[E : PPU[1] Thread (CPUThread)[0x006e7004]]: TODO: cellVoiceStart
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [voice thread] (): id = 33
+[W : PPU[1] Thread (CPUThread)[0x006e9004]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010a40)
+[E : PPU[1] Thread (CPUThread)[0x006eb028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[E : PPU[1] Thread (CPUThread)[0x006e3088]]: TODO: sceNp2Init
+[E : PPU[1] Thread (CPUThread)[0x006e122c]]: TODO: sceNpManagerRegisterCallback
+[E : PPU[1] Thread (CPUThread)[0x006e307c]]: TODO: sceNpMatching2Init
+[E : PPU[1] Thread (CPUThread)[0x006e104c]]: TODO: sceNpScoreInit
+[E : PPU[1] Thread (CPUThread)[0x006e10c4]]: TODO: sceNpLookupInit
+[E : PPU[1] Thread (CPUThread)[0x006e11a8]]: TODO: sceNpBasicRegisterHandler
+[W : PPU[1] Thread (CPUThread)[0x006dd070]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x3cc1b8, userdata=0x30180100)
+[W : PPU[1] Thread (CPUThread)[0x00060404]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30ec80a4, attr_addr=0xd0010960, initial_count=0, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00060434]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30ec80a8, attr_addr=0xd0010960, initial_count=1, max_count=1)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 36
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [Trophies] (): id = 37
+[W : PPU[1] Thread (CPUThread)[0x006d9058]]: sys_fs warning: cellFsAioInit(mount_point_addr=0x3e94f0 (/dev_hdd0/game/BLUS30578/USRDIR/))
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 38
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [ResourceManagerPS3_OpenThread] (): id = 39
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=1441792, pitch=2880, comp=0, base=1, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=1507328, size=1441792, pitch=2880, comp=0, base=23, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb124]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=1441792, pitch=2880, comp=0, base=1, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=2949120, size=1441792, pitch=2880, comp=0, base=45, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb124]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5760)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=4390912, size=2818048, pitch=5760, comp=11, base=67, bank=3)
+[E : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys error: cellGcmSetTile: bad comp! (11)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=3)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5760)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=4, location=0, offset=7208960, size=2818048, pitch=5760, comp=7, base=110, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=4)
+[W : PPU[1] Thread (CPUThread)[0x003bb124]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
+[W : PPU[1] Thread (CPUThread)[0x006dd010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010af4, option_addr=0x0, waitForEvent=0x0)
+[W : PPU[1] Thread (CPUThread)[0x003bb0c4]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x170000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x003bb064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x2d0000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x00031990]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 40
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
+[E : PPU[1] Thread (CPUThread)[0x002fd49c]]: sys_fs error: "/dev_hdd0/game/BLUS30578/USRDIR///resource/movie/logo.pam" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x006d7004]]: cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_PAMF)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=1507328, size=1441792, pitch=2880, comp=0, base=23, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=1441792, pitch=2880, comp=0, base=1, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=2949120, size=1441792, pitch=2880, comp=0, base=45, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=1441792, pitch=2880, comp=0, base=1, bank=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : PPU[1] Thread (CPUThread)[0x003bb064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x170000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x003bb064]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x2d0000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x006d7010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 41
+[W : PPU[1] Thread (CPUThread)[0x006dd034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x006dd034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x006dd034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x006dd034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x006dd0d0]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x006dd0d0]]: cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+[W : PPU[1] Thread (CPUThread)[0x006dd040]]: cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010700, option_addr=0x0, (!)waitForEvent=1)
+[W : PPU[1] Thread (CPUThread)[0x006dd0ac]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd0010710)
+[W : PPU[1] Thread (CPUThread)[0x006e5004]]: cellAudio warning: cellAudioInit()
+[! : Audio Thread]: Audio started
+[W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x3280b170, portNum_addr=0xd00107e0)
+[W : PPU[1] Thread (CPUThread)[0x006e5040]]: cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=0.000000): port = 0
+[W : PPU[1] Thread (CPUThread)[0x006e501c]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x3280b190)
+[W : PPU[1] Thread (CPUThread)[0x006dd0a0]]: cellSysutil warning: cellAudioOutGetNumberOfDevice(videoOut=0)
+[W : PPU[1] Thread (CPUThread)[0x006dd0ac]]: cellSysutil warning: cellAudioOutGetState(audioOut=0x0,deviceIndex=0x0,state_addr=0xd00107e4)
+[E : PPU[1] Thread (CPUThread)[0x003bf1c0]]: TODO: cellSpursInitialize
+[W : PPU[1] Thread (CPUThread)[0x00703034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 42
+[E : PPU[1] Thread (CPUThread)[0x003bf1a8]]: TODO: cellSpursCreateTaskset
+[E : PPU[1] Thread (CPUThread)[0x003bf070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf0b8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x003bf070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x006d9034]]: sys_fs error: "/dev_flash/sys/external/flashATRAC.pic" not found! flags: 0x00000000
+[! : PPU[1] Thread (CPUThread)[0x0070301c]]: *** New PPU Thread [MultiStream PU Thread] (): id = 43
+[W : PPU[43] Thread (MultiStream PU Thread)[0x006e5028]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x003bf010]]: TODO: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf07c]]: TODO: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x003bf148]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x003bf070]]: TODO: _cellSpursEventFlagInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf0b8]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x003bf01c]]: TODO: cellSpursLFQueueAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x003bf1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x003bf1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x003bf1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x003bf1d8]]: TODO: cellSpursCreateTask
+[E : PPU[1] Thread (CPUThread)[0x003bf1d8]]: TODO: cellSpursCreateTask
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x00241fa0]]: Write16 to null block: [00000000]: 6
+[E : PPU[1] Thread (CPUThread)[0x00241fa4]]: Write16 to null block: [00000002]: 0
+[E : PPU[1] Thread (CPUThread)[0x002420d8]]: Write128 to null block: [fffffff0]: 3727c5ac00000000_3727c5ac3f800000
+[E : PPU[1] Thread (CPUThread)[0x002420fc]]: Write128 to null block: [ffffffe0]: 0_0
+[E : PPU[1] Thread (CPUThread)[0x00242110]]: Write128 to null block: [ffffffe0]: 3f800000_0
+[E : PPU[1] Thread (CPUThread)[0x00242150]]: Write128 to null block: [ffffffd0]: 3f800000_0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=5, location=1, offset=59047936, size=2818048, pitch=2880, comp=0, base=901, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=5)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=6, location=1, offset=61931520, size=262144, pitch=512, comp=0, base=945, bank=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=6)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=1472)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=7, location=0, offset=11993088, size=1114112, pitch=1472, comp=0, base=183, bank=3)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=7)
+[E : PPU[1] Thread (CPUThread)[0x003bf04c]]: TODO: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf10c]]: TODO: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x003bf040]]: TODO: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x003bf088]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf088]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x003bf184]]: TODO: cellSpursRunJobChain
+[W : PPU[1] Thread (CPUThread)[0x006d9010]]: sys_fs warning: cellFsOpendir(path="/dev_hdd0/game/BLUS30578/USRDIR//resource/data", fd_addr=0xd0010934)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=4096)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=8, location=0, offset=13107200, size=16777216, pitch=4096, comp=10, base=200, bank=0)
+[E : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=8)
+[W : PPU[1] Thread (CPUThread)[0x003bb124]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=9, location=0, offset=29884416, size=786432, pitch=512, comp=0, base=0, bank=1)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=9)
+[W : PPU[1] Thread (CPUThread)[0x003bb10c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
+[W : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys warning: cellGcmSetTile(index=10, location=0, offset=30670848, size=786432, pitch=512, comp=10, base=468, bank=2)
+[E : PPU[1] Thread (CPUThread)[0x003bb034]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
+[W : PPU[1] Thread (CPUThread)[0x003bb0d0]]: cellGcmSys warning: cellGcmBindTile(index=10)
+[W : PPU[1] Thread (CPUThread)[0x003bb124]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x006e1190]]: TODO: sceNpManagerGetAccountRegion
+[E : PPU[1] Thread (CPUThread)[0x006e1280]]: TODO: sceNpManagerGetOnlineName
+[E : PPU[1] Thread (CPUThread)[0x00248f24]]: Write32 to null block: [ffffffc0]: 443b8000
+[E : PPU[1] Thread (CPUThread)[0x00248f2c]]: Write32 to null block: [ffffffc8]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248f38]]: Write32 to null block: [ffffffcc]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248f3c]]: Write16 to null block: [00000006]: 15
+[E : PPU[1] Thread (CPUThread)[0x00248f44]]: Write16 to null block: [00000004]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248f48]]: Write32 to null block: [ffffffc4]: 3aaec33e
+[E : PPU[1] Thread (CPUThread)[0x00248f80]]: Write32 to null block: [ffffffbc]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248f84]]: Write32 to null block: [ffffffb0]: 3f000000
+[E : PPU[1] Thread (CPUThread)[0x00248f88]]: Write32 to null block: [ffffffb4]: 3f000000
+[E : PPU[1] Thread (CPUThread)[0x00248f8c]]: Write32 to null block: [ffffffb8]: 3f000000
+[E : PPU[1] Thread (CPUThread)[0x00248f90]]: Write16 to null block: [0000000a]: 16
+[E : PPU[1] Thread (CPUThread)[0x00248f9c]]: Write16 to null block: [00000008]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248fe4]]: Write32 to null block: [ffffffac]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248fe8]]: Write32 to null block: [ffffffa0]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248fec]]: Write32 to null block: [ffffffa4]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248ff0]]: Write32 to null block: [ffffffa8]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248ff4]]: Write16 to null block: [0000000e]: a9
+[E : PPU[1] Thread (CPUThread)[0x00249000]]: Write16 to null block: [0000000c]: 4
+[E : PPU[1] Thread (CPUThread)[0x00249048]]: Write16 to null block: [00000012]: a7
+[E : PPU[1] Thread (CPUThread)[0x00249050]]: Write32 to null block: [ffffff9c]: 0
+[E : PPU[1] Thread (CPUThread)[0x00249054]]: Write16 to null block: [00000010]: 4
+[E : PPU[1] Thread (CPUThread)[0x0024905c]]: Write32 to null block: [ffffff90]: 0
+[E : PPU[1] Thread (CPUThread)[0x00249060]]: Write32 to null block: [ffffff94]: 0
+[E : PPU[1] Thread (CPUThread)[0x00249064]]: Write32 to null block: [ffffff98]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248b00]]: Write16 to null block: [00000014]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248b04]]: Write16 to null block: [00000016]: d2
+[E : PPU[1] Thread (CPUThread)[0x00248b08]]: Write128 to null block: [ffffff80]: 447a000040f00000_447a000042c80000
+[E : PPU[1] Thread (CPUThread)[0x00248b44]]: Write16 to null block: [0000001a]: d3
+[E : PPU[1] Thread (CPUThread)[0x00248b50]]: Write16 to null block: [00000018]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248b68]]: Write128 to null block: [ffffff70]: 3f19999a42c80000_3f99999a3f4ccccd
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000080]: 4000400
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000088]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000090]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000098]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000d0]: 44000000c4000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000e0]: 4400000044000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000000f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000100]: 40004000400
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000108]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000110]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000118]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000120]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000128]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000130]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000138]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000140]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000148]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000150]: 44000000c4000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000158]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000160]: 4400000044c00000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000168]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000170]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000178]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000180]: 80004000400
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000188]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000190]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000198]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001d0]: 44000000c4000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001e0]: 4400000045200000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000001f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000200]: c0004000400
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000208]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000210]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000218]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000220]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000228]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000230]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000238]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000240]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000248]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000250]: 44000000c4000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000258]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000260]: 4400000045600000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000268]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000270]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000278]: 0
+[E : PPU[1] Thread (CPUThread)[0x00241504]]: Write16 to null block: [0000001e]: 32
+[E : PPU[1] Thread (CPUThread)[0x00241510]]: Write16 to null block: [0000001c]: 4
+[E : PPU[1] Thread (CPUThread)[0x00241518]]: Write32 to null block: [ffffff6c]: 422e0000
+[E : PPU[1] Thread (CPUThread)[0x00241520]]: Write32 to null block: [ffffff60]: 41300000
+[E : PPU[1] Thread (CPUThread)[0x00241524]]: Write32 to null block: [ffffff68]: 424c0000
+[E : PPU[1] Thread (CPUThread)[0x0024152c]]: Write32 to null block: [ffffff64]: 41a80000
+[E : PPU[1] Thread (CPUThread)[0x002415b0]]: Write16 to null block: [00000022]: 33
+[E : PPU[1] Thread (CPUThread)[0x002415b8]]: Write128 to null block: [ffffff50]: 3e4ccccd3e088889_3e4ccccd3e4ccccd
+[E : PPU[1] Thread (CPUThread)[0x002415e8]]: Write16 to null block: [00000020]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248cf4]]: Write16 to null block: [00000026]: 15
+[E : PPU[1] Thread (CPUThread)[0x00248d00]]: Write32 to null block: [ffffff40]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248d08]]: Write32 to null block: [ffffff48]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248d20]]: Write32 to null block: [ffffff4c]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248d24]]: Write16 to null block: [00000024]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248d28]]: Write32 to null block: [ffffff44]: 283424dc
+[E : PPU[1] Thread (CPUThread)[0x00248c10]]: Write16 to null block: [0000002a]: 16
+[E : PPU[1] Thread (CPUThread)[0x00248c1c]]: Write32 to null block: [ffffff30]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248c20]]: Write32 to null block: [ffffff34]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248c28]]: Write32 to null block: [ffffff38]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248c40]]: Write16 to null block: [00000028]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248c44]]: Write32 to null block: [ffffff3c]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000280]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000288]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000290]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000298]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000002f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000300]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000308]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000310]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000318]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000320]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000328]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000330]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000338]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000340]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000348]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000350]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000358]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000360]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000368]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000370]: 300000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000378]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248dc0]]: Write32 to null block: [ffffff2c]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dc4]]: Write32 to null block: [ffffff20]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dc8]]: Write32 to null block: [ffffff24]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dcc]]: Write32 to null block: [ffffff28]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dd0]]: Write16 to null block: [0000002e]: a9
+[E : PPU[1] Thread (CPUThread)[0x00248ddc]]: Write16 to null block: [0000002c]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248e1c]]: Write16 to null block: [00000032]: a7
+[E : PPU[1] Thread (CPUThread)[0x00248e28]]: Write16 to null block: [00000030]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248e30]]: Write32 to null block: [ffffff10]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e34]]: Write32 to null block: [ffffff1c]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e38]]: Write32 to null block: [ffffff14]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e3c]]: Write32 to null block: [ffffff18]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248dc0]]: Write32 to null block: [ffffff0c]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dc4]]: Write32 to null block: [ffffff00]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dc8]]: Write32 to null block: [ffffff04]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dcc]]: Write32 to null block: [ffffff08]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dd0]]: Write16 to null block: [00000036]: a9
+[E : PPU[1] Thread (CPUThread)[0x00248ddc]]: Write16 to null block: [00000034]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248e1c]]: Write16 to null block: [0000003a]: a7
+[E : PPU[1] Thread (CPUThread)[0x00248e28]]: Write16 to null block: [00000038]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248e30]]: Write32 to null block: [fffffef0]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e34]]: Write32 to null block: [fffffefc]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e38]]: Write32 to null block: [fffffef4]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e3c]]: Write32 to null block: [fffffef8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000380]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000388]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000390]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000398]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000003f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000400]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000408]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000410]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000418]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000420]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000428]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000430]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000438]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000440]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000448]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000450]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000458]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000460]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000468]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000470]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000478]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000480]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000488]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000490]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000498]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000004f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000500]: 800080
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000508]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000510]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000518]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000520]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000528]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000530]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000538]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000540]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000548]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000550]: 42800000c2800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000558]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000560]: 4280000042800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000568]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000570]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000578]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248dc0]]: Write32 to null block: [fffffeec]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dc4]]: Write32 to null block: [fffffee0]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dc8]]: Write32 to null block: [fffffee4]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dcc]]: Write32 to null block: [fffffee8]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x00248dd0]]: Write16 to null block: [0000003e]: a9
+[E : PPU[1] Thread (CPUThread)[0x00248ddc]]: Write16 to null block: [0000003c]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248e1c]]: Write16 to null block: [00000042]: a7
+[E : PPU[1] Thread (CPUThread)[0x00248e28]]: Write16 to null block: [00000040]: 4
+[E : PPU[1] Thread (CPUThread)[0x00248e30]]: Write32 to null block: [fffffed0]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e34]]: Write32 to null block: [fffffedc]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e38]]: Write32 to null block: [fffffed4]: 0
+[E : PPU[1] Thread (CPUThread)[0x00248e3c]]: Write32 to null block: [fffffed8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000580]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000588]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000590]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000598]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000005f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000600]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000608]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000610]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000618]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000620]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000628]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000630]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000638]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000640]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000648]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000650]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000658]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000660]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000668]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000670]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000678]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000680]: 2d001e0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000688]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000690]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000698]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000006f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000700]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000708]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000710]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000718]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000720]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000728]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000730]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000738]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000740]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000748]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000750]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000758]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000760]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000768]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000770]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000778]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000780]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000788]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000790]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000798]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007b8]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007c8]: 0
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000007f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000800]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000808]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000810]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000818]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000820]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000828]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000830]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000838]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000840]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000848]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000850]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000858]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000860]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000868]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000870]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000878]: 0
+[E : PPU[1] Thread (CPUThread)[0x003bf16c]]: TODO: cellSpursJobGuardNotify
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000880]: 2d001e0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000888]: 3f800000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000890]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [00000898]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008d0]: 43b40000c3700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008d8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008e0]: 43b4000043700000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008e8]: 3f00000000000000
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x002f56b8]]: Write64 to null block: [000008f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x00242848]]: Write32 to null block: [00000048]: 0
+[E : PPU[1] Thread (CPUThread)[0x0024285c]]: Write16 to null block: [00000044]: 2
+[E : PPU[1] Thread (CPUThread)[0x00242860]]: Write32 to null block: [0000004c]: 0
+[E : PPU[1] Thread (CPUThread)[0x00242864]]: Write16 to null block: [00000050]: 1
+[E : PPU[1] Thread (CPUThread)[0x003bf0c4]]: TODO: _cellSpursLFQueuePushBody
+[E : PPU[1] Thread (CPUThread)[0x00244e44]]: Read128 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x00244e48]]: Read128 from null block: [00000020]
+[E : PPU[1] Thread (CPUThread)[0x00244e4c]]: Read128 from null block: [00000010]
+[E : PPU[1] Thread (CPUThread)[0x00244e50]]: Write128 to null block: [000000a0]: 4d64c4f960_7ff67cb6fe35
+[E : PPU[1] Thread (CPUThread)[0x00244e54]]: Write128 to null block: [00000090]: 4d64c4f960_7ff67cb6fe35
+[E : PPU[1] Thread (CPUThread)[0x00244e58]]: Write128 to null block: [00000080]: 4d64c4f960_7ff67cb6fe35
+[E : PPU[1] Thread (CPUThread)[0x00333770]]: Read8 from null block: [00000040]
+[E : PPU[1] Thread (CPUThread)[0x003339bc]]: Read32 from null block: [00000030]
+[E : PPU[1] Thread (CPUThread)[0x003339c4]]: Write32 to null block: [00000004]: 0
+[E : PPU[1] Thread (CPUThread)[0x003339c8]]: Read32 from null block: [00000030]
+[E : PPU[1] Thread (CPUThread)[0x003339d0]]: Read32 from null block: [00000034]
+[E : PPU[1] Thread (CPUThread)[0x003339dc]]: Write8 to null block: [00000040]: 1
+[E : PPU[1] Thread (CPUThread)[0x00333a08]]: Read32 from null block: [00000038]
+[E : PPU[1] Thread (CPUThread)[0x00333a3c]]: Read32 from null block: [0000003c]
+[E : PPU[1] Thread (CPUThread)[0x00333a44]]: Read32 from null block: [00000024]
+[E : PPU[1] Thread (CPUThread)[0x00333a5c]]: Read32 from null block: [0000001c]
+[E : PPU[1] Thread (CPUThread)[0x00333a6c]]: Write64 to null block: [00000038]: 0
+[E : PPU[1] Thread (CPUThread)[0x00333a70]]: Write32 to null block: [00000030]: 1
+[E : PPU[1] Thread (CPUThread)[0x00333a74]]: Write64 to null block: [00000000]: 2
+[E : PPU[1] Thread (CPUThread)[0x00333a78]]: Write32 to null block: [00000034]: 2
+[E : PPU[1] Thread (CPUThread)[0x00333a7c]]: Write64 to null block: [00000008]: 0
+[E : PPU[1] Thread (CPUThread)[0x00333a80]]: Write64 to null block: [00000010]: 2
+[E : PPU[1] Thread (CPUThread)[0x00333a84]]: Write64 to null block: [00000018]: 3
+[E : PPU[1] Thread (CPUThread)[0x003bf16c]]: TODO: cellSpursJobGuardNotify
+[E : PPU[1] Thread (CPUThread)[0x003bb0ac]]: TODO: cellGcmGetVBlankCount
+[E : PPU[1] Thread (CPUThread)[0x003bb0ac]]: TODO: cellGcmGetVBlankCount
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[1] Thread (CPUThread)[0x006e1088]]: TODO: sceNpCustomMenuRegisterActions
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : PPU[1] Thread (CPUThread)[0x006ef064]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x30ec8078, commID_addr=0x351ef0, commSign_addr=0x351efc, options=0x0)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : PPU[1] Thread (CPUThread)[0x006ef010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x30ec807c)
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : PPU[37] Thread (Trophies)[0x006ef01c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0x30ec8080, options=0x0)
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf1e4]]: TODO: _cellSpursSendSignal
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[E : PPU[43] Thread (MultiStream PU Thread)[0x003bf058]]: TODO: cellSpursEventFlagWait
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : RSXThread]: null cmd: addr=0x5000047c, put=0x40200000, get=0x47c
+[W : Audio Thread]: Audio aborted
+[! : RSXThread]: RSX thread exit...
+[!]: Closing memory...

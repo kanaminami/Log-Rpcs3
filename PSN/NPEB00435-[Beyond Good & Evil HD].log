@@ -1,60 +1,21 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00435-[Beyond Good & Evil HD]/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x303c19cd in 'cellSpurs' module
-[E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x3548f483 in 'cellSpurs' module
-[E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
-[E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa7c066de in 'cellSpurs' module
-[E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xf31731bb in 'cellSpurs' module
-[E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
 [W]: Unknown function 0x7fdf4fef in 'cellSpurs' module
 [E]: TODO: cellSpursBarrierInitialize
-[W]: Unknown function 0x9034e538 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskGetContextSaveAreaSize
-[W]: Unknown function 0xb8474eff in 'cellSpurs' module
-[E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
 [W]: Unknown function 0x04372385 in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntry
 [W]: Unknown function 0x0968aa36 in 'sceNp' module
@@ -233,9 +194,9 @@
 [W : PPU[1] Thread (CPUThread)[0x0202a004]]: cellGcmSys warning: cellGcmInit(context_addr=0x1fc840c,cmdSize=0x200000,ioSize=0x400000,ioAddress=0x38100000)
 [W : PPU[1] Thread (CPUThread)[0x0202a004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x0202a004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x38100000, io=0x0, size=0x400000)
-[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x0202a13c]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a13c]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
+[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x0202a13c]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
 [W : PPU[1] Thread (CPUThread)[0x0202a13c]]: cellGcmSys warning: cellGcmUnbindTile(index=3)
 [W : PPU[1] Thread (CPUThread)[0x0202a13c]]: cellGcmSys warning: cellGcmUnbindTile(index=4)
@@ -260,26 +221,28 @@
 [W : PPU[1] Thread (CPUThread)[0x0202a124]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=257097728, size=3932160, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a070]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a04c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0202a0e8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xf530000,pitch=4,width=1280,height=720)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 2
 [W : PPU[1] Thread (CPUThread)[0x0202a124]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=253165568, size=7864320, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a070]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a04c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x0202a0e8]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0xf170000,pitch=4,width=1280,height=720)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 4
 [W : PPU[1] Thread (CPUThread)[0x0202a124]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=249233408, size=3932160, pitch=5120, comp=10, base=1, bank=3)
 [E : PPU[1] Thread (CPUThread)[0x0202a124]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
 [W : PPU[1] Thread (CPUThread)[0x0202a070]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 6
 [W : PPU[1] Thread (CPUThread)[0x0202a0d0]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0202a04c]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [E : RSXThread]: TODO: cellGcmSetContextDmaReport(0x66626660)
 [W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 1
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 8
 [W : PPU[1] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 64
 [W : PPU[1] Thread (CPUThread)[0x0203e034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 65
 [W : PPU[1] Thread (CPUThread)[0x0202a028]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x38600000,size=0x400000,offset_addr=0x1fcc378)
-[E : PPU[1] Thread (CPUThread)[0x00c8810c]]: TODO: _cellSpursTasksetAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x00c88124]]: TODO: cellSpursTasksetAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x00c88154]]: TODO: cellSpursCreateTasksetWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x00c8810c]]: cellSpurs error: Unimplemented function: _cellSpursTasksetAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x00c88124]]: cellSpurs error: Unimplemented function: cellSpursTasksetAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x00c88154]]: cellSpurs error: Unimplemented function: cellSpursCreateTasksetWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x00c88130]]: TODO: cellSpursBarrierInitialize
-[E : PPU[1] Thread (CPUThread)[0x00c8813c]]: TODO: cellSpursTaskGetContextSaveAreaSize
+[E : PPU[1] Thread (CPUThread)[0x00c8813c]]: cellSpurs error: Unimplemented function: cellSpursTaskGetContextSaveAreaSize
 [E : PPU[1] Thread (CPUThread)[0x00bad44c]]: Trap! (tw 1f, r0, r0) #pc: 0xbad44c
 [! : PPU[1] Thread (CPUThread)[0x00bad44c]]: r0 = 0xbad44c
 [! : PPU[1] Thread (CPUThread)[0x00bad44c]]: r1 = 0xd0010490
@@ -382,6 +345,6 @@
 [! : PPU[1] Thread (CPUThread)[0x00bad44c]]: CTR = 0x203e00c
 [! : PPU[1] Thread (CPUThread)[0x00bad44c]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x00bad44c]]: FPSCR = 0x82004000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[W : PPU[60] Thread (PS3 Render Thread)[0x00b5e330]]: sys_event_queue_receive(equeue=59) aborted
 [! : RSXThread]: RSX thread exit...
+[W : PPU[60] Thread (PS3 Render Thread)[0x00b5e330]]: sys_event_queue_receive(equeue=59) aborted
 [!]: Closing memory...

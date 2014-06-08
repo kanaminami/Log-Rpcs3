@@ -1,40 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME/\USRDIR\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\Data\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon™]/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME/\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00798-[Dragon]/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
 [E]: TODO: cellSysutilEnableBgmPlayback
-[W]: Unknown function 0x2a8eada2 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedLoad2
-[W]: Unknown function 0x2aae9ef5 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedSave2
-[W]: Unknown function 0xa11552f6 in 'cellSysutil' module
-[E]: TODO: cellSysutilGetBgmPlaybackStatus
 [W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
 [E]: TODO: cellSysutilDisableBgmPlayback
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
@@ -180,7 +164,7 @@
 [W : PPU[1] Thread (CPUThread)[0x008dd0f4]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x1500000)
 [! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x008dd028]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-[E : PPU[1] Thread (CPUThread)[0x008dd0c4]]: TODO: cellGcmSetGraphicsHandler
+[E : PPU[1] Thread (CPUThread)[0x008dd0c4]]: cellGcmSys error: Unimplemented function: cellGcmSetGraphicsHandler
 [W : PPU[1] Thread (CPUThread)[0x008dd0d0]]: cellGcmSys warning: cellGcmUnbindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x008dd0d0]]: cellGcmSys warning: cellGcmUnbindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x008dd0d0]]: cellGcmSys warning: cellGcmUnbindTile(index=2)
@@ -199,28 +183,40 @@
 [E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
 [E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
 [E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
-[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
-[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
-[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 45000000
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 45000000
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keRSXMut] (attribute=0x12): sq_id = 107
-[W : PPU[1] Thread (CPUThread)[0x008df0f4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0xf1148c00)
+[W : PPU[1] Thread (CPUThread)[0x008df0f4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x2, option_addr=0x0, aspect=0x0, option=0x7a07c8e0)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 1
 [W : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x008dd010]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 3
 [W : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x008dd010]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 5
 [W : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=11796480, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x008dd010]]: cellGcmSys warning: cellGcmBindTile(index=0)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 7
 [W : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=257163264, size=3932160, pitch=5120, comp=10, base=1, bank=3)
 [E : PPU[1] Thread (CPUThread)[0x008dd0b8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (10)
 [W : PPU[1] Thread (CPUThread)[0x008dd010]]: cellGcmSys warning: cellGcmBindTile(index=1)
+[W : RSXThread]: NV406E_SEMAPHORE_ACQUIRE: 9
 [W : PPU[1] Thread (CPUThread)[0x008dd058]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
 [W : PPU[1] Thread (CPUThread)[0x0062b848]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xa992d0, attr_addr=0xd000ff30, initial_count=2, max_count=3)
 [W : PPU[1] Thread (CPUThread)[0x008dd070]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=10487392)
 [W : PPU[1] Thread (CPUThread)[0x008df010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd000ff00, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x008dd01c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-[W : PPU[1] Thread (CPUThread)[0x008dd07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x008dd07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3d0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x008dd07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x2,offset=0x790000,pitch=4,width=1280,height=720)
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 44200002
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 44200002
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 44200002
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 44200002
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_NO_OPERATION
 [W : PPU[1] Thread (CPUThread)[0x005dbe94]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 109
 [W : PPU[1] Thread (CPUThread)[0x005dc03c]]: sys_cond warning: *** condition created [] (mutex_id=109): id = 110
 [W : PPU[1] Thread (CPUThread)[0x005af580]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
@@ -229,23 +225,32 @@
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 111
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 112
 [W : PPU[1] Thread (CPUThread)[0x008dd01c]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : RSXThread]: NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: f0d
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 113
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300090, attr_addr=0xd00107e0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300094, attr_addr=0xd00107e0, initial_count=0, max_count=2147483647)
@@ -259,19 +264,19 @@
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30172b24, attr_addr=0xd0010700, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 124
 [! : PPU[1] Thread (CPUThread)[0x00af801c]]: *** New PPU Thread [CKFileSystemRequestQueue 0] (): id = 125
-[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 126
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300170, attr_addr=0xd0010830, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32300174, attr_addr=0xd0010830, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 129
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
 [W : PPU[1] Thread (CPUThread)[0x008db01c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x008db010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x007353f8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0xa9d7e0, attr_addr=0xd0010810, initial_count=1, max_count=1)
@@ -289,7 +294,6 @@
 [W : PPU[1] Thread (CPUThread)[0x00af6034]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd00105e0)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 133
 [W : PPU[1] Thread (CPUThread)[0x0075ce6c]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0xaa5884, attr_addr=0xd00104ac, event_queue_key=0x0, size=32)
-[W : PPU[1] Thread (CPUThread)[0x0075ce6c]]: sys_event warning: *** event_queue created [Ð ] (protocol=0x2, type=0x1): id = 134
 [W : PPU[1] Thread (CPUThread)[0x0075ce94]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xaa5988, num=1, prio=100, attr_addr=0xd001049c)
 [W : PPU[1] Thread (CPUThread)[0x0075ce94]]: sys_spu warning: *** SPU Thread Group created [_Multistream Thread Group] (type=0x0, option.ct=0x0): id=135
 [W : PPU[1] Thread (CPUThread)[0x00af80c4]]: sysPrxForUser warning: sys_spu_image_import(img=0xaa598c, src=0x8c4500, type=0x1)
@@ -300,18 +304,15 @@
 [W : PPU[1] Thread (CPUThread)[0x0075cf60]]: sys_spu warning: sys_spu_thread_group_start(id=135)
 [W : PPU[1] Thread (CPUThread)[0x00aec028]]: *** cellFsOpen(path="/dev_flash/sys/external/flashATRAC.pic"): fd = 137
 [W : PPU[1] Thread (CPUThread)[0x00aec004]]: sys_fs warning: cellFsClose(fd=137)
-[W : PPU[1] Thread (CPUThread)[0x0075ca24]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xffdd)
-[W : PPU[1] Thread (CPUThread)[0x0075ca78]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0x328c7980)
 [W : PPU[1] Thread (CPUThread)[0x00af6040]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
 [! : PPU[1] Thread (CPUThread)[0x00af801c]]: *** New PPU Thread [RWA Rendering Thread] (): id = 138
-[W : PPU[138] Thread (RWA Rendering Thread)[0x0075d8cc]]: sys_spu warning: sys_spu_thread_write_spu_mb(id=136, value=0xaa3c80)
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fa8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 139
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fac]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30172a20, attr_addr=0xd0010620, initial_count=1, max_count=1)
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x30172a24, attr_addr=0xd0010620, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 142
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fa8]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fac]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00001fbc]]: SPUThread::WriteChannel error: unknown/illegal channel (7 [$SPU_WrDec]).
 [W : PPU[1] Thread (CPUThread)[0x00aec028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/SHADER/PS3/SHFCT.STATIC.V2.BIN"): fd = 143
 [W : PPU[1] Thread (CPUThread)[0x005af580]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80002)
 [W : PPU[1] Thread (CPUThread)[0x005af580]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120003)
@@ -319,15 +320,10 @@
 [W : PPU[1] Thread (CPUThread)[0x005af580]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x80004)
 [W : PPU[1] Thread (CPUThread)[0x005af580]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x120005)
 [W : PPU[1] Thread (CPUThread)[0x005af604]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00aec004]]: sys_fs warning: cellFsClose(fd=143)
 [W : PPU[1] Thread (CPUThread)[0x00af80a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30172a28)
 [W : PPU[1] Thread (CPUThread)[0x00af80a0]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x301729f8)
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
-[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
 [W : PPU[1] Thread (CPUThread)[0x00af401c]]: cellGame warning: cellGameBootCheck(type_addr=0xd00108e0, attributes_addr=0xd00108e4, size_addr=0xd00108e8, dirName_addr=0xd00108f8)
 [W : PPU[1] Thread (CPUThread)[0x00af4004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd00109f8, usrdirPath_addr=0xd00108f8)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 144
@@ -338,62 +334,214 @@
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301a5910, attr_addr=0xd00109d0, initial_count=1, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301a5914, attr_addr=0xd00109d0, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 150
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xa84ad0)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 151
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0040b90, options=0x0)
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x909a18, arg_addr=0x0, options=0x1)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 152
-[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2034]]: sceNpTrophy warning: sceNpTrophyGetGameInfo(context=0, handle=0, details_addr=0xa84adc, data_addr=0xa84f74)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301a5a40, attr_addr=0xd0010900, initial_count=1, max_count=1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xa84ad0)
 [W : PPU[1] Thread (CPUThread)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x301a5a44, attr_addr=0xd0010900, initial_count=0, max_count=2147483647)
 [W : PPU[1] Thread (CPUThread)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 155
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af201c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0040b90, options=0x0)
 [! : PPU[1] Thread (CPUThread)[0x00af801c]]: *** New PPU Thread [ParticleUpdateThread] (): id = 156
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2004]]: sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x909a18, arg_addr=0x0, options=0x1)
+[W : PPU[84] Thread (CKTrophyRequestQueue::keCThreadPool 0)[0x00af2034]]: sceNpTrophy warning: sceNpTrophyGetGameInfo(context=0, handle=0, details_addr=0xa84adc, data_addr=0xa84f74)
 [W : PPU[1] Thread (CPUThread)[0x008df070]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x12): sq_id = 157
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32adf610, attr_addr=0xd00206c0, initial_count=1, max_count=1)
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00021e20]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x32adf614, attr_addr=0xd00206c0, initial_count=0, max_count=2147483647)
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00af8034]]: sys_lwmutex warning: *** lwmutex created [keMutex] (attribute=0x22): sq_id = 160
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x00007a18]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000070bc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
 [W : PPU[42] Thread (CKLoadRequestQueue 0)[0x00aec028]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/GAME.KP3"): fd = 161
-[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
-[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
-[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
 [E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
-[E : RSXThread]: NV4097_GET_REPORT: bad type 2
-[E : RSXThread]: NV4097_GET_REPORT: bad type 3
-[E : RSXThread]: NV4097_GET_REPORT: bad type 4
-[E : RSXThread]: NV4097_GET_REPORT: bad type 5
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
 [E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
 [E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
-[E : PPU[1] Thread (CPUThread)[0x008dd04c]]: TODO: cellGcmGetReport
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[E : SPU[136] Thread (_Multistream SPU Thread)[0x000063cc]]: SPUThread::ReadChannel error: unknown/illegal channel (8 [$SPU_RdDec]).
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)
+[W : RSXThread]: NV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+[W : RSXThread]: NV4097_INVALIDATE_L2: 1
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_ZCULL_CONTROL0: 10
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=2, index=791)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=3, index=792)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=4, index=793)
+[W : PPU[1] Thread (CPUThread)[0x008dd04c]]: cellGcmSys warning: cellGcmGetReport(type=5, index=794)
+[E : RSXThread]: TODO: cellGcmSetLineStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetPolygonStipple(0x0)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x0)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 2
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 3
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 4
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 5
+[E : RSXThread]: TODO: cellGcmClearReportValue(0x2)
+[E : RSXThread]: TODO: cellGcmSetZcullStatsEnable(0x1)

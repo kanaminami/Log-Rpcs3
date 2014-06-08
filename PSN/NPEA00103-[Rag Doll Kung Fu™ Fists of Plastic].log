@@ -1,24 +1,18 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]//../
 [!]: /host_root/ -> 
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\Data\
 [!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\resource\
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00103-[Rag Doll Kung Fu Fists of Plastic]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xe6c8f3f9 in 'sceNp' module

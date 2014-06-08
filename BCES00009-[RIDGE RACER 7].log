@@ -1,22 +1,17 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00009-[RIDGE RACER 7]/PS3_GAME/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
@@ -134,14 +129,6 @@
 [E]: TODO: cellUsbdInit
 [W]: Unknown function 0xdb819e03 in 'cellUsbd' module
 [E]: TODO: cellUsbdGetDeviceLocation
-[W]: Unknown function 0xbe5be3ba in 'sys_io' module
-[E]: TODO: cellPadSetSensorMode
-[W]: Unknown function 0xf83f8182 in 'sys_io' module
-[E]: TODO: cellPadSetPressMode
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0xf5507729 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
 [E]: TODO: cellOskDialogUnloadAsync
 [W]: Unknown function 0x3dbd2314 in 'cellSysutil' module
@@ -262,17 +249,15 @@
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-[W : PPU[1] Thread (CPUThread)[0x004f70c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x1, aspect=0x0, option=0x708e9400)
+[W : PPU[1] Thread (CPUThread)[0x004f70c4]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x4, option_addr=0x1, aspect=0x0, option=0x31116cf0)
 [W : PPU[1] Thread (CPUThread)[0x004f7010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00101d4, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x00493034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x0049307c]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=0, size=8388608, pitch=7680, comp=0, base=0, bank=1)
-[W : PPU[1] Thread (CPUThread)[0x0049304c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1920,height=1080)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x0049307c]]: cellGcmSys warning: cellGcmSetTile(index=2, location=1, offset=65536, size=8388608, pitch=7680, comp=0, base=128, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 [W : PPU[1] Thread (CPUThread)[0x0049307c]]: cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=8388608, size=8388608, pitch=7680, comp=0, base=256, bank=1)
-[W : PPU[1] Thread (CPUThread)[0x0049304c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x2,offset=0x800000,pitch=4,width=1920,height=1080)
 [W : PPU[1] Thread (CPUThread)[0x00493004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
 [W : PPU[1] Thread (CPUThread)[0x0049307c]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=16777216, size=0, pitch=0, comp=10, base=384, bank=0)
 [E : PPU[1] Thread (CPUThread)[0x0049307c]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
@@ -297,6 +282,8 @@
 [W : PPU[1] Thread (CPUThread)[0x0049d094]]: cellFont warning: cellFontOpenFontFile(library_addr=0x30016000, fontPath="/dev_flash/data/font/SCE-PS3-RD-R-LATIN.TTF", subNum=0, uniqueId=0, font_addr=0x1055da54)
 [W : PPU[1] Thread (CPUThread)[0x0049d094]]: cellFont warning: cellFontOpenFontMemory(library_addr=0x30016000, fontAddr=0x30018000, fontSize=38388, subNum=0, uniqueId=0, font_addr=0x1055da54)
 [W : PPU[1] Thread (CPUThread)[0x0049d04c]]: cellFont warning: cellFontBindRenderer(font_addr=0x1055da54, renderer_addr=0x1055d950)
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 40000000
+[W : RSXThread]: NV4097_SET_VIEWPORT_OFFSET: 40000000
 [W : PPU[1] Thread (CPUThread)[0x000bdd50]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x104a0cf0, attr_addr=0xd00103b0, initial_count=0, max_count=1)
 [W : PPU[1] Thread (CPUThread)[0x000bdd6c]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x104a0cec, attr_addr=0xd00103b0, initial_count=0, max_count=1)
 [! : PPU[1] Thread (CPUThread)[0x00509028]]: *** New PPU Thread [Draw Thread] (): id = 61

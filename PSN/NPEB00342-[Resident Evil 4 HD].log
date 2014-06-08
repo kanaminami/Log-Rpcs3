@@ -1,24 +1,18 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]//../
 [!]: /host_root/ -> 
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
 [!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\resource\
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00342-[Resident Evil 4 HD]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [!]: Function 'cellAANAddData' hooked (addr=0x66fcc8)
@@ -50,28 +44,6 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0x011ee38b in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueueInitialize
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x1656d49f in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x8a85674d in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0xb8474eff in 'cellSpurs' module
-[E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xf5507729 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x04372385 in 'sceNp' module
 [E]: TODO: sceNpBasicGetFriendListEntry
 [W]: Unknown function 0x21206642 in 'sceNp' module
@@ -157,7 +129,7 @@
 [W : PPU[1] Thread (CPUThread)[0x002f101c]]: memory warning: sys_memory_container_create(cid_addr=0x18e6ed0, yield_size=0x300000)
 [W : PPU[1] Thread (CPUThread)[0x002f101c]]: memory warning: *** memory_container created(addr=0x30100000): id = 35
 [W : PPU[1] Thread (CPUThread)[0x01a4e094]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010880, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=100)
-[E : PPU[1] Thread (CPUThread)[0x01a4e070]]: cellSpurs error: cellSpursAttributeSetMemoryContainerForSpuThread(attr_addr=0xd0010880, container=0x23)
+[W : PPU[1] Thread (CPUThread)[0x01a4e070]]: cellSpurs warning: cellSpursAttributeSetMemoryContainerForSpuThread(attr_addr=0xd0010880, container=0x23)
 [W : PPU[1] Thread (CPUThread)[0x01a4e034]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x30400080, spurs_addr=0xd0010880)
 [W : PPU[1] Thread (CPUThread)[0x01a58034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 36
 [W : PPU[1] Thread (CPUThread)[0x01a40064]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x7dd210, userdata=0x0)
@@ -168,10 +140,9 @@
 [W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
 [W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x01a4c028]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010ac0, attributes_addr=0xd0010ac4, size_addr=0xd0010ac8, dirName_addr=0xd0010ad8)
-[W : PPU[1] Thread (CPUThread)[0x01a3c064]]: sys_fs warning: cellFsAioInit(mount_point_addr=0xdb94e0 ())
+[W : PPU[1] Thread (CPUThread)[0x01a4c004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xdb9560, usrdirPath_addr=0xdb94e0)
+[W : PPU[1] Thread (CPUThread)[0x01a3c064]]: sys_fs warning: cellFsAioInit(mount_point_addr=0xdb94e0 (/dev_hdd0/game/NPEB00342/USRDIR))
 [W : PPU[1] Thread (CPUThread)[0x01a40034]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
-[W : PPU[1] Thread (CPUThread)[0x0026b05c]]: sys_event_flag warning: sys_event_flag_trywait(eflag_id=37, bitptn=0xffffffff, mode=0x1, result_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0026b174]]: sys_event_flag warning: sys_event_flag_wait(eflag_id=37, bitptn=0xffffffff, mode=0x1, result_addr=0x0, timeout=0)
 [W : PPU[1] Thread (CPUThread)[0x01a44010]]: cellGcmSys warning: cellGcmInit(context_addr=0x1933e28,cmdSize=0xf00000,ioSize=0x1600000,ioAddress=0x36600000)
 [W : PPU[1] Thread (CPUThread)[0x01a44010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x01a44010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x36600000, io=0x0, size=0x1600000)
@@ -186,8 +157,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01a42040]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x01a42064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00107a8, vertexArray_addr=0xd00107ac, fragmentShader_addr=0xd00107b0)
 [W : PPU[1] Thread (CPUThread)[0x01a4207c]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0000000, vertexArray_addr=0xc1100000, fragmentShader_addr=0xc1100180)
-[W : PPU[1] Thread (CPUThread)[0x01a4207c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01a4207c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3c0000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=0, size=17825792, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x01a44034]]: cellGcmSys warning: cellGcmBindTile(index=2)
 [E : PPU[1] Thread (CPUThread)[0x01a420a0]]: TODO: cellRescSetVBlankHandler
@@ -196,8 +165,6 @@
 [W : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=25755648, size=7864320, pitch=5120, comp=9, base=0, bank=3)
 [E : PPU[1] Thread (CPUThread)[0x01a44088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
 [W : PPU[1] Thread (CPUThread)[0x01a44034]]: cellGcmSys warning: cellGcmBindTile(index=1)
-[W : PPU[1] Thread (CPUThread)[0x01a42070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x1110000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x01a42070]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x14d0000,pitch=4,width=1280,height=720)
 [W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x37d00000,size=0x100000,offset_addr=0xcb2c28)
 [W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x37e00000,size=0x100000,offset_addr=0xcb2c2c)
 [W : PPU[1] Thread (CPUThread)[0x01a44070]]: cellGcmSys warning: cellGcmMapMainMemory(ea=0x30500000,size=0x6000000,offset_addr=0xd00106d0)
@@ -210,13 +177,17 @@
 [W : PPU[40] Thread (hap_trophy_init)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
 [W : PPU[40] Thread (hap_trophy_init)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 [W : PPU[40] Thread (hap_trophy_init)[0x01a50058]]: sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x897194, commID_addr=0x750881, commSign_addr=0x75088d, options=0x0)
-[E : PPU[40] Thread (hap_trophy_init)[0x01a50034]]: sceNpTrophy error: Unimplemented function: sceNpTrophyAbortHandle
+[W : RSXThread]: NV4097_NO_OPERATION
 [W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 [E : PPU[1] Thread (CPUThread)[0x01a54028]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
 [W : PPU[1] Thread (CPUThread)[0x01a46010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
 [W : PPU[1] Thread (CPUThread)[0x0026b4e8]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1928ba4, attr_addr=0xd0010a60, initial_count=0, max_count=64)
-[E : RSXThread]: TODO: cellGcmSetLogicOp(0x0)
+[W : RSXThread]: NV4097_NO_OPERATION
+[W : RSXThread]: NV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 7
+[W : RSXThread]: NV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 25
 [W : RSXThread]: FP not found in buffer!
+[W : PPU[40] Thread (hap_trophy_init)[0x01a50010]]: sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x897198)
+[W : PPU[40] Thread (hap_trophy_init)[0x01a5001c]]: sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0080dc0, options=0x0)
 [W : RSXThread]: VP not found in buffer!
 [! : RSXThread]: Add program (0):
 [! : RSXThread]: *** prog id = 3
@@ -272,9 +243,10 @@ void main()
 
 [W : RSXThread]: New FBO (1280x720)
 [E : RSXThread]: glAlphaFunc: opengl error 0x0500
-[W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[33] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=31) aborted
+[W : PPU[30] Thread (asyncDecoder_RD)[0x002f0bc4]]: sys_event_queue_receive(equeue=28) aborted
 [W : PPU[26] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=24) aborted
 [W : PPU[23] Thread (asyncReader_RD)[0x002efe80]]: sys_event_queue_receive(equeue=21) aborted
-[! : RSXThread]: RSX thread exit...
+[!]: Mutex(38) was owned by thread 40 (recursive=1)
 [!]: Closing memory...

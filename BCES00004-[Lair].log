@@ -1,24 +1,17 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BCES00004-[Lair]/PS3_GAME/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -75,14 +68,8 @@
 [E]: TODO: sceNpManagerGetOnlineName
 [W]: Unknown function 0xfe37a7f4 in 'sceNp' module
 [E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
@@ -110,8 +97,6 @@
 [E]: TODO: cellSpursAddWorkload
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
-[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
-[E]: TODO: cellSpursSetExceptionEventHandler
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
 [W]: Unknown function 0x1a91874b in 'cellSysutil' module
@@ -132,8 +117,6 @@
 [E]: TODO: cellWebBrowserConfig2
 [W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
 [E]: TODO: cellOskDialogLoadAsync
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0x93ced48d in 'cellSysutil' module
 [E]: TODO: cellWebBrowserShutdown
 [W]: Unknown function 0xa5f12145 in 'cellSysutil' module
@@ -152,8 +135,6 @@
 [E]: TODO: cellSaveDataDelete2
 [W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
 [E]: TODO: cellOskDialogSetLayoutMode
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0xfe669845 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetHeapSize2
 [W]: Unknown function 0x2ad091c6 in 'cellL10n' module
@@ -174,4 +155,492 @@
 [W : PPU[1] Thread (CPUThread)[0x004577e4]]: memory warning: sys_mmapper_allocate_address(size=0x20000000, flags=0x40f, alignment=0x0, alloc_addr=0xd00106a0)
 [W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
 [E : PPU[1] Thread (CPUThread)[0x0044f8b4]]: Write8 to null block: [00000010]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f8cc]]: Write16 to null block: [00000010]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f8f0]]: Write32 to null block: [00000010]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f90c]]: Write64 to null block: [00000010]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f910]]: Write64 to null block: [00000018]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f914]]: Write64 to null block: [00000020]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f918]]: Write64 to null block: [00000028]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f91c]]: Write64 to null block: [00000030]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f920]]: Write64 to null block: [00000038]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f924]]: Write64 to null block: [00000040]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f928]]: Write64 to null block: [00000048]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f92c]]: Write64 to null block: [00000050]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f930]]: Write64 to null block: [00000058]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f934]]: Write64 to null block: [00000060]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f938]]: Write64 to null block: [00000068]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f93c]]: Write64 to null block: [00000070]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f940]]: Write64 to null block: [00000078]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f944]]: Write64 to null block: [00000080]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f948]]: Write64 to null block: [00000088]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f90c]]: Write64 to null block: [00000090]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f910]]: Write64 to null block: [00000098]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f914]]: Write64 to null block: [000000a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f918]]: Write64 to null block: [000000a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f91c]]: Write64 to null block: [000000b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f920]]: Write64 to null block: [000000b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f924]]: Write64 to null block: [000000c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f928]]: Write64 to null block: [000000c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f92c]]: Write64 to null block: [000000d0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f930]]: Write64 to null block: [000000d8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f934]]: Write64 to null block: [000000e0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f938]]: Write64 to null block: [000000e8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f93c]]: Write64 to null block: [000000f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f940]]: Write64 to null block: [000000f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f944]]: Write64 to null block: [00000100]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f948]]: Write64 to null block: [00000108]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f90c]]: Write64 to null block: [00000110]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f910]]: Write64 to null block: [00000118]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f914]]: Write64 to null block: [00000120]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f918]]: Write64 to null block: [00000128]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f91c]]: Write64 to null block: [00000130]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f920]]: Write64 to null block: [00000138]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f924]]: Write64 to null block: [00000140]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f928]]: Write64 to null block: [00000148]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f92c]]: Write64 to null block: [00000150]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f930]]: Write64 to null block: [00000158]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f934]]: Write64 to null block: [00000160]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f938]]: Write64 to null block: [00000168]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f93c]]: Write64 to null block: [00000170]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f940]]: Write64 to null block: [00000178]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f944]]: Write64 to null block: [00000180]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f948]]: Write64 to null block: [00000188]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [00000190]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [00000198]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001a0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001a8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001b0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001b8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001c0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001c8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001d0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001d8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001e0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001e8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001f0]: 0
+[E : PPU[1] Thread (CPUThread)[0x0044f970]]: Write64 to null block: [000001f8]: 0
+[E : PPU[1] Thread (CPUThread)[0x004504f0]]: Write32 to null block: [0000000c]: 1f3
+[E : PPU[1] Thread (CPUThread)[0x004504fc]]: Write32 to null block: [00000050]: 58585858
+[E : PPU[1] Thread (CPUThread)[0x00450500]]: Write32 to null block: [000001e4]: 4
+[E : PPU[1] Thread (CPUThread)[0x00450504]]: Write32 to null block: [00000040]: 0
+[E : PPU[1] Thread (CPUThread)[0x00450508]]: Write32 to null block: [000001e8]: 0
+[E : PPU[1] Thread (CPUThread)[0x0045050c]]: Write32 to null block: [000001e0]: 100000
+[E : PPU[1] Thread (CPUThread)[0x00450510]]: Write32 to null block: [000001dc]: 100000
+[E : PPU[1] Thread (CPUThread)[0x00450514]]: Write32 to null block: [000001ec]: 100000
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000005c]: 54
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000060]: 54
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000064]: 5c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000068]: 5c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000006c]: 64
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000070]: 64
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000074]: 6c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000078]: 6c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000007c]: 74
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000080]: 74
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000084]: 7c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000088]: 7c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000008c]: 84
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000090]: 84
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000094]: 8c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000098]: 8c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000009c]: 94
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000a0]: 94
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000a4]: 9c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000a8]: 9c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000ac]: a4
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000b0]: a4
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000b4]: ac
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000b8]: ac
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000bc]: b4
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000c0]: b4
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000c4]: bc
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000c8]: bc
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000cc]: c4
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000d0]: c4
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000d4]: cc
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000d8]: cc
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000dc]: d4
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000e0]: d4
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000e4]: dc
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000e8]: dc
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000ec]: e4
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000f0]: e4
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000f4]: ec
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [000000f8]: ec
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [000000fc]: f4
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000100]: f4
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000104]: fc
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000108]: fc
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000010c]: 104
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000110]: 104
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000114]: 10c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000118]: 10c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000011c]: 114
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000120]: 114
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000124]: 11c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000128]: 11c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000012c]: 124
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000130]: 124
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000134]: 12c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000138]: 12c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000013c]: 134
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000140]: 134
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000144]: 13c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000148]: 13c
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [0000014c]: 144
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000150]: 144
+[E : PPU[1] Thread (CPUThread)[0x0045052c]]: Write32 to null block: [00000154]: 14c
+[E : PPU[1] Thread (CPUThread)[0x00450530]]: Write32 to null block: [00000158]: 14c
+[E : PPU[1] Thread (CPUThread)[0x00450554]]: Read32 from null block: [0000000c]
+[E : PPU[1] Thread (CPUThread)[0x004505a0]]: Write32 to null block: [00000048]: 8
+[E : PPU[1] Thread (CPUThread)[0x004505ac]]: Write32 to null block: [0000003c]: fffc0
+[E : PPU[1] Thread (CPUThread)[0x004505bc]]: Write32 to null block: [0000000c]: fffc1
+[E : PPU[1] Thread (CPUThread)[0x004505cc]]: Read32 from null block: [00000028]
+[E : PPU[1] Thread (CPUThread)[0x004505d4]]: Write32 to null block: [00000024]: ffffffff
+[E : PPU[1] Thread (CPUThread)[0x004505dc]]: Write32 to null block: [0000004c]: 0
+[E : PPU[1] Thread (CPUThread)[0x004505e4]]: Write32 to null block: [00000028]: 0
+[E : PPU[1] Thread (CPUThread)[0x004505e8]]: Write32 to null block: [0000001c]: 100000
+[E : PPU[1] Thread (CPUThread)[0x004505ec]]: Write32 to null block: [00000018]: 58585858
+[E : PPU[1] Thread (CPUThread)[0x004505f0]]: Write32 to null block: [00000014]: bb1490
+[E : PPU[1] Thread (CPUThread)[0x004505f4]]: Write32 to null block: [00000010]: 102f6000
+[E : PPU[1] Thread (CPUThread)[0x004505f8]]: Write32 to null block: [000001f4]: 8
+[E : PPU[1] Thread (CPUThread)[0x004505fc]]: Write32 to null block: [0000002c]: 0
+[E : PPU[1] Thread (CPUThread)[0x00450600]]: Write32 to null block: [00000020]: 100000
+[E : PPU[1] Thread (CPUThread)[0x00452470]]: Read32 from null block: [00000048]
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x3c00000, mem_id=0xf, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory mapped 0x30100000 to 0x3c00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010490)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0xc400000, mem_id=0x11, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory mapped 0x30200000 to 0xc400000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010570)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10000000, mem_id=0x13, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 21
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 28
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 30
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 31
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 32
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 33
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 34
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 35
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010690)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10100000, mem_id=0x24, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x00be1070]]: cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_ENTER_BUTTON_ASSIGN
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+[W : PPU[1] Thread (CPUThread)[0x00be3010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+[W : PPU[1] Thread (CPUThread)[0x004693d4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+[W : PPU[1] Thread (CPUThread)[0x00bdf070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010980, nSpus=1, spuPriority=2097154, ppuPriority=5, exitIfNoWork=128)
+[W : PPU[1] Thread (CPUThread)[0x00bdf004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010980, prefix_addr=0x10055f00, size=0x9)
+[W : PPU[1] Thread (CPUThread)[0x00bdf088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x10307700, spurs_addr=0xd0010980)
+[W : PPU[1] Thread (CPUThread)[0x00bdf070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010980, nSpus=1, spuPriority=2097154, ppuPriority=1, exitIfNoWork=192)
+[W : PPU[1] Thread (CPUThread)[0x00bdf004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010980, prefix_addr=0x10055f10, size=0x7)
+[W : PPU[1] Thread (CPUThread)[0x00bdf088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x10309700, spurs_addr=0xd0010980)
+[W : PPU[1] Thread (CPUThread)[0x00bdf070]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd0010980, nSpus=1, spuPriority=2097154, ppuPriority=1, exitIfNoWork=64)
+[W : PPU[1] Thread (CPUThread)[0x00bdf004]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd0010980, prefix_addr=0x10055f18, size=0xb)
+[W : PPU[1] Thread (CPUThread)[0x00bdf088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x10308700, spurs_addr=0xd0010980)
+[E : PPU[1] Thread (CPUThread)[0x00bdf028]]: cellSpurs error: cellSpursGetSpuThreadGroupId(spurs_addr=0x10308700, group_addr=0xd0010974)
+[E : PPU[1] Thread (CPUThread)[0x00bdf028]]: cellSpurs error: cellSpursGetSpuThreadGroupId : CELL_SPURS_CORE_ERROR_NULL_POINTER
+[W : PPU[1] Thread (CPUThread)[0x00be113c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xbb1d58, userdata=0x0)
+[W : PPU[1] Thread (CPUThread)[0x004750c0]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 37
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 38
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 39
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 40
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=39): id = 41
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 42
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=42): id = 43
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYSdiskIO] (): id = 44
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 45
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=45): id = 46
+[W : PPU[1] Thread (CPUThread)[0x0046bcbc]]: sys_cond warning: sys_cond_destroy(cond_id=46)
+[W : PPU[1] Thread (CPUThread)[0x0046bcd8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=45)
+[! : PPU[1] Thread (CPUThread)[0x0046bcd8]]: Mutex(45) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 47
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 48
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 49
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 50
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=50): id = 51
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 53
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=52): id = 54
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 55
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=55): id = 56
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYSstreamWorker] (): id = 57
+[W : PPU[1] Thread (CPUThread)[0x0046bcbc]]: sys_cond warning: sys_cond_destroy(cond_id=51)
+[W : PPU[1] Thread (CPUThread)[0x0046bcd8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=50)
+[! : PPU[1] Thread (CPUThread)[0x0046bcd8]]: Mutex(50) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 58
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=58): id = 59
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 60
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 61
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=60): id = 62
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 63
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=63): id = 64
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYSmemSwapper] (): id = 65
+[W : PPU[1] Thread (CPUThread)[0x004694a8]]: memory warning: sys_memory_container_create(cid_addr=0x10306254, yield_size=0x300000)
+[W : PPU[1] Thread (CPUThread)[0x004694a8]]: memory warning: *** memory_container created(addr=0x30500000): id = 66
+[E : PPU[1] Thread (CPUThread)[0x00be1184]]: TODO: cellGameDataCheckCreate2
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 67
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 68
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 69
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 70
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 71
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 72
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 73
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYStimer] (): id = 74
+[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 75
+[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 76
+[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=75): id = 77
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 78
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=78): id = 79
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=78): id = 80
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 81
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=81): id = 82
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [GSYStask] (): id = 83
+[W : PPU[1] Thread (CPUThread)[0x00bd9034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 84
+[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10307700, info_addr=0xd0010980)
+[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
+[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10307700, info_addr=0xd0010980)
+[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
+[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10309700, info_addr=0xd0010980)
+[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
+[E : PPU[1] Thread (CPUThread)[0x00bdf01c]]: cellSpurs error: cellSpursGetInfo(spurs_addr=0x10309700, info_addr=0xd0010980)
+[E : PPU[1] Thread (CPUThread)[0x00bdf058]]: TODO: cellSpursAddWorkload
+[E : PPU[1] Thread (CPUThread)[0x00bdf010]]: TODO: cellSpursRequestIdleSpu
+[E : PPU[1] Thread (CPUThread)[0x00bdf0ac]]: cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
+[W : PPU[1] Thread (CPUThread)[0x00b56040]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/defaultArgum" not found.
+[W : PPU[1] Thread (CPUThread)[0x00b56040]]: sys_fs warning: cellFsStat: "/dev_bdvd/PS3_GAME/USRDIR/XXXX" not found.
+[W : PPU[1] Thread (CPUThread)[0x00bdb010]]: sys_net warning: sys_net_initialize_network_ex(param_addr=0xd0010724)
+[E : PPU[1] Thread (CPUThread)[0x00bdd040]]: cellNetCtl error: Unimplemented function: cellNetCtlInit
+[W : PPU[1] Thread (CPUThread)[0x00be113c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0xbba940, userdata=0x100d4790)
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010640)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x1ff00000, mem_id=0x55, flags=0x40000)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory mapped 0x30800000 to 0x1ff00000 size=0x100000
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 86
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 87
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=87): id = 88
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 89
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 90
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=90): id = 91
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=90): id = 92
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 93
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=93): id = 94
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [dataStream] (): id = 95
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 96
+[W : PPU[1] Thread (CPUThread)[0x0047071c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 97
+[E : PPU[1] Thread (CPUThread)[0x00450c0c]]: Write32 to null block: [100e7cfc]: 182d1
+[E : PPU[1] Thread (CPUThread)[0x00450c10]]: Write32 to null block: [100e7cfc]: bb93
+[W : PPU[1] Thread (CPUThread)[0x00470804]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 98
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 99
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=99): id = 100
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 101
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=101): id = 102
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd0010040)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10200000, mem_id=0x67, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 104
+[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 105
+[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=104): id = 106
+[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 107
+[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 108
+[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=107): id = 109
+[W : PPU[1] Thread (CPUThread)[0x0046eb78]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 110
+[W : PPU[1] Thread (CPUThread)[0x0046eba4]]: sys_cond warning: *** condition created [] (mutex_id=110): id = 111
+[W : PPU[1] Thread (CPUThread)[0x0046ebbc]]: sys_cond warning: *** condition created [] (mutex_id=110): id = 112
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 113
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 114
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=113): id = 115
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 116
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=116): id = 117
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [dataMan] (): id = 118
+[W : PPU[1] Thread (CPUThread)[0x0046ec90]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 119
+[W : PPU[1] Thread (CPUThread)[0x0046ecbc]]: sys_cond warning: *** condition created [] (mutex_id=119): id = 120
+[W : PPU[1] Thread (CPUThread)[0x0046ecd4]]: sys_cond warning: *** condition created [] (mutex_id=119): id = 121
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 122
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=122): id = 123
+[! : PPU[1] Thread (CPUThread)[0x00bd901c]]: *** New PPU Thread [dataManLoPri] (): id = 124
+[W : PPU[1] Thread (CPUThread)[0x00b56034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/shipRes.dat"): fd = 125
+[E : PPU[1] Thread (CPUThread)[0x00b56034]]: sys_fs error: "/dev_hdd1/cache/BCES00004/data/shipRes.dat" not found! flags: 0x00000000
+[W : PPU[1] Thread (CPUThread)[0x00b56004]]: sys_fs warning: cellFsClose(fd=125)
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 126
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=126): id = 127
+[W : PPU[44] Thread (GSYSdiskIO)[0x00b56034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/shipRes.dat"): fd = 128
+[W : PPU[1] Thread (CPUThread)[0x0046bcbc]]: sys_cond warning: sys_cond_destroy(cond_id=127)
+[W : PPU[1] Thread (CPUThread)[0x0046bcd8]]: sys_mutex warning: sys_mutex_destroy(mutex_id=126)
+[! : PPU[1] Thread (CPUThread)[0x0046bcd8]]: Mutex(126) was owned by thread -1 (recursive=0)
+[W : PPU[1] Thread (CPUThread)[0x00bd90ac]]: memory warning: sys_mmapper_allocate_memory(size=0x100000, flags=0x400, mem_id_addr=0xd000ff40)
+[W : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory warning: sys_mmapper_map_memory(start_addr=0x10300000, mem_id=0x81, flags=0x40000)
+[E : PPU[1] Thread (CPUThread)[0x00bd90c4]]: memory error: sys_mmapper_map_memory failed!
+[W : PPU[1] Thread (CPUThread)[0x0046be3c]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 130
+[W : PPU[1] Thread (CPUThread)[0x0046be74]]: sys_cond warning: *** condition created [] (mutex_id=130): id = 131
+[E : PPU[44] Thread (GSYSdiskIO)[0x00475a34]]: Read64 from null block: [00004784]
+[E : PPU[44] Thread (GSYSdiskIO)[0x00475a28]]: Read32 from null block: [0000477c]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e938]]: Read32 from null block: [00000050]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e944]]: Read32 from null block: [0000000c]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e94c]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x0046c76c]]: Read8 from null block: [8ccd8ea0]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x0046c79c]]: Read8 from null block: [8ccd8ea0]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x0046c32c]]: Read8 from null block: [8ccd8e88]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x004667e0]]: Read32 from null block: [f8010d24]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x004667e8]]: Write8 to null block: [f80100a0]: 0
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x00466800]]: Write32 to null block: [f80100b0]: 0
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x00466804]]: Write32 to null block: [f80100a4]: 0
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x00466808]]: Write32 to null block: [f80100a8]: 0
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x0046680c]]: Write32 to null block: [f80100ac]: 0
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x00466810]]: Read32 from null block: [f8010d24]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x0046682c]]: Write32 to null block: [f8010d24]: 1
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x00466830]]: Read32 from null block: [f8010d28]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x0046683c]]: Read32 from null block: [f8010d28]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x00466848]]: Write32 to null block: [f8010d28]: 1
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x00466260]]: Read32 from null block: [81230018]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[74] Thread (GSYStimer)[0x00466274]]: Read32 from null block: [8123001c]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[74] Thread (GSYStimer)[0x00466278]]: PPU[74] Thread (GSYStimer) branch error: bad address 0x0 #pc: 0x466278
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e958]]: Read32 from null block: [00000010]
+[E : PPU[44] Thread (GSYSdiskIO)[0x0046e968]]: Read16 from null block: [00000006]
+[W : PPU[124] Thread (dataManLoPri)[0x0046ea44]]: sys_cond_wait(id=108) aborted
+[W : PPU[57] Thread (GSYSstreamWorker)[0x0046e964]]: sys_cond_wait(id=53) aborted
+[W : PPU[83] Thread (GSYStask)[0x0046ea44]]: sys_cond_wait(id=76) aborted
+[W : PPU[118] Thread (dataMan)[0x0046ea44]]: sys_cond_wait(id=105) aborted
+[W : PPU[65] Thread (GSYSmemSwapper)[0x0046e964]]: sys_cond_wait(id=61) aborted
+[W : PPU[95] Thread (dataStream)[0x0046bc58]]: sys_cond_wait(id=88) aborted
+[!]: Mutex(130) was owned by thread 1 (recursive=1)
 [!]: Closing memory...

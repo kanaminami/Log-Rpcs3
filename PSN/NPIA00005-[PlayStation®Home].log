@@ -1,24 +1,18 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\..\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]//../
 [!]: /host_root/ -> 
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\Data\
 [!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\resource\
 [!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPIA00005-[PlayStation®Home]/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x71a8472a in 'sysPrxForUser' module
@@ -33,18 +27,8 @@
 [E]: Unknown func id: 0xca872c41
 [W]: Unknown function 0x94e9f81d in 'cellGameExec' module
 [E]: TODO: cellGameGetHomeLaunchOptionPath
-[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetSecondVHandler
-[W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
-[E]: TODO: cellGcmSortRemapEaIoAddress
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
 [W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
 [E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown module 'cellHttp'
 [W]: Unknown function 0x32faaf58 in 'cellHttpUtil' module
 [E]: TODO: cellHttpUtilParseUri
@@ -106,32 +90,14 @@
 [W]: Unknown function 0x63f63545 in 'cellRudp' module
 [E]: TODO: cellRudpInit
 [W]: Unknown module 'cellSearchUtility'
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0xb8474eff in 'cellSpurs' module
-[E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0x1656d49f in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0xc0158d8b in 'cellSpurs' module
 [E]: TODO: cellSpursAddWorkloadWithAttribute
-[W]: Unknown function 0xd2e23fa9 in 'cellSpurs' module
-[E]: TODO: cellSpursSetExceptionEventHandler
 [W]: Unknown function 0x182d9890 in 'cellSpurs' module
 [E]: TODO: cellSpursRequestIdleSpu
 [W]: Unknown function 0xefeb2679 in 'cellSpurs' module
 [E]: TODO: _cellSpursWorkloadAttributeInitialize
 [W]: Unknown function 0xf843818d in 'cellSpurs' module
 [E]: TODO: cellSpursReadyCountStore
-[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x011ee38b in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x4a5eab63 in 'cellSpurs' module
 [E]: TODO: cellSpursWorkloadAttributeSetName
 [W]: Unknown function 0x4e153e3e in 'cellSpurs' module
@@ -140,14 +106,8 @@
 [E]: TODO: cellSpursRemoveWorkload
 [W]: Unknown function 0x5fd43fe4 in 'cellSpurs' module
 [E]: TODO: cellSpursWaitForWorkloadShutdown
-[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
 [W]: Unknown function 0x7fdf4fef in 'cellSpurs' module
 [E]: TODO: cellSpursBarrierInitialize
-[W]: Unknown function 0x8a85674d in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0x9034e538 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskGetContextSaveAreaSize
 [W]: Unknown function 0x98d5b343 in 'cellSpurs' module
 [E]: TODO: cellSpursShutdownWorkload
 [W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
@@ -194,8 +154,6 @@
 [E]: TODO: cellGameRegisterDiscChangeCallback
 [W]: Unknown function 0x1d99c3ee in 'cellSysutil' module
 [E]: TODO: cellOskDialogGetInputText
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0xfe669845 in 'cellSysutil' module
 [E]: TODO: cellWebBrowserConfigSetHeapSize2
 [W]: Unknown function 0x21fc0c71 in 'cellSysutil' module
@@ -220,8 +178,6 @@
 [E]: TODO: cellWebBrowserConfig2
 [W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
 [E]: TODO: cellOskDialogLoadAsync
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown module 'cellSysutilNpEula'
 [W]: Unknown module 'cellVideoExportUtility'
 [W]: Unknown module 'cellVideoUpload'

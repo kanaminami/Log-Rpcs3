@@ -1,61 +1,30 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00014-[SUPER STARDUST HD]/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xd3758645 in 'cellResc' module
 [E]: TODO: cellRescSetVBlankHandler
 [W]: Unknown function 0xe0cef79e in 'cellResc' module
 [E]: TODO: cellRescCreateInterlaceTable
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
-[E]: TODO: cellGcmSetVBlankFrequency
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
 [E]: TODO: cellSysutilEnableBgmPlayback
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown module 'cellSysutilAvconfExt'
-[W]: Unknown function 0x011ee38b in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueueInitialize
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x1656d49f in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x8a85674d in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
 [W]: Unknown module 'cellHttp'
@@ -117,81 +86,4 @@
 [W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
 [W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
 [W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x002c9ba4]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_ATRAC3PLUS)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_LV2DBG)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_MUSIC)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_USERINFO)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PAMF)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SAIL)
-[W : PPU[1] Thread (CPUThread)[0x00795010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
-[W : PPU[1] Thread (CPUThread)[0x009000ac]]: cellSpurs warning: cellSpursInitialize(spurs_addr=0x30109600, nSpus=5, spuPriority=250, ppuPriority=4294967295, exitIfNoWork=0)
-[W : PPU[1] Thread (CPUThread)[0x002cbbd0]]: sys_event warning: sys_event_queue_create(equeue_id_addr=0x8093f4, attr_addr=0xd00108e4, event_queue_key=0x0, size=8)
-[W : PPU[1] Thread (CPUThread)[0x002cbbd0]]: sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 13
-[! : PPU[1] Thread (CPUThread)[0x0079901c]]: *** New PPU Thread [spu_printf_handler] (): id = 14
-[W : PPU[1] Thread (CPUThread)[0x002cbc68]]: sys_event warning: sys_event_port_create(eport_id_addr=0x809400, port_type=0x1, name=0xfee1dead)
-[W : PPU[1] Thread (CPUThread)[0x002cbc68]]: sys_event warning: *** sys_event_port created: id = 15
-[W : PPU[1] Thread (CPUThread)[0x002cbc80]]: sys_event warning: sys_event_port_connect_local(eport_id=15, equeue_id=13)
-[E : PPU[1] Thread (CPUThread)[0x009000b8]]: cellSpurs error: cellSpursAttachLv2EventQueue(spurs_addr=0x30109600, queue=0xd, port_addr=0xd00108e0, isDynamic=0)
-[W : PPU[1] Thread (CPUThread)[0x0079f07c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x7cc300, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00799034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
-[W : PPU[1] Thread (CPUThread)[0x0079f058]]: cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
-[W : PPU[1] Thread (CPUThread)[0x0079f094]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x1, option_addr=0x0, aspect=0x0, option=0x12c34510)
-[W : PPU[1] Thread (CPUThread)[0x0079f094]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x12bb7090)
-[W : PPU[1] Thread (CPUThread)[0x0079f094]]: cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x91, option_addr=0x0, aspect=0x0, option=0x12c34510)
-[E : PPU[1] Thread (CPUThread)[0x008fc004]]: TODO: cellVideoOutGetScreenSize
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x0079f010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010ab0, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00797028]]: cellGcmSys warning: cellGcmInit(context_addr=0x8d2898,cmdSize=0x10000,ioSize=0x2e00000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x00797028]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x00797028]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x2e00000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=0, size=16777216, pitch=7680, comp=0, base=0, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x00797058]]: cellGcmSys warning: cellGcmBindTile(index=0)
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=16777216, size=8388608, pitch=7680, comp=9, base=258, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
-[W : PPU[1] Thread (CPUThread)[0x00797058]]: cellGcmSys warning: cellGcmBindTile(index=1)
-[W : PPU[1] Thread (CPUThread)[0x00797100]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x1000000, width=1920, height=1088, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x1, sRef=0x80, sMask=0xff)
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
-[W : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=25165824, size=0, pitch=0, comp=0, base=258, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x00797058]]: cellGcmSys warning: cellGcmBindTile(index=2)
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
-[W : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=25165824, size=0, pitch=0, comp=9, base=260, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
-[W : PPU[1] Thread (CPUThread)[0x00797058]]: cellGcmSys warning: cellGcmBindTile(index=3)
-[W : PPU[1] Thread (CPUThread)[0x00797100]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=1, offset=0x1800000, width=0, height=0, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x1, sRef=0x80, sMask=0xff)
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=25165824, size=8388608, pitch=7680, comp=0, base=389, bank=0)
-[W : PPU[1] Thread (CPUThread)[0x00797058]]: cellGcmSys warning: cellGcmBindTile(index=4)
-[W : PPU[1] Thread (CPUThread)[0x00797004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
-[W : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=33554432, size=8388608, pitch=7680, comp=9, base=518, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x007970e8]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
-[W : PPU[1] Thread (CPUThread)[0x00797058]]: cellGcmSys warning: cellGcmBindTile(index=5)
-[W : PPU[1] Thread (CPUThread)[0x00797100]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=2, offset=0x2000000, width=1920, height=1088, cullStart=0x0, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x1, sRef=0x80, sMask=0xff)
-[W : PPU[1] Thread (CPUThread)[0x00797064]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x007970ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1920,height=1080)
-[W : PPU[1] Thread (CPUThread)[0x007970ac]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x7f8000,pitch=4,width=1920,height=1080)
-[W : PPU[1] Thread (CPUThread)[0x00797010]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x7ce9d8)
-[E : PPU[1] Thread (CPUThread)[0x007970c4]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
-[W : PPU[1] Thread (CPUThread)[0x007970a0]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=8186008)
-[E : PPU[1] Thread (CPUThread)[0x0079713c]]: TODO: cellGcmSetVBlankFrequency
-[W : PPU[1] Thread (CPUThread)[0x008f8010]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010980, attributes_addr=0xd0010984, size_addr=0xd0010988, dirName_addr=0x8090e8)
-[W : PPU[1] Thread (CPUThread)[0x007970dc]]: cellGcmSys warning: cellGcmSetDefaultCommandBuffer()
-[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x33)
-[W : RSXThread]: null cmd: addr=0x50190000, put=0xc4000000, get=0x190000
-[! : RSXThread]: RSX thread exit...
-[W : PPU[14] Thread (spu_printf_handler)[0x002cbdd0]]: sys_event_queue_receive(equeue=13) aborted
 [!]: Closing memory...

@@ -1,24 +1,24 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/USRDIR/BOOT.BIN'...
+[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
 [!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
 [!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
 [!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
 [!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
 [!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\..\
+[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\..\
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203-[Dream Club Complete Edipyon!]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\resource\
+[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\
+[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\media\
+[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\Data\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\Data\
+[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\
+[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\
+[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\
+[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\
+[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLJS10203/PS3_GAME/\USRDIR\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
@@ -352,8 +352,8 @@
 [W : PPU[1] Thread (CPUThread)[0x021ab010]]: cellGcmSys warning: cellGcmInit(context_addr=0x219e11c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
 [W : PPU[1] Thread (CPUThread)[0x021ab010]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x021ab010]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x021ab004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x021ab088]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=1114112, size=3801088, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x021ab034]]: cellGcmSys warning: cellGcmBindTile(index=0)
 [W : PPU[1] Thread (CPUThread)[0x021ab088]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=4980736, size=3801088, pitch=5120, comp=0, base=0, bank=0)
@@ -363,14 +363,14 @@
 [W : PPU[1] Thread (CPUThread)[0x021ab088]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=12713984, size=3801088, pitch=5120, comp=0, base=0, bank=1)
 [W : PPU[1] Thread (CPUThread)[0x021ab034]]: cellGcmSys warning: cellGcmBindTile(index=3)
 [W : PPU[1] Thread (CPUThread)[0x021a3058]]: cellResc warning: cellRescInit(initConfig_addr=0xd0010a10)
-[W : PPU[1] Thread (CPUThread)[0x021a3034]]: cellResc warning: cellRescSetDisplayMode(displayMode=4)
+[W : PPU[1] Thread (CPUThread)[0x021a3034]]: cellResc warning: cellRescSetDisplayMode(displayMode=1)
 [W : PPU[1] Thread (CPUThread)[0x021a3034]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x021a3034]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
 [W : PPU[1] Thread (CPUThread)[0x021a3064]]: cellResc warning: cellRescGetBufferSize(colorBuffers_addr=0xd00109a8, vertexArray_addr=0xd00109a4, fragmentShader_addr=0xd00109a0)
 [W : PPU[1] Thread (CPUThread)[0x021a307c]]: cellResc warning: cellRescSetBufferAddress(colorBuffers_addr=0xc0fd0000, vertexArray_addr=0xc20e0000, fragmentShader_addr=0xc20e0280)
-[W : PPU[1] Thread (CPUThread)[0x021a307c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xfd0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x021a307c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x1390000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x021ab088]]: cellGcmSys warning: cellGcmSetTileInfo(index=14, location=0, offset=16580608, size=17891328, pitch=5120, comp=8, base=253, bank=3)
+[W : PPU[1] Thread (CPUThread)[0x021a307c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0xfd0000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x021a307c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x1150000,pitch=4,width=720,height=480)
+[W : PPU[1] Thread (CPUThread)[0x021ab088]]: cellGcmSys warning: cellGcmSetTileInfo(index=14, location=0, offset=16580608, size=17891328, pitch=3072, comp=8, base=253, bank=3)
 [E : PPU[1] Thread (CPUThread)[0x021ab088]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (8)
 [W : PPU[1] Thread (CPUThread)[0x021ab034]]: cellGcmSys warning: cellGcmBindTile(index=14)
 [W : PPU[1] Thread (CPUThread)[0x021a304c]]: cellResc warning: cellRescSetFlipHandler(handler_addr=0x375bc8)
@@ -437,6 +437,7 @@
 [W : PPU[1] Thread (CPUThread)[0x021a10f4]]: cellSysutil warning: cellSysutilRegisterCallback(slot=1, func_addr=0x3762e0, userdata=0x0)
 [W : PPU[1] Thread (CPUThread)[0x021b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
 [W : PPU[1] Thread (CPUThread)[0x021bb034]]: cellGame warning: cellGameBootCheck(type_addr=0xd0010a10, attributes_addr=0xd0010a14, size_addr=0xd0010a18, dirName_addr=0x216ff50)
+[W : PPU[1] Thread (CPUThread)[0x021bb004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0010a28, usrdirPath_addr=0x216fe30)
 [W : PPU[1] Thread (CPUThread)[0x021b9010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_SCREENSHOT)
 [E : PPU[1] Thread (CPUThread)[0x021cb04c]]: TODO: SJISstoUCS2s
 [E : PPU[1] Thread (CPUThread)[0x021cb04c]]: TODO: SJISstoUCS2s
@@ -1472,11 +1473,11 @@ void main()
 }
 
 [W : RSXThread]: New FBO (1280x720)
-[W : PPU[36] Thread (CRI FS Data Decompression 0)[0x002ac2b0]]: sys_cond_wait(id=35) aborted
-[W : PPU[32] Thread (CRI FS File Access 3)[0x002ac2b0]]: sys_cond_wait(id=31) aborted
-[W : PPU[24] Thread (CRI FS File Access 1)[0x002ac2b0]]: sys_cond_wait(id=23) aborted
 [W : PPU[28] Thread (CRI FS File Access 2)[0x002ac2b0]]: sys_cond_wait(id=27) aborted
-[W : PPU[20] Thread (CRI FS Memory File System)[0x002ac2b0]]: sys_cond_wait(id=19) aborted
 [! : RSXThread]: RSX thread exit...
-[!]: Mutex(14) was owned by thread 16 (recursive=1)
+[W : PPU[36] Thread (CRI FS Data Decompression 0)[0x002ac2b0]]: sys_cond_wait(id=35) aborted
+[W : PPU[20] Thread (CRI FS Memory File System)[0x002ac2b0]]: sys_cond_wait(id=19) aborted
+[W : PPU[16] Thread (CRI FS File Access 0)[0x002ac2b0]]: sys_cond_wait(id=15) aborted
+[W : PPU[32] Thread (CRI FS File Access 3)[0x002ac2b0]]: sys_cond_wait(id=31) aborted
+[!]: Mutex(22) was owned by thread 24 (recursive=1)
 [!]: Closing memory...

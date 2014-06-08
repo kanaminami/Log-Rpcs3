@@ -1,36 +1,42 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00927-[VANQUISH]/PS3_GAME/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
+[!]: Function 'cellSurMixerGetAANHandle' hooked (addr=0xb204dc)
+[!]: Function 'cellSurMixerSetNotifyCallback' hooked (addr=0xb20514)
+[!]: Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0xb205a8)
+[!]: Function 'cellSurMixerSurBusAddData' hooked (addr=0xb20638)
+[!]: Function 'cellSurMixerPause' hooked (addr=0xb212a4)
+[!]: Function 'cellSurMixerStart' hooked (addr=0xb2271c)
+[!]: Function 'cellSurMixerFinalize' hooked (addr=0xb22a24)
+[!]: Function 'cellSurMixerCreate' hooked (addr=0xb230a4)
+[E]: Function 'cellSurMixerChStripGetAANPortNo' not found
+[E]: Function 'cellSurMixerSetParameter' not found
+[E]: Function 'cellSurMixerChStripSetParameter' not found
+[E]: Function 'cellSurMixerGetCurrentBlockTag' not found
+[E]: Function 'cellSurMixerGetTimestamp' not found
+[E]: Function 'cellSurMixerBeep' not found
+[E]: Function group [surmixer] failed: missing;
 [W]: Unknown function 0x967a162b in 'sys_fs' module
 [E]: TODO: cellFsFsync
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
 [W]: Unknown function 0x220894e3 in 'cellSysutil' module
 [E]: TODO: cellSysutilEnableBgmPlayback
 [W]: Unknown function 0x62b0f803 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogAbort
 [W]: Unknown function 0x6cfd856f in 'cellSysutil' module
 [E]: TODO: cellSysutilGetBgmPlaybackStatus2
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0x94862702 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogProgressBarInc
 [W]: Unknown function 0xcfdd8e87 in 'cellSysutil' module
@@ -39,66 +45,12 @@
 [E]: TODO: cellSaveDataEnableOverlay
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x303c19cd in 'cellSpurs' module
-[E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x3548f483 in 'cellSpurs' module
-[E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardInitialize
-[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
-[E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xe7b0e69a in 'cellSpurs' module
 [E]: TODO: cellSpursJobSetMaxGrab
-[W]: Unknown function 0xf31731bb in 'cellSpurs' module
-[E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x011ee38b in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueueInitialize
-[W]: Unknown function 0x039d70b7 in 'cellSpurs' module
-[E]: TODO: cellSpursQueueDetachLv2EventQueue
-[W]: Unknown function 0x082bfb09 in 'cellSpurs' module
-[E]: TODO: _cellSpursQueueInitialize
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x1656d49f in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x34552fa6 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskExitCodeInitialize
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x8a85674d in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x91066667 in 'cellSpurs' module
-[E]: TODO: cellSpursQueuePopBody
-[W]: Unknown function 0x92cff6ed in 'cellSpurs' module
-[E]: TODO: cellSpursQueuePushBody
-[W]: Unknown function 0xa121a224 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
-[W]: Unknown function 0xb8474eff in 'cellSpurs' module
-[E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xe5443be7 in 'cellSpurs' module
-[E]: TODO: cellSpursQueueAttachLv2EventQueue
-[W]: Unknown function 0xf5507729 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagSet
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x3f09e20a in 'sys_net' module
 [E]: TODO: socketselect
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
 [W]: Unknown function 0x0c44f441 in 'cellFiber' module
 [E]: TODO: cellFiberPpuYield
 [W]: Unknown function 0x12b1acf0 in 'cellFiber' module
@@ -318,21 +270,22 @@
 [W : PPU[77] Thread (CriThread)[0x01e06034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/data000.cpk"): fd = 109
 [W : PPU[77] Thread (CriThread)[0x01e06034]]: *** cellFsOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/data002.cpk"): fd = 110
 [W : PPU[1] Thread (CPUThread)[0x01e240d0]]: sysPrxForUser warning: sys_ppu_thread_once(once_ctrl_addr=0x1dbf934, entry=0x157ce10)
-[W : PPU[1] Thread (CPUThread)[0x01e10064]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108f0, nSpus=2, spuPriority=3211264, ppuPriority=6, exitIfNoWork=100)
 [W : PPU[111] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [_lc_spf] (attribute=0x22): sq_id = 112
+[W : PPU[1] Thread (CPUThread)[0x01e10064]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108f0, nSpus=2, spuPriority=3211264, ppuPriority=6, exitIfNoWork=100)
 [E : PPU[1] Thread (CPUThread)[0x01e10004]]: cellSpurs error: cellSpursAttributeEnableSpuPrintfIfAvailable(attr_addr=0xd00108f0)
-[E : PPU[1] Thread (CPUThread)[0x01e10070]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd00108f0, priority[2336791152], maxSpu=1, isPreemptible[2336791160])
+[E : PPU[1] Thread (CPUThread)[0x01e10070]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload(attr_addr=0xd00108f0, priority[1045997552], maxSpu=1, isPreemptible[1045997560])
+[E : PPU[1] Thread (CPUThread)[0x01e10070]]: cellSpurs error: cellSpursAttributeEnableSystemWorkload : CELL_SPURS_CORE_ERROR_INVAL
 [W : PPU[1] Thread (CPUThread)[0x01e10088]]: cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x16c7d80, spurs_addr=0xd00108f0)
-[E : PPU[1] Thread (CPUThread)[0x01e10028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x01e1007c]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x01e1001c]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: TODO: cellSpursJobGuardInitialize
-[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: TODO: cellSpursJobGuardInitialize
-[E : PPU[1] Thread (CPUThread)[0x01e10028]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x01e1007c]]: TODO: cellSpursJobChainAttributeSetName
-[E : PPU[1] Thread (CPUThread)[0x01e1001c]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: TODO: cellSpursJobGuardInitialize
-[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: TODO: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x01e10028]]: cellSpurs error: Unimplemented function: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x01e1007c]]: cellSpurs error: Unimplemented function: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x01e1001c]]: cellSpurs error: Unimplemented function: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x01e10028]]: cellSpurs error: Unimplemented function: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x01e1007c]]: cellSpurs error: Unimplemented function: cellSpursJobChainAttributeSetName
+[E : PPU[1] Thread (CPUThread)[0x01e1001c]]: cellSpurs error: Unimplemented function: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x01e1004c]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
 [W : PPU[1] Thread (CPUThread)[0x01e2404c]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x11): sq_id = 113
 [E : PPU[1] Thread (CPUThread)[0x01e1604c]]: TODO: _cellFiberPpuSchedulerAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x01e16058]]: TODO: _cellFiberPpuAttributeInitialize
@@ -415,13 +368,12 @@
 [W : PPU[1] Thread (CPUThread)[0x01e0a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
 [W : PPU[1] Thread (CPUThread)[0x01e0a004]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=512)
 [W : PPU[77] Thread (CriThread)[0x01e060ac]]: sys_fs warning: cellFsSdataOpen(path="/dev_bdvd/PS3_GAME/USRDIR/data/shader2.sdat", flags=0x0, fd_addr=0x30700b80, arg_addr=0x0, size=0x0)
-[E : PPU[77] Thread (CriThread)[0x01e060ac]]: sys_fs error: '/dev_hdd1/shader2.sdat.unpacked' couldn't be created! flags: 0x00000002
-[! : RSXThread]: RSX thread exit...
-[W : PPU[77] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=76) aborted
-[W : PPU[104] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=103) aborted
 [W : PPU[89] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=88) aborted
-[W : PPU[85] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=84) aborted
+[! : RSXThread]: RSX thread exit...
 [W : PPU[73] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=72) aborted
 [W : PPU[69] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=68) aborted
 [W : PPU[81] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=80) aborted
+[W : PPU[85] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=84) aborted
+[W : PPU[104] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=103) aborted
+[W : PPU[77] Thread (CriThread)[0x00b87c7c]]: sys_cond_wait(id=76) aborted
 [!]: Closing memory...

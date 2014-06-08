@@ -1,49 +1,32 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\Data\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01179-[Red Dead Redemption Undead Nightmare]/PS3_GAME/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0xe6c8f3f9 in 'sceNp' module
 [E]: TODO: sceNpDrmProcessExitSpawn2
 [W]: Unknown function 0x13efe7f5 in 'sys_net' module
 [E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
 [W]: Unknown function 0x71f4c717 in 'sys_net' module
 [E]: TODO: gethostbyname
 [W]: Unknown function 0xc98a3146 in 'sys_net' module
 [E]: TODO: inet_ntop
-[W]: Unknown function 0xdabbc2c0 in 'sys_net' module
-[E]: TODO: inet_addr
-[W]: Unknown function 0x2ad4951b in 'cellGcmSys' module
-[E]: TODO: cellGcmGetTimeStampLocation
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
 [W]: Unknown module 'cellSysutilAvconfExt'
 [W]: Unknown function 0x21425307 in 'cellSysutil' module
 [E]: TODO: cellSaveDataListAutoLoad
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
 [W]: Unknown function 0x8cb722d5 in 'sys_fs' module
 [E]: TODO: cellFsWriteWithOffset
 [W]: Unknown function 0x967a162b in 'sys_fs' module
@@ -54,42 +37,6 @@
 [E]: TODO: cellFsUtime
 [W]: Unknown function 0x7a0329a1 in 'sys_fs' module
 [E]: TODO: cellFsAllocateFileAreaWithoutZeroFill
-[W]: Unknown function 0x00af2519 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardReset
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x303c19cd in 'cellSpurs' module
-[E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x3548f483 in 'cellSpurs' module
-[E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardInitialize
-[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
-[E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa7c066de in 'cellSpurs' module
-[E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xbb68d76e in 'cellSpurs' module
-[E]: TODO: cellSpursJobChainAttributeSetHaltOnError
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardNotify
-[W]: Unknown function 0xf31731bb in 'cellSpurs' module
-[E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x7cb33c2e in 'cellSpurs' module
-[E]: TODO: cellSpursTaskGetReadOnlyAreaPattern
-[W]: Unknown function 0x9034e538 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskGetContextSaveAreaSize
-[W]: Unknown function 0x9197915f in 'cellSpurs' module
-[E]: TODO: cellSpursTaskGenerateLsPattern
-[W]: Unknown function 0xf5507729 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x0c44f441 in 'cellFiber' module
 [E]: TODO: cellFiberPpuYield
 [W]: Unknown function 0x12b1acf0 in 'cellFiber' module

@@ -1,24 +1,17 @@
 [!]: path: /dev_hdd0/game/
 [!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
+[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 [!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\..\
+[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME//../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
 [!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\
+[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\Data\
+[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES01228-[Devil May Cry HD Collection]/PS3_GAME/\USRDIR\resource\
 [!]: Initing memory...
 [!]: Memory initialized.
 [!]: Function 'cellAANConnect' hooked (addr=0x15a0a0)
@@ -129,18 +122,8 @@
 [E]: TODO: cellSailPlayerDestroyDescriptor
 [W]: Unknown function 0x20543730 in 'cellSysutil' module
 [E]: TODO: cellMsgDialogClose
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
 [W]: Unknown function 0xedadd797 in 'cellSysutil' module
 [E]: TODO: cellSaveDataDelete2
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
 [W]: Unknown function 0x7f13fc8c in 'sys_fs' module
 [E]: TODO: cellFsAioCancel
 [W]: Unknown function 0x6d3bb15b in 'sys_fs' module
@@ -166,30 +149,8 @@
 [E]: TODO: cellMicStart
 [W]: Unknown function 0xfcfaf246 in 'cellMic' module
 [E]: TODO: cellMicStop
-[W]: Unknown function 0x303c19cd in 'cellSpurs' module
-[E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x3548f483 in 'cellSpurs' module
-[E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagClear
 [W]: Unknown function 0x5202e53b in 'cellSpurs' module
 [E]: TODO: cellSpursJobChainSetExceptionEventHandler
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardInitialize
-[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
-[E]: TODO: cellSpursJobChainAttributeSetName
-[W]: Unknown function 0xa7c066de in 'cellSpurs' module
-[E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardNotify
-[W]: Unknown function 0xf31731bb in 'cellSpurs' module
-[E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0xf5507729 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagSet
 [W]: Unknown function 0x26090058 in 'sysPrxForUser' module
 [E]: TODO: sys_prx_load_module
 [W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
